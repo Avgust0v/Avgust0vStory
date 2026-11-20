@@ -3,9 +3,16 @@ name: Release
 # Новый тег v* -> архив для CurseForge (manifest.json + overrides) -> релиз.
 # Постоянная ссылка на последнюю версию:
 # https://github.com/Avgust0v/Avgust0vStory/releases/latest/download/AvgustovStory-curseforge.zip
+# Ручной запуск (Actions -> Release -> Run workflow) собирает релиз для уже
+# отправленного тега, если автоматический запуск не сработал.
 on:
   push:
     tags: ['v*']
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Тег версии, например v1.1-dev.11k'
+        required: true
 
 permissions:
   contents: write
@@ -13,10 +20,13 @@ permissions:
 jobs:
   release:
     runs-on: ubuntu-latest
+    env:
+      TAG: ${{ inputs.tag || github.ref_name }}
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          ref: ${{ inputs.tag || github.ref }}
 
       - name: Build CurseForge zip
         run: zip -r -9 -X AvgustovStory-curseforge.zip manifest.json overrides
@@ -25,7 +35,6 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          TAG="${GITHUB_REF_NAME}"
           git tag -l --format='%(contents)' "$TAG" > notes.md
           [ -s notes.md ] || echo "Сборка $TAG" > notes.md
           gh release create "$TAG" AvgustovStory-curseforge.zip \
