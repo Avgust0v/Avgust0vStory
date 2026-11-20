@@ -71,7 +71,7 @@
 	]
 	quest.0BBC1EA872492C7B.title: "Thirst, Climate and Wounds"
 	quest.0BBC1EA872492C7B.quest_desc: [
-		"Legendary Survival Overhaul: next to hunger are thirst and temperature bars. Better purify raw water: smelt a bottle or canteen in a furnace. Heat and cold drain health down to one heart: dress for the weather (sewing table), warm up by a fire, seek shade and water in the heat. Damage hits body parts: bandages and medkits heal wounds. More in the Kitchen, Water and Climate chapter.",
+		"Legendary Survival Overhaul: next to hunger are thirst and temperature bars. Better purify raw water: smelt a bottle or canteen in a furnace. Heat and cold drain health down to one heart: dress for the weather (sewing table), warm up by a fire, seek shade and water in the heat. Damage hits body parts: bandages and medkits heal wounds. Wounds heal slowly on their own, sleep heals them only partly, and severe wounds bring debuffs: head - headache and nausea, arms - fatigue and weakness, chest - vulnerability, legs and feet - slowness. More in the Kitchen, Water and Climate chapter.",
 	]
 	quest.3AA1042BCCBF3AFA.title: "Death and Graves"
 	quest.3AA1042BCCBF3AFA.quest_desc: [
@@ -2857,19 +2857,27 @@
 	]
 	quest.07A441807671B4FA.title: "Gourmet"
 	quest.07A441807671B4FA.quest_desc: [
-		"Every new dish is remembered: above the hotbar you see how many different dishes you have tried. A dish is food that restores at least two hunger shanks; raw meat and berries do not count.",
+		"Every new dish gives gourmet points by how hard it is to make: ★ 1 point for a furnace, campfire or 1-2 ingredients; ★★ 2 for the cutting board or 3-4 ingredients; ★★★ 3 for the cooking pot, Create machines, kegs, the winery and feasts. A dish is food that restores at least two hunger shanks.",
 		" ",
 		"",
 		" ",
-		"Everyone starts with 8 hearts. 5, 10, 20, 30, 45, 60, 80, 100, 125, 150, 180 and 210 different dishes each add a heart, up to 20. A Crystal Heart (9 fragments from mineshaft, buried treasure, jungle temple and bastion chests) gives one more heart on right click.",
+		"Everyone starts with 8 hearts. 10, 15, 35, 50, 75, 100, 135, 165, 210, 250, 310 and 360 points each add a heart, up to 20. Stages bring kitchen ranks, from Kitchen Boy to Kitchen Legend, and coins. A Crystal Heart (9 fragments from mineshaft, buried treasure, jungle temple and bastion chests) gives one more heart on right click.",
 		" ",
 		"",
 		" ",
-		"A death takes one heart, never below the starting 8. To win it back, eat as many different dishes as your last stage took (5 to 30); dishes you already know count too. Or use a Crystal Heart. §e/hearts§r shows your hearts and dishes.",
+		"Shared table: a serving taken from a feast counts for everyone in your guild within 16 blocks.",
 		" ",
 		"",
 		" ",
-		"Variety: 4 different dishes among your last 6 give Haste for 10 minutes, all 6 different also give Strength. The same dish 8 times in a row is \"boring\": a short Hunger.",
+		"A death takes one heart, never below the starting 8. To win it back, collect as many points of different dishes as your last stage cost (dishes you know count too), or use a Crystal Heart.",
+		" ",
+		"",
+		" ",
+		"Diet: your last 10 meals and drinks count. There are five groups: meat, fish and eggs; vegetables and fruit; bread and grain; sweets; drinks. 3 groups give Haste for 10 minutes, 4 also Strength, all 5 also Resistance. 10 meals in a row from one group are \"monotonous\": Weakness. The same dish 8 times in a row is \"boring\": a short Hunger.",
+		" ",
+		"",
+		" ",
+		"§e/hearts§r shows hearts and points. §e/gourmet§r gives the gourmet journal: your diet and the dishes you have not tried yet.",
 		" ",
 		"",
 		" ",

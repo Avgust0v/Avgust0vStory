@@ -343,3 +343,4 @@ key_key.analogaudio.switch_input_mode:key.keyboard.unknown:
 key_key.legendarysurvivaloverhaul.body_health:key.keyboard.apostrophe
 key_key.simplytooltips.capture_gif:key.keyboard.unknown
 key_key.fieldguide.open:key.keyboard.unknown:
+key_key.deeperdarker.boost:key.keyboard.unknown:
