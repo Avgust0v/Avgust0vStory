@@ -1,8 +1,8 @@
 name: Release
 
-# Новый тег v* -> архив для CurseForge (manifest.json + overrides) -> релиз.
-# Постоянная ссылка на последнюю версию:
-# https://github.com/Avgust0v/Avgust0vStory/releases/latest/download/AvgustovStory-curseforge.zip
+# Новый тег v* (v1.1.0, v1.1.1 ...) -> архив для CurseForge (manifest.json + overrides)
+# AvgustovStory-<версия>.zip -> релиз. Имя архива с версией: XMCL кеширует импорт по имени.
+# Страница последней версии: https://github.com/Avgust0v/Avgust0vStory/releases/latest
 # Ручной запуск (Actions -> Release -> Run workflow) собирает релиз для уже
 # отправленного тега, если автоматический запуск не сработал.
 on:
@@ -29,7 +29,7 @@ jobs:
           ref: ${{ inputs.tag || github.ref }}
 
       - name: Build CurseForge zip
-        run: zip -r -9 -X AvgustovStory-curseforge.zip manifest.json overrides
+        run: zip -r -9 -X "AvgustovStory-${TAG#v}.zip" manifest.json overrides
 
       - name: Publish release
         env:
@@ -37,5 +37,5 @@ jobs:
         run: |
           git tag -l --format='%(contents)' "$TAG" > notes.md
           [ -s notes.md ] || echo "Сборка $TAG" > notes.md
-          gh release create "$TAG" AvgustovStory-curseforge.zip \
+          gh release create "$TAG" "AvgustovStory-${TAG#v}.zip" \
             --title "AvgustovStory ${TAG#v}" --notes-file notes.md

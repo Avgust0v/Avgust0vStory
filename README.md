@@ -4,7 +4,7 @@
 
 ## Установка
 
-1. Скачайте архив последней версии: **[AvgustovStory-curseforge.zip](https://github.com/Avgust0v/Avgust0vStory/releases/latest/download/AvgustovStory-curseforge.zip)**. Все версии с описанием изменений лежат в [Releases](https://github.com/Avgust0v/Avgust0vStory/releases).
+1. Откройте **[последнюю версию](https://github.com/Avgust0v/Avgust0vStory/releases/latest)** и скачайте архив `AvgustovStory-<версия>.zip` из раздела Assets. Все версии с описанием изменений лежат в [Releases](https://github.com/Avgust0v/Avgust0vStory/releases).
 2. Импортируйте архив в свой лаунчер как модпак CurseForge (XMCL, Prism Launcher, приложение CurseForge и другие). Моды лаунчер скачает сам.
 3. Выделите игре 12 ГБ памяти.
 
@@ -12,7 +12,7 @@
 
 ## Обновление
 
-Каждая новая версия выходит отдельным релизом. Проще всего установить её как новый экземпляр. Мир хранится на сервере, переносить нечего, кроме своих настроек (`options.txt`), если хочется.
+Каждая новая версия выходит отдельным релизом: 1.1.1, 1.1.2 — исправления, 1.2.0 — крупные дополнения. Проще всего установить её как новый экземпляр. Мир хранится на сервере, переносить нечего, кроме своих настроек (`options.txt`), если хочется.
 
 ## Состав
 
