@@ -1,0 +1,895 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "era_6_steel"
+	group: "0C5877243EA452C8"
+	icon: {
+		id: "tfmg:steel_ingot"
+	}
+	id: "2D70F24899807E05"
+	images: [ ]
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["27205B9F3903CFBA"]
+			icon: {
+				id: "tfmg:steel_ingot"
+			}
+			id: "5927541A6852BA3D"
+			rewards: [
+				{
+					id: "3F351559D156D18F"
+					type: "xp"
+					xp: 25
+				}
+				{
+					command: "/loot give {p} loot avgustov:letters/st_6"
+					id: "389B5AF0DF66ED1B"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "1EF7A115C4782585"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["27205B9F3903CFBA", "5927541A6852BA3D"]
+			id: "6596D173AF641EF6"
+			rewards: [
+				{
+					id: "089E4A2CDA55227C"
+					type: "xp"
+					xp: 40
+				}
+				{
+					command: "execute unless score #world av_era matches 6.. run scoreboard players set #world av_era 6"
+					id: "7091B25CF5CB643F"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "1DD5E1B39E385072"
+					item: {
+						count: 1
+						id: "tfmg:cast_iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6596D173AF641EF6"]
+			id: "1149957716CF42A8"
+			rewards: [
+				{
+					id: "0BBC54FC3AC0F4C6"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					count: 32L
+					id: "6B154EFB81EDB2E6"
+					item: {
+						count: 1
+						id: "tfmg:fireproof_bricks"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 4.25d
+		}
+		{
+			dependencies: ["6596D173AF641EF6"]
+			id: "51D890EF63FFA68A"
+			rewards: [
+				{
+					id: "61087D3DD84512A3"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "1C7EDBC2AD10AC73"
+					item: {
+						count: 1
+						id: "tfmg:coke_oven"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 5.75d
+		}
+		{
+			dependencies: ["51D890EF63FFA68A"]
+			id: "2518FD5E3D0F8C76"
+			rewards: [
+				{
+					id: "2FF64AD53609902F"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					count: 32L
+					id: "2F3014BCAD6CB087"
+					item: {
+						count: 1
+						id: "tfmg:coal_coke"
+					}
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 5.75d
+		}
+		{
+			dependencies: ["1149957716CF42A8", "2518FD5E3D0F8C76"]
+			id: "551BD18276D7EA22"
+			rewards: [
+				{
+					id: "2549ACE5932E4CDD"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					id: "7A264ED14CF0E735"
+					item: {
+						count: 1
+						id: "tfmg:blast_furnace_output"
+					}
+					type: "item"
+				}
+				{
+					id: "479B33DD20C0F393"
+					item: {
+						count: 1
+						id: "tfmg:blast_furnace_hatch"
+					}
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 5.75d
+		}
+		{
+			dependencies: ["551BD18276D7EA22"]
+			id: "5DAF564C963FD05E"
+			rewards: [
+				{
+					id: "34D9904F52CD888D"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "1AB72CDEDC58CB80"
+					table_id: 6795910013468910930L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					count: 16L
+					id: "18F1A6C2FB88290D"
+					item: {
+						count: 1
+						id: "tfmg:steel_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 5.75d
+		}
+		{
+			dependencies: ["5DAF564C963FD05E"]
+			id: "60975C4024C61525"
+			rewards: [
+				{
+					id: "66658A986AA77388"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "753B7149CBC3E622"
+					item: {
+						count: 1
+						id: "tfmg:heavy_plate"
+					}
+					type: "item"
+				}
+			]
+			x: 13.25d
+			y: 2.0d
+		}
+		{
+			dependencies: ["60975C4024C61525"]
+			id: "5C442A1AADB0D00A"
+			rewards: [
+				{
+					id: "4B5CF635487179DF"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "6F17BD3B0E2ED200"
+					item: {
+						count: 1
+						id: "tfmg:steel_mechanism"
+					}
+					type: "item"
+				}
+			]
+			x: 15.25d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5C442A1AADB0D00A"]
+			id: "65AB2D5985F2AF66"
+			rewards: [
+				{
+					id: "002261AC64F11FC2"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "27135562437E0151"
+					item: {
+						count: 1
+						id: "tfmg:steel_casing"
+					}
+					type: "item"
+				}
+			]
+			x: 17.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5DAF564C963FD05E"]
+			id: "0517763710403F2C"
+			rewards: [
+				{
+					id: "1E8E56B6D7924B71"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "7479A00751B68BAE"
+					item: {
+						count: 1
+						id: "createdieselgenerators:oil_scanner"
+					}
+					type: "item"
+				}
+			]
+			x: 13.25d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0517763710403F2C", "5C442A1AADB0D00A"]
+			id: "6301E49FA9901CE0"
+			rewards: [
+				{
+					id: "5CDAF8E541992F43"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					id: "66475F5ECD315ADF"
+					item: {
+						count: 1
+						id: "tfmg:pumpjack_base"
+					}
+					type: "item"
+				}
+			]
+			x: 17.25d
+			y: 4.25d
+		}
+		{
+			dependencies: ["6301E49FA9901CE0"]
+			id: "6C7F36997FFC58F0"
+			optional: true
+			rewards: [
+				{
+					id: "7395A425B78E954C"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "6FF0099D0EC15056"
+					item: {
+						count: 1
+						id: "createdieselgenerators:pumpjack_bearing"
+					}
+					type: "item"
+				}
+			]
+			x: 19.25d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6301E49FA9901CE0"]
+			id: "079ADB71CC3BAE2D"
+			rewards: [
+				{
+					id: "42792B9D23501F47"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					id: "7EA4AD42FF0F0ECE"
+					item: {
+						count: 1
+						id: "tfmg:steel_distillation_controller"
+					}
+					type: "item"
+				}
+			]
+			x: 19.25d
+			y: 5.0d
+		}
+		{
+			dependencies: ["079ADB71CC3BAE2D"]
+			id: "7B3B79C13DB227E1"
+			rewards: [
+				{
+					id: "658D710991CBEC32"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					id: "0860C83AECAB0998"
+					item: {
+						count: 1
+						id: "tfmg:gasoline_bucket"
+					}
+					type: "item"
+				}
+				{
+					id: "5EA478F2A397A4B1"
+					item: {
+						count: 1
+						id: "createdieselgenerators:diesel_bucket"
+					}
+					type: "item"
+				}
+			]
+			x: 21.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7B3B79C13DB227E1"]
+			id: "1F6F566757C93AE5"
+			rewards: [
+				{
+					id: "1A6AC7D6E21F4779"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					id: "33849DB0AE8D23D2"
+					item: {
+						count: 1
+						id: "createdieselgenerators:diesel_engine"
+					}
+					type: "item"
+				}
+			]
+			x: 23.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["079ADB71CC3BAE2D"]
+			id: "7D3924CA3CBB831F"
+			rewards: [
+				{
+					id: "7CB97FF05DC99B79"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "72D55166625E6713"
+					item: {
+						count: 1
+						id: "tfmg:plastic_sheet"
+					}
+					type: "item"
+				}
+			]
+			x: 21.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["7D3924CA3CBB831F"]
+			id: "4664BA7269053B79"
+			rewards: [
+				{
+					id: "22F181209DA7EE30"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "2BDD33E7FA08E485"
+					item: {
+						count: 1
+						id: "tfmg:circuit_board"
+					}
+					type: "item"
+				}
+			]
+			x: 23.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["5DAF564C963FD05E"]
+			id: "485F971FBE660B5F"
+			optional: true
+			rewards: [
+				{
+					id: "03216B336A88E02E"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					count: 8L
+					id: "0B74F1B162BE43F5"
+					item: {
+						count: 1
+						id: "tfmg:aluminum_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 13.25d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4664BA7269053B79"]
+			id: "754A2BEB65158F3D"
+			optional: true
+			rewards: [
+				{
+					id: "100D6050FB7BC1C7"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "795254D57D85819D"
+					item: {
+						count: 1
+						id: "tfmg:generator"
+					}
+					type: "item"
+				}
+				{
+					id: "3E3B9C2979031F79"
+					item: {
+						count: 1
+						id: "tfmg:accumulator"
+					}
+					type: "item"
+				}
+			]
+			x: 25.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["65AB2D5985F2AF66"]
+			id: "2271B5353B3A159A"
+			rewards: [
+				{
+					id: "6D0DC6BAC2A5017A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "43E5F08377F1955A"
+					item: {
+						count: 1
+						id: "createoreexcavation:drilling_machine"
+					}
+					type: "item"
+				}
+				{
+					id: "059F48E50E03A7FC"
+					item: {
+						count: 1
+						id: "createoreexcavation:drill"
+					}
+					type: "item"
+				}
+			]
+			x: 19.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2271B5353B3A159A"]
+			id: "3F375ABC97FD6C91"
+			rewards: [
+				{
+					id: "5E38223A5D8905EE"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "7D897DA78994F96B"
+					item: {
+						count: 1
+						id: "createoreexcavation:vein_finder"
+					}
+					type: "item"
+				}
+			]
+			x: 21.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5DAF564C963FD05E"]
+			id: "03C72A5485CBDF0D"
+			optional: true
+			shape: "diamond"
+			tasks: [
+				{
+					id: "007EA94E54BAB22D"
+					item: {
+						count: 1
+						id: "createbigcannons:built_up_steel_cannon_barrel"
+					}
+					type: "item"
+				}
+			]
+			x: 13.25d
+			y: 6.5d
+		}
+		{
+			dependencies: ["079ADB71CC3BAE2D"]
+			id: "079D6921AC491BEF"
+			optional: true
+			rewards: [
+				{
+					id: "44C68C46A79B5936"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "5F76FD1B1BD754BD"
+					item: {
+						count: 1
+						id: "tfmg:flarestack"
+					}
+					type: "item"
+				}
+			]
+			x: 21.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["5DAF564C963FD05E"]
+			id: "565B2C898DE979ED"
+			optional: true
+			rewards: [
+				{
+					id: "4B84C6736C43C553"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "4651D229068C08EC"
+					item: {
+						count: 1
+						id: "tfmg:industrial_mixer"
+					}
+					type: "item"
+				}
+			]
+			x: 13.25d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5DAF564C963FD05E"]
+			id: "6F33439F4138ACC0"
+			optional: true
+			rewards: [
+				{
+					id: "5BC4531A4EED507C"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "3DD2C8723E12461A"
+					item: {
+						count: 1
+						id: "tfmg:cast_iron_chemical_vat"
+					}
+					type: "item"
+				}
+				{
+					id: "31D728E781904E53"
+					item: {
+						count: 1
+						id: "tfmg:graphite_electrode"
+					}
+					type: "item"
+				}
+			]
+			x: 13.25d
+			y: 9.5d
+		}
+		{
+			dependencies: ["079ADB71CC3BAE2D"]
+			id: "423783841511FDFC"
+			optional: true
+			rewards: [
+				{
+					id: "6403868C7283A055"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					count: 64L
+					id: "4F1D58E1592EB472"
+					item: {
+						count: 1
+						id: "tfmg:asphalt"
+					}
+					type: "item"
+				}
+			]
+			x: 21.5d
+			y: 6.75d
+		}
+		{
+			dependencies: ["1F6F566757C93AE5"]
+			id: "009032BD517A601E"
+			optional: true
+			rewards: [
+				{
+					id: "411473327797C1A8"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					count: 2L
+					id: "6689A51B56119A6B"
+					item: {
+						count: 1
+						id: "createdieselgenerators:large_diesel_engine"
+					}
+					type: "item"
+				}
+				{
+					id: "7C1B0093FB6D3EF0"
+					item: {
+						count: 1
+						id: "createdieselgenerators:engine_turbocharger"
+					}
+					type: "item"
+				}
+			]
+			x: 25.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["009032BD517A601E"]
+			id: "6F572FD85FEEC494"
+			optional: true
+			rewards: [
+				{
+					id: "224F205D661888D3"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "29832978DCD80573"
+					item: {
+						count: 1
+						id: "createdieselgenerators:huge_diesel_engine"
+					}
+					type: "item"
+				}
+			]
+			x: 27.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F6F566757C93AE5"]
+			id: "2CFB6682A875F57E"
+			optional: true
+			rewards: [
+				{
+					id: "278CDFA44A418A37"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "32456527CE206E56"
+					item: {
+						count: 1
+						id: "createdieselgenerators:basin_lid"
+					}
+					type: "item"
+				}
+				{
+					id: "0FD53F1E24A57C1E"
+					item: {
+						count: 1
+						id: "createdieselgenerators:ethanol_bucket"
+					}
+					type: "item"
+				}
+			]
+			x: 25.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7B3B79C13DB227E1"]
+			id: "2730B1177D89E2AC"
+			optional: true
+			rewards: [
+				{
+					id: "2C8DA8485C814DAE"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "226E073ED8573D95"
+					item: {
+						count: 1
+						id: "createdieselgenerators:canister"
+					}
+					type: "item"
+				}
+			]
+			x: 23.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["65AB2D5985F2AF66", "079ADB71CC3BAE2D", "2271B5353B3A159A"]
+			hide_dependency_lines: true
+			icon: {
+				id: "tfmg:steel_casing"
+			}
+			id: "320B4FF55989C1C1"
+			rewards: [
+				{
+					id: "7AD1A561FBF827F8"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 4
+					id: "5B1D323D0305A784"
+					item: {
+						count: 1
+						id: "tfmg:steel_block"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6FC40C3978E353C0"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					command: "/give {p} minecraft:writable_book[minecraft:custom_name='{\"text\":\"Страница летописи — Эпоха 5. Сталь и нефть\",\"color\":\"gold\",\"italic\":false}',minecraft:lore=['{\"text\":\"Запишите, что построила ваша гильдия в эту эпоху.\",\"color\":\"gray\",\"italic\":true}']] 1"
+					id: "24B0ECFB7A24AF02"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "676967439B677A62"
+					item: {
+						count: 1
+						id: "tfmg:steel_casing"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4F060D4BBD739C73"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 9.5d
+		}
+	]
+}

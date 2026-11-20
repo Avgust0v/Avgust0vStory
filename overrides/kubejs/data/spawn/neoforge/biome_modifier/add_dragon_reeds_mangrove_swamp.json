@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "minecraft:mangrove_swamp",
+    "biomesoplenty:bayou"
+  ],
+  "features": "spawn:patch_dragon_reeds_mangrove_swamp",
+  "step": "vegetal_decoration"
+}

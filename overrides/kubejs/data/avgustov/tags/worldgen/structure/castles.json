@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    {"id": "create_structures_arise:create_ruined_castle", "required": false},
+    {"id": "create_structures_arise:darkcastle", "required": false},
+    {"id": "mvs:castle_ruins", "required": false},
+    {"id": "mss:castle_ruin", "required": false},
+    {"id": "medieval_buildings:fort", "required": false},
+    {"id": "dungeons_arise:keep_kayra", "required": false},
+    {"id": "legendary_monsters:collapsed_kingdom", "required": false}
+  ]
+}

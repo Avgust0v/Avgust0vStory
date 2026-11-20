@@ -1,0 +1,5 @@
+{
+ "ftbchunks.nether_portal.failure": "Сюда нельзя телепортироваться: создание удалённого портала запрещено!",
+ "ftbchunks.nether_portal.no_portal": "Телепортация разрешена, создание портала запрещено",
+ "ftbchunks.admin_bypass_reminder": "Напоминание: обход защиты администратором FTB Chunks сейчас включён.\nПереключить его можно командой «/ftbchunks admin bypass_protection»."
+}

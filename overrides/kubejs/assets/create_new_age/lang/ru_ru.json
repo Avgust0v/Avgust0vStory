@@ -1,0 +1,8 @@
+{
+ "block.create_new_age.lamp_post": "Фонарный столб",
+ "block.create_new_age.street_light": "Уличный фонарь",
+ "create.create_new_age.street_light.light_level": "Уровень освещения",
+ "create.tooltip.create_new_age.per_light_level": "за уровень освещения",
+ "create_new_age.subtitle.geiger_counter": "Щелчки счётчика Гейгера",
+ "effect.create_new_age.radiation_poisoning": "Лучевая болезнь"
+}

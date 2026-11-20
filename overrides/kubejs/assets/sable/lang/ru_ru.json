@@ -1,0 +1,7 @@
+{
+ "commands.sable.forceload.query.none": "Тикеты принудительной загрузки в %s не найдены",
+ "commands.sable.forceload.query.count": "Найдено тикетов принудительной загрузки: %s для подуровней (%s) в %s:",
+ "argument.sable.invalid_selector": "Неверный селектор подуровня",
+ "argument.sable.invalid_uuid": "Неверный UUID",
+ "argument.sable.cannot_find_sub_level": "Не удаётся найти подуровень"
+}

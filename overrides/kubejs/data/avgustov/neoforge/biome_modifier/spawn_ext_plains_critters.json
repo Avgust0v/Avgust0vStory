@@ -1,0 +1,30 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "biomesoplenty:grassland",
+    "biomesoplenty:field",
+    "biomesoplenty:prairie",
+    "biomesoplenty:pasture",
+    "biomesoplenty:highland",
+    "biomesoplenty:overgrown_greens",
+    "biomesoplenty:lavender_field",
+    "terralith:steppe",
+    "terralith:highlands",
+    "terralith:shrubland",
+    "terralith:valley_clearing"
+  ],
+  "spawners": [
+    {
+      "type": "spawn:hamster",
+      "weight": 5,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "livingthings:raccoon",
+      "weight": 16,
+      "minCount": 2,
+      "maxCount": 5
+    }
+  ]
+}

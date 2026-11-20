@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_written_book_pages",
+              "pages": [
+                {
+                  "text": "Мастерские закрыли, нас распустили. Сказали: ждите. Мы ждали два года. Сегодня забираем дирижабли — они хоть летают, в отличие от обещаний.",
+                  "color": "black"
+                },
+                {
+                  "text": "Если мастер Ратибор это читает: мы не воры. Мы просто разучились ждать.",
+                  "color": "black"
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_book_cover",
+              "title": "Записка в кубрике",
+              "author": "Ученик Савва",
+              "generation": 3
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Обрывок 5/13: Записка в кубрике",
+                "color": "gold",
+                "italic": false
+              },
+              "target": "custom_name"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{avgustov_note:5}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

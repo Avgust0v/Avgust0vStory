@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_written_book_pages",
+              "pages": [
+                {
+                  "text": "Наверху жилы кончились, и совет велел идти вниз. Провели трамвай до самого глубинного сланца, вырубили залы, склады, казармы для смены. Камень здесь чёрный и звонкий, как колокол.",
+                  "color": "black"
+                },
+                {
+                  "text": "Вчера в дальнем забое камень ответил на удар. Ребята смеялись, а я велел заложить проход. Пишу на случай, если не успею: не копайте глубже арены. Что там спит, спало дольше, чем мы живём.",
+                  "color": "black"
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_book_cover",
+              "title": "Нижний горизонт",
+              "author": "Горный мастер Ефим",
+              "generation": 3
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Обрывок 13/13: Нижний горизонт",
+                "color": "gold",
+                "italic": false
+              },
+              "target": "custom_name"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{avgustov_note:13}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

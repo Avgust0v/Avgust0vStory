@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "underwater_village:temple",
+      "required": false
+    }
+  ]
+}

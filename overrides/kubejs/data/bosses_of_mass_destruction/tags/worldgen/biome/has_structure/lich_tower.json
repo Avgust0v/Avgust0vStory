@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "terralith:frozen_cliffs",
+    "terralith:ice_marsh",
+    "terralith:cold_shrubland",
+    "terralith:wintry_forest",
+    "terralith:siberian_taiga",
+    "terralith:wintry_lowlands",
+    "terralith:rocky_shrubland",
+    "terralith:glacial_chasm",
+    "terralith:scarlet_mountains",
+    "terralith:snowy_maple_forest",
+    "terralith:snowy_shield",
+    "terralith:gravel_desert",
+    "terralith:snowy_cherry_grove",
+    "terralith:siberian_grove",
+    "terralith:emerald_peaks",
+    "biomesoplenty:cold_desert",
+    "biomesoplenty:snowy_fir_clearing",
+    "biomesoplenty:snowy_coniferous_forest",
+    "biomesoplenty:snowy_maple_woods",
+    "biomesoplenty:snowblossom_grove"
+  ]
+}

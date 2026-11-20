@@ -1,0 +1,12 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#spawn:mob_spawns/hamster_spawns",
+  "spawners": [
+    {
+      "type": "spawn:hamster",
+      "maxCount": 1,
+      "minCount": 1,
+      "weight": 5
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+ "create_central_kitchen.ponder.dragon_leg.header": "Автоматизация с Create: подача драконьей ноги",
+ "create_central_kitchen.ponder.dragon_leg.text_1": "Механические руки могут подавать драконью ногу, используя миски",
+ "create_central_kitchen.ponder.dragon_leg.text_2": "Последняя порция остаётся на месте",
+ "create_central_kitchen.ponder.group.eggplant_parmesan": "Драконья нога",
+ "create_central_kitchen.ponder.hearth_and_harvest_cask.header": "Пиршества и пироги",
+ "create_central_kitchen.ponder.portionable_foods.header": "Автоматизация с Create: порции",
+ "create_central_kitchen.ponder.portionable_foods.text_1": "Механические руки могут брать порции с пиршеств и куски пирогов",
+ "create_central_kitchen.ponder.portionable_foods.text_2": "Последняя порция остаётся на месте",
+ "create_central_kitchen.ponder.portionable_foods.text_3": "Новое целое блюдо может заменить её и вернуть последнюю порцию"
+}

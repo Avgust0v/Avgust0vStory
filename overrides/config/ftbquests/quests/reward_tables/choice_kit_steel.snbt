@@ -1,0 +1,39 @@
+{
+	id: "5E4FEC26A655A552"
+	loot_size: 1
+	order_index: 29
+	rewards: [
+		{
+			count: 32
+			id: "20DA1B6786FB8BEC"
+			item: {
+				count: 1
+				id: "tfmg:steel_ingot"
+			}
+		}
+		{
+			count: 8
+			id: "6EE17A0F035986AD"
+			item: {
+				count: 1
+				id: "tfmg:heavy_plate"
+			}
+		}
+		{
+			count: 4
+			id: "5BC812EDD6DFDFBC"
+			item: {
+				count: 1
+				id: "tfmg:steel_mechanism"
+			}
+		}
+		{
+			count: 8
+			id: "431FC1A04E8ADC79"
+			item: {
+				count: 1
+				id: "tfmg:coal_coke_block"
+			}
+		}
+	]
+}

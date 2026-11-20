@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_written_book_pages",
+              "pages": [
+                {
+                  "text": "Здесь лежит Добрыня, мельник. Он первым сказал, что земля устала, и первым оказался прав.",
+                  "color": "black"
+                },
+                {
+                  "text": "Посадите рядом дерево. Он хотел бы дерево, а не камень.",
+                  "color": "black"
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_book_cover",
+              "title": "Надпись на могиле",
+              "author": "Неизвестный",
+              "generation": 3
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Обрывок 10/13: Надпись на могиле",
+                "color": "gold",
+                "italic": false
+              },
+              "target": "custom_name"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{avgustov_note:10}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

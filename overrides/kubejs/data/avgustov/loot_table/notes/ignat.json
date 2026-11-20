@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_written_book_pages",
+              "pages": [
+                {
+                  "text": "Ифриты в котлах дают жар ровный, как сердце. Мне мало. Хочу огонь, который сам знает, куда бить.",
+                  "color": "black"
+                },
+                {
+                  "text": "Если получится, назову его Игнисом. Если нет — пусть никто не узнает, что я пробовал.",
+                  "color": "black"
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_book_cover",
+              "title": "Ведомость кузни",
+              "author": "Кузнец Игнат",
+              "generation": 3
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Обрывок 3/13: Ведомость кузни",
+                "color": "gold",
+                "italic": false
+              },
+              "target": "custom_name"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{avgustov_note:3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

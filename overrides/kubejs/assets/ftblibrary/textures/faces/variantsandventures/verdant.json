@@ -1,0 +1,13 @@
+{
+  "slice": {
+    "x": 8,
+    "y": 8,
+    "width": 8,
+    "height": 8
+  },
+  "default_image_size": {
+    "width": 64,
+    "height": 32
+  },
+  "texture": "minecraft:textures/entity/skeleton/skeleton.png"
+}

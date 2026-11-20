@@ -1,0 +1,1122 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "era_3_factory"
+	group: "0C5877243EA452C8"
+	icon: {
+		id: "create:packager"
+	}
+	id: "7FC2CF8BF6F9688D"
+	images: [ ]
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2C45B3F8E422CA06"]
+			icon: {
+				id: "create:item_vault"
+			}
+			id: "37C7E988DD06B6B3"
+			rewards: [
+				{
+					id: "7501B4F63BD862CD"
+					type: "xp"
+					xp: 25
+				}
+				{
+					command: "/loot give {p} loot avgustov:letters/st_3"
+					id: "1456A0BE40AFA126"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "2E4B666BC08260FF"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 8.75d
+		}
+		{
+			dependencies: ["2C45B3F8E422CA06", "37C7E988DD06B6B3"]
+			id: "5EB3BA9F3F56F287"
+			rewards: [
+				{
+					id: "0AD819E647987C85"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "545DDC4EEAD6829C"
+					item: {
+						count: 1
+						id: "create:item_vault"
+					}
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 8.75d
+		}
+		{
+			dependencies: ["5EB3BA9F3F56F287"]
+			id: "47001A59A0B89240"
+			rewards: [
+				{
+					id: "31B9B71A245F7389"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "01BA44B4DDB61370"
+					item: {
+						count: 1
+						id: "create:packager"
+					}
+					type: "item"
+				}
+				{
+					advancement: "create:packager"
+					criterion: ""
+					id: "57B81C92A453FBB5"
+					type: "advancement"
+				}
+			]
+			x: 5.75d
+			y: 4.25d
+		}
+		{
+			dependencies: ["47001A59A0B89240"]
+			id: "7D00AA26CB9675C7"
+			rewards: [
+				{
+					id: "3E81A5B6D8B2026E"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "2D7D291E093705EB"
+					item: {
+						count: 1
+						id: "create:package_frogport"
+					}
+					type: "item"
+				}
+				{
+					advancement: "create:frogport"
+					criterion: ""
+					id: "4EF403C78C3B08ED"
+					type: "advancement"
+				}
+			]
+			x: 8.25d
+			y: 0.75d
+		}
+		{
+			dependencies: ["7D00AA26CB9675C7"]
+			id: "3F3291A1E5618CAF"
+			rewards: [
+				{
+					id: "6976CDE08A136831"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "4116A43D0153EF52"
+					item: {
+						count: 1
+						id: "create:chain_conveyor"
+					}
+					type: "item"
+				}
+			]
+			x: 10.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["47001A59A0B89240"]
+			id: "4A376E246EDCEF5F"
+			rewards: [
+				{
+					id: "709EC0022C2CFF14"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					id: "3AD110E4C76C8A03"
+					item: {
+						count: 1
+						id: "create:stock_link"
+					}
+					type: "item"
+				}
+				{
+					id: "3175E46335352838"
+					item: {
+						count: 1
+						id: "create:stock_ticker"
+					}
+					type: "item"
+				}
+				{
+					advancement: "create:stock_ticker"
+					criterion: ""
+					id: "73FCE60AE1F5CBF8"
+					type: "advancement"
+				}
+			]
+			x: 8.25d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4A376E246EDCEF5F"]
+			id: "2A794F41BE8008BD"
+			rewards: [
+				{
+					id: "217301E703E68504"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "5052BAAD48082D83"
+					item: {
+						count: 1
+						id: "create:factory_gauge"
+					}
+					type: "item"
+				}
+				{
+					advancement: "create:factory_gauge"
+					criterion: ""
+					id: "6A0F195AD847E53A"
+					type: "advancement"
+				}
+			]
+			x: 10.25d
+			y: 3.0d
+		}
+		{
+			dependencies: ["47001A59A0B89240"]
+			id: "16935440BED7C1E7"
+			optional: true
+			rewards: [
+				{
+					id: "77575F9D336BC703"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "0C5526E0448A7A48"
+					item: {
+						count: 1
+						id: "create_factory_logistics:jar_packager"
+					}
+					type: "item"
+				}
+			]
+			x: 8.25d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2A794F41BE8008BD"]
+			icon: {
+				id: "create:mechanical_crafter"
+			}
+			id: "4559634BDE43CF11"
+			rewards: [
+				{
+					id: "01A39081951535BD"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 8
+					id: "5E1E5370965D0F06"
+					item: {
+						count: 1
+						id: "create:item_vault"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 4
+					id: "41F16C527686EBB6"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "07C072D24BE50452"
+					item: {
+						count: 1
+						id: "create:mechanical_crafter"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "72CAE625AF30582A"
+					type: "checkmark"
+				}
+			]
+			x: 12.25d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5EB3BA9F3F56F287"]
+			id: "04395D536ED14639"
+			rewards: [
+				{
+					id: "0F627B3D4718215B"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "592362E81601285A"
+					item: {
+						count: 1
+						id: "createaddition:rolling_mill"
+					}
+					type: "item"
+				}
+			]
+			x: 5.75d
+			y: 9.0d
+		}
+		{
+			dependencies: ["04395D536ED14639"]
+			id: "4C51493BC599030A"
+			rewards: [
+				{
+					id: "0B420C4246530763"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "1795818976EE7133"
+					item: {
+						count: 1
+						id: "createaddition:copper_wire"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3908FE2786AB1065"
+					item: {
+						count: 1
+						id: "createaddition:copper_spool"
+					}
+					type: "item"
+				}
+			]
+			x: 8.25d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4C51493BC599030A"]
+			id: "3E53F78D09A3DDFA"
+			rewards: [
+				{
+					id: "7270FEFD80DBC68E"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "49DAB41D0A3934B7"
+					item: {
+						count: 1
+						id: "createaddition:capacitor"
+					}
+					type: "item"
+				}
+			]
+			x: 10.25d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3E53F78D09A3DDFA"]
+			id: "633ACAF83A600B2C"
+			rewards: [
+				{
+					id: "42508EDB2F3690DF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0C76F5EA89821318"
+					table_id: 1635433816416000414L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "7595460B7569BC6D"
+					item: {
+						count: 1
+						id: "createaddition:alternator"
+					}
+					type: "item"
+				}
+			]
+			x: 12.25d
+			y: 6.75d
+		}
+		{
+			dependencies: ["633ACAF83A600B2C"]
+			id: "2F21427C8D01F550"
+			rewards: [
+				{
+					id: "2B88784DC0A2891D"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					id: "2F694F9CCF240816"
+					item: {
+						count: 1
+						id: "createaddition:electric_motor"
+					}
+					type: "item"
+				}
+			]
+			x: 14.25d
+			y: 5.25d
+		}
+		{
+			dependencies: ["633ACAF83A600B2C"]
+			id: "2D4BC9494DB51701"
+			rewards: [
+				{
+					id: "10064C060CE36F84"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "2A76E530EF0B4FCE"
+					item: {
+						count: 1
+						id: "createaddition:connector"
+					}
+					type: "item"
+				}
+			]
+			x: 14.25d
+			y: 6.75d
+		}
+		{
+			dependencies: ["2D4BC9494DB51701"]
+			id: "559AD3DF79BDBBE3"
+			optional: true
+			rewards: [
+				{
+					id: "3505ACB36B7BC687"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					count: 4L
+					id: "5273C40519DA36F1"
+					item: {
+						count: 1
+						id: "createaddition:modular_accumulator"
+					}
+					type: "item"
+				}
+			]
+			x: 16.25d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2D4BC9494DB51701"]
+			id: "3B4349BED16DF8C8"
+			optional: true
+			rewards: [
+				{
+					id: "73DEEB4D86AF787E"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "2366C948863A9F97"
+					item: {
+						count: 1
+						id: "createaddition:tesla_coil"
+					}
+					type: "item"
+				}
+			]
+			x: 16.25d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3E53F78D09A3DDFA"]
+			id: "0E5275852E2AAD12"
+			rewards: [
+				{
+					id: "1483F1B38143CB5D"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "1F5DEF3EA567FDAA"
+					item: {
+						count: 1
+						id: "create_new_age:basic_energiser"
+					}
+					type: "item"
+				}
+			]
+			x: 12.25d
+			y: 11.25d
+		}
+		{
+			dependencies: ["0E5275852E2AAD12"]
+			id: "6354043329D0CFB6"
+			rewards: [
+				{
+					id: "0EBC8D83860D437D"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "25910D9919A5D945"
+					item: {
+						count: 1
+						id: "create_new_age:magnetite_block"
+					}
+					type: "item"
+				}
+			]
+			x: 14.25d
+			y: 9.75d
+		}
+		{
+			dependencies: ["6354043329D0CFB6"]
+			id: "2DACD5528C14659D"
+			rewards: [
+				{
+					id: "42D5804B851F5B1A"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "5F0217D54487BEAC"
+					item: {
+						count: 1
+						id: "create_new_age:generator_coil"
+					}
+					type: "item"
+				}
+			]
+			x: 16.25d
+			y: 9.75d
+		}
+		{
+			dependencies: ["2DACD5528C14659D"]
+			id: "5A9546D215D8FE04"
+			optional: true
+			rewards: [
+				{
+					id: "0A6BCEEA3D7CB627"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "592B28736A5DF0E7"
+					item: {
+						count: 1
+						id: "create_new_age:basic_motor"
+					}
+					type: "item"
+				}
+			]
+			x: 18.25d
+			y: 8.25d
+		}
+		{
+			dependencies: ["5EB3BA9F3F56F287"]
+			id: "51CED7BB65034E92"
+			optional: true
+			rewards: [
+				{
+					id: "4F03ADCB2CC7728A"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "2987F28419B070F6"
+					item: {
+						count: 1
+						id: "create_vibrant_vaults:vertical_item_vault"
+					}
+					type: "item"
+				}
+				{
+					id: "520BD7BDAE5BCF41"
+					item: {
+						count: 1
+						id: "create_vibrant_vaults:red_packager"
+					}
+					type: "item"
+				}
+			]
+			x: 5.75d
+			y: 10.5d
+		}
+		{
+			dependencies: ["51CED7BB65034E92"]
+			id: "4FACCDC9C1AEF784"
+			optional: true
+			rewards: [
+				{
+					id: "76DBACB8EE1C871F"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					count: 2L
+					id: "6AC86CBD2986675F"
+					item: {
+						count: 1
+						id: "create_vibrant_vaults:shipping_container"
+					}
+					type: "item"
+				}
+			]
+			x: 8.25d
+			y: 10.5d
+		}
+		{
+			dependencies: ["5EB3BA9F3F56F287", "58E29D718355BF98"]
+			id: "29284A3CCAFA6EDD"
+			optional: true
+			rewards: [
+				{
+					id: "338BFB0A8B7FA14D"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "111D1AFC249AACCB"
+					item: {
+						count: 1
+						id: "create_enchantment_industry:experience_hatch"
+					}
+					type: "item"
+				}
+				{
+					advancement: "create_enchantment_industry:spirit_taking"
+					criterion: ""
+					id: "5D34D6BEFCAEB07D"
+					type: "advancement"
+				}
+			]
+			x: 5.75d
+			y: 12.0d
+		}
+		{
+			dependencies: ["4A376E246EDCEF5F"]
+			icon: {
+				id: "create:white_table_cloth"
+			}
+			id: "563E3090B12CA398"
+			rewards: [
+				{
+					id: "5AC56EDEADC3B098"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					id: "368AA141CAF8EC61"
+					item: {
+						count: 1
+						id: "create:white_table_cloth"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "create:table_cloth_shop"
+					criterion: ""
+					id: "45E870B6274FB670"
+					type: "advancement"
+				}
+			]
+			x: 10.25d
+			y: 4.5d
+		}
+		{
+			dependencies: ["47001A59A0B89240"]
+			id: "7AD0179052D2AFA7"
+			optional: true
+			rewards: [
+				{
+					id: "276F604A7263F7AA"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "4E8D23B611E46F84"
+					item: {
+						count: 1
+						id: "create:repackager"
+					}
+					type: "item"
+				}
+			]
+			x: 8.25d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3F3291A1E5618CAF"]
+			id: "129EDEAB9BEC1992"
+			optional: true
+			rewards: [
+				{
+					id: "0991AF2F79BE5CFF"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "66C268E78E656D9E"
+					item: {
+						count: 1
+						id: "create_mobile_packages:bee_port"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1B57630F3BF4F9FA"
+					item: {
+						count: 1
+						id: "create_mobile_packages:robo_bee"
+					}
+					type: "item"
+				}
+			]
+			x: 12.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["129EDEAB9BEC1992"]
+			id: "317DA199C0120077"
+			optional: true
+			rewards: [
+				{
+					id: "1C8534A8C0438AD8"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "59C9A6D4796229EF"
+					item: {
+						count: 1
+						id: "create_mobile_packages:portable_stock_ticker"
+					}
+					type: "item"
+				}
+			]
+			x: 14.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E5275852E2AAD12"]
+			id: "6C7148B5AEC81857"
+			rewards: [
+				{
+					id: "10252AEEC6536A1F"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "5DAA469A23913BBD"
+					item: {
+						count: 1
+						id: "create_new_age:overcharged_iron"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7E1F316432675FDD"
+					item: {
+						count: 1
+						id: "create_new_age:overcharged_gold"
+					}
+					type: "item"
+				}
+			]
+			x: 14.25d
+			y: 11.25d
+		}
+		{
+			dependencies: ["6C7148B5AEC81857"]
+			id: "1ECD18322D14D8E0"
+			optional: true
+			rewards: [
+				{
+					id: "3F1155B22FBA0C6A"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "33C3F1CC5E6F42EE"
+					item: {
+						count: 1
+						id: "create_new_age:advanced_energiser"
+					}
+					type: "item"
+				}
+			]
+			x: 16.25d
+			y: 11.25d
+		}
+		{
+			dependencies: ["6C7148B5AEC81857", "5A9546D215D8FE04"]
+			id: "2833E05F1D197C34"
+			optional: true
+			rewards: [
+				{
+					id: "5AD2413CF8460643"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "47E48CED072C25A6"
+					item: {
+						count: 1
+						id: "create_new_age:advanced_motor"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "286DA918B9753A41"
+					item: {
+						count: 1
+						id: "create_new_age:carbon_brushes"
+					}
+					type: "item"
+				}
+			]
+			x: 23.25d
+			y: 15.75d
+		}
+		{
+			dependencies: ["2DACD5528C14659D"]
+			id: "21C9E35BB4C820FD"
+			optional: true
+			rewards: [
+				{
+					id: "209CD38658B6A92E"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					count: 4L
+					id: "33E618060954C039"
+					item: {
+						count: 1
+						id: "create_new_age:redstone_magnet"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "455699859352920B"
+					item: {
+						count: 1
+						id: "create_new_age:layered_magnet"
+					}
+					type: "item"
+				}
+			]
+			x: 18.25d
+			y: 9.75d
+		}
+		{
+			dependencies: ["0E5275852E2AAD12"]
+			id: "5E3188FB1682D359"
+			optional: true
+			rewards: [
+				{
+					id: "76AEC2B460C8DD86"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					count: 4L
+					id: "2F9E7824B73E0C74"
+					item: {
+						count: 1
+						id: "create_new_age:basic_solar_heating_plate"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6AFE60B3331AD21C"
+					item: {
+						count: 1
+						id: "create_new_age:heat_pipe"
+					}
+					type: "item"
+				}
+			]
+			x: 14.25d
+			y: 12.75d
+		}
+		{
+			dependencies: ["633ACAF83A600B2C"]
+			id: "0F0FAFE8F6C8A5CD"
+			optional: true
+			rewards: [
+				{
+					id: "32EC3F24F159E905"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					count: 16L
+					id: "0862BFB370672D57"
+					item: {
+						count: 1
+						id: "createaddition:biomass_pellet"
+					}
+					type: "item"
+				}
+			]
+			x: 14.25d
+			y: 8.25d
+		}
+		{
+			dependencies: ["5EB3BA9F3F56F287"]
+			id: "21EFFCEDB0160E7F"
+			optional: true
+			rewards: [
+				{
+					id: "712E9748C88942AE"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "4644D65E8E3A09E4"
+					item: {
+						count: 1
+						id: "create:item_hatch"
+					}
+					type: "item"
+				}
+			]
+			x: 5.75d
+			y: 13.5d
+		}
+		{
+			dependencies: ["4A376E246EDCEF5F"]
+			id: "3CD6487F15C4CA9C"
+			optional: true
+			rewards: [
+				{
+					id: "1E4F0B6EBA4F0911"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "280702B97360960C"
+					item: {
+						count: 1
+						id: "create:redstone_requester"
+					}
+					type: "item"
+				}
+			]
+			x: 10.25d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7D00AA26CB9675C7"]
+			id: "6BA5E146AFCD8360"
+			optional: true
+			rewards: [
+				{
+					id: "3FF158D8691E87DB"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "7AB3DF40185A00F9"
+					item: {
+						count: 1
+						id: "create:package_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 10.25d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4559634BDE43CF11", "633ACAF83A600B2C", "2DACD5528C14659D"]
+			hide_dependency_lines: true
+			icon: {
+				id: "createaddition:alternator"
+			}
+			id: "7F492D888B9BF134"
+			rewards: [
+				{
+					id: "1CFBD63FFC9C9C3E"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 8
+					id: "74BAFD37C66ADF35"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					command: "/give {p} minecraft:writable_book[minecraft:custom_name='{\"text\":\"Страница летописи — Эпоха 3. Фабрика и ток\",\"color\":\"gold\",\"italic\":false}',minecraft:lore=['{\"text\":\"Запишите, что построила ваша гильдия в эту эпоху.\",\"color\":\"gray\",\"italic\":true}']] 1"
+					id: "343EF8B29A60EE6D"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "37A3BDE7C1342834"
+					item: {
+						count: 1
+						id: "createaddition:alternator"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4836E3404F19D7C4"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 13.25d
+		}
+	]
+}

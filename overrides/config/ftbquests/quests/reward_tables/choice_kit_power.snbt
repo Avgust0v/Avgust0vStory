@@ -1,0 +1,39 @@
+{
+	id: "16B23A642123199E"
+	loot_size: 1
+	order_index: 27
+	rewards: [
+		{
+			count: 8
+			id: "5B2F8B8981159218"
+			item: {
+				count: 1
+				id: "createaddition:copper_spool"
+			}
+		}
+		{
+			count: 4
+			id: "1758E25CBB4759B9"
+			item: {
+				count: 1
+				id: "createaddition:capacitor"
+			}
+		}
+		{
+			count: 16
+			id: "71EF0D01807CDA40"
+			item: {
+				count: 1
+				id: "createaddition:connector"
+			}
+		}
+		{
+			count: 4
+			id: "43EE662A295C5330"
+			item: {
+				count: 1
+				id: "create_new_age:generator_coil"
+			}
+		}
+	]
+}

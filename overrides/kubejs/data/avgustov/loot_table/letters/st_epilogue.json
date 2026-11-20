@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_written_book_pages",
+              "pages": [
+                {
+                  "text": "Вы стоите в лунной мастерской Предтеч. На верстаке — последняя страница летописи и пустая книга. Ратибор ждал тех, кто придёт следом.",
+                  "color": "black"
+                },
+                {
+                  "text": "Внизу — ваша земля: дороги, рельсы, дым заводов, огни городов и зелёные поля. Вы построили больше, чем Предтечи, и не разрушили то, что вас кормит.",
+                  "color": "black"
+                },
+                {
+                  "text": "Впишите в пустую книгу имена всех, кто был в артели, и поставьте её у вокзала. Это ваша история — AvgustovStory. А Марс и Венера ждут следующую главу.",
+                  "color": "black"
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_book_cover",
+              "title": "Эпилог. История артели",
+              "author": "Артель",
+              "generation": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

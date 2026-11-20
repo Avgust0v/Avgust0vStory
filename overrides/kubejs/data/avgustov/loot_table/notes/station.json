@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_written_book_pages",
+              "pages": [
+                {
+                  "text": "Последний поезд ушёл в горы в шесть утра. Мастера ехали молча. Я остался запереть вокзал.",
+                  "color": "black"
+                },
+                {
+                  "text": "Ключи под третьей шпалой от стрелки — вдруг кто вернётся. Обещали прислать весточку. Жду.",
+                  "color": "black"
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_book_cover",
+              "title": "Расписание, которое не сбылось",
+              "author": "Станционный смотритель",
+              "generation": 3
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Обрывок 7/13: Расписание, которое не сбылось",
+                "color": "gold",
+                "italic": false
+              },
+              "target": "custom_name"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{avgustov_note:7}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

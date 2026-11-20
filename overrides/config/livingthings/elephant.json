@@ -1,0 +1,9 @@
+{
+	"canAttack": true,
+	"health": 60,
+	"movementSpeed": 0.25,
+	"attackDamage": 7,
+	"maxSpawnedInChunk": 5,
+	"spawnBiomes": [],
+	"_avgustovmc": "spawns off: duplicate of Naturalist/Friends&Foes"
+}

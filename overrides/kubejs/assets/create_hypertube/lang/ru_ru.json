@@ -1,0 +1,11 @@
+{
+ "create_hypertube.ponder.splitter.header": "Разветвитель гипертрубы",
+ "create_hypertube.ponder.splitter.text_1": "Разветвитель гипертрубы может соединять до трёх труб, разделяя линию на несколько путей.",
+ "create_hypertube.ponder.splitter.text_2": "Во время движения вы можете выбрать направление клавишами передвижения.",
+ "create_hypertube.ponder.splitter.text_3": "Кликните по нему ПКМ гаечным ключом, чтобы переключить режим разветвителя.",
+ "create_hypertube.ponder.splitter.text_4": "В режиме «Продолжение» путешественники всегда проходят через боковые трубы.",
+ "create_hypertube.ponder.splitter.text_5": "В режиме «Центр» путешественники всегда направляются в переднюю трубу.",
+ "create_hypertube.ponder.splitter.text_6": "Навесной детектор редстоуна может переключать оба принудительных режима.",
+ "key.hypertube.tube_escape": "Выход из гипертрубы",
+ "key.categories.hypertube": "Create: Hypertube"
+}

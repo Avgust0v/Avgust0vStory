@@ -1,0 +1,12 @@
+{
+	"health": 10.0,
+	"movementSpeed": 0.25,
+	"flyingSpeed": 0.5,
+	"maxSpawnedInChunk": 6,
+	"spawnBiomes": [],
+	"colorWeights": {
+		"colorWhiteWeight": 33,
+		"colorBrownWeight": 33,
+		"colorBlackWeight": 33
+	}
+}

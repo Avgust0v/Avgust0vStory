@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "endermanoverhaul:tiny_skull",
+          "functions": []
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "endermanoverhaul:blocks/tiny_skull"
+}

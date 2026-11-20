@@ -1,0 +1,21 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "terralith:blooming_plateau",
+    "terralith:blooming_valley",
+    "terralith:lavender_valley",
+    "terralith:lavender_forest",
+    "terralith:sakura_grove",
+    "terralith:sakura_valley",
+    "biomesoplenty:lavender_field",
+    "biomesoplenty:jacaranda_glade"
+  ],
+  "spawners": [
+    {
+      "type": "friendsandfoes:moobloom",
+      "weight": 4,
+      "minCount": 2,
+      "maxCount": 4
+    }
+  ]
+}

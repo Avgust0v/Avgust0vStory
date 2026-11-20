@@ -1,0 +1,9 @@
+{
+  "item.create_tools_n_weapons.gear_sword": "Шестерёночный меч",
+  "item.create_tools_n_weapons.gear_pickaxe": "Шестерёночная кирка",
+  "item.create_tools_n_weapons.gear_axe": "Шестерёночный топор",
+  "item.create_tools_n_weapons.gear_shovel": "Шестерёночная лопата",
+  "item.create_tools_n_weapons.gear_hoe": "Шестерёночная мотыга",
+  "item_group.create_tools_n_weapons.create_tools_n_weapons": "Create: инструменты и оружие",
+  "item.create_tools_n_weapons.gear_pickaxe.description_0": "Особая кирка"
+}

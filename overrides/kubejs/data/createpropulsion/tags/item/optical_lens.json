@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createpropulsion:optical_lens",
+      "required": false
+    },
+    {
+      "id": "createpropulsion:fluid_lens",
+      "required": false
+    },
+    {
+      "id": "createpropulsion:focus_lens",
+      "required": false
+    },
+    {
+      "id": "createpropulsion:invisibility_lens",
+      "required": false
+    },
+    {
+      "id": "createpropulsion:unfinished_lens",
+      "required": false
+    }
+  ]
+}

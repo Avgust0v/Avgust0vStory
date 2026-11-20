@@ -1,0 +1,32 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "biomesoplenty:floodplain",
+    "biomesoplenty:rainforest",
+    "biomesoplenty:rocky_rainforest",
+    "terralith:amethyst_rainforest",
+    "terralith:jungle_mountains",
+    "terralith:rocky_jungle",
+    "terralith:tropical_jungle"
+  ],
+  "spawners": [
+    {
+      "type": "livingthings:koala",
+      "weight": 50,
+      "minCount": 3,
+      "maxCount": 8
+    },
+    {
+      "type": "livingthings:monkey",
+      "weight": 50,
+      "minCount": 4,
+      "maxCount": 7
+    },
+    {
+      "type": "livingthings:peacock",
+      "weight": 50,
+      "minCount": 4,
+      "maxCount": 7
+    }
+  ]
+}

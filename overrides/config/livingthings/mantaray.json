@@ -1,0 +1,17 @@
+{
+	"health": 10,
+	"movementSpeed": 1,
+	"maxSpawnedInChunk": 5,
+	"spawnBiomes": [],
+	"colorVariants": {
+		"colorBlueVariant": 50,
+		"colorBrownVariant": 50
+	},
+	"scalingVariants": {
+		"scalingNormalWeight": 30,
+		"scalingSmallVariant": 30,
+		"scalingLargeVariant": 25,
+		"scalingExtraLargeWeight": 15
+	},
+	"_avgustovmc": "spawns off: duplicate of Naturalist/Friends&Foes"
+}

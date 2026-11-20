@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_written_book_pages",
+              "pages": [
+                {
+                  "text": "Андезитовый сплав — серый, неказистый, но из него родится всё остальное.",
+                  "color": "black"
+                },
+                {
+                  "text": "Вчера я нашёл у ручья старое водяное колесо. Дерево сгнило, а ступица цела — и выточена так, как точим мы. Предтечи начинали так же, как мы. От этой мысли мне и радостно, и тревожно: где же они теперь?",
+                  "color": "black"
+                },
+                {
+                  "text": "Постройте своё колесо. Пусть ручей работает на вас, а руки останутся для дела поважнее.\n\n— Мастер Август",
+                  "color": "black"
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_book_cover",
+              "title": "Глава I. Первая шестерня",
+              "author": "Мастер Август",
+              "generation": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

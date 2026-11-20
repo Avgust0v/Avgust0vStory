@@ -1,0 +1,56 @@
+[*]
+background: ftb:textures/quests/create_blueprint_cyan.png; tile_size=256
+chapter_panel_background: ftb:textures/quests/create_panel_thin.png
+key_reference_background: ftb:textures/quests/create_blueprint_cyan.png; tile_size=256
+quest_view_background: ftb:textures/quests/create_quest_view.png
+quest_view_border: #C9974C
+selected_chapter_highlight_1: #60EAA842
+selected_chapter_highlight_2: #28EAA842
+
+// ==========================================
+// GROUP 1: CREATE: ENGINEERING (ORANGE #EAA842)
+// ==========================================
+[0601000000000001 | 0602000000000001 | 0603000000000001 | 0604000000000001 | 0605000000000001 | 0606000000000001 | 0501000000000001 | 0502000000000001 | 0503000000000001 | 0504000000000001 | 0505000000000001 | 5DCD8A027DDCC18B | 68332475542ACEA2 | 109548EFF2C9417E | 69CCE99A776B2D66 | 360DE41615A7530C]
+background: ftb:textures/quests/create_blueprint_orange.png; tile_size=256
+key_reference_background: ftb:textures/quests/create_blueprint_orange.png; tile_size=256
+quest_view_border: #EAA842
+
+// ==========================================
+// GROUP 2: FLYING HIGH (AZULZINHO / CIANO #2EC4B6)
+// ==========================================
+[048AB9655BAEC29A | 51D2631964351F3A | 2E4EDF68FD3370DA | 010F3251541FC7DC | 30BDC61EB4F7A7B1 | 79C23EB453C1751F | 1000000000000001 | 10A0000000000000]
+background: ftb:textures/quests/create_blueprint_cyan.png; tile_size=256
+key_reference_background: ftb:textures/quests/create_blueprint_cyan.png; tile_size=256
+quest_view_border: #2EC4B6
+
+// ==========================================
+// GROUP 3: CREATE UTILITIES (VERDE #52B788)
+// ==========================================
+[6A14EE63D7CE4888 | 1300000000000001 | 1100000000000000 | 1200000000000000 | 0B8148DAF5CC9DF1 | 4206A58542561BF0 | 1CFC7955957D28B7 | 1E0B14B8BEAE3175 | 09FBD576F87881B4 | 1300000000000000 | 66F98B6CCBBBF2A2]
+background: ftb:textures/quests/create_blueprint_green.png; tile_size=256
+key_reference_background: ftb:textures/quests/create_blueprint_green.png; tile_size=256
+quest_view_border: #52B788
+
+// ==========================================
+// GROUP 4: INDUSTRY AND TECH (CORAL / RED-ORANGE #E76F51)
+// ==========================================
+[49EA4A06D4508740 | 23983F4DC524B14B | 54D57FF8C31ABBAE | 7332B6BB3E51839A | 21FFEEC5D27A5737]
+background: ftb:textures/quests/create_blueprint_red.png; tile_size=256
+key_reference_background: ftb:textures/quests/create_blueprint_red.png; tile_size=256
+quest_view_border: #E76F51
+
+// ==========================================
+// GROUP 5: UTILITIES AND QUALITY OF LIFE (ROXO / PURPLE #A259FF)
+// ==========================================
+[0607000000000001]
+background: ftb:textures/quests/create_blueprint_purple.png; tile_size=256
+key_reference_background: ftb:textures/quests/create_blueprint_purple.png; tile_size=256
+quest_view_border: #A259FF
+
+// ==========================================
+// GROUP 6: LEGACY ARCHIVE (CINZA ARDÓSIA #8D99AE)
+// ==========================================
+[4E115E1260B9FA39 | 56096636DE3BAEC1 | 3617DE87C4E1BCB9 | 1576792D7606E2A6 | 43315856468793B5 | 3A71AA00EEB6E02D | 5C3FF9D1ECAC4860]
+background: ftb:textures/quests/create_blueprint_slate.png; tile_size=256
+key_reference_background: ftb:textures/quests/create_blueprint_slate.png; tile_size=256
+quest_view_border: #8D99AE

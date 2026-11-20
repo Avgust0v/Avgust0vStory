@@ -1,0 +1,7 @@
+{
+ "key.categories.aeronautics_curios_compat": "Aeronautics Curios Compat",
+ "key.aeronautics_curios_compat.remote_use": "Использовать частотную пишущую машинку удалённо",
+ "curios.identifier.linked_typewriter": "Частотная пишущая машинка",
+ "fml.menu.mods.info.description.aeronautics_curios_compat": "Добавляет слот Curios и отображение для очков авиатора из Create Aeronautics, а также удалённое использование частотной пишущей машинки из слота Curios.",
+ "tag.item.curios.linked_typewriter": "Частотные пишущие машинки"
+}

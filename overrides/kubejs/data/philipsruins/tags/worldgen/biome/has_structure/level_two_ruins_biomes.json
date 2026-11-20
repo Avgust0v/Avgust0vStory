@@ -1,0 +1,32 @@
+{
+  "replace": false,
+  "values": [
+    "terralith:white_cliffs",
+    "terralith:tropical_jungle",
+    "terralith:caldera",
+    "terralith:amethyst_rainforest",
+    "terralith:orchid_swamp",
+    "terralith:yellowstone",
+    "terralith:rocky_jungle",
+    "terralith:steppe",
+    "terralith:highlands",
+    "terralith:blooming_plateau",
+    "terralith:lush_valley",
+    "terralith:amethyst_canyon",
+    "terralith:jungle_mountains",
+    "terralith:scarlet_mountains",
+    "terralith:shield_clearing",
+    "terralith:valley_clearing",
+    "terralith:emerald_peaks",
+    "biomesoplenty:wetland",
+    "biomesoplenty:marsh",
+    "biomesoplenty:bayou",
+    "biomesoplenty:rocky_rainforest",
+    "biomesoplenty:rainforest",
+    "biomesoplenty:floodplain",
+    "biomesoplenty:rocky_shrubland",
+    "biomesoplenty:fungal_jungle",
+    "biomesoplenty:mystic_grove",
+    "biomesoplenty:ominous_woods"
+  ]
+}

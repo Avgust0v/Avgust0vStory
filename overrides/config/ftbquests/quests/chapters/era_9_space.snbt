@@ -1,0 +1,628 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "era_9_space"
+	group: "0C5877243EA452C8"
+	icon: {
+		id: "creatingspace:rocket_controls"
+	}
+	id: "6F1204A5E9394F2D"
+	images: [ ]
+	order_index: 12
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["30CB301B541829CE"]
+			icon: {
+				id: "minecraft:firework_rocket"
+			}
+			id: "141E0EDDF78B547B"
+			rewards: [
+				{
+					id: "573D3DBC99B2E29E"
+					type: "xp"
+					xp: 25
+				}
+				{
+					command: "/loot give {p} loot avgustov:letters/st_9"
+					id: "3844ED210D9FAF05"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "674CCC46B9BD2D89"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["30CB301B541829CE", "141E0EDDF78B547B"]
+			id: "1C133A562A6AA6C2"
+			rewards: [
+				{
+					id: "7485745A657D3D3C"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					id: "10460B83E64F46E2"
+					item: {
+						count: 1
+						id: "creatingspace:rocket_engineer_table"
+					}
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1C133A562A6AA6C2"]
+			id: "031BAEFE8C990837"
+			rewards: [
+				{
+					id: "7B09FD773F26EB8A"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "4779EA5C7061A48C"
+					item: {
+						count: 1
+						id: "tfmg:nickel_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6620CE338FFA612B"
+					item: {
+						count: 1
+						id: "tfmg:aluminum_sheet"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["575ACA00F378EEF2"]
+			id: "02CF9D42370FBB20"
+			optional: true
+			rewards: [
+				{
+					id: "1DA2464B0F31336B"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					count: 8L
+					id: "32107A682406DCDA"
+					item: {
+						count: 1
+						id: "creatingspace:cobalt_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "451F2E1FBB4A5BC3"
+					item: {
+						count: 1
+						id: "creatingspace:rocket_casing"
+					}
+					type: "item"
+				}
+			]
+			x: 14.75d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1C133A562A6AA6C2"]
+			id: "395D9CBF7783687A"
+			rewards: [
+				{
+					id: "0CDC68EB6BF7F78F"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "4E46B60134AAC697"
+					item: {
+						count: 1
+						id: "creatingspace:engine_blueprint"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["395D9CBF7783687A", "031BAEFE8C990837"]
+			id: "52623177A13DE13C"
+			rewards: [
+				{
+					id: "708E9678F28ED97A"
+					type: "xp"
+					xp: 120
+				}
+			]
+			tasks: [
+				{
+					id: "5A03EF9C3F799E2F"
+					item: {
+						count: 1
+						id: "creatingspace:small_rocket_engine"
+					}
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["1C133A562A6AA6C2"]
+			id: "76C9E9D3439B1365"
+			rewards: [
+				{
+					id: "0864D9AC1D10017C"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "1D8D4050184234E2"
+					item: {
+						count: 1
+						id: "create_new_age:thorium"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1C133A562A6AA6C2"]
+			id: "180F23FB6EF5DD37"
+			rewards: [
+				{
+					id: "4BC9F6905C9E9420"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					id: "05C53A78C5779A44"
+					item: {
+						count: 1
+						id: "create_new_age:overcharged_diamond"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["180F23FB6EF5DD37", "031BAEFE8C990837"]
+			id: "3D2BAE855354FD05"
+			rewards: [
+				{
+					id: "3B8B71F7BD847AF5"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "33692EFF72C5D145"
+					item: {
+						count: 1
+						id: "creatingspace:rocket_controls"
+					}
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -2.25d
+		}
+		{
+			dependencies: ["76C9E9D3439B1365"]
+			id: "41A045F9CA841BBB"
+			optional: true
+			rewards: [
+				{
+					id: "2210FCC19770DFAE"
+					type: "xp"
+					xp: 80
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					count: 2L
+					id: "095909F912FBECFD"
+					item: {
+						count: 1
+						id: "create_new_age:nuclear_fuel"
+					}
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["41A045F9CA841BBB"]
+			id: "3E323B4F45F1A01B"
+			optional: true
+			rewards: [
+				{
+					id: "44D3A34272D9462D"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					count: 2L
+					id: "64A91095954CB705"
+					item: {
+						count: 1
+						id: "create_new_age:reactor_rod"
+					}
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "74289A5F24EE6183"
+					item: {
+						count: 1
+						id: "create_new_age:reactor_casing"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "63971D2B46D4CFF4"
+					item: {
+						count: 1
+						id: "create_new_age:reactor_glass"
+					}
+					type: "item"
+				}
+				{
+					id: "79EC5FA5FDC05E4D"
+					item: {
+						count: 1
+						id: "create_new_age:reactor_fuel_acceptor"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2767890D06E6F248"
+					item: {
+						count: 1
+						id: "create_new_age:reactor_heat_vent"
+					}
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1C133A562A6AA6C2"]
+			id: "129EFC7C2F4F85A2"
+			rewards: [
+				{
+					id: "72119DEA9437C52B"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					id: "72664814C6CDDAD7"
+					item: {
+						count: 1
+						id: "creatingspace:air_liquefier"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["129EFC7C2F4F85A2"]
+			id: "3E87A2803D715CDC"
+			rewards: [
+				{
+					id: "310534229CD913E4"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					id: "0FA9A612171490C8"
+					item: {
+						count: 1
+						id: "creatingspace:cryogenic_tank"
+					}
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3E87A2803D715CDC"]
+			id: "318692E388708E7C"
+			rewards: [
+				{
+					id: "0737717815E6466B"
+					type: "xp"
+					xp: 120
+				}
+			]
+			tasks: [
+				{
+					id: "1940701CDF35C60F"
+					item: {
+						count: 1
+						id: "creatingspace:basic_spacesuit_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "4A46726930750ECE"
+					item: {
+						count: 1
+						id: "creatingspace:basic_spacesuit_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "34BB01997EA5C9A6"
+					item: {
+						count: 1
+						id: "creatingspace:basic_spacesuit_boots"
+					}
+					type: "item"
+				}
+				{
+					id: "53669A19ED8AAB67"
+					item: {
+						count: 1
+						id: "creatingspace:copper_oxygen_backtank"
+					}
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3D2BAE855354FD05", "52623177A13DE13C", "318692E388708E7C"]
+			icon: {
+				id: "creatingspace:rocket_controls"
+			}
+			id: "09E687E6EA4026B2"
+			tasks: [
+				{
+					dimension: "creatingspace:earth_orbit"
+					id: "72A953F3B3C04139"
+					type: "dimension"
+				}
+			]
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["09E687E6EA4026B2"]
+			icon: {
+				id: "minecraft:end_stone"
+			}
+			id: "575ACA00F378EEF2"
+			rewards: [
+				{
+					id: "4CB4E5046E654FB3"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "54F36AEFEA4CDF97"
+					item: {
+						count: 1
+						id: "minecraft:nether_star"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "691ECA9E6CF5DB6E"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					dimension: "creatingspace:the_moon"
+					id: "7EAE82A94D856A0E"
+					type: "dimension"
+				}
+				{
+					count: 16L
+					id: "67089ADE58D9F0DD"
+					item: {
+						count: 1
+						id: "creatingspace:moon_regolith"
+					}
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["575ACA00F378EEF2"]
+			id: "79E7A700C61E5553"
+			optional: true
+			rewards: [
+				{
+					id: "4634B258775E8280"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "2D4108DCB13177BB"
+					item: {
+						count: 1
+						id: "creatingspace:oxygen_sealer"
+					}
+					type: "item"
+				}
+			]
+			x: 14.75d
+			y: 4.5d
+		}
+		{
+			dependencies: ["575ACA00F378EEF2"]
+			icon: {
+				id: "minecraft:red_sand"
+			}
+			id: "0A39EA459E6367D7"
+			optional: true
+			rewards: [
+				{
+					id: "5A4FA77A8DB8020E"
+					type: "xp"
+					xp: 400
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					dimension: "creatingspace:mars"
+					id: "6CC0D238CBE6E590"
+					type: "dimension"
+				}
+			]
+			x: 14.75d
+			y: 6.0d
+		}
+		{
+			dependencies: ["575ACA00F378EEF2"]
+			icon: {
+				id: "minecraft:yellow_glazed_terracotta"
+			}
+			id: "227A42268CAD3B97"
+			optional: true
+			rewards: [
+				{
+					id: "1F0C45FDCBD80E9E"
+					type: "xp"
+					xp: 400
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					dimension: "creatingspace:venus"
+					id: "367B4B54810B7F98"
+					type: "dimension"
+				}
+			]
+			x: 14.75d
+			y: 7.5d
+		}
+		{
+			dependencies: ["575ACA00F378EEF2", "69D9D637AED315AB"]
+			icon: {
+				id: "minecraft:nether_star"
+			}
+			id: "460A44F163F7847C"
+			rewards: [
+				{
+					id: "416564AE790DA048"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "0BA0889D209093EE"
+					item: {
+						count: 1
+						id: "minecraft:nether_star"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 2
+					id: "17B00BBCFB6E2463"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					command: "/loot give {p} loot avgustov:letters/st_epilogue"
+					id: "604136CCE61EDEA3"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "3874855DC2DE90E2"
+					type: "checkmark"
+				}
+			]
+			x: 14.75d
+			y: 9.0d
+		}
+	]
+}

@@ -1,0 +1,1199 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "era_chronicle"
+	group: "0C5877243EA452C8"
+	icon: {
+		id: "minecraft:written_book"
+	}
+	id: "1C61CCEE8DC655F6"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["577642ADDF95E032"]
+			icon: {
+				id: "minecraft:written_book"
+			}
+			id: "64F9716A95B4C4F9"
+			rewards: [
+				{
+					id: "1E8C645CB17B5119"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "5C02BE210AE963E9"
+					item: {
+						count: 1
+						id: "explorerscompass:explorerscompass"
+					}
+					type: "item"
+				}
+				{
+					command: "/execute as {p} at {p} in minecraft:overworld run loot give {p} loot avgustov:maps/ch_1"
+					id: "4E5BE95297119713"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "686FCCE96D85F93D"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["64F9716A95B4C4F9"]
+			icon: {
+				id: "minecraft:mossy_cobblestone"
+			}
+			id: "4C9138ED290F5D61"
+			rewards: [
+				{
+					id: "05B2EBF1AEE5FA2B"
+					type: "xp"
+					xp: 60
+				}
+				{
+					command: "/execute as {p} at {p} in minecraft:overworld run loot give {p} loot avgustov:maps/ch_2"
+					id: "0E80A0C1C1E8014F"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "1EC8D092BB1E4061"
+					item: {
+						count: 1
+						id: "minecraft:mossy_cobblestone"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "create_structures_arise:structures/createoldruine"
+					criterion: ""
+					id: "6F168B4D47673D4A"
+					type: "advancement"
+				}
+			]
+			x: 2.5d
+			y: 7.25d
+		}
+		{
+			dependencies: ["4C9138ED290F5D61", "66ED7F7448F796FE"]
+			icon: {
+				id: "create:white_sail"
+			}
+			id: "136D243046ECF770"
+			rewards: [
+				{
+					id: "29ADA14166F9CF96"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					id: "61645E4783CB9CCF"
+					item: {
+						count: 1
+						id: "create:white_sail"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "create_structures_arise:structures/windmill"
+					criterion: ""
+					id: "5A17C40C2A4E41F0"
+					type: "advancement"
+				}
+			]
+			x: 4.5d
+			y: 7.25d
+		}
+		{
+			dependencies: ["136D243046ECF770", "21255BCC44ED797D"]
+			icon: {
+				id: "minecraft:blaze_powder"
+			}
+			id: "1208C18957072236"
+			rewards: [
+				{
+					id: "716A117919ED8775"
+					type: "xp"
+					xp: 80
+				}
+				{
+					command: "/execute as {p} at {p} in minecraft:overworld run loot give {p} loot avgustov:maps/ch_4"
+					id: "5C91FC6FB74639B6"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "152118CBB37385E3"
+					item: {
+						count: 1
+						id: "minecraft:blaze_powder"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "minecraft:nether/find_fortress"
+					criterion: ""
+					id: "54DC1CBF76D0A534"
+					type: "advancement"
+				}
+			]
+			x: 6.5d
+			y: 5.75d
+		}
+		{
+			dependencies: ["1208C18957072236", "78B5B9A254BDDA39"]
+			icon: {
+				id: "minecraft:prismarine_bricks"
+			}
+			id: "6D0EBADDF753515D"
+			rewards: [
+				{
+					id: "2AE985603007912C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					command: "/execute as {p} at {p} in minecraft:overworld run loot give {p} loot avgustov:maps/ch_5"
+					id: "23FC0F97BDD74A74"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "46E9F98E7B8A39F9"
+					structure: "underwater_village:temple"
+					type: "structure"
+				}
+			]
+			x: 8.5d
+			y: 4.25d
+		}
+		{
+			dependencies: ["6D0EBADDF753515D", "465941E135A689AB"]
+			icon: {
+				id: "minecraft:black_banner"
+			}
+			id: "6C2B55B818AC4F67"
+			rewards: [
+				{
+					id: "71B721EE225C7EA7"
+					type: "xp"
+					xp: 120
+				}
+				{
+					command: "/execute as {p} at {p} in minecraft:overworld run loot give {p} loot avgustov:maps/ch_6"
+					id: "16952F092BD80858"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "61B5BD04B8B07B23"
+					item: {
+						count: 1
+						id: "minecraft:black_banner"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "create_structures_arise:structures/pillagersteampunkairship"
+					criterion: ""
+					id: "098010B643AEDB01"
+					type: "advancement"
+				}
+			]
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6C2B55B818AC4F67", "37C7E988DD06B6B3"]
+			icon: {
+				id: "minecraft:blast_furnace"
+			}
+			id: "5080490B94FDC787"
+			rewards: [
+				{
+					id: "5D251B197B569ED0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					command: "/execute as {p} at {p} in minecraft:overworld run loot give {p} loot avgustov:maps/ch_7"
+					id: "3C9AC369158CA1FD"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "23E8D5103BF7FEBC"
+					structure: "dungeons_arise:foundry"
+					type: "structure"
+				}
+			]
+			x: 12.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["5080490B94FDC787", "7C9CA89A3742B492"]
+			icon: {
+				id: "create:track"
+			}
+			id: "07049344D99E519F"
+			rewards: [
+				{
+					id: "7F322B59E427FCED"
+					type: "xp"
+					xp: 120
+				}
+				{
+					command: "/execute as {p} at {p} in minecraft:overworld run loot give {p} loot avgustov:maps/ch_8"
+					id: "306FF8D2C1F336C0"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "207454A2311D2CCA"
+					item: {
+						count: 1
+						id: "create:track"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "create_structures_arise:structures/createlosttrainstation"
+					criterion: ""
+					id: "225577848479B5AB"
+					type: "advancement"
+				}
+			]
+			x: 14.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["07049344D99E519F", "5927541A6852BA3D"]
+			icon: {
+				id: "minecraft:iron_block"
+			}
+			id: "4CE27C1BF38E94F4"
+			rewards: [
+				{
+					id: "1FACC6DE7230C237"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					id: "65652E6E32B3E267"
+					item: {
+						count: 1
+						id: "minecraft:iron_block"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:find_ancient_factory"
+					criterion: ""
+					id: "3B7AFDBC75B2A8DF"
+					type: "advancement"
+				}
+			]
+			x: 16.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4CE27C1BF38E94F4", "066C0076956AAE88", "5DAF564C963FD05E"]
+			icon: {
+				id: "cataclysm:witherite_ingot"
+			}
+			id: "672FF7EFC7AFD2A5"
+			rewards: [
+				{
+					id: "19F106C14773C3BA"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [
+				{
+					id: "05E8D20E96D0BBE2"
+					item: {
+						count: 1
+						id: "cataclysm:witherite_ingot"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:kill_harbinger"
+					criterion: ""
+					id: "31206AE62416B749"
+					type: "advancement"
+				}
+			]
+			x: 18.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["672FF7EFC7AFD2A5", "5DAF564C963FD05E"]
+			icon: {
+				id: "cataclysm:ignitium_ingot"
+			}
+			id: "16BD5124B9B1A7B0"
+			rewards: [
+				{
+					id: "7B03FCB0A53E611A"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [
+				{
+					id: "76FC490A88EE5036"
+					item: {
+						count: 1
+						id: "cataclysm:ignitium_ingot"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:kill_ignis"
+					criterion: ""
+					id: "260E05E27CDC10D8"
+					type: "advancement"
+				}
+			]
+			x: 20.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["16BD5124B9B1A7B0", "141E0EDDF78B547B"]
+			icon: {
+				id: "minecraft:firework_rocket"
+			}
+			id: "69D2D4983CD65590"
+			rewards: [
+				{
+					id: "55E260444FC5A03B"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [
+				{
+					dimension: "creatingspace:earth_orbit"
+					id: "5818403C94CC58DB"
+					type: "dimension"
+				}
+			]
+			x: 22.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["69D2D4983CD65590"]
+			icon: {
+				id: "minecraft:end_stone"
+			}
+			id: "69D9D637AED315AB"
+			rewards: [
+				{
+					id: "61AC4C58FE8A4742"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "14B56290EF4DC13E"
+					item: {
+						count: 1
+						id: "minecraft:written_book"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "4A218D0F53A08D88"
+					item: {
+						count: 1
+						id: "minecraft:writable_book"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					dimension: "creatingspace:the_moon"
+					id: "5DB2044DE64743CB"
+					type: "dimension"
+				}
+			]
+			x: 24.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["136D243046ECF770", "6ECC7C838BBEE14E"]
+			icon: {
+				id: "mowziesmobs:wrought_axe"
+			}
+			id: "283EB5A9AD5C1061"
+			optional: true
+			rewards: [
+				{
+					id: "1404318BDDD15F1C"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "245CF5C5CF4F7B77"
+					item: {
+						count: 1
+						id: "mowziesmobs:wrought_axe"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "mowziesmobs:kill_ferrous_wroughtnaut"
+					criterion: ""
+					id: "0198C2C93CE1FEB5"
+					type: "advancement"
+				}
+			]
+			x: 6.5d
+			y: 7.25d
+		}
+		{
+			dependencies: ["1208C18957072236", "5DAF564C963FD05E"]
+			icon: {
+				id: "minecraft:netherite_block"
+			}
+			id: "789ADDE7463B48C8"
+			optional: true
+			rewards: [
+				{
+					id: "62F79E10AEA5AC27"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "1E3D26582CC0254E"
+					item: {
+						count: 1
+						id: "minecraft:netherite_block"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:kill_monstrosity"
+					criterion: ""
+					id: "5270258F087407CA"
+					type: "advancement"
+				}
+			]
+			x: 8.5d
+			y: 5.75d
+		}
+		{
+			dependencies: ["6D0EBADDF753515D", "5EB3BA9F3F56F287"]
+			icon: {
+				id: "minecraft:heart_of_the_sea"
+			}
+			id: "337D7CB8797BD211"
+			optional: true
+			rewards: [
+				{
+					id: "6FEE4BCBDFFEA22E"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "7B96021BBFB311D5"
+					item: {
+						count: 1
+						id: "minecraft:heart_of_the_sea"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:kill_leviathan"
+					criterion: ""
+					id: "5191ADEE33DAA92E"
+					type: "advancement"
+				}
+			]
+			x: 10.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["337D7CB8797BD211", "5EB3BA9F3F56F287"]
+			icon: {
+				id: "minecraft:trident"
+			}
+			id: "35534A134624A5B2"
+			optional: true
+			rewards: [
+				{
+					id: "5ED5DA2F3F9CC181"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "7D710FEF8C4F6FC6"
+					item: {
+						count: 1
+						id: "minecraft:trident"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:kill_scylla"
+					criterion: ""
+					id: "45FA825274D013C7"
+					type: "advancement"
+				}
+			]
+			x: 12.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["6C2B55B818AC4F67", "5DAF564C963FD05E"]
+			icon: {
+				id: "minecraft:blue_ice"
+			}
+			id: "2E6AC0A4D2018FAC"
+			optional: true
+			rewards: [
+				{
+					id: "729E9667387F742F"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "6845D7A77FC4C00F"
+					item: {
+						count: 1
+						id: "minecraft:blue_ice"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:kill_maledictus"
+					criterion: ""
+					id: "1EB1DE2EF0A1FC22"
+					type: "advancement"
+				}
+			]
+			x: 12.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["6ECC7C838BBEE14E", "1208C18957072236"]
+			icon: {
+				id: "minecraft:totem_of_undying"
+			}
+			id: "1DBA801D2FF722F8"
+			optional: true
+			rewards: [
+				{
+					id: "194F87261D641DFF"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "illagerinvasion:invoker"
+					id: "3111017D60A2A756"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 8.5d
+			y: 7.25d
+		}
+		{
+			dependencies: ["07049344D99E519F", "5EB3BA9F3F56F287"]
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "582020A541AB5D80"
+			optional: true
+			rewards: [
+				{
+					id: "5F6113E5CE294306"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "2A5343E2A2F7DCCF"
+					item: {
+						count: 1
+						id: "minecraft:spyglass"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:kill_remnant"
+					criterion: ""
+					id: "7F39895F9F08E6BD"
+					type: "advancement"
+				}
+			]
+			x: 16.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4CE27C1BF38E94F4", "5DAF564C963FD05E"]
+			icon: {
+				id: "minecraft:ender_eye"
+			}
+			id: "3AD3A6725655B6D0"
+			optional: true
+			rewards: [
+				{
+					id: "4447E9097856095A"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "20F8E71749C820FE"
+					item: {
+						count: 1
+						id: "minecraft:ender_eye"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:kill_ender_guardian"
+					criterion: ""
+					id: "2265E22D58862A3E"
+					type: "advancement"
+				}
+			]
+			x: 18.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["283EB5A9AD5C1061", "789ADDE7463B48C8", "337D7CB8797BD211", "2E6AC0A4D2018FAC", "582020A541AB5D80", "3AD3A6725655B6D0", "672FF7EFC7AFD2A5", "16BD5124B9B1A7B0", "35534A134624A5B2"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:dragon_head"
+			}
+			id: "329AE237179B6018"
+			optional: true
+			rewards: [
+				{
+					id: "13C20857FF9FD92D"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "1B3FAAFAE62F75B6"
+					item: {
+						count: 1
+						id: "minecraft:dragon_head"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:kill_all_bosses"
+					criterion: ""
+					id: "35EFC7FB2169BD37"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["141E0EDDF78B547B"]
+			icon: {
+				id: "minecraft:lectern"
+			}
+			id: "4FCBD34DB6C6BC3B"
+			optional: true
+			rewards: [
+				{
+					id: "39533022701B68DA"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "6358CB79B59182F6"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "7B63DE7E3097D4ED"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 14.75d
+		}
+		{
+			dependencies: ["64F9716A95B4C4F9"]
+			icon: {
+				id: "minecraft:writable_book"
+			}
+			id: "2EDB267AE42E9650"
+			optional: true
+			rewards: [
+				{
+					id: "719F50C2A429FB69"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "17179D3EA5025311"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "13CE0FBE3AFC8C28"
+					item: {
+						components: {
+							"minecraft:custom_data": {
+								avgustov_note: 1
+							}
+						}
+						count: 1
+						id: "minecraft:written_book"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					id: "1FA8A4CE1BD3A13F"
+					item: {
+						components: {
+							"minecraft:custom_data": {
+								avgustov_note: 2
+							}
+						}
+						count: 1
+						id: "minecraft:written_book"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					id: "7B988186FA72DE99"
+					item: {
+						components: {
+							"minecraft:custom_data": {
+								avgustov_note: 3
+							}
+						}
+						count: 1
+						id: "minecraft:written_book"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					id: "681395525C350C34"
+					item: {
+						components: {
+							"minecraft:custom_data": {
+								avgustov_note: 4
+							}
+						}
+						count: 1
+						id: "minecraft:written_book"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					id: "0FF3BD94023689C6"
+					item: {
+						components: {
+							"minecraft:custom_data": {
+								avgustov_note: 5
+							}
+						}
+						count: 1
+						id: "minecraft:written_book"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					id: "0E56E271033749A8"
+					item: {
+						components: {
+							"minecraft:custom_data": {
+								avgustov_note: 6
+							}
+						}
+						count: 1
+						id: "minecraft:written_book"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					id: "7F5F6B161D427115"
+					item: {
+						components: {
+							"minecraft:custom_data": {
+								avgustov_note: 7
+							}
+						}
+						count: 1
+						id: "minecraft:written_book"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					id: "489C0D343A3A0BA7"
+					item: {
+						components: {
+							"minecraft:custom_data": {
+								avgustov_note: 8
+							}
+						}
+						count: 1
+						id: "minecraft:written_book"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					id: "4467E086AAB3ECCB"
+					item: {
+						components: {
+							"minecraft:custom_data": {
+								avgustov_note: 9
+							}
+						}
+						count: 1
+						id: "minecraft:written_book"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					id: "289CB1696E82E153"
+					item: {
+						components: {
+							"minecraft:custom_data": {
+								avgustov_note: 10
+							}
+						}
+						count: 1
+						id: "minecraft:written_book"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					id: "2FEACA2CC1A88049"
+					item: {
+						components: {
+							"minecraft:custom_data": {
+								avgustov_note: 11
+							}
+						}
+						count: 1
+						id: "minecraft:written_book"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					id: "0A1BCD2B301CA720"
+					item: {
+						components: {
+							"minecraft:custom_data": {
+								avgustov_note: 12
+							}
+						}
+						count: 1
+						id: "minecraft:written_book"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					id: "33474C0DB7688232"
+					item: {
+						components: {
+							"minecraft:custom_data": {
+								avgustov_note: 13
+							}
+						}
+						count: 1
+						id: "minecraft:written_book"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["64F9716A95B4C4F9"]
+			icon: {
+				id: "ancient_remnants:monolith_codex"
+			}
+			id: "2DF99D88266E4FD7"
+			optional: true
+			rewards: [
+				{
+					id: "50FC489D4B96EB5F"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "71F3A52E6F9BA2DD"
+					structure: "#avgustov:ancient_remnants"
+					type: "structure"
+				}
+			]
+			x: 2.5d
+			y: 11.75d
+		}
+		{
+			dependencies: ["2DF99D88266E4FD7"]
+			icon: {
+				id: "ancient_remnants:research_scrap"
+			}
+			id: "4BFF5193874F0949"
+			optional: true
+			rewards: [
+				{
+					id: "07A238AD2FB3227B"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "5EF244FF89842D02"
+					item: {
+						count: 1
+						id: "ancient_remnants:research_scrap"
+					}
+					type: "item"
+				}
+				{
+					id: "25AC4E22D3601001"
+					item: {
+						count: 1
+						id: "ancient_remnants:monolith_codex"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 11.75d
+		}
+		{
+			dependencies: ["136D243046ECF770"]
+			icon: {
+				id: "minecraft:skeleton_skull"
+			}
+			id: "0B3E8C1A9FDC0C43"
+			optional: true
+			rewards: [
+				{
+					id: "0F76036952698F6F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "68F92A6F2B18EC3B"
+					item: {
+						components: {
+							"minecraft:custom_data": {
+								avgustov_note: 10
+							}
+						}
+						count: 1
+						id: "minecraft:written_book"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 8.75d
+		}
+		{
+			dependencies: ["0B3E8C1A9FDC0C43"]
+			icon: {
+				id: "create:windmill_bearing"
+			}
+			id: "382EC0DD56E92FE4"
+			optional: true
+			rewards: [
+				{
+					id: "672F0DEC4EC58191"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "4A2937535B9E1BF7"
+					item: {
+						count: 1
+						id: "create:windmill_bearing"
+					}
+					type: "item"
+				}
+				{
+					id: "17610F2EF48C7D3C"
+					item: {
+						count: 1
+						id: "create:millstone"
+					}
+					type: "item"
+				}
+				{
+					id: "5CB79A3AF074ED70"
+					type: "checkmark"
+				}
+			]
+			x: 8.5d
+			y: 8.75d
+		}
+		{
+			dependencies: ["382EC0DD56E92FE4"]
+			icon: {
+				id: "minecraft:oak_sapling"
+			}
+			id: "77B8FB998CA1C226"
+			optional: true
+			rewards: [
+				{
+					id: "1360AE60C0B272AA"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "0A121C4FC73C553B"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					count: 16L
+					id: "0D366E57AAE34176"
+					item: {
+						count: 1
+						id: "minecraft:oak_sapling"
+					}
+					type: "item"
+				}
+				{
+					id: "5499A10C49B3E0E7"
+					type: "checkmark"
+				}
+			]
+			x: 10.5d
+			y: 8.75d
+		}
+	]
+}

@@ -1,0 +1,20 @@
+{
+	"canAttack": true,
+	"health": 10,
+	"movementSpeed": 0.25,
+	"attackDamage": 2,
+	"maxSpawnedInChunk": 4,
+	"spawnBiomes": [],
+	"colorVariants": {
+		"colorRedWeight": 45,
+		"colorBlueWeight": 10,
+		"colorWhiteWeight": 45
+	},
+	"scalingVariants": {
+		"scalingNormalWeight": 30,
+		"scalingSmallWeight": 30,
+		"scalingLargeWeight": 25,
+		"scalingExtraLargeWeight": 15
+	},
+	"_avgustovmc": "spawns off: duplicate of Naturalist/Friends&Foes"
+}

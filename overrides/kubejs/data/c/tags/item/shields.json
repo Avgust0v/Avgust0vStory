@@ -1,0 +1,49 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "new_shield_variants:stone_shield",
+      "required": false
+    },
+    {
+      "id": "new_shield_variants:iron_shield",
+      "required": false
+    },
+    {
+      "id": "new_shield_variants:gold_shield",
+      "required": false
+    },
+    {
+      "id": "new_shield_variants:diamond_shield",
+      "required": false
+    },
+    {
+      "id": "new_shield_variants:netherite_shield",
+      "required": false
+    },
+    {
+      "id": "new_shield_variants:ender_shield",
+      "required": false
+    },
+    {
+      "id": "new_shield_variants:blaze_shield",
+      "required": false
+    },
+    {
+      "id": "new_shield_variants:fire_charge_shield",
+      "required": false
+    },
+    {
+      "id": "new_shield_variants:shulker_shield",
+      "required": false
+    },
+    {
+      "id": "new_shield_variants:dragon_head_shield",
+      "required": false
+    },
+    {
+      "id": "new_shield_variants:netherite_shield",
+      "required": false
+    }
+  ]
+}

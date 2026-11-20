@@ -1,0 +1,920 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "era_land_sea"
+	group: "0C5877243EA452C8"
+	icon: {
+		id: "offroad:large_tire"
+	}
+	id: "109EA7C80E9B6026"
+	images: [ ]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0BCBB280684C68BA"]
+			icon: {
+				id: "minecraft:oak_boat"
+			}
+			id: "78B5B9A254BDDA39"
+			rewards: [
+				{
+					id: "32B2DC87372A2743"
+					type: "xp"
+					xp: 25
+				}
+				{
+					command: "/loot give {p} loot avgustov:letters/st_land"
+					id: "32FAF274FF7AC1FB"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "3B3FE919F5A4EE03"
+					type: "checkmark"
+				}
+			]
+			x: 8.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0BCBB280684C68BA", "78B5B9A254BDDA39"]
+			icon: {
+				id: "simulated:physics_assembler"
+			}
+			id: "11BE6D3308CF9E83"
+			rewards: [
+				{
+					id: "695F6F0544F16416"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "53CBAB153BA19491"
+					item: {
+						count: 1
+						id: "simulated:physics_assembler"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "simulated:applied_kinematics"
+					criterion: ""
+					id: "6541D7F93C745833"
+					type: "advancement"
+				}
+			]
+			x: 8.25d
+			y: 2.5d
+		}
+		{
+			dependencies: ["11BE6D3308CF9E83"]
+			id: "574AE09AC6303A92"
+			rewards: [
+				{
+					id: "50BAB24DE4F5002D"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "3A544E426F2C0AD3"
+					item: {
+						count: 1
+						id: "offroad:wheel_mount"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0E692F2AF3212556"
+					item: {
+						count: 1
+						id: "offroad:tire"
+					}
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 5.5d
+		}
+		{
+			dependencies: ["11BE6D3308CF9E83"]
+			id: "738D3A3801D55CBF"
+			rewards: [
+				{
+					id: "2E3E61194A1EC353"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "5DD1935174233661"
+					item: {
+						count: 1
+						id: "simulated:engine_assembly"
+					}
+					type: "item"
+				}
+				{
+					id: "3CA4B5852C11F5BC"
+					item: {
+						count: 1
+						id: "simulated:white_portable_engine"
+					}
+					type: "item"
+				}
+				{
+					advancement: "simulated:steamless_engine"
+					criterion: ""
+					id: "7AD8EB75A5177AE1"
+					type: "advancement"
+				}
+			]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["574AE09AC6303A92", "738D3A3801D55CBF"]
+			icon: {
+				id: "offroad:large_tire"
+			}
+			id: "49DC399AE57E1357"
+			rewards: [
+				{
+					id: "5C8077AD53AACD60"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "1DE748FCA2514371"
+					item: {
+						count: 1
+						id: "offroad:large_tire"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "simulated:unpowered_steering"
+					criterion: ""
+					id: "7A44C7F1392AB3D1"
+					type: "advancement"
+				}
+				{
+					id: "53E26A3B21EE849C"
+					type: "checkmark"
+				}
+			]
+			x: 1.75d
+			y: 7.5d
+		}
+		{
+			dependencies: ["49DC399AE57E1357"]
+			id: "659D384023611DEA"
+			optional: true
+			rewards: [
+				{
+					id: "6ED839AFFE677376"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "7B031724EBA16F3F"
+					item: {
+						count: 1
+						id: "simulated:swivel_bearing"
+					}
+					type: "item"
+				}
+				{
+					id: "164F1A9D0617BA35"
+					item: {
+						count: 1
+						id: "simulated:rope_winch"
+					}
+					type: "item"
+				}
+				{
+					advancement: "simulated:you_spin_me_right_round"
+					criterion: ""
+					id: "2CAAEC75DF7D14A4"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["49DC399AE57E1357", "7EB137A15A34CA8A"]
+			id: "7B8F6AEC2CF0A28F"
+			optional: true
+			rewards: [
+				{
+					id: "4238372C2F3F5EEA"
+					type: "xp"
+					xp: 80
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "334C59EF3E9EFB56"
+					item: {
+						count: 1
+						id: "offroad:borehead_bearing"
+					}
+					type: "item"
+				}
+				{
+					id: "6410CDBBC6B48635"
+					item: {
+						count: 1
+						id: "offroad:rockcutting_wheel"
+					}
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 9.5d
+		}
+		{
+			dependencies: ["11BE6D3308CF9E83"]
+			id: "5158C310BE2968DA"
+			optional: true
+			rewards: [
+				{
+					id: "4E02E5FD45A497D4"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					count: 32L
+					id: "54D43E05553BBE9D"
+					item: {
+						count: 1
+						id: "simulatedcoasters:coaster_track"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "68C34835AE0BE519"
+					item: {
+						count: 1
+						id: "simulatedcoasters:coaster_anchorpoint"
+					}
+					type: "item"
+				}
+				{
+					id: "19DB342769E1E6E1"
+					item: {
+						count: 1
+						id: "simulatedcoasters:coaster_cart"
+					}
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: 5.5d
+		}
+		{
+			dependencies: ["11BE6D3308CF9E83"]
+			id: "79891D13DD13ACE2"
+			rewards: [
+				{
+					id: "3E77C7D7BE6AB466"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "74F6C4926D0909DB"
+					item: {
+						count: 1
+						id: "create_submarine:floater"
+					}
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "41EC04C852ACF5B0"
+					item: {
+						count: 1
+						id: "create_high_seas:white_sail"
+					}
+					type: "item"
+				}
+				{
+					id: "7ADC62CB38B882E5"
+					item: {
+						count: 1
+						id: "create_high_seas:rudder"
+					}
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["79891D13DD13ACE2"]
+			id: "5DDA8FB499631B8A"
+			optional: true
+			rewards: [
+				{
+					id: "1C156E7EE2DE8C39"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "3B760D134CAECFA8"
+					item: {
+						count: 1
+						id: "create_high_seas:boat_engine"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["79891D13DD13ACE2"]
+			icon: {
+				id: "create_high_seas:white_sail"
+			}
+			id: "3F506BEC14B3ECCB"
+			rewards: [
+				{
+					id: "056D65599AFF7105"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "631E7037D354E385"
+					item: {
+						count: 1
+						id: "create_high_seas:white_sail"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "03144F519C6C4E0C"
+					type: "checkmark"
+				}
+			]
+			x: 6.25d
+			y: 7.5d
+		}
+		{
+			dependencies: ["79891D13DD13ACE2"]
+			id: "73AB85589161C4AC"
+			rewards: [
+				{
+					id: "3743392B70FAB607"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "0522D9182DED7632"
+					item: {
+						count: 1
+						id: "create_submarine:ballast_tank"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7E9FAB18C062B8C4"
+					item: {
+						count: 1
+						id: "create_submarine:ballast_vent"
+					}
+					type: "item"
+				}
+				{
+					id: "3A3E3FBA62A7EE2A"
+					item: {
+						count: 1
+						id: "create_submarine:pump_controller"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["73AB85589161C4AC"]
+			id: "01576B7B752B1CBA"
+			rewards: [
+				{
+					id: "5095FB6496B327EC"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "565F519437071C09"
+					item: {
+						count: 1
+						id: "create_submarine:iron_pressurizer"
+					}
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["73AB85589161C4AC"]
+			id: "62B8CBE037206B2F"
+			rewards: [
+				{
+					id: "76E40A009DFCBF9F"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "1BF2E27BE0400DA9"
+					item: {
+						count: 1
+						id: "create_submarine:electrolyzer"
+					}
+					type: "item"
+				}
+				{
+					id: "412BF11443E34434"
+					item: {
+						count: 1
+						id: "create_submarine:oxygene_diffuser"
+					}
+					type: "item"
+				}
+			]
+			x: 8.75d
+			y: 9.5d
+		}
+		{
+			dependencies: ["01576B7B752B1CBA", "62B8CBE037206B2F"]
+			icon: {
+				id: "create_submarine:command_sub"
+			}
+			id: "5BB391B6A0CC4458"
+			rewards: [
+				{
+					id: "31E93B0C36BFA1CD"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "2D0E04B367973B17"
+					item: {
+						count: 1
+						id: "create_submarine:command_sub"
+					}
+					type: "item"
+				}
+				{
+					id: "13F0D2B11213019F"
+					item: {
+						count: 1
+						id: "create_submarine:water_thruster"
+					}
+					type: "item"
+				}
+				{
+					id: "0CBFD6057F11115B"
+					type: "checkmark"
+				}
+			]
+			x: 7.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["5BB391B6A0CC4458"]
+			id: "608B7BF241B2C981"
+			optional: true
+			rewards: [
+				{
+					id: "172C917281898CBC"
+					type: "xp"
+					xp: 80
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "1763EDF186403E60"
+					item: {
+						count: 1
+						id: "create_submarine:decompression_chamber"
+					}
+					type: "item"
+				}
+				{
+					id: "57BF7CD749E3670F"
+					item: {
+						count: 1
+						id: "create_submarine:barometer"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["5BB391B6A0CC4458", "49C8E1C2CB9DF78F"]
+			id: "4F077325BF0A09F8"
+			optional: true
+			rewards: [
+				{
+					id: "7F77EDA56A528503"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "1E100BE4B40FADEA"
+					item: {
+						count: 1
+						id: "create_submarine:sonar"
+					}
+					type: "item"
+				}
+			]
+			x: 6.25d
+			y: 13.5d
+		}
+		{
+			dependencies: ["79891D13DD13ACE2"]
+			id: "68B0159760A23598"
+			optional: true
+			rewards: [
+				{
+					id: "42B4E224DF84F461"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					count: 8L
+					id: "223EC68ABD27521B"
+					item: {
+						count: 1
+						id: "create_aquatic_ambitions:prismarine_alloy"
+					}
+					type: "item"
+				}
+				{
+					id: "7C84FEC8870B19E6"
+					item: {
+						count: 1
+						id: "create_aquatic_ambitions:mechanical_conduit"
+					}
+					type: "item"
+				}
+			]
+			x: 9.75d
+			y: 7.5d
+		}
+		{
+			dependencies: ["11BE6D3308CF9E83"]
+			icon: {
+				id: "simulated:honey_glue"
+			}
+			id: "07CEDD7E5C651FCC"
+			optional: true
+			rewards: [
+				{
+					id: "4AF5337E98D45995"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "6EC025480C82409A"
+					item: {
+						count: 1
+						id: "simulated:honey_glue"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "simulated:not_gonna_sugarcoat_it"
+					criterion: ""
+					id: "3E3D98792A6F7DAC"
+					type: "advancement"
+				}
+			]
+			x: 8.75d
+			y: 5.5d
+		}
+		{
+			dependencies: ["11BE6D3308CF9E83"]
+			icon: {
+				id: "simulated:rope_connector"
+			}
+			id: "3376DF953AFA7D17"
+			optional: true
+			rewards: [
+				{
+					id: "1C416B365622EC91"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "59132B45E9D8F520"
+					item: {
+						count: 1
+						id: "simulated:rope_connector"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "simulated:learning_the_ropes"
+					criterion: ""
+					id: "72A63B36AE3F757A"
+					type: "advancement"
+				}
+			]
+			x: 11.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3376DF953AFA7D17"]
+			icon: {
+				id: "simulated:iron_handle"
+			}
+			id: "45ADC5C830926264"
+			optional: true
+			rewards: [
+				{
+					id: "0F15F6B2F212F8C8"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "71894D8BDC22A6F3"
+					item: {
+						count: 1
+						id: "simulated:iron_handle"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "simulated:get_a_grip"
+					criterion: ""
+					id: "61A613520DF50408"
+					type: "advancement"
+				}
+			]
+			x: 11.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["49DC399AE57E1357"]
+			icon: {
+				id: "simulated:white_nameplate"
+			}
+			id: "75170D286D644F65"
+			optional: true
+			rewards: [
+				{
+					id: "0A21581BF5414DB5"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "4169F71356091E99"
+					item: {
+						count: 1
+						id: "simulated:white_nameplate"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "simulated:i_declare_thee"
+					criterion: ""
+					id: "0AA04E2E46C11CFD"
+					type: "advancement"
+				}
+			]
+			x: 3.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["11BE6D3308CF9E83"]
+			icon: {
+				id: "simulated:contraption_diagram"
+			}
+			id: "4B3B6E6BF88B5C0D"
+			optional: true
+			rewards: [
+				{
+					id: "6ABC74945ECFAB03"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "00E6D37BD476C83C"
+					item: {
+						count: 1
+						id: "simulated:contraption_diagram"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "simulated:measure_once_build_twice"
+					criterion: ""
+					id: "78FD97E0BDACCD24"
+					type: "advancement"
+				}
+			]
+			x: 13.25d
+			y: 5.5d
+		}
+		{
+			dependencies: ["11BE6D3308CF9E83"]
+			icon: {
+				id: "simulated:redstone_magnet"
+			}
+			id: "3F3B7CD53FE312E4"
+			optional: true
+			rewards: [
+				{
+					id: "7B0FA809CE87CDFC"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "6BEC80BF9101F2E7"
+					item: {
+						count: 1
+						id: "simulated:redstone_magnet"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "simulated:opposite_attract"
+					criterion: ""
+					id: "22D9AC90CF822098"
+					type: "advancement"
+				}
+			]
+			x: 15.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5BB391B6A0CC4458"]
+			icon: {
+				id: "minecraft:prismarine_bricks"
+			}
+			id: "256ACAE55CD48615"
+			optional: true
+			rewards: [
+				{
+					id: "67B41FA35421DFC1"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "4B14372CDDE9A155"
+					structure: "underwater_village:small_gate"
+					type: "structure"
+				}
+				{
+					id: "0C68691359D4D3FD"
+					type: "checkmark"
+				}
+			]
+			x: 8.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["49DC399AE57E1357", "3F506BEC14B3ECCB", "5BB391B6A0CC4458"]
+			hide_dependency_lines: true
+			icon: {
+				id: "create_submarine:command_sub"
+			}
+			id: "70FFFD81AE0CCB62"
+			rewards: [
+				{
+					id: "558CEAE1927BBA46"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 8
+					id: "1E54BCBB571ADDE0"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					command: "/give {p} minecraft:writable_book[minecraft:custom_name='{\"text\":\"Страница летописи — Суша и море\",\"color\":\"gold\",\"italic\":false}',minecraft:lore=['{\"text\":\"Запишите, что построила ваша гильдия в эту эпоху.\",\"color\":\"gray\",\"italic\":true}']] 1"
+					id: "48701FF2064452B5"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "2B54FFADB55EC460"
+					item: {
+						count: 1
+						id: "create_submarine:command_sub"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4471AF988B47DC0A"
+					type: "checkmark"
+				}
+			]
+			x: 13.5d
+			y: 0.0d
+		}
+	]
+}

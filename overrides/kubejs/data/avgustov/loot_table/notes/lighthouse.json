@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_written_book_pages",
+              "pages": [
+                {
+                  "text": "Ночью над горами поднялся огненный столб и ушёл в небо. Свет был ярче моего фонаря. Утром на берегу никого не осталось, кроме меня и чаек.",
+                  "color": "black"
+                },
+                {
+                  "text": "Если они долетели — пусть им там светит. Мой маяк я не гашу.",
+                  "color": "black"
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_book_cover",
+              "title": "Вахтенный журнал маяка",
+              "author": "Смотритель маяка",
+              "generation": 3
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Обрывок 12/13: Вахтенный журнал маяка",
+                "color": "gold",
+                "italic": false
+              },
+              "target": "custom_name"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{avgustov_note:12}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

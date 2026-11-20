@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_written_book_pages",
+              "pages": [
+                {
+                  "text": "Сборщик физики — странная машина: собранное им начинает жить. Колёса едут, паруса ловят ветер, корпус держится на воде.",
+                  "color": "black"
+                },
+                {
+                  "text": "Морякам артели: под водой у южных берегов видели купола и ворота. Похоже, у Предтеч был порт, и море его забрало. Постройте подлодку и спуститесь туда. Только осторожно — глубина не прощает.\n\n— Мастер Август",
+                  "color": "black"
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_book_cover",
+              "title": "Глава III. За горизонт",
+              "author": "Мастер Август",
+              "generation": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+AvgustovStory — моды, которые лежат прямо в сборке (overrides/mods), а не скачиваются по манифесту CurseForge.
+Сборка некоммерческая, для игры с друзьями. Все права на моды принадлежат их авторам.
+
+Just Hammers — ErrorMikey — GPL-3.0 — https://modrinth.com/mod/just-hammers (исходники: https://github.com/ErrorMikey/JustHammers)
+Create Collision Crashfix — Umpa — MIT — https://modrinth.com/mod/create-collision-crashfix (исходники: https://github.com/Tiruum/minecraft-mods/tree/main/1.21.1/create-collision-fix)
+Create: Trimmed — TorNato — MIT — https://modrinth.com/mod/create-trimmed
+  Все моды не изменены.
+Fresh Patch - Variants and Ventures (ресурспак) — FreshLX — CC0-1.0 — https://modrinth.com/resourcepack/fresh-variants-and-ventures
+  Пак не изменён.
+AvgustovStory CC RU (ресурспак, наш) — русские подписи для Colourful Containers из ванильного ru_ru Minecraft.
+
+Скачиваются с CurseForge по манифесту (с 19.11.2026, раньше лежали здесь): The Roads More Travelled, Paragliders, Create: Pillager Arise,
+Better Days, Explosive Enhancement, Euphoria Patches, Cut Through, Overflowing Bars, Jade Sable Compat, Create Optical, Basic Weapons,
+Backported Spears, Iron's Simple Blood, Charta, CorgiLib, Data Anchor, Just Enough Resources; ресурспаки Fast Better Grass, Cubic Leaves,
+Fresh Patch - Rotten Creatures, FA+Spawn, Fresh Waystones; шейдер Photon.

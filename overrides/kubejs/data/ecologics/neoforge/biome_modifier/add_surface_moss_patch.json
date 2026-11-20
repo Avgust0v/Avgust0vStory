@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "minecraft:lush_caves",
+    "terralith:cave/underground_jungle"
+  ],
+  "features": "ecologics:surface_moss_patch",
+  "step": "vegetal_decoration"
+}

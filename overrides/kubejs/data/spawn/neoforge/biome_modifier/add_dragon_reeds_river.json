@@ -1,0 +1,12 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "minecraft:river",
+    "terralith:warm_river",
+    "climaterivers:cold_river",
+    "climaterivers:warm_river",
+    "climaterivers:lukewarm_river"
+  ],
+  "features": "spawn:patch_dragon_reeds_river",
+  "step": "vegetal_decoration"
+}

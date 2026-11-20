@@ -1,0 +1,1262 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "adv_dungeons"
+	group: "0B22509E29683950"
+	icon: {
+		id: "mowziesmobs:wrought_axe"
+	}
+	id: "52004070A26F5A92"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "73B70C9E08960368"
+			rewards: [
+				{
+					id: "3193D79BD4135183"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "7C942631C8A2DAEF"
+					structure: "create_structures_arise:windmill"
+					type: "structure"
+				}
+			]
+			x: 20.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73B70C9E08960368"]
+			icon: {
+				id: "minecraft:creeper_head"
+			}
+			id: "4CA7D0A34DE1C9AE"
+			optional: true
+			rewards: [
+				{
+					id: "540D8CFBFC43270F"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "creeperoverhaul:desert_creeper"
+					id: "33404DC4D7D24B99"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:jungle_creeper"
+					id: "69317E8F374D59E6"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:snowy_creeper"
+					id: "3D7FF1C7FF952FE7"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["73B70C9E08960368"]
+			icon: {
+				id: "minecraft:chest"
+			}
+			id: "08C43B6F1875CA10"
+			optional: true
+			rewards: [
+				{
+					id: "30A19204757E5B07"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "artifacts:mimic"
+					id: "667468B1DAB3691D"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 11.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["73B70C9E08960368"]
+			icon: {
+				id: "minecraft:crossbow"
+			}
+			id: "3EB6DEE93DB0986D"
+			rewards: [
+				{
+					id: "793E8487A081DE46"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "4617DCA3CBDD714D"
+					structure: "dungeons_arise:illager_campsite"
+					type: "structure"
+				}
+			]
+			x: 14.25d
+			y: 3.5d
+		}
+		{
+			dependencies: ["73B70C9E08960368"]
+			icon: {
+				id: "create:track"
+			}
+			id: "6DCD9D06CBB4A147"
+			rewards: [
+				{
+					id: "089FECC7DF758F87"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					id: "0E0D437CA8E60B3B"
+					structure: "create_structures_arise:createlosttrainstation"
+					type: "structure"
+				}
+			]
+			x: 16.75d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3EB6DEE93DB0986D", "6ECC7C838BBEE14E"]
+			icon: {
+				id: "mowziesmobs:wrought_axe"
+			}
+			id: "19F7D886FBE8E1B8"
+			rewards: [
+				{
+					id: "767CF25737A1B94C"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 2
+					id: "3AD240B6FFF5FC81"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "mowziesmobs:ferrous_wroughtnaut"
+					id: "045DE0D04BD6C997"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 7.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3EB6DEE93DB0986D"]
+			icon: {
+				id: "mowziesmobs:naga_fang"
+			}
+			id: "70316C8DA55A4226"
+			optional: true
+			rewards: [
+				{
+					id: "67804D60BEEAB651"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "mowziesmobs:naga"
+					id: "55C88291E5428C91"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 9.25d
+			y: 6.5d
+		}
+		{
+			dependencies: ["19F7D886FBE8E1B8"]
+			icon: {
+				id: "minecraft:white_banner"
+			}
+			id: "4FBE4C40EDF3B9D7"
+			rewards: [
+				{
+					id: "12E4F8658A04CE62"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					id: "01B3E061FB91E001"
+					structure: "dungeons_arise:illager_fort"
+					type: "structure"
+				}
+			]
+			x: 4.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["4FBE4C40EDF3B9D7", "6ECC7C838BBEE14E"]
+			icon: {
+				id: "illagerinvasion:primal_essence"
+			}
+			id: "7798BC3AAAB21479"
+			rewards: [
+				{
+					id: "006420DB05AE8E3A"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					entity: "illagerinvasion:invoker"
+					id: "4BE62FF53EDE394F"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 0.0d
+			y: 10.75d
+		}
+		{
+			dependencies: ["7798BC3AAAB21479"]
+			id: "79A40BB8311AA38D"
+			optional: true
+			rewards: [
+				{
+					id: "46F552755EAB36B2"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "05915CEEB80B0A6A"
+					item: {
+						count: 1
+						id: "illagerinvasion:imbuing_table"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 12.75d
+		}
+		{
+			dependencies: ["19F7D886FBE8E1B8", "6ECC7C838BBEE14E", "48BCF78DE9988978"]
+			icon: {
+				id: "mowziesmobs:ice_crystal"
+			}
+			id: "1CE654B0FE286ED8"
+			rewards: [
+				{
+					id: "72CA1EC2ECBA8FBF"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [
+				{
+					entity: "mowziesmobs:frostmaw"
+					id: "339D3C4346311B46"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 12.25d
+			y: 10.75d
+		}
+		{
+			dependencies: ["4FBE4C40EDF3B9D7"]
+			icon: {
+				id: "minecraft:blast_furnace"
+			}
+			id: "486992895F5AE103"
+			tasks: [
+				{
+					id: "10B3652C7F45EDFB"
+					structure: "dungeons_arise:foundry"
+					type: "structure"
+				}
+			]
+			x: 3.5d
+			y: 10.75d
+		}
+		{
+			dependencies: ["486992895F5AE103"]
+			icon: {
+				id: "create:cogwheel"
+			}
+			id: "43BCD5BEDAD97A28"
+			optional: true
+			rewards: [
+				{
+					id: "7E90A472AC2F9859"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "4C13F0D2C549725E"
+					structure: "dungeons_arise:mechanical_nest"
+					type: "structure"
+				}
+			]
+			x: 1.75d
+			y: 12.75d
+		}
+		{
+			dependencies: ["3EB6DEE93DB0986D"]
+			icon: {
+				id: "mowziesmobs:sol_visage"
+			}
+			id: "427CBF8A4DCC4604"
+			rewards: [
+				{
+					id: "63D50F7035E8F4E7"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [
+				{
+					entity: "mowziesmobs:umvuthi"
+					id: "034B3D902C5EFAD7"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 12.25d
+			y: 6.5d
+		}
+		{
+			dependencies: ["486992895F5AE103"]
+			icon: {
+				id: "mutantmonsters:hulk_hammer"
+			}
+			id: "3D39AC590848515D"
+			optional: true
+			rewards: [
+				{
+					id: "6D39AA31682AA980"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "mutantmonsters:mutant_zombie"
+					id: "01BC672F781CCF93"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "mutantmonsters:mutant_skeleton"
+					id: "5D2C61F6B36DEAB5"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 3.5d
+			y: 12.75d
+		}
+		{
+			dependencies: ["486992895F5AE103"]
+			icon: {
+				id: "minecraft:phantom_membrane"
+			}
+			id: "279A7D44272088E3"
+			optional: true
+			rewards: [
+				{
+					id: "1896BB0D8C24C8E2"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "4C1223877032C633"
+					structure: "create_structures_arise:pillagersteampunkairship"
+					type: "structure"
+				}
+			]
+			x: 5.25d
+			y: 12.75d
+		}
+		{
+			dependencies: ["279A7D44272088E3"]
+			icon: {
+				id: "minecraft:trident"
+			}
+			id: "17D3428EAAF76613"
+			optional: true
+			rewards: [
+				{
+					id: "42368C24066DF97D"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "303C7558B9D3375F"
+					structure: "dungeons_arise:typhon"
+					type: "structure"
+				}
+			]
+			x: 4.5d
+			y: 14.75d
+		}
+		{
+			dependencies: ["427CBF8A4DCC4604"]
+			icon: {
+				id: "mowziesmobs:earthrend_gauntlet"
+			}
+			id: "48BCF78DE9988978"
+			rewards: [
+				{
+					id: "623C208CDED1C22B"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [
+				{
+					entity: "mowziesmobs:sculptor"
+					id: "5B79590B28E9B6DD"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 12.25d
+			y: 8.5d
+		}
+		{
+			dependencies: ["279A7D44272088E3"]
+			icon: {
+				id: "minecraft:feather"
+			}
+			id: "3D7D3C0F8D30BBEC"
+			optional: true
+			rewards: [
+				{
+					id: "7FC8C6AC84414336"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "05B699D6DE8614D4"
+					structure: "dungeons_arise:heavenly_challenger"
+					type: "structure"
+				}
+			]
+			x: 6.25d
+			y: 14.75d
+		}
+		{
+			dependencies: ["73B70C9E08960368"]
+			icon: {
+				id: "hunters_return:boomerang"
+			}
+			id: "7FF8E2A4E5AA959C"
+			optional: true
+			rewards: [
+				{
+					id: "50CE31C191340F24"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "hunters_return:hunter"
+					id: "4709CC541D2DF81A"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 19.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["73B70C9E08960368"]
+			icon: {
+				id: "rottencreatures:mummy_head"
+			}
+			id: "7FB7F3F4AC6AB52C"
+			optional: true
+			rewards: [
+				{
+					id: "267ADD83F7A209B2"
+					type: "xp"
+					xp: 80
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "rottencreatures:mummy"
+					id: "0CA7DDAA750D09C9"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "rottencreatures:frostbitten"
+					id: "51D9398554578A5D"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "rottencreatures:swampy"
+					id: "2DD2ADE6385FC06E"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "rottencreatures:undead_miner"
+					id: "6746FBC3D73E0407"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 23.75d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7FB7F3F4AC6AB52C"]
+			icon: {
+				id: "rottencreatures:dead_beard_head"
+			}
+			id: "4456230050210D7E"
+			optional: true
+			rewards: [
+				{
+					id: "7336AE6A44C2ABF1"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "rottencreatures:dead_beard"
+					id: "0D0A7E06A99F57FE"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 23.75d
+			y: 6.5d
+		}
+		{
+			dependencies: ["73B70C9E08960368"]
+			icon: {
+				id: "minecraft:iron_horse_armor"
+			}
+			id: "18C073B0C5E8D751"
+			optional: true
+			rewards: [
+				{
+					id: "57AC24C853D6341B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "enderzoology:fallen_knight"
+					id: "25F5B373CA2C8274"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 26.25d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3EB6DEE93DB0986D", "6ECC7C838BBEE14E"]
+			icon: {
+				id: "minecraft:moss_block"
+			}
+			id: "3EE25C32D1CB359C"
+			optional: true
+			rewards: [
+				{
+					id: "7F6085B1CBA408E6"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "legendary_monsters:overgrown_colossus"
+					id: "5616D58AAE45149A"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 14.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3EB6DEE93DB0986D", "6ECC7C838BBEE14E"]
+			icon: {
+				id: "minecraft:packed_ice"
+			}
+			id: "686148F36ABC3617"
+			optional: true
+			rewards: [
+				{
+					id: "4345807F99E7CBC2"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "legendary_monsters:frostbitten_golem"
+					id: "1F786460F8ABFC96"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 15.75d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3EB6DEE93DB0986D", "6ECC7C838BBEE14E"]
+			icon: {
+				id: "minecraft:chiseled_sandstone"
+			}
+			id: "2C8FF03B385BDEF7"
+			optional: true
+			rewards: [
+				{
+					id: "7C44577719CBF9AF"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "legendary_monsters:dune_sentinel"
+					id: "13B3D8524D348FED"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 17.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["19F7D886FBE8E1B8", "0212EF427C731405"]
+			icon: {
+				id: "minecraft:spore_blossom"
+			}
+			id: "2A65CFE61AEB1003"
+			optional: true
+			rewards: [
+				{
+					id: "0571235050D6F715"
+					type: "xp"
+					xp: 250
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "bosses_of_mass_destruction:void_blossom"
+					id: "75B0A582A323A740"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 6.25d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1CE654B0FE286ED8", "0212EF427C731405"]
+			icon: {
+				id: "minecraft:soul_lantern"
+			}
+			id: "0429C3D8CE8E46FD"
+			optional: true
+			rewards: [
+				{
+					id: "04A6ABAC34D4BA67"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "4B47092FC4EAAFAA"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "bosses_of_mass_destruction:lich"
+					id: "7AF8A5EAD42A69C2"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 11.5d
+			y: 12.75d
+		}
+		{
+			dependencies: ["19F7D886FBE8E1B8", "0212EF427C731405"]
+			icon: {
+				id: "minecraft:blackstone"
+			}
+			id: "04DC3BDA0C03A032"
+			optional: true
+			rewards: [
+				{
+					id: "33DD32CB252D2BC4"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "bosses_of_mass_destruction:gauntlet"
+					id: "49D0C05CEE206157"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 10.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["04DC3BDA0C03A032", "5DAF564C963FD05E"]
+			icon: {
+				id: "minecraft:crying_obsidian"
+			}
+			id: "1B7BA27E6BE00990"
+			optional: true
+			rewards: [
+				{
+					id: "2F0A6315A81F0258"
+					type: "xp"
+					xp: 400
+				}
+				{
+					count: 2
+					id: "326D3156AC965764"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "bosses_of_mass_destruction:obsidilith"
+					id: "65A496768561E33F"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 10.5d
+			y: 10.75d
+		}
+		{
+			dependencies: ["73B70C9E08960368", "3B17E29D075C8592"]
+			icon: {
+				id: "aquamirae:frozen_key"
+			}
+			id: "0EB4F8AFE6A5B3D1"
+			optional: true
+			rewards: [
+				{
+					id: "0A746505FE1D2157"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "26AC340F43D11EBA"
+					structure: "aquamirae:shipwreck"
+					type: "structure"
+				}
+			]
+			x: 29.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0EB4F8AFE6A5B3D1", "6ECC7C838BBEE14E"]
+			icon: {
+				id: "aquamirae:remnant_saber"
+			}
+			id: "4F8C62BD832D48F0"
+			optional: true
+			rewards: [
+				{
+					id: "2378970870B1A4B9"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "4611DA514C00F281"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "aquamirae:captain_cornelia"
+					id: "0F91146E1381AA6A"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 29.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["73B70C9E08960368", "5DAF564C963FD05E"]
+			icon: {
+				id: "minecraft:echo_shard"
+			}
+			id: "3D4A10682B7DC98E"
+			optional: true
+			rewards: [
+				{
+					id: "557F2A34DC768774"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					dimension: "deeperdarker:otherside"
+					id: "419BB4F184379C28"
+					type: "dimension"
+				}
+			]
+			x: 31.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2E5781E0AB6080EC"]
+			icon: {
+				id: "archaion:echo_key"
+			}
+			id: "65E465CE6ED0558B"
+			optional: true
+			rewards: [
+				{
+					id: "2294063571C2C0FB"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "6171652D56EE07E7"
+					structure: "archaion:ancient_keep"
+					type: "structure"
+				}
+			]
+			x: 35.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["65E465CE6ED0558B", "5DAF564C963FD05E"]
+			icon: {
+				id: "archaion:echo_mace"
+			}
+			id: "04A01F6009A3DC4F"
+			optional: true
+			rewards: [
+				{
+					id: "23EC13629ADE5E88"
+					type: "xp"
+					xp: 400
+				}
+				{
+					count: 2
+					id: "3BC4418775EFE76D"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "archaion:last_of_deepslate"
+					id: "504B4906A8E42220"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 35.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3EB6DEE93DB0986D"]
+			icon: {
+				id: "minecraft:crossbow"
+			}
+			id: "46682DFD209254EF"
+			optional: true
+			rewards: [
+				{
+					id: "7A9E954A8E52FA32"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "706A7A85FAFEA240"
+					structure: "create_pillagers_arise:createpillagervillage"
+					type: "structure"
+				}
+			]
+			x: 19.25d
+			y: 6.5d
+		}
+		{
+			dependencies: ["46682DFD209254EF"]
+			icon: {
+				id: "minecraft:phantom_membrane"
+			}
+			id: "36A56701B93E88B5"
+			optional: true
+			rewards: [
+				{
+					id: "3B3225FF9230277B"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "45358CF4FCE4A664"
+					structure: "create_pillagers_arise:createpillagerblimp"
+					type: "structure"
+				}
+			]
+			x: 19.25d
+			y: 8.5d
+		}
+		{
+			dependencies: ["4FBE4C40EDF3B9D7"]
+			icon: {
+				id: "magistuarmory:barding"
+			}
+			id: "1629CA747584D1D0"
+			optional: true
+			rewards: [
+				{
+					id: "074BD480477E3409"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "36988A04874B7B3D"
+					structure: "dungeons_arise:keep_kayra"
+					type: "structure"
+				}
+			]
+			x: 5.25d
+			y: 10.75d
+		}
+		{
+			dependencies: ["7D9ACB82381CA35B"]
+			icon: {
+				id: "minecraft:blackstone"
+			}
+			id: "6DDB148C9AF494AF"
+			optional: true
+			rewards: [
+				{
+					id: "30B67BD0C66A65DC"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "1794BC44C009AF92"
+					structure: "incendium:forbidden_castle"
+					type: "structure"
+				}
+			]
+			x: 38.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4FBE4C40EDF3B9D7"]
+			icon: {
+				id: "magistuarmory:iron_heatershield"
+			}
+			id: "704E905ADFCB78A3"
+			optional: true
+			rewards: [
+				{
+					id: "2ABE0ED9042609B0"
+					type: "xp"
+					xp: 80
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "1B466235461AFD4B"
+					structure: "#avgustov:castles"
+					type: "structure"
+				}
+			]
+			x: 7.0d
+			y: 10.75d
+		}
+		{
+			dependencies: ["0212EF427C731405"]
+			icon: {
+				id: "legendary_monsters:fiery_boots"
+			}
+			id: "0AC2981AA27F29AA"
+			optional: true
+			rewards: [
+				{
+					id: "706548695F216247"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "legendary_monsters:lava_eater"
+					id: "290CB859F6AC8CCE"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 42.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4FBE4C40EDF3B9D7", "5EB3BA9F3F56F287"]
+			icon: {
+				id: "minecraft:iron_sword"
+			}
+			id: "7539F6D15BEECA36"
+			optional: true
+			rewards: [
+				{
+					id: "2FBB59611EC8C9F4"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "legendary_monsters:posessed_paladin"
+					id: "2EC3681772947DF7"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 8.75d
+			y: 10.75d
+		}
+		{
+			dependencies: ["0198B30433C0AD4D", "5DAF564C963FD05E"]
+			icon: {
+				id: "legendary_monsters:annihilator_chestplate"
+			}
+			id: "296028D6BC6BA78D"
+			optional: true
+			rewards: [
+				{
+					id: "4262FC3D7A5631AA"
+					type: "xp"
+					xp: 400
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "legendary_monsters:the_obliterator"
+					id: "078320FD2F250956"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 45.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3EB6DEE93DB0986D", "6ECC7C838BBEE14E"]
+			icon: {
+				id: "cataclysm:kobolediator_skull"
+			}
+			id: "7B292058E97E10D1"
+			optional: true
+			rewards: [
+				{
+					id: "1EA2801F232387A5"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "cataclysm:kobolediator"
+					id: "61DB121A5E985BC5"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:the_prowler"
+					id: "4E26BFB34F50336A"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:clawdian"
+					id: "2CB4CF0B139EE1AB"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 21.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["19F7D886FBE8E1B8", "1CE654B0FE286ED8", "427CBF8A4DCC4604", "48BCF78DE9988978"]
+			hide_dependency_lines: true
+			icon: {
+				id: "mowziesmobs:wrought_helmet"
+			}
+			id: "03BA46A98823FEDC"
+			rewards: [
+				{
+					id: "5B86BAD458391702"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "61227D6135743D1C"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0D0CAE121D71833E"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_golden_apple"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "0A1AB59311262703"
+					item: {
+						count: 1
+						id: "mowziesmobs:wrought_helmet"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "059F2CB6F9D4F0E2"
+					type: "checkmark"
+				}
+			]
+			x: 25.5d
+			y: 0.0d
+		}
+	]
+}

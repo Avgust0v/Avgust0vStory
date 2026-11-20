@@ -1,0 +1,15 @@
+{
+ "chefsdelight.configuration.title": "Настройки генерации деревенских построек",
+ "chefsdelight.configuration.section.chefsdelight.common.toml": "Генерация деревенских построек",
+ "chefsdelight.configuration.section.chefsdelight.common.toml.title": "Настройки генерации деревенских построек",
+ "chefsdelight.configuration.cookHousePlains": "Дом повара (равнины)",
+ "chefsdelight.configuration.chefHousePlains": "Дом шеф-повара (равнины)",
+ "chefsdelight.configuration.cookHouseDesert": "Дом повара (пустыня)",
+ "chefsdelight.configuration.chefHouseDesert": "Дом шеф-повара (пустыня)",
+ "chefsdelight.configuration.cookHouseTaiga": "Дом повара (тайга)",
+ "chefsdelight.configuration.chefHouseTaiga": "Дом шеф-повара (тайга)",
+ "chefsdelight.configuration.cookHouseSavanna": "Дом повара (саванна)",
+ "chefsdelight.configuration.chefHouseSavanna": "Дом шеф-повара (саванна)",
+ "chefsdelight.configuration.cookHouseSnowy": "Дом повара (снежная деревня)",
+ "chefsdelight.configuration.chefHouseSnowy": "Дом шеф-повара (снежная деревня)"
+}

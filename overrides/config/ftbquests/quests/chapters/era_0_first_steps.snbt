@@ -1,0 +1,531 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "era_0_first_steps"
+	group: "0C5877243EA452C8"
+	icon: {
+		id: "minecraft:oak_sapling"
+	}
+	id: "768E07399E2C5D87"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:writable_book"
+			}
+			id: "577642ADDF95E032"
+			rewards: [
+				{
+					id: "13BA5DCE9CF2CCF2"
+					type: "xp"
+					xp: 25
+				}
+				{
+					command: "/loot give {p} loot avgustov:letters/st_0"
+					id: "613435E4E20C2731"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "6AF8FC5BF05F8D88"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["577642ADDF95E032"]
+			icon: {
+				id: "minecraft:oak_sapling"
+			}
+			id: "4C63655423EE0349"
+			rewards: [
+				{
+					id: "52EF63B5D63D3061"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "3262E05EF3B90F2A"
+					type: "checkmark"
+				}
+			]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4C63655423EE0349"]
+			id: "477711A9460E18F2"
+			rewards: [
+				{
+					id: "19DFCB358AD5C4EE"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "7DAC2818E4ACFE9B"
+					item: {
+						count: 1
+						id: "minecraft:crafting_table"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["477711A9460E18F2"]
+			icon: {
+				id: "minecraft:red_bed"
+			}
+			id: "4CC5DAA24F887D91"
+			rewards: [
+				{
+					id: "3B5871AC5CC353B7"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					id: "0CE2D9FBDB567BBA"
+					type: "checkmark"
+				}
+			]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["477711A9460E18F2"]
+			id: "3A3959929D0FE561"
+			rewards: [
+				{
+					id: "11D1DAC264D67148"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					id: "37B601BB9D697BA4"
+					item: {
+						count: 1
+						id: "farmersdelight:flint_knife"
+					}
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3A3959929D0FE561"]
+			id: "35A5856EC8806193"
+			rewards: [
+				{
+					id: "2D6BD328B767962A"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					id: "559E175FE7610740"
+					item: {
+						count: 1
+						id: "farmersdelight:cutting_board"
+					}
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["35A5856EC8806193"]
+			id: "0881EAAFC76089B5"
+			rewards: [
+				{
+					id: "75AAB24E487A27CB"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "1256C4B595FE75E7"
+					item: {
+						count: 1
+						id: "farmersdelight:cooking_pot"
+					}
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0881EAAFC76089B5"]
+			id: "0F0C4C3DD4217887"
+			optional: true
+			rewards: [
+				{
+					id: "73484FA5DD947C4B"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "7CB822B6CBBA3231"
+					item: {
+						count: 1
+						id: "farmersdelight:beef_stew"
+					}
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["477711A9460E18F2"]
+			id: "2EC18C6208F09BD2"
+			rewards: [
+				{
+					id: "4DF043491A483A5B"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "7C96EE95AFB20F89"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:magnet_upgrade"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6AF7D3EB1B9C1403"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:backpack"
+					}
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["477711A9460E18F2"]
+			id: "58EB00CC2026161D"
+			rewards: [
+				{
+					id: "49B86E3659433707"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "240B48DA561530EF"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["58EB00CC2026161D"]
+			id: "34312F0ACEAA9988"
+			rewards: [
+				{
+					id: "2BFA3BEC027A4C12"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "657EF2C0EEC25D13"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["58EB00CC2026161D"]
+			id: "44A2090750D5E53E"
+			rewards: [
+				{
+					id: "2B82CBE4D300CF4E"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "3A1B810C3A318118"
+					item: {
+						count: 1
+						id: "create:raw_zinc"
+					}
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4C63655423EE0349"]
+			icon: {
+				id: "minecraft:bell"
+			}
+			id: "7F31BD8C5EC8CCB6"
+			rewards: [
+				{
+					id: "67639727366BCE2C"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 4
+					id: "49B0879ACB0EFD23"
+					item: {
+						count: 1
+						id: "waystones:warp_dust"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "07E17A994FB764B7"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0AE075273AE74B26"
+					structure: "#minecraft:village"
+					type: "structure"
+				}
+			]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7F31BD8C5EC8CCB6"]
+			icon: {
+				id: "waystones:waystone"
+			}
+			id: "294D6C6083CE2ECE"
+			rewards: [
+				{
+					id: "28E6F9FAD0947448"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "21439F1F9D804FBC"
+					item: {
+						count: 1
+						id: "waystones:waystone"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2AB4478D6DFA15F6"
+					type: "checkmark"
+				}
+			]
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4C63655423EE0349"]
+			icon: {
+				id: "minecraft:filled_map"
+			}
+			id: "0F0542C5A3CC33D1"
+			rewards: [
+				{
+					id: "6CD2566B8B22392C"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					id: "523F9572BB9B2A17"
+					type: "checkmark"
+				}
+			]
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0F0542C5A3CC33D1"]
+			icon: {
+				id: "minecraft:campfire"
+			}
+			id: "4BBD41D376ABCC53"
+			optional: true
+			rewards: [
+				{
+					id: "27A0B67810CA06C2"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "55F8610B8C79C68D"
+					type: "checkmark"
+				}
+			]
+			x: 6.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["58EB00CC2026161D"]
+			id: "1CC9DB28526AFC92"
+			optional: true
+			rewards: [
+				{
+					id: "3894D133B0545A56"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "073906B1CE98CFEF"
+					item: {
+						count: 1
+						id: "createhorsepower:horse_crank"
+					}
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["58EB00CC2026161D", "44A2090750D5E53E"]
+			id: "3C85E444B7B97A9C"
+			rewards: [
+				{
+					id: "10AB8193D63C8271"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "3722664D6F922C94"
+					table_id: 3607286091270726811L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					count: 16L
+					id: "21B33EDF63852E1B"
+					item: {
+						count: 1
+						id: "create:andesite_alloy"
+					}
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3C85E444B7B97A9C"]
+			id: "2BA45C1ABD28F58C"
+			optional: true
+			rewards: [
+				{
+					id: "0C20F40CE7AAC955"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "5347D6FF9787DBDC"
+					item: {
+						count: 1
+						id: "create:goggles"
+					}
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["3C85E444B7B97A9C"]
+			id: "2CEE645358B21744"
+			rewards: [
+				{
+					id: "38F4043A1443C3FB"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "0BCD93498E72BF36"
+					item: {
+						count: 1
+						id: "create:wrench"
+					}
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 5.25d
+		}
+	]
+}

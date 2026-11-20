@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "terralith:moonlight_grove",
+    "terralith:sakura_grove",
+    "terralith:moonlight_valley",
+    "terralith:lavender_valley",
+    "terralith:sakura_valley",
+    "terralith:cloud_forest",
+    "terralith:blooming_valley",
+    "terralith:lavender_forest"
+  ]
+}

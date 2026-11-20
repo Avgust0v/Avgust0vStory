@@ -1,0 +1,1038 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "life_bestiary"
+	group: "79CFB7D5EF5A4EA6"
+	icon: {
+		id: "naturalist:capture_net"
+	}
+	id: "388F77CD4F772EF4"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "naturalist:capture_net"
+			}
+			id: "648CA8E4002792F8"
+			rewards: [
+				{
+					id: "62B7D0ACFFA1A2EE"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "59EEC20F6C55C4F2"
+					item: {
+						count: 1
+						id: "naturalist:capture_net"
+					}
+					type: "item"
+				}
+			]
+			x: 21.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["648CA8E4002792F8"]
+			id: "46BB8658D89E5BEA"
+			rewards: [
+				{
+					id: "7655B2CA612359B8"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "64A1EB2C0C36FC63"
+					item: {
+						count: 1
+						id: "naturalist:venison"
+					}
+					type: "item"
+				}
+				{
+					id: "32437E3914CDB698"
+					item: {
+						count: 1
+						id: "naturalist:antler"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["648CA8E4002792F8"]
+			id: "5E07AFF348EDFEA5"
+			optional: true
+			rewards: [
+				{
+					id: "0EFC4897A28114B5"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					count: 4L
+					id: "7335AB3C9461CCB4"
+					item: {
+						count: 1
+						id: "naturalist:glow_goop"
+					}
+					type: "item"
+				}
+			]
+			x: 2.75d
+			y: 3.5d
+		}
+		{
+			dependencies: ["648CA8E4002792F8"]
+			icon: {
+				id: "minecraft:lead"
+			}
+			id: "107929A294983AF4"
+			rewards: [
+				{
+					id: "38C3F076A3A97AFE"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "3F4F45406A0CB144"
+					type: "checkmark"
+				}
+			]
+			x: 5.25d
+			y: 3.5d
+		}
+		{
+			dependencies: ["648CA8E4002792F8"]
+			id: "61F5087944156F29"
+			optional: true
+			rewards: [
+				{
+					id: "64283133976D25C0"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "596FB4B1FD7B981C"
+					item: {
+						count: 1
+						id: "crittersandcompanions:koi_fish_bucket"
+					}
+					type: "item"
+				}
+				{
+					id: "13628FA6B55A958F"
+					item: {
+						count: 1
+						id: "spawn:seahorse_bucket"
+					}
+					type: "item"
+				}
+			]
+			x: 8.75d
+			y: 3.5d
+		}
+		{
+			dependencies: ["107929A294983AF4"]
+			id: "372CAC49BD881CCB"
+			optional: true
+			rewards: [
+				{
+					id: "6872F87BE68E9A25"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					count: 4L
+					id: "32088349D5C241A5"
+					item: {
+						count: 1
+						id: "crittersandcompanions:silk"
+					}
+					type: "item"
+				}
+				{
+					id: "5F763C5FEF2043D4"
+					item: {
+						count: 1
+						id: "crittersandcompanions:grappling_hook"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["107929A294983AF4"]
+			icon: {
+				id: "minecraft:copper_block"
+			}
+			id: "47D53965F4099D7E"
+			optional: true
+			rewards: [
+				{
+					id: "02926B43D14AD9B9"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "471A33D08F9C9EEF"
+					type: "checkmark"
+				}
+			]
+			x: 6.25d
+			y: 5.5d
+		}
+		{
+			dependencies: ["648CA8E4002792F8"]
+			id: "6035F63716FF33C1"
+			optional: true
+			rewards: [
+				{
+					id: "71FCD830ADFBC7E2"
+					type: "xp"
+					xp: 80
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "2B1250914B203D85"
+					item: {
+						count: 1
+						id: "friendsandfoes:totem_of_freezing"
+					}
+					type: "item"
+				}
+				{
+					id: "4C82B14764256866"
+					item: {
+						count: 1
+						id: "friendsandfoes:totem_of_illusion"
+					}
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["648CA8E4002792F8", "0212EF427C731405"]
+			id: "170EB030A9F86563"
+			optional: true
+			rewards: [
+				{
+					id: "16F07A0A89AFA317"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "311BC6E57B88E673"
+					item: {
+						count: 1
+						id: "endermanoverhaul:soul_pearl"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["648CA8E4002792F8"]
+			id: "6A93004FFBD6C81F"
+			optional: true
+			rewards: [
+				{
+					id: "60F6594BD30B468F"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "44FB593E45A057A4"
+					item: {
+						count: 1
+						id: "ecologics:spile"
+					}
+					type: "item"
+				}
+				{
+					id: "431B585405E29E24"
+					item: {
+						count: 1
+						id: "ecologics:maple_syrup_bottle"
+					}
+					type: "item"
+				}
+			]
+			x: 16.75d
+			y: 3.5d
+		}
+		{
+			dependencies: ["648CA8E4002792F8"]
+			id: "7EE2EA2995FDE8B4"
+			rewards: [
+				{
+					id: "1D055C38D7D09E3F"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "4F9BDC63C8EC1B32"
+					item: {
+						count: 1
+						id: "aquaculture:worm_farm"
+					}
+					type: "item"
+				}
+				{
+					id: "299AF632D7BAA42B"
+					item: {
+						count: 1
+						id: "aquaculture:iron_fishing_rod"
+					}
+					type: "item"
+				}
+			]
+			x: 19.25d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7EE2EA2995FDE8B4"]
+			id: "097E890E050C296D"
+			rewards: [
+				{
+					id: "672E3B8EFF607877"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "381898ADA402F819"
+					item: {
+						count: 1
+						id: "aquaculture:tackle_box"
+					}
+					type: "item"
+				}
+				{
+					id: "7FC85F66603A1256"
+					item: {
+						count: 1
+						id: "aquaculture:double_hook"
+					}
+					type: "item"
+				}
+			]
+			x: 17.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["097E890E050C296D"]
+			id: "53427463D093ECE7"
+			rewards: [
+				{
+					id: "059C67CE4CDA7857"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					id: "7A005F9D90937CCD"
+					item: {
+						count: 1
+						id: "aquaculture:tuna"
+					}
+					type: "item"
+				}
+				{
+					id: "482B21B7B46E01F1"
+					item: {
+						count: 1
+						id: "aquaculture:arapaima"
+					}
+					type: "item"
+				}
+			]
+			x: 15.75d
+			y: 7.5d
+		}
+		{
+			dependencies: ["097E890E050C296D"]
+			id: "6D222AD1354FA4F1"
+			optional: true
+			rewards: [
+				{
+					id: "1999110D6C297A69"
+					type: "xp"
+					xp: 80
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "007BC8A157684A0E"
+					item: {
+						count: 1
+						id: "aquaculture:treasure_chest"
+					}
+					type: "item"
+				}
+				{
+					id: "601CB2C5D8BAC122"
+					item: {
+						count: 1
+						id: "aquaculture:neptunium_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 17.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["53427463D093ECE7", "5ACE0163F6203D78"]
+			id: "47C6BB6818338F4F"
+			optional: true
+			rewards: [
+				{
+					id: "72B023FB4D6339C8"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					count: 2L
+					id: "7CA22AF0122F394B"
+					item: {
+						count: 1
+						id: "aquaculturedelight:fish_and_chips"
+					}
+					type: "item"
+				}
+				{
+					id: "3BB1C4DF28265A4C"
+					item: {
+						count: 1
+						id: "oceansdelight:guardian_soup"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["648CA8E4002792F8"]
+			icon: {
+				id: "storagedrawers:oak_full_drawers_1"
+			}
+			id: "061A25FE70E5C239"
+			rewards: [
+				{
+					id: "3CE7805C908C2F6E"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "0D8C3A58F5CE76C6"
+					item: {
+						count: 1
+						id: "storagedrawers:oak_full_drawers_1"
+					}
+					type: "item"
+				}
+				{
+					id: "4C312B7F08CA14FA"
+					item: {
+						count: 1
+						id: "storagedrawers:compacting_drawers_3"
+					}
+					type: "item"
+				}
+			]
+			x: 24.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["061A25FE70E5C239"]
+			id: "1D1B7F599AF0A561"
+			rewards: [
+				{
+					id: "08ECA024B90F70D2"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "1977718C27EA7C6B"
+					item: {
+						count: 1
+						id: "storagedrawers:controller"
+					}
+					type: "item"
+				}
+				{
+					id: "74D15A3AB4A65B99"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:controller"
+					}
+					type: "item"
+				}
+			]
+			x: 23.75d
+			y: 5.5d
+		}
+		{
+			dependencies: ["061A25FE70E5C239", "38351AA20081E7AE"]
+			id: "1F76C6E74D4BC47E"
+			rewards: [
+				{
+					id: "3EE6ABED8DDF9C29"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "48B78023E73DDDDD"
+					item: {
+						count: 1
+						id: "sliceanddice:sprinkler"
+					}
+					type: "item"
+				}
+				{
+					id: "71C7FB6D4B8F3F40"
+					item: {
+						count: 1
+						id: "sliceanddice:fertilizer_bucket"
+					}
+					type: "item"
+				}
+			]
+			x: 25.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1F76C6E74D4BC47E", "0FE63BEC8FE0FB9E", "1D1B7F599AF0A561"]
+			icon: {
+				id: "create:mechanical_harvester"
+			}
+			id: "4DF2762B75E31C53"
+			rewards: [
+				{
+					id: "5D0428E1C08B7193"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "2FF7DE67727D0879"
+					item: {
+						count: 1
+						id: "create:mechanical_harvester"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "59DB7B9CB58DC202"
+					type: "checkmark"
+				}
+			]
+			x: 24.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["107929A294983AF4", "46BB8658D89E5BEA", "53427463D093ECE7"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:oak_fence"
+			}
+			id: "220CBAA0AAF68C08"
+			rewards: [
+				{
+					id: "1261C1B95EE0818B"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "74516F78BAF6B9E9"
+					type: "checkmark"
+				}
+			]
+			x: 26.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["648CA8E4002792F8", "38351AA20081E7AE"]
+			icon: {
+				id: "minecraft:beehive"
+			}
+			id: "43715C376C3EA5D7"
+			optional: true
+			rewards: [
+				{
+					id: "6DA8E50B1B021088"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "40932BC64CCFB141"
+					item: {
+						count: 1
+						id: "minecraft:beehive"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "create:honey_drain"
+					criterion: ""
+					id: "2C45B813C6C4D55A"
+					type: "advancement"
+				}
+			]
+			x: 27.25d
+			y: 3.5d
+		}
+		{
+			dependencies: ["648CA8E4002792F8", "4EFDEBDB7A6D75CA"]
+			id: "6761C7B4E826A261"
+			optional: true
+			rewards: [
+				{
+					id: "135A17B51D8E840F"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					count: 2L
+					id: "6C715966FE51391C"
+					item: {
+						count: 1
+						id: "create_integrated_farming:roost"
+					}
+					type: "item"
+				}
+			]
+			x: 29.75d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7EE2EA2995FDE8B4", "01C986BA577293FD"]
+			id: "42112A28B6C69D90"
+			optional: true
+			rewards: [
+				{
+					id: "1D8323CA332DBF2C"
+					type: "xp"
+					xp: 35
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					count: 2L
+					id: "1653A3461E77324D"
+					item: {
+						count: 1
+						id: "create_integrated_farming:fishing_net"
+					}
+					type: "item"
+				}
+			]
+			x: 19.25d
+			y: 5.5d
+		}
+		{
+			dependencies: ["61F5087944156F29"]
+			id: "3A4ED3F79573E9E2"
+			optional: true
+			rewards: [
+				{
+					id: "529426451A604276"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "5367FB6E7720E086"
+					item: {
+						count: 1
+						id: "minecraft:axolotl_bucket"
+					}
+					type: "item"
+				}
+				{
+					id: "0E9A703E180341E1"
+					item: {
+						count: 1
+						id: "minecraft:tropical_fish_bucket"
+					}
+					type: "item"
+				}
+				{
+					id: "712C382265B5A90D"
+					item: {
+						count: 1
+						id: "minecraft:pufferfish_bucket"
+					}
+					type: "item"
+				}
+				{
+					id: "59E26F40DE3C1D40"
+					item: {
+						count: 1
+						id: "minecraft:tadpole_bucket"
+					}
+					type: "item"
+				}
+			]
+			x: 8.75d
+			y: 5.5d
+		}
+		{
+			dependencies: ["648CA8E4002792F8"]
+			icon: {
+				id: "fowlplay:scarecrow"
+			}
+			id: "62A5E5D0A5F4D4F0"
+			optional: true
+			rewards: [
+				{
+					id: "417A8AF10B8CB24D"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "192806A21F9270D9"
+					item: {
+						count: 1
+						id: "fowlplay:scarecrow"
+					}
+					type: "item"
+				}
+			]
+			x: 32.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["648CA8E4002792F8"]
+			icon: {
+				id: "earthmobsmod:fancy_feather"
+			}
+			id: "2C3008D3F1456B86"
+			optional: true
+			rewards: [
+				{
+					id: "260C420CC8AA304A"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "3704B61BD8F798F0"
+					item: {
+						count: 1
+						id: "earthmobsmod:fancy_feather"
+					}
+					type: "item"
+				}
+				{
+					id: "03C8366C05B4A0F5"
+					item: {
+						count: 1
+						id: "earthmobsmod:horn"
+					}
+					type: "item"
+				}
+			]
+			x: 35.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7EE2EA2995FDE8B4"]
+			icon: {
+				id: "spawn:clam"
+			}
+			id: "0E96D6C35503C980"
+			optional: true
+			rewards: [
+				{
+					id: "7E5C1E8D4B752174"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "3FCA3099CEB61370"
+					item: {
+						count: 1
+						id: "spawn:clam"
+					}
+					type: "item"
+				}
+				{
+					id: "4379231FF3097CA2"
+					item: {
+						count: 1
+						id: "spawn:angler_fish_bucket"
+					}
+					type: "item"
+				}
+			]
+			x: 21.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0E96D6C35503C980"]
+			icon: {
+				id: "spawn:ant_farm"
+			}
+			id: "52EF94D584C246DC"
+			optional: true
+			rewards: [
+				{
+					id: "1CD2FA9134A93EA1"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "396B4B8C1131D4FF"
+					item: {
+						count: 1
+						id: "spawn:ant_farm"
+					}
+					type: "item"
+				}
+			]
+			x: 21.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["53427463D093ECE7"]
+			icon: {
+				id: "upgrade_aquatic:thrasher_tooth"
+			}
+			id: "265801186363658A"
+			optional: true
+			rewards: [
+				{
+					id: "4E041E17C39F6BD2"
+					type: "xp"
+					xp: 80
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "3805DE8214D39A8D"
+					item: {
+						count: 1
+						id: "upgrade_aquatic:thrasher_tooth"
+					}
+					type: "item"
+				}
+				{
+					id: "783941F30ACB8269"
+					item: {
+						count: 1
+						id: "upgrade_aquatic:pike"
+					}
+					type: "item"
+				}
+			]
+			x: 17.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["097E890E050C296D", "0212EF427C731405"]
+			icon: {
+				id: "netherdepthsupgrade:lava_fishing_rod"
+			}
+			id: "017A9AC58435BBB1"
+			optional: true
+			rewards: [
+				{
+					id: "01567641D6C21F8C"
+					type: "xp"
+					xp: 80
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "4AED557E045F3CC5"
+					item: {
+						count: 1
+						id: "netherdepthsupgrade:lava_fishing_rod"
+					}
+					type: "item"
+				}
+				{
+					id: "79270A184F7F41A1"
+					item: {
+						count: 1
+						id: "netherdepthsupgrade:obsidianfish"
+					}
+					type: "item"
+				}
+			]
+			x: 19.25d
+			y: 7.5d
+		}
+		{
+			dependencies: ["648CA8E4002792F8"]
+			icon: {
+				id: "enderzoology:owl_egg"
+			}
+			id: "57F76869F4929731"
+			optional: true
+			rewards: [
+				{
+					id: "231C024E8E1C7762"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "41519578021B1778"
+					item: {
+						count: 1
+						id: "enderzoology:owl_egg"
+					}
+					type: "item"
+				}
+			]
+			x: 37.75d
+			y: 3.5d
+		}
+		{
+			dependencies: ["648CA8E4002792F8"]
+			icon: {
+				id: "ribbits:maraca"
+			}
+			id: "2A49C2B7547DB685"
+			optional: true
+			rewards: [
+				{
+					id: "4CB4A0A7AD9B5DE8"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "4FAAE2518FD597BE"
+					structure: "ribbits:ribbit_village"
+					type: "structure"
+				}
+			]
+			x: 40.25d
+			y: 3.5d
+		}
+		{
+			dependencies: ["648CA8E4002792F8", "0212EF427C731405"]
+			icon: {
+				id: "eternalnether:soul_stone"
+			}
+			id: "2686668689286D25"
+			optional: true
+			rewards: [
+				{
+					id: "77077F20DE7A6B24"
+					type: "xp"
+					xp: 80
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "7C3B1268CDE105F5"
+					structure: "eternalnether:piglin_manor"
+					type: "structure"
+				}
+				{
+					id: "468F36E6C28EA854"
+					type: "checkmark"
+				}
+			]
+			x: 43.0d
+			y: 3.5d
+		}
+	]
+}

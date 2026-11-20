@@ -1,0 +1,25 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "biomesoplenty:lush_savanna",
+    "biomesoplenty:scrubland",
+    "terralith:arid_highlands",
+    "terralith:ashen_savanna",
+    "terralith:fractured_savanna",
+    "terralith:savanna_slopes"
+  ],
+  "spawners": [
+    {
+      "type": "livingthings:koala",
+      "weight": 10,
+      "minCount": 3,
+      "maxCount": 8
+    },
+    {
+      "type": "livingthings:peacock",
+      "weight": 15,
+      "minCount": 3,
+      "maxCount": 5
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+[AutoMessage]
+	# The messages to be sent
+	MESSAGES = ["§bСпасибо, что играете в AvgustovStory!§b"]
+	# Should we attach a link to this message?
+	LINKS = [""]
+	# How frequently / after how long should the message be sent?
+	INTERVALS = [5]
+	# How many times should the message be sent per session? 0 = infinite
+	SOFT_LIMITS = [1]
+	# How many times should the message be sent EVER? 0 = infinite
+	HARD_LIMITS = [1]
+	# Should AutoMessage be Enabled? default: false
+	AM_ENABLED = false

@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "minecraft:windswept_forest",
+    "biomesoplenty:maple_woods",
+    "terralith:forested_highlands"
+  ],
+  "features": "ecologics:orange_maple",
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "minecraft:frozen_ocean",
+    "minecraft:frozen_river",
+    "minecraft:snowy_plains",
+    "biomesoplenty:snowblossom_grove"
+  ],
+  "features": "ecologics:thin_ice_patch",
+  "step": "top_layer_modification"
+}

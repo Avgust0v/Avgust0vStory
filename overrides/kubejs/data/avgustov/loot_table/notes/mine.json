@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_written_book_pages",
+              "pages": [
+                {
+                  "text": "Жила кончилась. Проверил три штрека — пусто. Мы выбрали гору до костей за одно поколение.",
+                  "color": "black"
+                },
+                {
+                  "text": "Отец говорил, её хватит на сто лет. Отец считал по-старому: брал столько, сколько нужно, а не сколько можно.",
+                  "color": "black"
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_book_cover",
+              "title": "Записка в вагонетке",
+              "author": "Горный мастер Ефим",
+              "generation": 3
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Обрывок 8/13: Записка в вагонетке",
+                "color": "gold",
+                "italic": false
+              },
+              "target": "custom_name"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{avgustov_note:8}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

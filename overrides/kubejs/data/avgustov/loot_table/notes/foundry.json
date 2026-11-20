@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_written_book_pages",
+              "pages": [
+                {
+                  "text": "Смена — четырнадцать часов. Печи не гасим с весны. Дым такой, что фонари жжём в полдень.",
+                  "color": "black"
+                },
+                {
+                  "text": "Мальчишка с соседней улицы спросил, какого цвета небо. Я не смог ответить.",
+                  "color": "black"
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_book_cover",
+              "title": "Сменный лист литейной",
+              "author": "Литейщик Прохор",
+              "generation": 3
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Обрывок 6/13: Сменный лист литейной",
+                "color": "gold",
+                "italic": false
+              },
+              "target": "custom_name"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{avgustov_note:6}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

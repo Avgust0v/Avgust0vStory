@@ -1,0 +1,165 @@
+{
+  "type": "minecraft:chest",
+  "random_sequence": "avgustov:bauble_finds",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "bountifulbaubles:potion_recall",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "bountifulbaubles:potion_wormhole",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "bountifulbaubles:spectral_silt",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "bountifulbaubles:magic_mirror",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "bountifulbaubles:sunglasses",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "bountifulbaubles:curious_crown",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "bountifulbaubles:auto_torch",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "bountifulbaubles:treasure_bag",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "bountifulbaubles:cobalt_shield",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "bountifulbaubles:obsidian_skull",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "bountifulbaubles:balloon",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "bountifulbaubles:lucky_horseshoe",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "bountifulbaubles:bottled_cloud",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "bountifulbaubles:bezoar",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "bountifulbaubles:vitamins",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "bountifulbaubles:ring_free_action",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "bountifulbaubles:ring_overclocking",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "bountifulbaubles:cross_necklace",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "bountifulbaubles:luck_coin",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "bountifulbaubles:starfish",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "bountifulbaubles:mossy_ring",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "bountifulbaubles:mossy_belt",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "bountifulbaubles:curious_amulet",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "bountifulbaubles:curious_ring",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "bountifulbaubles:curious_knuckles",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "bountifulbaubles:gauntlets_dexterity",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "bountifulbaubles:vampiric_glove",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "bountifulbaubles:ruby_heart",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "bountifulbaubles:shulker_heart",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "bountifulbaubles:black_dragon_scale",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 419
+        }
+      ]
+    }
+  ]
+}

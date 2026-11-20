@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "terralith:tropical_jungle",
+    "terralith:amethyst_rainforest",
+    "terralith:rocky_jungle",
+    "terralith:amethyst_canyon",
+    "terralith:jungle_mountains",
+    "biomesoplenty:rocky_rainforest",
+    "biomesoplenty:rainforest",
+    "biomesoplenty:floodplain",
+    "biomesoplenty:fungal_jungle"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+	id: "01314A45F21BE799"
+	loot_size: 1
+	order_index: 32
+	rewards: [
+		{
+			id: "13EBD7EFD50590BC"
+			item: {
+				count: 1
+				id: "torchmaster:megatorch"
+			}
+		}
+		{
+			count: 16
+			id: "0F80A16AF90CFE73"
+			item: {
+				count: 1
+				id: "createbigcannons:solid_shot"
+			}
+		}
+		{
+			count: 32
+			id: "2105A57C4F4D0DB8"
+			item: {
+				count: 1
+				id: "cgs:paper_cartridge"
+			}
+		}
+		{
+			count: 2
+			id: "1AC5EAB952073159"
+			item: {
+				count: 1
+				id: "legendarysurvivaloverhaul:medkit"
+			}
+		}
+	]
+}

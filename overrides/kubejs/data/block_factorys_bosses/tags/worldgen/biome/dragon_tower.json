@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+    "terralith:tropical_jungle",
+    "terralith:amethyst_rainforest",
+    "terralith:orchid_swamp",
+    "terralith:rocky_jungle",
+    "terralith:steppe",
+    "terralith:highlands",
+    "terralith:arid_highlands",
+    "terralith:amethyst_canyon",
+    "terralith:windswept_spires",
+    "terralith:jungle_mountains",
+    "terralith:ashen_savanna",
+    "terralith:valley_clearing",
+    "terralith:savanna_slopes",
+    "biomesoplenty:wetland",
+    "biomesoplenty:marsh",
+    "biomesoplenty:scrubland",
+    "biomesoplenty:bayou",
+    "biomesoplenty:rocky_rainforest",
+    "biomesoplenty:rainforest",
+    "biomesoplenty:floodplain",
+    "biomesoplenty:lush_savanna",
+    "biomesoplenty:rocky_shrubland",
+    "biomesoplenty:wasteland",
+    "biomesoplenty:wasteland_steppe",
+    "biomesoplenty:fungal_jungle"
+  ]
+}

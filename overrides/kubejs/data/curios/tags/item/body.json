@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "create:copper_backtank",
+      "required": false
+    }
+  ]
+}

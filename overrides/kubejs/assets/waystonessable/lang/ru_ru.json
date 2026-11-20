@@ -1,0 +1,6 @@
+{
+ "waystones.groups.sable": "Подуровни Sable",
+ "gui.waystonessable.waystone_group.sable": "Подуровни Sable",
+ "commands.waystones.activateall.success.single": "Активировано обелисков: %s для %s",
+ "commands.waystones.activateall.success.multiple": "Активировано обелисков: %s для игроков: %s"
+}

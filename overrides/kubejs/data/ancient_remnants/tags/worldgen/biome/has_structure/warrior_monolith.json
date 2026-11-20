@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "terralith:frozen_cliffs",
+    "terralith:ice_marsh",
+    "terralith:cold_shrubland",
+    "terralith:rocky_shrubland",
+    "terralith:glacial_chasm",
+    "terralith:gravel_desert",
+    "terralith:snowy_cherry_grove",
+    "biomesoplenty:snowblossom_grove"
+  ]
+}

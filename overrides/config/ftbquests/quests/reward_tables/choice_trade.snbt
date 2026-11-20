@@ -1,0 +1,39 @@
+{
+	id: "344791A38284FBF1"
+	loot_size: 1
+	order_index: 21
+	rewards: [
+		{
+			count: 2
+			id: "52033AC37E7FB424"
+			item: {
+				count: 1
+				id: "trading_floor:trading_depot"
+			}
+		}
+		{
+			count: 2
+			id: "59E736E92715B81E"
+			item: {
+				count: 1
+				id: "numismatics:vendor"
+			}
+		}
+		{
+			count: 2
+			id: "6C698B71454DCD76"
+			item: {
+				count: 1
+				id: "create_labor:performance_upgrade"
+			}
+		}
+		{
+			count: 2
+			id: "4F5B878D7F205C28"
+			item: {
+				count: 1
+				id: "numismatics:crown"
+			}
+		}
+	]
+}

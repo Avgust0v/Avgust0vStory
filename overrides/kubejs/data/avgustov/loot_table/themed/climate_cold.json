@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:chest",
+  "random_sequence": "avgustov:themed/climate_cold",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "legendarysurvivaloverhaul:snow_helmet",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legendarysurvivaloverhaul:snow_chestplate",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legendarysurvivaloverhaul:snow_leggings",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legendarysurvivaloverhaul:snow_boots",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legendarysurvivaloverhaul:heating_coat_1",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legendarysurvivaloverhaul:canteen",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 51
+        }
+      ]
+    }
+  ]
+}

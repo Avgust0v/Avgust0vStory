@@ -1,0 +1,243 @@
+{
+ "type": "neoforge:add_table",
+ "table": "avgustov:themed/keep_nether",
+ "conditions": [
+  {
+   "condition": "minecraft:any_of",
+   "terms": [
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "betterfortresses:chests/keep"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "eternalnether:chests/citadel"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "incendium:castle/barrel/alchemist"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "incendium:castle/barrel/barracks"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "incendium:castle/barrel/blacksmith"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "incendium:castle/barrel/food"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "incendium:castle/barrel/food_low"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "incendium:castle/barrel/generic"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "incendium:castle/barrel/generic_big"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "incendium:castle/barrel/greenhouse_secret"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "incendium:castle/barrel/ice"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "incendium:castle/barrel/lumber"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "incendium:castle/barrel/lumber_big"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "incendium:castle/barrel/monument"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "incendium:castle/barrel/nuggets"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "incendium:castle/barrel/pigstep"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "incendium:castle/barrel/random"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "incendium:castle/base/blackstone"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "incendium:castle/base/brewing"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "incendium:castle/base/gold"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "incendium:castle/base/gold_big"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "incendium:castle/base/gold_small"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "incendium:castle/base/gold_stackable"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "incendium:castle/base/head_self"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "incendium:castle/base/random_blocks"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "incendium:castle/base/tools"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "incendium:castle/base/tools_armor"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "incendium:castle/base/unbreaking_efficiency"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "incendium:castle/base/wood"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "incendium:castle/blacksmith/boots"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "incendium:castle/blacksmith/chestplate"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "incendium:castle/blacksmith/helmet"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "incendium:castle/blacksmith/leggings"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "incendium:castle/king_statue"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "incendium:castle/stand/armor"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "incendium:castle/stand/boots"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "incendium:castle/stand/chestplate"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "incendium:castle/stand/helmet"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "incendium:castle/stand/leggings"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "incendium:castle/tower_barrel"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "incendium:castle/treasure/quartz"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "magistuarmory:chests/nether_bridge"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "medieval_nether:chests_castle_one"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "medieval_nether:chests_castle_three"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "medieval_nether:chests_castle_two"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "minecraft:chests/bastion_bridge"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "minecraft:chests/bastion_other"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "minecraft:chests/nether_bridge"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "mns:chests/mega_fortress/brewing_scraps"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "mns:chests/mega_fortress/intact"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "mns:chests/mega_fortress/intact_base"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "mns:chests/mega_fortress/intact_gold_treasure"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "mns:chests/mega_fortress/intact_treasure"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "mns:chests/mega_fortress/intact_uncommon"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "mns:chests/mega_fortress/ravaged"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "mns:chests/mega_fortress/ravaged_treasure"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "mns:chests/mega_fortress/ruined"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "mns:chests/mega_fortress/tnt_room"
+    }
+   ]
+  }
+ ]
+}

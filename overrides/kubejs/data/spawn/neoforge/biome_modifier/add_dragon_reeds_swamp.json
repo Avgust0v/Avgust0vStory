@@ -1,0 +1,12 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "minecraft:swamp",
+    "terralith:orchid_swamp",
+    "biomesoplenty:wetland",
+    "biomesoplenty:marsh",
+    "biomesoplenty:bayou"
+  ],
+  "features": "spawn:patch_dragon_reeds_swamp",
+  "step": "vegetal_decoration"
+}

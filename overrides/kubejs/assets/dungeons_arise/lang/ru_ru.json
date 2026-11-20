@@ -1,0 +1,16 @@
+{
+ "advancement.dungeons_arise.find_kisegi_sanctuary.title": "Сочувствие к дьяволу",
+ "advancement.dungeons_arise.find_kisegi_sanctuary.desc": "Найдите святилище Кисеги",
+ "advancement.dungeons_arise.find_mining_complex.title": "Накорми машину",
+ "advancement.dungeons_arise.find_mining_complex.desc": "Найдите горнодобывающий комплекс",
+ "enchantment.dungeons_arise.purification": "Очищение",
+ "enchantment.dungeons_arise.purification.desc": "Даёт шанс отменить все входящие эффекты отравления и иссушения, высвобождая волну энергии, ранящую ближайших врагов.",
+ "enchantment.dungeons_arise.voltaic_shot": "Вольтов выстрел",
+ "enchantment.dungeons_arise.voltaic_shot.desc": "Заряжает стрелы электричеством: они летят по прямой и взрываются.",
+ "enchantment.dungeons_arise.discharge": "Разряд",
+ "enchantment.dungeons_arise.discharge.desc": "Атаки по врагам накапливают скорость, но высокий её уровень разряжается мощным взрывом, ранящим и жертву, и атакующего.",
+ "enchantment.dungeons_arise.lolths_curse": "Проклятие Ллос",
+ "enchantment.dungeons_arise.lolths_curse.desc": "Даёт шанс восстановить здоровье при атаке врагов, но из их тел могут вылезти пауки. Урон членистоногим отражается на владельца.",
+ "enchantment.dungeons_arise.ensnaring": "Опутывание",
+ "enchantment.dungeons_arise.ensnaring.desc": "Даёт шанс наложить сильное замедление при ударе по врагу и призывает клыки, атакующие всех монстров вокруг него."
+}

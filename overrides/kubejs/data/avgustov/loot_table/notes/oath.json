@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_written_book_pages",
+              "pages": [
+                {
+                  "text": "«Строить, пока земля даёт. Брать, сколько земля простит. Учить того, кто придёт следом».",
+                  "color": "black"
+                },
+                {
+                  "text": "Третью строку кто-то стёр ножом. Кажется, это был я. Прости, наследник. — Р.",
+                  "color": "black"
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_book_cover",
+              "title": "Клятва Первой артели",
+              "author": "Список из библиотеки",
+              "generation": 3
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Обрывок 11/13: Клятва Первой артели",
+                "color": "gold",
+                "italic": false
+              },
+              "target": "custom_name"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{avgustov_note:11}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

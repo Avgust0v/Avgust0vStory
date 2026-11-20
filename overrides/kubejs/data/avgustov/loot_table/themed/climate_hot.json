@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:chest",
+  "random_sequence": "avgustov:themed/climate_hot",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "legendarysurvivaloverhaul:desert_helmet",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legendarysurvivaloverhaul:desert_chestplate",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legendarysurvivaloverhaul:desert_leggings",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legendarysurvivaloverhaul:desert_boots",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legendarysurvivaloverhaul:cooling_coat_1",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legendarysurvivaloverhaul:canteen",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legendarysurvivaloverhaul:large_canteen",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 61
+        }
+      ]
+    }
+  ]
+}

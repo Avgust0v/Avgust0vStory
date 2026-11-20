@@ -1,0 +1,95 @@
+{
+ "type": "neoforge:add_table",
+ "table": "avgustov:themed/library",
+ "conditions": [
+  {
+   "condition": "minecraft:any_of",
+   "terms": [
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "block_factorys_bosses:chests/dragon_tower"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "block_factorys_bosses:chests/dragon_tower_common"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "bosses_of_mass_destruction:chests/lich_tower"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "dungeons_arise:chests/thornborn_towers/thornborn_towers_barrels"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "dungeons_arise:chests/thornborn_towers/thornborn_towers_rooms"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "dungeons_arise:chests/thornborn_towers/thornborn_towers_top_rooms"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "dungeons_arise:chests/thornborn_towers/thornborn_towers_top_treasure"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "illagerinvasion:chests/illusioner_tower_entrance"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "illagerinvasion:chests/illusioner_tower_stairs"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "minecraft:chests/stronghold_library"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "structory_towers:basic/small_firetower_basic"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "structory_towers:basic/wizard_basic"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "structory_towers:top/small_firetower_top"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "structory_towers:top/wizard_top"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "terralith:mage/extras"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "terralith:mage/treasure"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "mvs:ocean_tower/common"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "mvs:ocean_tower/treasure"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "mvs:ocean_tower/uncommon"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "mvs:cartographer_tower"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "mvs:jungle_tower"
+    }
+   ]
+  }
+ ]
+}

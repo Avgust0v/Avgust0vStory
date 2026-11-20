@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createpropulsion:wooden_blade",
+      "required": false
+    },
+    {
+      "id": "createpropulsion:copper_blade",
+      "required": false
+    },
+    {
+      "id": "createpropulsion:andesite_blade",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "biomesoplenty:bayou",
+    "biomesoplenty:marsh",
+    "biomesoplenty:wetland",
+    "biomesoplenty:floodplain",
+    "terralith:orchid_swamp"
+  ],
+  "spawners": [
+    {
+      "type": "livingthings:flamingo",
+      "weight": 26,
+      "minCount": 3,
+      "maxCount": 6
+    }
+  ]
+}

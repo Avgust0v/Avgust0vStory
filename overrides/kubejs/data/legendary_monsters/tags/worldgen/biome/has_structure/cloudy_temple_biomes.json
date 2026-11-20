@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "terralith:caldera",
+    "terralith:volcanic_crater",
+    "terralith:blooming_plateau",
+    "terralith:scarlet_mountains",
+    "terralith:rocky_mountains",
+    "terralith:volcanic_peaks",
+    "terralith:alpine_grove",
+    "terralith:snowy_maple_forest",
+    "terralith:snowy_shield",
+    "terralith:siberian_grove",
+    "terralith:emerald_peaks",
+    "biomesoplenty:cold_desert",
+    "terralith:sakura_grove",
+    "terralith:sakura_valley"
+  ]
+}

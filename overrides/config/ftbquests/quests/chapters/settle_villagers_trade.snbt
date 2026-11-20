@@ -1,0 +1,655 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "settle_villagers_trade"
+	group: "6F40D0E1399F3965"
+	icon: {
+		id: "minecraft:emerald"
+	}
+	id: "5C651509E771767F"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:bell"
+			}
+			id: "2658DC25D6B3DA7D"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "0E80929695866020"
+					structure: "#minecraft:village"
+					type: "structure"
+				}
+			]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2658DC25D6B3DA7D"]
+			id: "689955EBFEFBEE47"
+			rewards: [
+				{
+					id: "3AF893291B868681"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "5B9E606F972F031A"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["689955EBFEFBEE47"]
+			icon: {
+				id: "minecraft:lectern"
+			}
+			id: "580BCAE9E6CE216C"
+			optional: true
+			rewards: [
+				{
+					id: "677ADF583D7694DE"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "4658BF789A6DFE22"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 5.75d
+		}
+		{
+			dependencies: ["689955EBFEFBEE47"]
+			id: "11B1C884F639507E"
+			rewards: [
+				{
+					id: "280985F5A686BD3C"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 2
+					id: "008AAFAC34BCCC3C"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:weakness"
+							}
+						}
+						count: 1
+						id: "minecraft:splash_potion"
+					}
+					type: "item"
+				}
+				{
+					id: "06D53D96FFB0B02F"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2536A5291CE780E7"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "3148CB579A510A9A"
+					type: "checkmark"
+				}
+			]
+			x: 1.75d
+			y: 5.75d
+		}
+		{
+			dependencies: ["689955EBFEFBEE47"]
+			id: "183F2694AA369842"
+			rewards: [
+				{
+					id: "63904AED2E971E53"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 8
+					id: "67B23BCB2AF5A602"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "59964F13DE05F377"
+					item: {
+						count: 1
+						id: "trading_floor:trading_depot"
+					}
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 5.75d
+		}
+		{
+			dependencies: ["2658DC25D6B3DA7D"]
+			id: "3722F79F88DAAC1E"
+			rewards: [
+				{
+					id: "6B32E8D965D5E43D"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 32
+					id: "52B9969D697802AD"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4E2C95C25905CE4C"
+					item: {
+						count: 1
+						id: "create_labor:villager_binder"
+					}
+					type: "item"
+				}
+			]
+			x: 17.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3722F79F88DAAC1E"]
+			id: "79555F0FF44A37BA"
+			rewards: [
+				{
+					id: "7A2FDEBE08CF4324"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 16
+					id: "0AE1115DEB2E7CE4"
+					item: {
+						count: 1
+						id: "create:andesite_alloy"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "047AE21C3E7B8E96"
+					item: {
+						count: 1
+						id: "create_labor:andesite_press_seat"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 5.75d
+		}
+		{
+			dependencies: ["3722F79F88DAAC1E"]
+			id: "212E828BE86D1EE0"
+			rewards: [
+				{
+					id: "1035EAB4C1B95461"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "0B093E0F4ECC881E"
+					item: {
+						count: 1
+						id: "create_labor:andesite_mixer_seat"
+					}
+					type: "item"
+				}
+			]
+			x: 16.75d
+			y: 5.75d
+		}
+		{
+			dependencies: ["3722F79F88DAAC1E"]
+			id: "781937B74390881F"
+			optional: true
+			rewards: [
+				{
+					id: "25F13F9993ACB95C"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "41C3B47FC5C74B68"
+					item: {
+						count: 1
+						id: "create_labor:andesite_millstone_seat"
+					}
+					type: "item"
+				}
+			]
+			x: 18.5d
+			y: 5.75d
+		}
+		{
+			dependencies: ["3722F79F88DAAC1E"]
+			id: "05926B4D3859C7F8"
+			optional: true
+			rewards: [
+				{
+					id: "073AAD1F466C68EF"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "486D7897E5B2BEBC"
+					item: {
+						count: 1
+						id: "create_labor:andesite_saw_seat"
+					}
+					type: "item"
+				}
+			]
+			x: 20.25d
+			y: 5.75d
+		}
+		{
+			dependencies: ["212E828BE86D1EE0"]
+			id: "53E5411E4A9D48F0"
+			optional: true
+			rewards: [
+				{
+					id: "330416C294E95102"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "4791EB83FB5AC3D0"
+					item: {
+						count: 1
+						id: "minecraft:blaze_powder"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "620DFA01A7A3E956"
+					item: {
+						count: 1
+						id: "create_labor:gloves_upgrade"
+					}
+					type: "item"
+				}
+			]
+			x: 16.75d
+			y: 7.75d
+		}
+		{
+			dependencies: ["79555F0FF44A37BA"]
+			id: "0BD872A6E132BA98"
+			rewards: [
+				{
+					id: "138CF80A3F8A2C07"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					id: "04B06AEF0C0C7FE8"
+					item: {
+						count: 1
+						id: "create_labor:performance_upgrade"
+					}
+					type: "item"
+				}
+			]
+			x: 13.25d
+			y: 7.75d
+		}
+		{
+			dependencies: ["79555F0FF44A37BA", "212E828BE86D1EE0", "2C8F1AF81F0DCA24"]
+			id: "2859F5709F676199"
+			rewards: [
+				{
+					id: "388AACC1519AD852"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [
+				{
+					id: "2C6259834B21775D"
+					item: {
+						count: 1
+						id: "create_labor:brass_press_seat"
+					}
+					type: "item"
+				}
+			]
+			x: 15.25d
+			y: 8.75d
+		}
+		{
+			dependencies: ["2658DC25D6B3DA7D"]
+			icon: {
+				id: "minecraft:iron_sword"
+			}
+			id: "2FB3669343F67A3E"
+			rewards: [
+				{
+					id: "704A3AA43CE97281"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 2
+					id: "4E31D810DB9C98AF"
+					item: {
+						count: 1
+						id: "minecraft:iron_sword"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 2
+					id: "109437378064AC5E"
+					item: {
+						count: 1
+						id: "minecraft:shield"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "09DBDF53E2E1896F"
+					type: "checkmark"
+				}
+			]
+			x: 22.75d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2FB3669343F67A3E"]
+			id: "0191994FE0A2F870"
+			rewards: [
+				{
+					id: "47B9395EA2A42C78"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "6F42165A2259EE60"
+					table_id: 8863464641709405787L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "minecraft:ravager"
+					id: "6047767226084DBB"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "7A172F0FE0BD042C"
+					item: {
+						count: 1
+						id: "minecraft:totem_of_undying"
+					}
+					type: "item"
+				}
+			]
+			x: 22.75d
+			y: 5.75d
+		}
+		{
+			dependencies: ["689955EBFEFBEE47"]
+			icon: {
+				id: "minecraft:emerald_ore"
+			}
+			id: "2ED598306999F658"
+			optional: true
+			rewards: [
+				{
+					id: "40BDAA901AFE4127"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "1AB03102CB56D26E"
+					type: "checkmark"
+				}
+			]
+			x: 5.25d
+			y: 5.75d
+		}
+		{
+			dependencies: ["689955EBFEFBEE47"]
+			id: "2CD88606C1AE94EC"
+			optional: true
+			rewards: [
+				{
+					id: "04B586DDCA3A44BB"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "5C824470CA7A3CAF"
+					item: {
+						count: 1
+						id: "artifacts:villager_hat"
+					}
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 5.75d
+		}
+		{
+			dependencies: ["689955EBFEFBEE47", "49C8E1C2CB9DF78F"]
+			id: "782F00D1CBFEEC77"
+			tasks: [
+				{
+					id: "3FC0F0040BD1B26C"
+					item: {
+						count: 1
+						id: "numismatics:bank_terminal"
+					}
+					type: "item"
+				}
+			]
+			x: 8.75d
+			y: 5.75d
+		}
+		{
+			dependencies: ["782F00D1CBFEEC77"]
+			id: "19FF6DD1272E94B3"
+			tasks: [
+				{
+					id: "5C2D472A52DFE9FC"
+					item: {
+						count: 1
+						id: "numismatics:vendor"
+					}
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 7.75d
+		}
+		{
+			dependencies: ["782F00D1CBFEEC77"]
+			id: "22559023B528869C"
+			optional: true
+			rewards: [
+				{
+					id: "028121303EC3F552"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "318CFF3B3B26B485"
+					item: {
+						count: 1
+						id: "numismatics:andesite_depositor"
+					}
+					type: "item"
+				}
+			]
+			x: 8.75d
+			y: 7.75d
+		}
+		{
+			dependencies: ["782F00D1CBFEEC77"]
+			id: "0A3EA0673EEC8504"
+			optional: true
+			rewards: [
+				{
+					id: "5A4FC62387F92405"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "37927A42A6A00539"
+					item: {
+						count: 1
+						id: "numismatics:banking_guide"
+					}
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 7.75d
+		}
+		{
+			dependencies: ["19FF6DD1272E94B3"]
+			id: "3D99FF00DB2F6952"
+			rewards: [
+				{
+					id: "14D53744A2A54087"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "079D5CC372F289E5"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					count: 3L
+					id: "314361D3C46630A5"
+					item: {
+						count: 1
+						id: "numismatics:vendor"
+					}
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 9.75d
+		}
+		{
+			dependencies: ["183F2694AA369842", "3D99FF00DB2F6952", "0191994FE0A2F870"]
+			hide_dependency_lines: true
+			id: "78389CE2CC3C1B88"
+			rewards: [
+				{
+					id: "1C7F61DE94D48B2C"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "45918277CC3280D7"
+					table_id: 3767139744774159345L
+					team_reward: true
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					count: 4L
+					id: "6979DF8D65566BD3"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
+			x: 18.75d
+			y: 0.0d
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+ "config.endermanoverhaul.client.title": "Enderman Overhaul — клиент",
+ "config.endermanoverhaul.clientConfig": "Настройки клиента",
+ "config.endermanoverhaul.description": "Enderman Overhaul добавляет эндерменов для разных биомов!",
+ "config.endermanoverhaul.flashScreen": "Вспышка экрана",
+ "config.endermanoverhaul.replaceMekanismBabyEnderman": "Заменять малыша-эндермена из Mekanism",
+ "config.endermanoverhaul.title": "Enderman Overhaul",
+ "subtitles.endermanoverhaul.entity.flower_fields_enderman.ambient": "Эндермен цветочных полей издаёт «вуп»",
+ "subtitles.endermanoverhaul.entity.flower_fields_enderman.death": "Эндермен цветочных полей умирает",
+ "subtitles.endermanoverhaul.entity.flower_fields_enderman.hurt": "Эндермен цветочных полей ранен",
+ "tooltip.endermanoverhaul.ancient_pearl_1": "Призывает дружелюбного эндермена, который сражается за вас",
+ "tooltip.endermanoverhaul.ancient_pearl_2": "ПКМ крадучись по призванному эндермену, чтобы забрать жемчужину"
+}

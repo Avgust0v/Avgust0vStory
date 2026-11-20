@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createrailwaysnavigator:advanced_display",
+      "required": false
+    },
+    {
+      "id": "createrailwaysnavigator:advanced_display_block",
+      "required": false
+    },
+    {
+      "id": "createrailwaysnavigator:advanced_display_panel",
+      "required": false
+    },
+    {
+      "id": "createrailwaysnavigator:advanced_display_half_panel",
+      "required": false
+    },
+    {
+      "id": "createrailwaysnavigator:advanced_display_sloped",
+      "required": false
+    },
+    {
+      "id": "createrailwaysnavigator:advanced_display_small",
+      "required": false
+    },
+    {
+      "id": "createrailwaysnavigator:advanced_display_slab",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+{
+ "type": "neoforge:add_table",
+ "table": "avgustov:regional_food/hot",
+ "conditions": [
+  {
+   "condition": "minecraft:any_of",
+   "terms": [
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "betterdeserttemples:chests/food_storage"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "betterdeserttemples:chests/lab"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "betterdeserttemples:chests/pharaoh_hidden"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "betterdeserttemples:chests/pot"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "betterdeserttemples:chests/statue"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "betterdeserttemples:chests/storage"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "betterdeserttemples:chests/tomb"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "betterdeserttemples:chests/tomb_pharaoh"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "betterdeserttemples:chests/wardrobe"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "betterjungletemples:chests/campsite"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "betterjungletemples:chests/treasure"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "betterwitchhuts:chests/hut_0"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "cataclysm:chests/desert_treasure"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "charta:chests/desert_pyramid_decks"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "ctov:chests/village/village_badlands_house"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "ctov:chests/village/village_jungle_house"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "ctov:chests/village/village_swamp_house"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "dungeons_arise:chests/jungle_tree_house/jungle_tree_house_barrels"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "dungeons_arise:chests/jungle_tree_house/jungle_tree_house_normal"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "dungeons_arise:chests/jungle_tree_house/jungle_tree_house_treasure"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "farmersdelight:chests/fd_village_desert_house"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "farmersdelight:chests/fd_village_savanna_house"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "magistuarmory:chests/desert_pyramid"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "magistuarmory:chests/jungle_temple"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "minecraft:chests/desert_pyramid"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "minecraft:chests/jungle_temple"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "minecraft:chests/village/village_desert_house"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "minecraft:chests/village/village_savanna_house"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "mvs:houses_desert"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "mvs:jungle_tower"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "mvs:swamps"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "structory:mood/badlands"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "structory:mood/desert"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "structory:mood/jungle"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "structory:outcast/bandit/desert"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "structory:outcast/bandit/desert_copper"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "structory:ruin/swamp/loot"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "structory_towers:basic/desert_basic"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "structory_towers:top/desert_top"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "terralith:desert_outpost"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "terralith:village/desert/archer"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "terralith:village/desert/attic"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "terralith:village/desert/butcher"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "terralith:village/desert/cartographer"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "terralith:village/desert/fisherman"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "terralith:village/desert/food"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "terralith:village/desert/generic"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "terralith:village/desert/generic_low"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "terralith:village/desert/mason"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "terralith:village/desert/shepherd"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "terralith:village/desert/smith"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "terralith:village/desert/smith/expert"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "terralith:village/desert/smith/novice"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "terralith:village/desert/treasure"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "terralith:witch_hut"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "villagesandpillages:village_witch/house/attic_chest"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "villagesandpillages:village_witch/house/barrel"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "villagesandpillages:village_witch/house/personal_chest"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "wares:chests/village/badlands_warehouse"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "wares:chests/village/jungle_warehouse"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "wares:chests/village/swamp_warehouse"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "yungsextras:desert/chillzone"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "yungsextras:desert/ruins"
+    }
+   ]
+  }
+ ]
+}

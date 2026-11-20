@@ -1,0 +1,18 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "terralith:forested_highlands",
+    "biomesoplenty:forested_field",
+    "biomesoplenty:old_growth_woodland",
+    "terralith:shrubland",
+    "terralith:valley_clearing"
+  ],
+  "spawners": [
+    {
+      "type": "minecraft:rabbit",
+      "weight": 8,
+      "minCount": 2,
+      "maxCount": 3
+    }
+  ]
+}

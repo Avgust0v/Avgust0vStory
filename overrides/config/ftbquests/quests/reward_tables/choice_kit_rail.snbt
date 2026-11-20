@@ -1,0 +1,39 @@
+{
+	id: "6833E15DE88C38A2"
+	loot_size: 1
+	order_index: 28
+	rewards: [
+		{
+			count: 64
+			id: "574BF7DCD320304A"
+			item: {
+				count: 1
+				id: "create:track"
+			}
+		}
+		{
+			count: 8
+			id: "64145E0A430C786A"
+			item: {
+				count: 1
+				id: "create:railway_casing"
+			}
+		}
+		{
+			count: 4
+			id: "6BBF0AF45264CE63"
+			item: {
+				count: 1
+				id: "create:train_door"
+			}
+		}
+		{
+			count: 8
+			id: "294501D843449D5B"
+			item: {
+				count: 1
+				id: "numismatics:cog"
+			}
+		}
+	]
+}

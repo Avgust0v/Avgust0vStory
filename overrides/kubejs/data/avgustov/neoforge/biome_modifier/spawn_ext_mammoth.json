@@ -1,0 +1,16 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "terralith:wintry_lowlands",
+    "terralith:snowy_shield",
+    "terralith:siberian_taiga"
+  ],
+  "spawners": [
+    {
+      "type": "naturalist:mammoth",
+      "weight": 5,
+      "minCount": 2,
+      "maxCount": 3
+    }
+  ]
+}

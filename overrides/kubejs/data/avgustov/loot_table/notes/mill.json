@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_written_book_pages",
+              "pages": [
+                {
+                  "text": "Вода в ручье стала ниже на две ступени. Колесо крутится через раз. Говорю совету — не слушают: им подавай пилораму на каждом холме.",
+                  "color": "black"
+                },
+                {
+                  "text": "Мука нынче серая. Земля устаёт, а мы делаем вид, что не слышим.",
+                  "color": "black"
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_book_cover",
+              "title": "Мельница у ручья",
+              "author": "Мельник Добрыня",
+              "generation": 3
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Обрывок 2/13: Мельница у ручья",
+                "color": "gold",
+                "italic": false
+              },
+              "target": "custom_name"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{avgustov_note:2}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

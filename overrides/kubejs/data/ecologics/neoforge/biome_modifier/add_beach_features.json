@@ -1,0 +1,15 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "minecraft:beach",
+    "terralith:gravel_beach",
+    "biomesoplenty:dune_beach",
+    "spawn:tropical_island",
+    "spawn:sandy_island"
+  ],
+  "features": [
+    "ecologics:coconut",
+    "ecologics:seashell"
+  ],
+  "step": "vegetal_decoration"
+}

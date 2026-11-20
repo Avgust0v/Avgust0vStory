@@ -1,0 +1,24 @@
+{
+  "musicDelayLength2": "SONGPACK_DEFAULT",
+  "musicSwitchSpeed2": "SONGPACK_DEFAULT",
+  "debugModeEnabled": false,
+  "loadedUserSongpack": "",
+  "blacklistedDimensions": [],
+  "savedHomePositions": {},
+  "soundsMuteMusic": [],
+  "soundsMuteMusicIgnoreDistance": [
+    "_music",
+    "_theme",
+    "dead_king.music",
+    "music.fire_boss",
+    "music.flame_still_burns",
+    "music.whispers_of_ice",
+    "music.ashlord",
+    "music.helvar",
+    "music.nerakyss",
+    "music.sirok",
+    "music.skor",
+    "music.yeti_intro"
+  ],
+  "hasForcedInitialVolume": true
+}

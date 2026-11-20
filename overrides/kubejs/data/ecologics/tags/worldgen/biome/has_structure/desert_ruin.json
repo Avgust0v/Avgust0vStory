@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "terralith:desert_oasis",
+    "terralith:ancient_sands",
+    "terralith:lush_desert",
+    "terralith:desert_canyon",
+    "terralith:sandstone_valley",
+    "terralith:desert_spires",
+    "biomesoplenty:dryland",
+    "biomesoplenty:lush_desert"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+	id: "592561C799B6FAF1"
+	loot_size: 1
+	order_index: 23
+	rewards: [
+		{
+			id: "29ED592537179188"
+			item: {
+				count: 1
+				id: "minecraft:enchanted_golden_apple"
+			}
+		}
+		{
+			id: "29C2E0B4B94EF4A1"
+			item: {
+				count: 1
+				id: "minecraft:totem_of_undying"
+			}
+		}
+		{
+			count: 2
+			id: "40D15980E2F732BD"
+			item: {
+				count: 1
+				id: "minecraft:netherite_scrap"
+			}
+		}
+		{
+			id: "4B84C811684485EF"
+			item: {
+				count: 1
+				id: "artifacts:crystal_heart"
+			}
+		}
+		{
+			count: 8
+			id: "4C7BE693E962EA22"
+			item: {
+				count: 1
+				id: "minecraft:diamond"
+			}
+		}
+	]
+}

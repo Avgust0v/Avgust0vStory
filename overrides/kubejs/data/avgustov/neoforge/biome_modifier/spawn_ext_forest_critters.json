@@ -1,0 +1,37 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "biomesoplenty:aspen_glade",
+    "biomesoplenty:jacaranda_glade",
+    "biomesoplenty:mediterranean_forest",
+    "biomesoplenty:orchard",
+    "biomesoplenty:pumpkin_patch",
+    "biomesoplenty:redwood_forest",
+    "biomesoplenty:seasonal_forest",
+    "biomesoplenty:woodland",
+    "biomesoplenty:forested_field",
+    "biomesoplenty:old_growth_woodland",
+    "biomesoplenty:maple_woods",
+    "terralith:birch_taiga",
+    "terralith:blooming_valley",
+    "terralith:lavender_forest",
+    "terralith:sakura_grove",
+    "terralith:temperate_highlands",
+    "terralith:forested_highlands",
+    "terralith:lush_valley"
+  ],
+  "spawners": [
+    {
+      "type": "livingthings:raccoon",
+      "weight": 16,
+      "minCount": 2,
+      "maxCount": 5
+    },
+    {
+      "type": "ecologics:squirrel",
+      "weight": 10,
+      "minCount": 2,
+      "maxCount": 3
+    }
+  ]
+}

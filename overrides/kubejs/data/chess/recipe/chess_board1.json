@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:oak_planks"
+    },
+    "b": {
+      "item": "minecraft:black_dye"
+    },
+    "w": {
+      "item": "minecraft:white_dye"
+    }
+  },
+  "pattern": [
+    "#b#",
+    "#w#"
+  ],
+  "result": {
+    "components": {
+      "minecraft:item_name": "'Chess Board'",
+      "minecraft:entity_data": {
+        "id": "minecraft:item_frame",
+        "CustomName": "chess_board"
+      }
+    },
+    "count": 1,
+    "id": "minecraft:item_frame"
+  }
+}

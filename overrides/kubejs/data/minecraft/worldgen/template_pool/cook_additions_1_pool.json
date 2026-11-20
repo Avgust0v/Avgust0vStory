@@ -1,0 +1,69 @@
+{
+  "name": "minecraft:cook_additions_1_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "farmers_structures:cook_houses/cook_additions_1_1",
+        "processors": "farmers_structures:random_crates",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "farmers_structures:cook_houses/cook_additions_1_2",
+        "processors": "farmers_structures:random_crates",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "farmers_structures:cook_houses/cook_additions_1_3",
+        "processors": "farmers_structures:random_crates",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "farmers_structures:cook_houses/cook_additions_1_4",
+        "processors": "farmers_structures:random_crates",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "farmers_structures:cook_houses/cook_additions_1_5",
+        "processors": "farmers_structures:random_crates",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "farmers_structures:cook_houses/cook_additions_1_6",
+        "processors": "farmers_structures:random_crates",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "farmers_structures:cook_houses/cook_additions_1_7",
+        "processors": "farmers_structures:random_crates",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

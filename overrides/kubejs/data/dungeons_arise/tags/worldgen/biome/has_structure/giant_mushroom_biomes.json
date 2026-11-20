@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "terralith:caldera",
+    "terralith:steppe",
+    "terralith:highlands",
+    "terralith:blooming_plateau",
+    "terralith:valley_clearing",
+    "biomesoplenty:rocky_shrubland"
+  ]
+}

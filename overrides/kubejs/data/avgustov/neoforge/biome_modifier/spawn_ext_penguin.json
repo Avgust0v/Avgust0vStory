@@ -1,0 +1,20 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "terralith:wintry_lowlands",
+    "terralith:snowy_shield",
+    "terralith:cold_shrubland",
+    "terralith:ice_marsh",
+    "minecraft:ice_spikes",
+    "terralith:frozen_cliffs",
+    "terralith:alpha_islands_winter"
+  ],
+  "spawners": [
+    {
+      "type": "fowlplay:penguin",
+      "weight": 1,
+      "minCount": 16,
+      "maxCount": 24
+    }
+  ]
+}

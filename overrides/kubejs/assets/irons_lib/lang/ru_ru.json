@@ -1,0 +1,9 @@
+{
+ "transmog.irons_lib.autumn_knight": "Осенний рыцарь",
+ "transmog.irons_lib.pumpkin_head": "Тыквоголовый",
+ "transmog.irons_lib.pumpkin_head_creeper": "Тыквоголовый — крипер",
+ "transmog.irons_lib.pumpkin_head_happy": "Тыквоголовый — весёлый",
+ "transmog.irons_lib.pumpkin_head_sad": "Тыквоголовый — грустный",
+ "attribute.name.irons_lib.projectile_damage": "Урон снарядами",
+ "attribute.name.irons_lib.projectile_damage.desc": "Процентное увеличение урона всех снарядов"
+}

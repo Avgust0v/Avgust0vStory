@@ -1,0 +1,361 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "era_8_war"
+	group: "0C5877243EA452C8"
+	icon: {
+		id: "cataclysm:ignitium_ingot"
+	}
+	id: "5F6BD320417E29B3"
+	images: [ ]
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["320B4FF55989C1C1"]
+			icon: {
+				id: "minecraft:skeleton_skull"
+			}
+			id: "066C0076956AAE88"
+			rewards: [
+				{
+					id: "7DF2E90D721F6BF6"
+					type: "xp"
+					xp: 25
+				}
+				{
+					command: "/loot give {p} loot avgustov:letters/st_8"
+					id: "200663FCF63C1271"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "7A4664262861B856"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["320B4FF55989C1C1", "7BE14415BC16599B", "066C0076956AAE88"]
+			icon: {
+				id: "cataclysm:the_incinerator"
+			}
+			id: "130148D3B8439F46"
+			rewards: [
+				{
+					id: "2D4C27DA2C912D72"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "3C053C063073DBE8"
+					item: {
+						count: 1
+						id: "cataclysm:the_incinerator"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "335FE502CB8EA2C6"
+					type: "checkmark"
+				}
+			]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["130148D3B8439F46", "5DAF564C963FD05E"]
+			icon: {
+				id: "cataclysm:the_incinerator"
+			}
+			id: "09B61BBAF2CBA24F"
+			rewards: [
+				{
+					id: "29F494DE15099DA6"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "4099E97BF6FA1DB1"
+					table_id: 4023403200033560694L
+					type: "choice"
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:ignis"
+					id: "0EF2C9AD4465AD2A"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 4.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["09B61BBAF2CBA24F"]
+			id: "55CA5B20172A1007"
+			rewards: [
+				{
+					id: "29655DAF40901F8D"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "19511BFC05612C3B"
+					item: {
+						count: 1
+						id: "cataclysm:ignitium_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["130148D3B8439F46", "5DAF564C963FD05E"]
+			icon: {
+				id: "cataclysm:witherite_ingot"
+			}
+			id: "1F31CC93666C13D9"
+			rewards: [
+				{
+					id: "5FE780EF64C7164C"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:the_harbinger"
+					id: "3EEDF9E97B204A32"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1F31CC93666C13D9"]
+			id: "7D8C648876D1BE98"
+			rewards: [
+				{
+					id: "6685C99BDF8AE6A2"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "11EC700B384A8B6D"
+					item: {
+						count: 1
+						id: "cataclysm:witherite_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["55CA5B20172A1007", "2716D5A640A1855F"]
+			id: "4233AE2347FB1210"
+			optional: true
+			rewards: [
+				{
+					id: "55BE401650A59BCD"
+					type: "xp"
+					xp: 250
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "0C2392AF5FBFFE47"
+					item: {
+						count: 1
+						id: "create_jetpack:netherite_jetpack"
+					}
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D8C648876D1BE98"]
+			id: "55D9A380247187A0"
+			rewards: [
+				{
+					id: "0405F939A2B81950"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					id: "3937BDC7592ED7C1"
+					item: {
+						count: 1
+						id: "createoreexcavation:netherite_drill"
+					}
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["55CA5B20172A1007"]
+			icon: {
+				id: "cataclysm:ignitium_chestplate"
+			}
+			id: "55024B3BC4964CE7"
+			optional: true
+			rewards: [
+				{
+					id: "5AC56D2CCA3A275A"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "429C1C884DF57994"
+					item: {
+						count: 1
+						id: "cataclysm:ignitium_chestplate"
+					}
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["068D465E27A99775"]
+			icon: {
+				id: "cataclysm:cursium_chestplate"
+			}
+			id: "08694E65871B3DFD"
+			optional: true
+			rewards: [
+				{
+					id: "7648566C59FEEF3D"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "67277D1523B30554"
+					item: {
+						count: 1
+						id: "cataclysm:cursium_chestplate"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["14E69E154C2CB3B6"]
+			icon: {
+				id: "deeperdarker:warden_chestplate"
+			}
+			id: "1EBD71F19CF7CA63"
+			optional: true
+			rewards: [
+				{
+					id: "7C409B698E9F3506"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "6DA39CCCBCEFA088"
+					item: {
+						count: 1
+						id: "deeperdarker:warden_chestplate"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["09B61BBAF2CBA24F", "1F31CC93666C13D9", "55D9A380247187A0"]
+			hide_dependency_lines: true
+			icon: {
+				id: "cataclysm:ignitium_ingot"
+			}
+			id: "30CB301B541829CE"
+			rewards: [
+				{
+					id: "26CB099CE15D9C30"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "584C5D9A301008C4"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					command: "/give {p} minecraft:writable_book[minecraft:custom_name='{\"text\":\"Страница летописи — Эпоха 6. Трофеи боссов\",\"color\":\"gold\",\"italic\":false}',minecraft:lore=['{\"text\":\"Запишите, что построила ваша гильдия в эту эпоху.\",\"color\":\"gray\",\"italic\":true}']] 1"
+					id: "2CE7A6776D88D5C3"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "6B459268D32CA0B6"
+					item: {
+						count: 1
+						id: "cataclysm:ignitium_ingot"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "06D113F543C1AA76"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: -2.5d
+		}
+	]
+}

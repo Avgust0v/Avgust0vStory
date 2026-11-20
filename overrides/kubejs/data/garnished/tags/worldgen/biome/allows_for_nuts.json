@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "terralith:steppe",
+    "terralith:highlands",
+    "terralith:valley_clearing",
+    "biomesoplenty:rocky_shrubland"
+  ]
+}

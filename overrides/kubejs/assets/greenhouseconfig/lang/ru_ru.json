@@ -1,0 +1,4 @@
+{
+ "command.greenhouseconfig.reload.success": "Конфигурация «%s» успешно перезагружена.",
+ "command.greenhouseconfig.reload.error": "Не удалось перезагрузить конфигурацию «%s»."
+}

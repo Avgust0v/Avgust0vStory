@@ -1,0 +1,19 @@
+{
+  "block.earthmobsmod.common_mob_chest": "Сундук с железными припасами",
+  "block.earthmobsmod.uncommon_mob_chest": "Сундук с изумрудными припасами",
+  "block.earthmobsmod.rare_mob_chest": "Сундук с алмазными припасами",
+  "entity.earthmobsmod.ashen_cow": "Пепельная корова",
+  "entity.earthmobsmod.cookie_cow": "Печеньковая корова",
+  "entity.earthmobsmod.dairy_cow": "Молочная корова",
+  "entity.earthmobsmod.pinto_cow": "Пегая корова",
+  "entity.earthmobsmod.sunset_cow": "Закатная корова",
+  "entity.earthmobsmod.bouldering_frozen_zombie": "Ледяной зомби-скалолаз",
+  "entity.earthmobsmod.lobber_husk": "Кадавр-метатель",
+  "item.earthmobsmod.ashen_cow_spawn_egg": "Яйцо призыва пепельной коровы",
+  "item.earthmobsmod.cookie_cow_spawn_egg": "Яйцо призыва печеньковой коровы",
+  "item.earthmobsmod.dairy_cow_spawn_egg": "Яйцо призыва молочной коровы",
+  "item.earthmobsmod.pinto_cow_spawn_egg": "Яйцо призыва пегой коровы",
+  "item.earthmobsmod.sunset_cow_spawn_egg": "Яйцо призыва закатной коровы",
+  "item.earthmobsmod.bouldering_frozen_zombie_spawn_egg": "Яйцо призыва ледяного зомби-скалолаза",
+  "item.earthmobsmod.lobber_husk_spawn_egg": "Яйцо призыва кадавра-метателя"
+}

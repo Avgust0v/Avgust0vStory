@@ -1,0 +1,12 @@
+{
+ "create_factory_logistics.ponder.ae_interface.header": "Связь Applied Energistics со складской системой",
+ "create_factory_logistics.ponder.ae_interface.text_1": "ME-интерфейс AE2 может выполнять роль упаковщика в логистической сети Create",
+ "create_factory_logistics.ponder.ae_interface.text_2": "ME",
+ "create_factory_logistics.ponder.ae_interface.text_3": "Прикрепите складской передатчик, чтобы привязать интерфейс к логистической сети",
+ "create_factory_logistics.ponder.ae_interface.text_4": "Поставьте сверху квакопорт, чтобы отправлять и получать коробки",
+ "create_factory_logistics.ponder.ae_interface.text_5": "Сеть может запрашивать предметы, хранящиеся в AE",
+ "create_factory_logistics.ponder.ae_interface.text_6": "Доставленные сюда коробки распаковываются в ME-сеть",
+ "item.create_factory_logistics.composite_package": "Составная коробка",
+ "entity.create_factory_logistics.composite_package": "Составная коробка",
+ "create.item_attributes.is_fluid_no_nbt.inverted": "не %1$s (без NBT)"
+}

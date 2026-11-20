@@ -1,0 +1,416 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "handbook"
+	group: "0C5877243EA452C8"
+	icon: {
+		id: "minecraft:writable_book"
+	}
+	id: "318ED96E5B909505"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "ftbquests:book"
+			}
+			id: "277DE12840B5758E"
+			rewards: [
+				{
+					id: "6C7E28EB2134ED1A"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "243E55593AFF46ED"
+					type: "checkmark"
+				}
+			]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["277DE12840B5758E"]
+			icon: {
+				id: "minecraft:white_banner"
+			}
+			id: "6C64A75635356346"
+			rewards: [
+				{
+					id: "4718FD1B5A286980"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 8
+					id: "14830FAE1D4FEA4B"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "336C8CB622BB21FA"
+					type: "checkmark"
+				}
+			]
+			x: 1.75d
+			y: 3.5d
+		}
+		{
+			dependencies: ["277DE12840B5758E"]
+			icon: {
+				id: "create:goggles"
+			}
+			id: "4970C0D736D8E8EF"
+			rewards: [
+				{
+					id: "03FCBF278EBE86E0"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "5ECE32B9B758CC83"
+					type: "checkmark"
+				}
+			]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["277DE12840B5758E"]
+			icon: {
+				id: "minecraft:tripwire_hook"
+			}
+			id: "511F2A5EA7E27314"
+			rewards: [
+				{
+					id: "4FDB4072E05EBE82"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "3A654746CB85FF11"
+					type: "checkmark"
+				}
+			]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["511F2A5EA7E27314"]
+			icon: {
+				id: "minecraft:note_block"
+			}
+			id: "1312B8235E100152"
+			rewards: [
+				{
+					id: "44E098926B6F15A7"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "6CFDDB421A6CA34C"
+					type: "checkmark"
+				}
+			]
+			x: 6.25d
+			y: 5.5d
+		}
+		{
+			dependencies: ["277DE12840B5758E"]
+			icon: {
+				id: "legendarysurvivaloverhaul:thermometer"
+			}
+			id: "0BBC1EA872492C7B"
+			rewards: [
+				{
+					id: "448B1B0BDB6119F8"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "79B163FF482C5F04"
+					type: "checkmark"
+				}
+			]
+			x: 9.75d
+			y: 3.5d
+		}
+		{
+			dependencies: ["277DE12840B5758E"]
+			icon: {
+				id: "minecraft:skeleton_skull"
+			}
+			id: "3AA1042BCCBF3AFA"
+			rewards: [
+				{
+					id: "6B06B1D7803E7078"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "48E5EB7C3C31014D"
+					type: "checkmark"
+				}
+			]
+			x: 12.25d
+			y: 3.5d
+		}
+		{
+			dependencies: ["511F2A5EA7E27314"]
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "4A9317BF669DD041"
+			rewards: [
+				{
+					id: "459450670B82B167"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "1664C77070805897"
+					type: "checkmark"
+				}
+			]
+			x: 8.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6C64A75635356346"]
+			icon: {
+				id: "minecraft:command_block"
+			}
+			id: "5C05E25AE1149DB2"
+			rewards: [
+				{
+					id: "44CA1422D576C603"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 32
+					id: "61984753F6488F30"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4E965B687760EBEE"
+					type: "checkmark"
+				}
+			]
+			x: 1.75d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5C05E25AE1149DB2"]
+			icon: {
+				id: "minecraft:player_head"
+			}
+			id: "5FB14D3A23A5E73F"
+			rewards: [
+				{
+					id: "5141EE8605A92340"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "35F77579D44F5BE1"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5C05E25AE1149DB2", "2741FB41F86956F1"]
+			icon: {
+				id: "create:display_board"
+			}
+			id: "78DE637970AE59FD"
+			rewards: [
+				{
+					id: "285D37D7B054DE2A"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "79DF2FBE4216BD5F"
+					item: {
+						count: 1
+						id: "create:display_link"
+					}
+					type: "item"
+				}
+				{
+					id: "7103242B00CF44E8"
+					type: "checkmark"
+				}
+			]
+			x: 1.75d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5C05E25AE1149DB2"]
+			icon: {
+				id: "minecraft:netherite_chestplate"
+			}
+			id: "018B0FD1CBC37B44"
+			rewards: [
+				{
+					id: "47BC697D970FA0BF"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "62A114E8F5F1729B"
+					type: "checkmark"
+				}
+			]
+			x: 3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["277DE12840B5758E"]
+			icon: {
+				id: "create:stressometer"
+			}
+			id: "18A4027B6BFF9CC3"
+			rewards: [
+				{
+					id: "68DBF4279F104B36"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "7D7891EB369443AC"
+					type: "checkmark"
+				}
+			]
+			x: 15.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["277DE12840B5758E"]
+			icon: {
+				id: "create:large_cogwheel"
+			}
+			id: "1D58BCDA6C192C44"
+			rewards: [
+				{
+					id: "2D79875DA0D81BE5"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "7CFA3CA3527C0288"
+					type: "checkmark"
+				}
+			]
+			x: 17.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["277DE12840B5758E"]
+			icon: {
+				id: "create:andesite_funnel"
+			}
+			id: "1256061A7CA0E382"
+			rewards: [
+				{
+					id: "6C8691FC206BDACA"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "4E31C11FC7D03A9D"
+					type: "checkmark"
+				}
+			]
+			x: 20.25d
+			y: 3.5d
+		}
+		{
+			dependencies: ["277DE12840B5758E"]
+			icon: {
+				id: "create:encased_fan"
+			}
+			id: "0DBFC5019405734D"
+			rewards: [
+				{
+					id: "5725E50F0E6A8A2A"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "043817B2EB0C6291"
+					type: "checkmark"
+				}
+			]
+			x: 22.75d
+			y: 3.5d
+		}
+		{
+			dependencies: ["277DE12840B5758E"]
+			icon: {
+				id: "create:crushed_raw_iron"
+			}
+			id: "304AA2CFA6EAB288"
+			rewards: [
+				{
+					id: "4894109602A46F19"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "53C3C693D78113B3"
+					type: "checkmark"
+				}
+			]
+			x: 25.5d
+			y: 3.5d
+		}
+	]
+}

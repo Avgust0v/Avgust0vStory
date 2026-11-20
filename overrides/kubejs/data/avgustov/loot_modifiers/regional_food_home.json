@@ -1,0 +1,535 @@
+{
+ "type": "neoforge:add_table",
+ "table": "avgustov:regional_food/home",
+ "conditions": [
+  {
+   "condition": "minecraft:any_of",
+   "terms": [
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "artifacts:chests/campsite_barrel"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "artifacts:chests/campsite_barrel/cobblestone"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "artifacts:chests/campsite_barrel/cobwebs"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "artifacts:chests/campsite_barrel/crops"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "artifacts:chests/campsite_barrel/food"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "artifacts:chests/campsite_barrel/gems"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "artifacts:chests/campsite_barrel/ingots"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "artifacts:chests/campsite_barrel/minecarts"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "artifacts:chests/campsite_barrel/ores"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "artifacts:chests/campsite_barrel/rails"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "artifacts:chests/campsite_barrel/tnt"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "artifacts:chests/campsite_chest"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "chefsdelight:chests/cooker"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "create_easy_structures:chests/common_chest"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "create_easy_structures:chests/epic_chest"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "create_easy_structures:chests/rare_chest"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "create_rustic_structures:chests/loot_1"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "create_rustic_structures:chests/loot_2"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "create_rustic_structures:chests/loot_3"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "ctov:chests/village/village_bakery"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "ctov:chests/village/village_dark_forest_house"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "ctov:chests/village/village_farm"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "ctov:chests/village/village_forager"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "ctov:chests/village/village_mushroom_house"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "ctov:chests/village/village_smith"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "deeperdarker:chests/crystallized_amber"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "dungeons_arise:chests/bandit_village/bandit_village_barrels"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "dungeons_arise:chests/bandit_village/bandit_village_normal"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "dungeons_arise:chests/bandit_village/bandit_village_supply"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "dungeons_arise:chests/bandit_village/bandit_village_tents"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "dungeons_arise:chests/bathhouse/bathhouse_barrels"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "dungeons_arise:chests/bathhouse/bathhouse_normal"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "dungeons_arise:chests/illager_campsite/illager_campsite_supply"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "dungeons_arise:chests/illager_campsite/illager_campsite_tent"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "dungeons_arise:chests/illager_windmill/illager_windmill_barrels"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "dungeons_arise:chests/illager_windmill/illager_windmill_treasure"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "dungeons_arise:chests/merchant_campsite/merchant_campsite_supply"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "dungeons_arise:chests/merchant_campsite/merchant_campsite_tent"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "dungeons_arise:chests/mushroom_house/mushroom_house_barrels"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "dungeons_arise:chests/mushroom_house/mushroom_house_normal"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "dungeons_arise:chests/mushroom_house/mushroom_house_treasure"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "dungeons_arise:chests/mushroom_village/mushroom_village_barrels"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "dungeons_arise:chests/mushroom_village/mushroom_village_treasure"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "farmersdelight:chests/fd_abandoned_mineshaft"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "farmersdelight:chests/fd_pillager_outpost"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "farmersdelight:chests/fd_ruined_portal"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "farmersdelight:chests/fd_simple_dungeon"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "farmersdelight:chests/fd_village_butcher"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "farmersdelight:chests/fd_village_plains_house"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "hopo:chests/mineshaft/big_rooms/farm_beetroot"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "hopo:chests/mineshaft/big_rooms/farm_carrot"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "hopo:chests/mineshaft/big_rooms/farm_melon"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "hopo:chests/mineshaft/big_rooms/farm_potato"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "hopo:chests/mineshaft/big_rooms/farm_pumpkin"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "hopo:chests/mineshaft/big_rooms/farm_wheat"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "hopo:chests/mineshaft/minecart/connector"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "magistuarmory:chests/village/village_weaponsmith"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "medieval_buildings:chests/medium_shack_house"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "minecraft:chests/village/village_armorer"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "minecraft:chests/village/village_butcher"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "minecraft:chests/village/village_cartographer"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "minecraft:chests/village/village_fisher"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "minecraft:chests/village/village_fletcher"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "minecraft:chests/village/village_mason"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "minecraft:chests/village/village_plains_house"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "minecraft:chests/village/village_shepherd"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "minecraft:chests/village/village_tannery"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "minecraft:chests/village/village_temple"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "minecraft:chests/village/village_toolsmith"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "minecraft:chests/village/village_weaponsmith"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "mss:houses_common"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "mss:houses_rare"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "mss:houses_uncommon"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "mvs:abandoned"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "mvs:cart"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "mvs:cartographer_tower"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "mvs:cathedral_base"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "mvs:cathedral_common"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "mvs:cathedral_rare"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "mvs:crystal"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "mvs:general"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "mvs:houses_brewing"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "mvs:houses_common"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "mvs:houses_flower"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "mvs:houses_rare"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "mvs:houses_uncommon"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "mvs:large_carts"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "mvs:large_carts_2"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "mvs:mushroom_pond"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "mvs:pillager"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "mvs:pond"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "mvs:rare"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "mvs:red_tower/common"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "mvs:red_tower/treasure"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "mvs:red_tower/uncommon"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "mvs:stable"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "ribbits:chests/fisherman_main"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "ribbits:chests/fisherman_storage"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "structory:harvest/graveyard"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "structory:harvest/graveyard2"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "structory:harvest/manor2/loot"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "structory:harvest/manor2/treasure"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "structory:harvest/old_manor/common"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "structory:harvest/old_manor/treasure"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "structory:mood/farmer"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "structory:mood/fisherman"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "structory:outcast/farm_ruin"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "structory_towers:basic/farm_basic"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "structory_towers:top/farm_top"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "structory_towers:workshop_minecart"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "terralith:lodge_drinkables"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "terralith:village/fortified/archer"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "terralith:village/fortified/attic"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "terralith:village/fortified/butcher"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "terralith:village/fortified/cartographer"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "terralith:village/fortified/fisherman"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "terralith:village/fortified/food"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "terralith:village/fortified/generic"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "terralith:village/fortified/generic_low"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "terralith:village/fortified/mason"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "terralith:village/fortified/smith"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "terralith:village/fortified/smith/expert"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "terralith:village/fortified/smith/novice"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "terralith:village/fortified/tavern_downstairs"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "terralith:village/fortified/tavern_upstairs"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "terralith:village/fortified/treasure"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "terralith:village/treasure/diamond"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "terralith:village/treasure/emerald"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "terralith:village/treasure/golem"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "wares:chests/village/dark_forest_warehouse"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "wares:chests/village/mushroom_warehouse"
+    }
+   ]
+  }
+ ]
+}

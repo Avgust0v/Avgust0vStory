@@ -1,0 +1,4 @@
+{
+ "lambdynlights.key.toggle_fps_dynamic_lighting": "Переключить освещение от первого лица",
+ "lambdynlights.key.toggle_fps_dynamic_lighting.info": "Динамическое освещение от первого лица: %s"
+}

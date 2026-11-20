@@ -1,0 +1,12 @@
+{
+ "screen.torchmaster.volume_gui.title": "Отображение зоны действия Torchmaster",
+ "screen.torchmaster.volume_gui.toggle_on": "Выключить отображение зоны",
+ "screen.torchmaster.volume_gui.toggle_off": "Включить отображение зоны",
+ "screen.torchmaster.volume_gui.range": "Радиус действия в каждую сторону: §a%s§r блоков",
+ "screen.torchmaster.feral_flare_lantern.title": "Фонарь дикого пламени",
+ "screen.torchmaster.feral_flare_lantern.description": "Размещение света",
+ "screen.torchmaster.feral_flare_lantern.line_of_sight.enabled": "Освещать только места, которые видит фонарь.",
+ "screen.torchmaster.feral_flare_lantern.line_of_sight.enabled.description": "Свет не будет появляться за стенами.",
+ "screen.torchmaster.feral_flare_lantern.line_of_sight.disabled": "Освещать даже места за стенами.",
+ "screen.torchmaster.feral_flare_lantern.line_of_sight.disabled.description": "Фонарю не нужен прямой обзор."
+}

@@ -1,0 +1,16 @@
+{
+ "block.create_enchantment_industry.infused_dragon_breath": "Насыщенное драконье дыхание",
+ "create.item_attributes.create_enchantment_industry.can_be_salvaged": "можно разобрать",
+ "create.item_attributes.create_enchantment_industry.can_be_salvaged.inverted": "нельзя разобрать",
+ "create.item_attributes.create_enchantment_industry.processable_by_mechanical_grindstone": "можно обработать механическим точилом",
+ "create.item_attributes.create_enchantment_industry.processable_by_mechanical_grindstone.inverted": "нельзя обработать механическим точилом",
+ "create_enchantment_industry.ponder.bulk_salvaging.header": "Массовая разборка",
+ "create_enchantment_industry.ponder.bulk_salvaging.text_2": "Воздушные потоки, проходящие через насыщенное драконье дыхание, создают установку для разборки",
+ "create_enchantment_industry.ponder.bulk_salvaging.text_3": "Внимание: насыщенное драконье дыхание может разобрать надетые предметы",
+ "create_enchantment_industry.ponder.classic_blaze_enchanter.intro.text_8": "Если у предмета уже есть зачарование того же типа и уровня, супер-зачарование повышает его на один уровень и может превысить ванильный предел уровня",
+ "death.attack.create_enchantment_industry.grind": "Механическое точило оторвало руку игроку %1$s.",
+ "fluid.create_enchantment_industry.infused_dragon_breath": "Насыщенное драконье дыхание",
+ "item.create_enchantment_industry.infused_dragon_breath_bucket": "Ведро насыщенного драконьего дыхания",
+ "tag.block.create_enchantment_industry.fan_processing_catalysts.salvaging": "Катализаторы массовой разборки",
+ "tag.fluid.create_enchantment_industry.fan_processing_catalysts.salvaging": "Катализаторы массовой разборки"
+}

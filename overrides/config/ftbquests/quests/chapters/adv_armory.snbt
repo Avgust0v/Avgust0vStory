@@ -1,0 +1,538 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "adv_armory"
+	group: "0B22509E29683950"
+	icon: {
+		id: "immersive_armors:divine_chestplate"
+	}
+	id: "0C8BC331080BBBB1"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:leather_chestplate"
+			}
+			id: "27A9A632D062727C"
+			rewards: [
+				{
+					id: "287965A4A3F53895"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "716883CA8C84AE79"
+					type: "checkmark"
+				}
+			]
+			x: 19.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["27A9A632D062727C"]
+			id: "3380C4BC0F0287C6"
+			optional: true
+			rewards: [
+				{
+					id: "1CAE48E5BD94CAAB"
+					type: "xp"
+					xp: 15
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "41B72E9BE60656AF"
+					item: {
+						count: 1
+						id: "immersive_armors:wooden_chestplate"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["27A9A632D062727C"]
+			id: "365BB99134E4CBDF"
+			optional: true
+			rewards: [
+				{
+					id: "7C51F8E59CF06F38"
+					type: "xp"
+					xp: 15
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "6F6ED347970379AD"
+					item: {
+						count: 1
+						id: "immersive_armors:bone_chestplate"
+					}
+					type: "item"
+				}
+			]
+			x: 2.75d
+			y: 3.5d
+		}
+		{
+			dependencies: ["27A9A632D062727C"]
+			id: "68D6835BB68D55C9"
+			optional: true
+			rewards: [
+				{
+					id: "230F86EFFAC78ED8"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "27F21263AF652A83"
+					item: {
+						count: 1
+						id: "immersive_armors:slime_chestplate"
+					}
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: 3.5d
+		}
+		{
+			dependencies: ["27A9A632D062727C"]
+			id: "446771FA574107D5"
+			optional: true
+			rewards: [
+				{
+					id: "005B6B79373F779D"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "220EE9D70E69375F"
+					item: {
+						count: 1
+						id: "create_sa:copper_chestplate"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["27A9A632D062727C"]
+			id: "61FA51811135FCBD"
+			optional: true
+			rewards: [
+				{
+					id: "7BFF6FC5BB2B9385"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "3B4DD574FD8FA4DD"
+					item: {
+						count: 1
+						id: "immersive_armors:warrior_chestplate"
+					}
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["27A9A632D062727C"]
+			id: "2145966031DE22C0"
+			optional: true
+			rewards: [
+				{
+					id: "61F5E0CBBED6E3AC"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "268CCAC6467E6694"
+					item: {
+						count: 1
+						id: "immersive_armors:prismarine_chestplate"
+					}
+					type: "item"
+				}
+			]
+			x: 13.25d
+			y: 3.5d
+		}
+		{
+			dependencies: ["27A9A632D062727C"]
+			id: "671570D4F48FA9CC"
+			optional: true
+			rewards: [
+				{
+					id: "578C7D4E38C762CB"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "1C5FF35420A35BF1"
+					item: {
+						count: 1
+						id: "mutantmonsters:mutant_skeleton_chestplate"
+					}
+					type: "item"
+				}
+			]
+			x: 15.75d
+			y: 3.5d
+		}
+		{
+			dependencies: ["27A9A632D062727C", "0212EF427C731405"]
+			id: "7724668EE148A963"
+			optional: true
+			rewards: [
+				{
+					id: "08A40B45F645D578"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "118A35FC5F233F0F"
+					item: {
+						count: 1
+						id: "immersive_armors:robe_chestplate"
+					}
+					type: "item"
+				}
+			]
+			x: 18.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["365BB99134E4CBDF", "0212EF427C731405"]
+			id: "478CCBD01C5969A2"
+			optional: true
+			rewards: [
+				{
+					id: "1EB9B6488A0FEAE8"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "4CAF4E5F470C5EC0"
+					item: {
+						count: 1
+						id: "immersive_armors:wither_chestplate"
+					}
+					type: "item"
+				}
+			]
+			x: 2.75d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7724668EE148A963"]
+			id: "537BFD3C81045911"
+			optional: true
+			rewards: [
+				{
+					id: "1427D1DB2A260148"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "2130F8FF1A07B0AA"
+					item: {
+						count: 1
+						id: "immersive_armors:divine_chestplate"
+					}
+					type: "item"
+				}
+			]
+			x: 18.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["27A9A632D062727C", "2C8F1AF81F0DCA24"]
+			id: "4DB0B29951E80979"
+			optional: true
+			rewards: [
+				{
+					id: "5B2F98A4438593A4"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "1F4CACA90D6A39F7"
+					item: {
+						count: 1
+						id: "cataclysm:bone_reptile_chestplate"
+					}
+					type: "item"
+				}
+			]
+			x: 21.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["27A9A632D062727C", "0EB4F8AFE6A5B3D1"]
+			id: "33DAE07EA6AF67A4"
+			optional: true
+			rewards: [
+				{
+					id: "36FDA84BD45D4BE3"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "62542DD73BE3EC4C"
+					item: {
+						count: 1
+						id: "aquamirae:salvager_suit"
+					}
+					type: "item"
+				}
+			]
+			x: 23.75d
+			y: 3.5d
+		}
+		{
+			dependencies: ["33DAE07EA6AF67A4"]
+			id: "3BC4DBD7C46A9301"
+			optional: true
+			rewards: [
+				{
+					id: "3057E073119ED1B3"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "2BDDC89F0F1457E4"
+					item: {
+						count: 1
+						id: "aquamirae:terrible_chestplate"
+					}
+					type: "item"
+				}
+			]
+			x: 23.75d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3BC4DBD7C46A9301"]
+			id: "3839C02C25DF9125"
+			optional: true
+			rewards: [
+				{
+					id: "3A6116754BD88F87"
+					type: "xp"
+					xp: 80
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "0E19EFE27C936B30"
+					item: {
+						count: 1
+						id: "aquamirae:abyssal_brigandine"
+					}
+					type: "item"
+				}
+			]
+			x: 23.75d
+			y: 7.5d
+		}
+		{
+			dependencies: ["27A9A632D062727C", "22DEBD5AC32E1906"]
+			id: "26F132859F0F0742"
+			optional: true
+			rewards: [
+				{
+					id: "508A588084AAF092"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "606525DBE60CCDB2"
+					item: {
+						count: 1
+						id: "aquaculture:neptunium_chestplate"
+					}
+					type: "item"
+				}
+			]
+			x: 26.25d
+			y: 3.5d
+		}
+		{
+			dependencies: ["27A9A632D062727C", "3D4A10682B7DC98E"]
+			id: "500EC8607B466E1D"
+			optional: true
+			rewards: [
+				{
+					id: "71CAF272574E6AC9"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "4E14FD1E3798ED06"
+					item: {
+						count: 1
+						id: "deeperdarker:resonarium_chestplate"
+					}
+					type: "item"
+				}
+			]
+			x: 29.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["27A9A632D062727C", "3EE25C32D1CB359C"]
+			id: "1158D7A0B717A7D0"
+			optional: true
+			rewards: [
+				{
+					id: "78B8CE119D27696F"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "3D0726410E6767D4"
+					item: {
+						count: 1
+						id: "legendary_monsters:mossy_chestplate"
+					}
+					type: "item"
+				}
+			]
+			x: 31.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["27A9A632D062727C", "79AD95D4B5440CF7"]
+			id: "39E14246D31E4509"
+			optional: true
+			rewards: [
+				{
+					id: "6FA99513983FC2FF"
+					type: "xp"
+					xp: 80
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "1B99646E40BEDB91"
+					item: {
+						count: 1
+						id: "block_factorys_bosses:dragon_bones_chestplate"
+					}
+					type: "item"
+				}
+			]
+			x: 34.25d
+			y: 3.5d
+		}
+		{
+			dependencies: ["27A9A632D062727C", "0198B30433C0AD4D"]
+			id: "0AC4EE60A85F7F5F"
+			optional: true
+			rewards: [
+				{
+					id: "2AE3DC7F607C3DE6"
+					type: "xp"
+					xp: 80
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "2277B70962CCE4B5"
+					item: {
+						count: 1
+						id: "unusualend:warped_chestplate"
+					}
+					type: "item"
+				}
+			]
+			x: 36.75d
+			y: 3.5d
+		}
+		{
+			dependencies: ["27A9A632D062727C", "296028D6BC6BA78D"]
+			id: "76ABD4D0C9421375"
+			optional: true
+			rewards: [
+				{
+					id: "0E15A38DC3D8E065"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "4D3DC9B3ED00490B"
+					item: {
+						count: 1
+						id: "legendary_monsters:annihilator_chestplate"
+					}
+					type: "item"
+				}
+			]
+			x: 39.5d
+			y: 3.5d
+		}
+	]
+}

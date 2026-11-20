@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_written_book_pages",
+              "pages": [
+                {
+                  "text": "Третий день вода стоит выше отметки на ладонь. Купола держат. Совет велел осушить ещё один залив под склады. Я записал своё несогласие — пусть хоть в журнале останется.",
+                  "color": "black"
+                },
+                {
+                  "text": "Последняя запись. Море пришло ночью. Кто прочтёт — не стройте там, где вода уже однажды была.",
+                  "color": "black"
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_book_cover",
+              "title": "Портовый журнал",
+              "author": "Смотритель порта",
+              "generation": 3
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Обрывок 4/13: Портовый журнал",
+                "color": "gold",
+                "italic": false
+              },
+              "target": "custom_name"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{avgustov_note:4}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

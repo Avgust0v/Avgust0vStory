@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "terralith:orchid_swamp",
+    "terralith:steppe",
+    "terralith:highlands",
+    "terralith:arid_highlands",
+    "terralith:ashen_savanna",
+    "terralith:valley_clearing",
+    "terralith:savanna_slopes",
+    "biomesoplenty:wetland",
+    "biomesoplenty:marsh",
+    "biomesoplenty:scrubland",
+    "biomesoplenty:bayou",
+    "biomesoplenty:lush_savanna",
+    "biomesoplenty:snowblossom_grove",
+    "biomesoplenty:rocky_shrubland",
+    "biomesoplenty:wasteland",
+    "biomesoplenty:wasteland_steppe",
+    "terralith:wintry_lowlands",
+    "terralith:snowy_shield",
+    "terralith:cold_shrubland"
+  ]
+}

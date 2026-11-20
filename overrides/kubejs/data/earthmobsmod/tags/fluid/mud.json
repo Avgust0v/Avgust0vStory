@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "earthmobsmod:mud",
+      "required": false
+    },
+    {
+      "id": "earthmobsmod:mud_flow",
+      "required": false
+    }
+  ]
+}

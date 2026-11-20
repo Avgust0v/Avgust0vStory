@@ -1,0 +1,37 @@
+{
+	id: "37D5FFE4BE2B9876"
+	loot_size: 1
+	order_index: 31
+	rewards: [
+		{
+			count: 8
+			id: "3D158B697FCB004D"
+			item: {
+				count: 1
+				id: "createbigcannons:he_shell"
+			}
+		}
+		{
+			count: 16
+			id: "0A778FB9114752B7"
+			item: {
+				count: 1
+				id: "createbigcannons:powder_charge"
+			}
+		}
+		{
+			id: "32AF1BE228E9688B"
+			item: {
+				count: 1
+				id: "minecraft:totem_of_undying"
+			}
+		}
+		{
+			id: "62CE1470DB0BB78D"
+			item: {
+				count: 1
+				id: "minecraft:enchanted_golden_apple"
+			}
+		}
+	]
+}

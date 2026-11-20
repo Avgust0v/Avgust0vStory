@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "torchmaster:feral_flare_lantern",
+      "required": false
+    },
+    {
+      "id": "torchmaster:dreadlamp",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "terralith:forested_highlands",
+    "biomesoplenty:old_growth_woodland"
+  ],
+  "spawners": [
+    {
+      "type": "minecraft:fox",
+      "weight": 8,
+      "minCount": 1,
+      "maxCount": 2
+    }
+  ]
+}

@@ -1,0 +1,534 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "settle_market"
+	group: "6F40D0E1399F3965"
+	icon: {
+		id: "kubejs:guardian_token"
+	}
+	id: "3454B04FF0C25AD0"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["75B148B996AF893A"]
+			icon: {
+				id: "kubejs:guardian_token"
+			}
+			id: "169ACB71D2B05BC1"
+			rewards: [
+				{
+					id: "0D618D34FF898A2A"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "4C7CD0DC1F16AE47"
+					item: {
+						count: 1
+						id: "kubejs:guardian_token"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "70775162B4AA91C9"
+					type: "checkmark"
+				}
+			]
+			x: 18.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["169ACB71D2B05BC1"]
+			icon: {
+				id: "minecraft:experience_bottle"
+			}
+			id: "480B44A735ED345E"
+			rewards: [
+				{
+					count: 16
+					id: "294C40C4B7958BAC"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "2BE47AAF6779E3B7"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["169ACB71D2B05BC1"]
+			icon: {
+				id: "waystones:return_scroll"
+			}
+			id: "60EB61AF811FC73B"
+			rewards: [
+				{
+					count: 2
+					id: "1A304DF78D39F2EA"
+					item: {
+						count: 1
+						id: "waystones:return_scroll"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					id: "2F53CB5D76C23E83"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			x: 2.75d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["169ACB71D2B05BC1"]
+			icon: {
+				id: "naturescompass:naturescompass"
+			}
+			id: "1E39FF72DA62B8CE"
+			rewards: [
+				{
+					id: "05D4CB4CCCC47C8B"
+					item: {
+						count: 1
+						id: "naturescompass:naturescompass"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "03EF9CE1D054D056"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["169ACB71D2B05BC1"]
+			icon: {
+				id: "explorerscompass:explorerscompass"
+			}
+			id: "7F3D9C6F23666183"
+			rewards: [
+				{
+					id: "2D98DCCE361E6D01"
+					item: {
+						count: 1
+						id: "explorerscompass:explorerscompass"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "0A40128BD47B2A2B"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["169ACB71D2B05BC1"]
+			icon: {
+				id: "minecraft:saddle"
+			}
+			id: "2D58913773EB03D1"
+			rewards: [
+				{
+					id: "6B9B14C4D206227A"
+					item: {
+						count: 1
+						id: "minecraft:saddle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					id: "66BD998983DF7936"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["169ACB71D2B05BC1"]
+			icon: {
+				id: "minecraft:name_tag"
+			}
+			id: "370A476FA340105F"
+			rewards: [
+				{
+					count: 2
+					id: "79EA2F9F0A80D453"
+					item: {
+						count: 1
+						id: "minecraft:name_tag"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					id: "139F16493C9DBEF4"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			x: 13.25d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["169ACB71D2B05BC1"]
+			icon: {
+				id: "minecraft:golden_carrot"
+			}
+			id: "53FFC1739282123E"
+			rewards: [
+				{
+					count: 16
+					id: "390B2C944A49C1F2"
+					item: {
+						count: 1
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					id: "69DD7C80B3D7899E"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			x: 15.75d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["169ACB71D2B05BC1"]
+			icon: {
+				id: "minecraft:sniffer_egg"
+			}
+			id: "50E7AADD08CBF41A"
+			rewards: [
+				{
+					id: "7FB0980D00C3263F"
+					item: {
+						count: 1
+						id: "minecraft:sniffer_egg"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "760DE43B0DD1D74D"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			x: 18.5d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["169ACB71D2B05BC1"]
+			icon: {
+				id: "minecraft:heart_of_the_sea"
+			}
+			id: "40C185F50B5A122B"
+			rewards: [
+				{
+					id: "2DAA33D587D384AD"
+					item: {
+						count: 1
+						id: "minecraft:heart_of_the_sea"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					id: "546CD6A41F9CFA5B"
+					item: {
+						count: 1
+						id: "kubejs:guardian_token"
+					}
+					type: "item"
+				}
+			]
+			x: 21.0d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["169ACB71D2B05BC1"]
+			icon: {
+				id: "minecraft:totem_of_undying"
+			}
+			id: "796FE00AE923E1BF"
+			rewards: [
+				{
+					id: "5800DBBB1389E207"
+					item: {
+						count: 1
+						id: "minecraft:totem_of_undying"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "5BF40AB47941BB6A"
+					item: {
+						count: 1
+						id: "kubejs:guardian_token"
+					}
+					type: "item"
+				}
+			]
+			x: 23.75d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["169ACB71D2B05BC1"]
+			icon: {
+				id: "minecraft:enchanted_book"
+			}
+			id: "743AE4CFD7332EC6"
+			rewards: [
+				{
+					id: "77BEFC94E7567A11"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:mending": 1
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "665FDDFE01313557"
+					item: {
+						count: 1
+						id: "kubejs:guardian_token"
+					}
+					type: "item"
+				}
+			]
+			x: 26.25d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["169ACB71D2B05BC1"]
+			icon: {
+				id: "minecraft:netherite_upgrade_smithing_template"
+			}
+			id: "42822013BCB2C7C9"
+			rewards: [
+				{
+					id: "3FFA6E78E5592415"
+					item: {
+						count: 1
+						id: "minecraft:netherite_upgrade_smithing_template"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "31E544E1A7CDB6C3"
+					item: {
+						count: 1
+						id: "kubejs:guardian_token"
+					}
+					type: "item"
+				}
+			]
+			x: 29.0d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["169ACB71D2B05BC1"]
+			icon: {
+				id: "minecraft:enchanted_golden_apple"
+			}
+			id: "0B0E7A0AF77CBD7A"
+			rewards: [
+				{
+					id: "6FE6F4417A50E841"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_golden_apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "599A2F4AB56B7D16"
+					item: {
+						count: 1
+						id: "kubejs:guardian_token"
+					}
+					type: "item"
+				}
+			]
+			x: 31.5d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["169ACB71D2B05BC1", "1FA6327560BA8AB0"]
+			icon: {
+				id: "minecraft:elytra"
+			}
+			id: "049CEBD0729F0D81"
+			rewards: [
+				{
+					id: "4B9022DDC62C663C"
+					item: {
+						count: 1
+						id: "minecraft:elytra"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 6L
+					id: "04120EFB80C4000F"
+					item: {
+						count: 1
+						id: "kubejs:guardian_token"
+					}
+					type: "item"
+				}
+			]
+			x: 34.25d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["169ACB71D2B05BC1"]
+			icon: {
+				id: "numismatics:cog"
+			}
+			id: "57ED6836EF5E62DE"
+			rewards: [
+				{
+					count: 4
+					id: "4F2FC0D2ECEC3AD9"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					id: "359DF2D713D20B6C"
+					item: {
+						count: 1
+						id: "kubejs:guardian_token"
+					}
+					type: "item"
+				}
+			]
+			x: 36.75d
+			y: 3.5d
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "terralith:orchid_swamp",
+    "biomesoplenty:wetland",
+    "biomesoplenty:marsh",
+    "biomesoplenty:bayou"
+  ]
+}

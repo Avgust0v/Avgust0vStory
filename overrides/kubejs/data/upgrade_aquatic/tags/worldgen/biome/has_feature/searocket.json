@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "terralith:gravel_beach",
+    "biomesoplenty:dune_beach",
+    "spawn:tropical_island",
+    "spawn:sandy_island"
+  ]
+}

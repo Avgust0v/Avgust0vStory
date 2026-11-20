@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_written_book_pages",
+              "pages": [
+                {
+                  "text": "Сегодня выточил шестерню из камня. Кривая, тяжёлая, но крутится. Ратибор смеялся и крутил её весь вечер.",
+                  "color": "black"
+                },
+                {
+                  "text": "Пусть растёт и помнит: начинать надо с того, что есть под рукой, а не с того, чего хочется.",
+                  "color": "black"
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_book_cover",
+              "title": "Первая шестерня",
+              "author": "Мирон, отец Ратибора",
+              "generation": 3
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Обрывок 1/13: Первая шестерня",
+                "color": "gold",
+                "italic": false
+              },
+              "target": "custom_name"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{avgustov_note:1}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

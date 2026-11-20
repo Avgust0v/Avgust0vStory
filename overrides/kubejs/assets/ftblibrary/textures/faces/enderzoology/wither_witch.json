@@ -1,0 +1,13 @@
+{
+  "slice": {
+    "x": 8,
+    "y": 10,
+    "width": 8,
+    "height": 8
+  },
+  "default_image_size": {
+    "width": 64,
+    "height": 128
+  },
+  "texture": "avgustov:textures/face_src/witch.png"
+}

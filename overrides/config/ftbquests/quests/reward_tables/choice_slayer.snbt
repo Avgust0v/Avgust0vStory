@@ -1,0 +1,37 @@
+{
+	id: "779E14AEABE8BA1B"
+	loot_size: 1
+	order_index: 24
+	rewards: [
+		{
+			count: 3
+			id: "6447A7614C01396B"
+			item: {
+				count: 1
+				id: "minecraft:netherite_ingot"
+			}
+		}
+		{
+			count: 3
+			id: "6E63BE4144602EFD"
+			item: {
+				count: 1
+				id: "minecraft:enchanted_golden_apple"
+			}
+		}
+		{
+			id: "0FAA4AC2C6153FDC"
+			item: {
+				count: 1
+				id: "minecraft:nether_star"
+			}
+		}
+		{
+			id: "714AC377E7B9B4A3"
+			item: {
+				count: 1
+				id: "artifacts:crystal_heart"
+			}
+		}
+	]
+}

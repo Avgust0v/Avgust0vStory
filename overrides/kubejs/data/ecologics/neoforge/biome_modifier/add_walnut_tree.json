@@ -1,0 +1,12 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "minecraft:plains",
+    "terralith:steppe",
+    "terralith:highlands",
+    "terralith:valley_clearing",
+    "biomesoplenty:rocky_shrubland"
+  ],
+  "features": "ecologics:walnut",
+  "step": "vegetal_decoration"
+}

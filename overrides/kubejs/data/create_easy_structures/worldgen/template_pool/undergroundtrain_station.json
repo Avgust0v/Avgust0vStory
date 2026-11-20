@@ -1,0 +1,5 @@
+{
+  "name": "create_easy_structures:undergroundtrain_station",
+  "fallback": "minecraft:empty",
+  "elements": []
+}

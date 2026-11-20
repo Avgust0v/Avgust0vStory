@@ -1,0 +1,26 @@
+[
+  {
+    "identifier": "welcome",
+    "schedule": "on_first_join",
+    "type": "chat",
+    "repeats": false,
+    "pack_intro": true,
+    "text": "§6Добро пожаловать в AvgustovStory!§r\n§bКвесты§r — кнопка книги в инвентаре. Начните с главы «Справочник».\n§bГильдия:§r соберитесь по 2–4 игрока — §e/ftbteams party create <название>§r. Прогресс квестов общий внутри гильдии.\n§bСкин:§r §e/skin set mojang <ник>§r или §e/skin set web classic \"<ссылка на png>\"§r\n§bМетка для друзей§r — колесо Ping Wheel (клавиша в управлении).\nУдачной стройки!"
+  },
+  {
+    "identifier": "first_death",
+    "schedule": "on_death",
+    "type": "chat",
+    "repeats": false,
+    "pack_intro": false,
+    "text": "§6Вещи остались в надгробии§r на месте гибели — вернитесь и откройте его, чужие могилы не открываются. История смертей с координатами — клавиша §eU§r."
+  },
+  {
+    "identifier": "first_respawn",
+    "schedule": "on_respawn",
+    "type": "chat",
+    "repeats": false,
+    "pack_intro": false,
+    "text": "§7Сердца за разные блюда («Гурман» в главе «Кухня») после смерти остаются. Жетоны стражей и монеты тратятся в «Лавке артели».§r"
+  }
+]

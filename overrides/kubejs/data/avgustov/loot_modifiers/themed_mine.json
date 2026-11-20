@@ -1,0 +1,295 @@
+{
+ "type": "neoforge:add_table",
+ "table": "avgustov:themed/mine",
+ "conditions": [
+  {
+   "condition": "minecraft:any_of",
+   "terms": [
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "charta:chests/abandoned_mineshaft_decks"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "dungeons_arise:chests/mines_treasure_big"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "dungeons_arise:chests/mines_treasure_medium"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "dungeons_arise:chests/mines_treasure_small"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "dungeons_arise:chests/mining_complex/mining_complex_barrel"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "dungeons_arise:chests/mining_complex/mining_complex_dripstone_normal"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "dungeons_arise:chests/mining_complex/mining_complex_facility_normal"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "dungeons_arise:chests/mining_complex/mining_complex_lush_normal"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "dungeons_arise:chests/mining_complex/mining_complex_treasure"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "dungeons_arise:chests/mining_system/mining_system_barrels"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "dungeons_arise:chests/mining_system/mining_system_treasure"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "dungeons_arise:chests/mushroom_mines/mushroom_mines_barrels"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "dungeons_arise:chests/mushroom_mines/mushroom_mines_ores"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "dungeons_arise:chests/mushroom_mines/mushroom_mines_tools"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "dungeons_arise:chests/mushroom_mines/mushroom_mines_treasure"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "dungeons_arise:chests/scorched_mines/scorched_mines_barrels"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "dungeons_arise:chests/scorched_mines/scorched_mines_housing"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "dungeons_arise:chests/scorched_mines/scorched_mines_hub"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "dungeons_arise:chests/scorched_mines/scorched_mines_normal"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "dungeons_arise:chests/scorched_mines/scorched_mines_treasure"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "friendsandfoes:chests/abandoned_mineshaft_music_disc"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "hopo:chests/mineshaft/abandoned_miners_stuff"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "hopo:chests/mineshaft/base/amethyst"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "hopo:chests/mineshaft/base/archer"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "hopo:chests/mineshaft/base/armor"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "hopo:chests/mineshaft/base/bedroom"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "hopo:chests/mineshaft/base/brown_mushroom"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "hopo:chests/mineshaft/base/copper"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "hopo:chests/mineshaft/base/crafting"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "hopo:chests/mineshaft/base/diamond"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "hopo:chests/mineshaft/base/emerald"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "hopo:chests/mineshaft/base/food"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "hopo:chests/mineshaft/base/gold"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "hopo:chests/mineshaft/base/iron"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "hopo:chests/mineshaft/base/lapis"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "hopo:chests/mineshaft/base/prison"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "hopo:chests/mineshaft/base/red_mushroom"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "hopo:chests/mineshaft/base/redstone"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "hopo:chests/mineshaft/base/rip"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "hopo:chests/mineshaft/base/smelting"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "hopo:chests/mineshaft/base/tnt"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "hopo:chests/mineshaft/base/tools"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "hopo:chests/mineshaft/base/weapons"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "hopo:chests/mineshaft/big_rooms/archer"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "hopo:chests/mineshaft/big_rooms/copper"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "hopo:chests/mineshaft/big_rooms/iron_golem"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "hopo:chests/mineshaft/big_rooms/map"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "hopo:chests/mineshaft/big_rooms/music"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "hopo:chests/mineshaft/big_rooms/prison"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "hopo:chests/mineshaft/big_rooms/stews"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "hopo:chests/mineshaft/deepslate/copper"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "hopo:chests/mineshaft/deepslate/diamond"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "hopo:chests/mineshaft/deepslate/emerald"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "hopo:chests/mineshaft/deepslate/gold"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "hopo:chests/mineshaft/deepslate/iron"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "hopo:chests/mineshaft/deepslate/lapis"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "hopo:chests/mineshaft/deepslate/redstone"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "minecraft:chests/abandoned_mineshaft"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "structory:mood/miner"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "structory:outcast/generic/miner"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "structory:outcast/mine/loot"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "artifacts:chests/campsite_barrel/minecarts"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "artifacts:chests/campsite_barrel/ores"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "farmersdelight:chests/fd_abandoned_mineshaft"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "hopo:chests/mineshaft/big_rooms/farm_beetroot"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "hopo:chests/mineshaft/big_rooms/farm_carrot"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "hopo:chests/mineshaft/big_rooms/farm_melon"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "hopo:chests/mineshaft/big_rooms/farm_potato"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "hopo:chests/mineshaft/big_rooms/farm_pumpkin"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "hopo:chests/mineshaft/big_rooms/farm_wheat"
+    },
+    {
+     "condition": "neoforge:loot_table_id",
+     "loot_table_id": "hopo:chests/mineshaft/minecart/connector"
+    }
+   ]
+  }
+ ]
+}

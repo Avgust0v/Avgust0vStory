@@ -1,0 +1,22 @@
+{
+ "block.create_integrated_farming.duck_roost_campbell": "Насест утки породы кэмпбелл",
+ "block.create_integrated_farming.duck_roost_female": "Насест утки (самка)",
+ "block.create_integrated_farming.duck_roost_normal": "Утиный насест",
+ "block.create_integrated_farming.duck_roost_pekin": "Насест пекинской утки",
+ "block.create_integrated_farming.goose_roost_canadian": "Насест канадской казарки",
+ "block.create_integrated_farming.goose_roost_greylag": "Насест серого гуся",
+ "block.create_integrated_farming.goose_roost_normal": "Гусиный насест",
+ "block.create_integrated_farming.goose_roost_ping": "Насест гуся Пинга",
+ "block.create_integrated_farming.goose_roost_sus": "Насест подозрительного гуся",
+ "block.create_integrated_farming.goose_roost_untitled": "Насест гуся без названия",
+ "create_integrated_farming.ponder.lightning_rod.charge_soil.header": "Заряд почвы",
+ "create_integrated_farming.ponder.lightning_rod.charge_soil.text_1": "Превратить почву в погодную почву можно ударом молнии через громоотвод",
+ "create_integrated_farming.ponder.mechanical_arm.harvest_lily_pads.header": "Сбор кувшинок",
+ "create_integrated_farming.ponder.mechanical_arm.harvest_lily_pads.text_1": "Механические руки могут нацеливаться на огромные водяные лилии",
+ "create_integrated_farming.ponder.mechanical_arm.harvest_lily_pads.text_2": "Рука проверяет четыре соседних блока водной поверхности, а не саму цель",
+ "create_integrated_farming.ponder.mechanical_arm.harvest_lily_pads.text_3": "Кувшинки, огромные кувшинки и ближайшие огромные водяные лилии собираются, а цель остаётся на месте",
+ "create_integrated_farming.ponder.mechanical_arm.harvest_powdery_crops.header": "Сбор порошистых культур",
+ "create_integrated_farming.ponder.mechanical_arm.harvest_powdery_crops.text_1": "Механические руки могут собирать порошистые культуры",
+ "create_integrated_farming.ponder.mechanical_arm.harvest_powdery_crops.text_2": "Рука проверяет до 7 блоков вверх от выбранного целевого блока растения",
+ "create_integrated_farming.ponder.mechanical_arm.harvest_powdery_crops.text_3": "Найдя спелую часть, она собирает перец-пулю, не ломая растение"
+}

@@ -1,0 +1,39 @@
+{
+	id: "284F1CA75065455B"
+	loot_size: 1
+	order_index: 26
+	rewards: [
+		{
+			count: 16
+			id: "0534EEFCEB0C9E3A"
+			item: {
+				count: 1
+				id: "create:brass_ingot"
+			}
+		}
+		{
+			count: 8
+			id: "2811A61D69BB6BA7"
+			item: {
+				count: 1
+				id: "create:electron_tube"
+			}
+		}
+		{
+			count: 8
+			id: "44AB614C83F902AD"
+			item: {
+				count: 1
+				id: "create:brass_casing"
+			}
+		}
+		{
+			count: 16
+			id: "58C93993B3763D6F"
+			item: {
+				count: 1
+				id: "create:polished_rose_quartz"
+			}
+		}
+	]
+}

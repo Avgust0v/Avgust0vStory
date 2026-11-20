@@ -1,0 +1,17 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "minecraft:jungle",
+    "terralith:tropical_jungle",
+    "terralith:amethyst_rainforest",
+    "terralith:rocky_jungle",
+    "terralith:amethyst_canyon",
+    "terralith:jungle_mountains",
+    "biomesoplenty:rocky_rainforest",
+    "biomesoplenty:rainforest",
+    "biomesoplenty:floodplain",
+    "biomesoplenty:fungal_jungle"
+  ],
+  "features": "spawn:patch_zombified_flower",
+  "step": "vegetal_decoration"
+}

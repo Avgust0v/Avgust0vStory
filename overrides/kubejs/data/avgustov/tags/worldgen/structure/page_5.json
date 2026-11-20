@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "create_structures_arise:pillagersteampunkairship",
+      "required": false
+    }
+  ]
+}

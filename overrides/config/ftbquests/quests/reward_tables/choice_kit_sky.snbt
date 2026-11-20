@@ -1,0 +1,39 @@
+{
+	id: "4AC23E38FC006FEB"
+	loot_size: 1
+	order_index: 30
+	rewards: [
+		{
+			count: 4
+			id: "7A64241405FC74E7"
+			item: {
+				count: 1
+				id: "simulated:gyroscopic_mechanism"
+			}
+		}
+		{
+			count: 2
+			id: "5F1DBBFAEA9879DD"
+			item: {
+				count: 1
+				id: "aeronautics:smart_propeller"
+			}
+		}
+		{
+			count: 4
+			id: "4D9389558D68D176"
+			item: {
+				count: 1
+				id: "createdieselgenerators:diesel_bucket"
+			}
+		}
+		{
+			count: 32
+			id: "00F9872103DC8258"
+			item: {
+				count: 1
+				id: "minecraft:firework_rocket"
+			}
+		}
+	]
+}

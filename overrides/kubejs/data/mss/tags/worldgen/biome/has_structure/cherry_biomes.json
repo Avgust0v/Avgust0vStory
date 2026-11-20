@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "terralith:caldera",
+    "terralith:blooming_plateau",
+    "terralith:sakura_grove",
+    "terralith:sakura_valley"
+  ]
+}

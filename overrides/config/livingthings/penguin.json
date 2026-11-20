@@ -1,0 +1,8 @@
+{
+	"health": 10,
+	"movementSpeed": 0.25,
+	"maxSpawnedInChunk": 6,
+	"talkInterval": 180,
+	"spawnBiomes": [],
+	"_avgustovmc": "spawns off: duplicate of Naturalist/Friends&Foes"
+}

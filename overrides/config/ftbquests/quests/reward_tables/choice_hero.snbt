@@ -1,0 +1,30 @@
+{
+	id: "7B015A218852F65B"
+	loot_size: 1
+	order_index: 20
+	rewards: [
+		{
+			id: "3CE9A08E06AAE2EA"
+			item: {
+				count: 1
+				id: "artifacts:villager_hat"
+			}
+		}
+		{
+			count: 4
+			id: "5E881B2DDB2ACC1C"
+			item: {
+				count: 1
+				id: "minecraft:golden_apple"
+			}
+		}
+		{
+			count: 4
+			id: "572D0FACDD51A31B"
+			item: {
+				count: 1
+				id: "minecraft:diamond"
+			}
+		}
+	]
+}

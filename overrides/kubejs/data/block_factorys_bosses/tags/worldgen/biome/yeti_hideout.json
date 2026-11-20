@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "biomesoplenty:snowblossom_grove",
+    "terralith:wintry_lowlands",
+    "terralith:snowy_shield",
+    "terralith:cold_shrubland"
+  ]
+}

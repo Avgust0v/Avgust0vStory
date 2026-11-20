@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "minecraft:elytra",
+      "required": false
+    },
+    {
+      "id": "#forge:elytra",
+      "required": false
+    }
+  ]
+}

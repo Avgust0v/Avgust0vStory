@@ -1,0 +1,39 @@
+{
+	id: "320FA7967966249B"
+	loot_size: 1
+	order_index: 25
+	rewards: [
+		{
+			count: 32
+			id: "15157D1CF60D5A05"
+			item: {
+				count: 1
+				id: "create:cogwheel"
+			}
+		}
+		{
+			count: 32
+			id: "1EF129F24942A291"
+			item: {
+				count: 1
+				id: "create:shaft"
+			}
+		}
+		{
+			count: 16
+			id: "72C0EF59A93D7948"
+			item: {
+				count: 1
+				id: "create:belt_connector"
+			}
+		}
+		{
+			count: 16
+			id: "0B014E10B90D92F3"
+			item: {
+				count: 1
+				id: "create:andesite_casing"
+			}
+		}
+	]
+}

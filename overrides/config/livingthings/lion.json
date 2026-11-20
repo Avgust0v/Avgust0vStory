@@ -1,0 +1,18 @@
+{
+	"canAttack": true,
+	"health": 20,
+	"movementSpeed": 0.33,
+	"attackDamage": 5,
+	"maxSpawnedInChunk": 4,
+	"allowAllMeatAsFood": true,
+	"spawnBiomes": [],
+	"genderWeights": {
+		"maleWeight": 50,
+		"femaleWeight": 50
+	},
+	"colorWeights": {
+		"color1Weight": 99,
+		"colorWhiteWeight": 1
+	},
+	"_avgustovmc": "spawns off: duplicate of Naturalist/Friends&Foes"
+}
