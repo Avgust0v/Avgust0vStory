@@ -3,11 +3,15 @@ name: Release
 # Новый тег v* (v1.1.0, v1.1.1 ...) -> архив для CurseForge (manifest.json + overrides)
 # AvgustovStory-<версия>.zip -> релиз. Имя архива с версией: XMCL кеширует импорт по имени.
 # Страница последней версии: https://github.com/Avgust0v/Avgust0vStory/releases/latest
+# Текст релиза берётся из notes/<тег>.md (если файла нет — из описания тега).
+# Изменили notes/*.md и отправили в main -> описания существующих релизов обновятся.
 # Ручной запуск (Actions -> Release -> Run workflow) собирает релиз для уже
 # отправленного тега, если автоматический запуск не сработал.
 on:
   push:
     tags: ['v*']
+    branches: [main]
+    paths: ['notes/**']
   workflow_dispatch:
     inputs:
       tag:
@@ -19,6 +23,7 @@ permissions:
 
 jobs:
   release:
+    if: github.ref_type == 'tag' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     env:
       TAG: ${{ inputs.tag || github.ref_name }}
@@ -35,7 +40,27 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          git tag -l --format='%(contents)' "$TAG" > notes.md
-          [ -s notes.md ] || echo "Сборка $TAG" > notes.md
+          if [ -s "notes/$TAG.md" ]; then cp "notes/$TAG.md" release_notes.md
+          else git tag -l --format='%(contents)' "$TAG" > release_notes.md; fi
+          [ -s release_notes.md ] || echo "Сборка $TAG" > release_notes.md
           gh release create "$TAG" "AvgustovStory-${TAG#v}.zip" \
-            --title "AvgustovStory ${TAG#v}" --notes-file notes.md
+            --title "AvgustovStory ${TAG#v}" --notes-file release_notes.md
+
+  notes:
+    if: github.event_name == 'push' && github.ref_type == 'branch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Update release notes
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for f in notes/v*.md; do
+            [ -e "$f" ] || continue
+            t=$(basename "$f" .md)
+            if gh release view "$t" >/dev/null 2>&1; then
+              gh release edit "$t" --notes-file "$f"
+              echo "updated $t"
+            fi
+          done
