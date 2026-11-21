@@ -1,6 +1,6 @@
 [client]
 	#Off the Custom Rendering
-	shadersCompat = false
+	shadersCompat = true
 	#ScreenShake(on/off)
 	"ScreenShake(on/off)" = true
 	#Forced viewpoint change when hit by a grab attack

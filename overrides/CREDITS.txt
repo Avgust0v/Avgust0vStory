@@ -8,6 +8,7 @@ Create: Trimmed — TorNato — MIT — https://modrinth.com/mod/create-trimmed
 Fresh Patch - Variants and Ventures (ресурспак) — FreshLX — CC0-1.0 — https://modrinth.com/resourcepack/fresh-variants-and-ventures
   Пак не изменён.
 AvgustovStory CC RU (ресурспак, наш) — русские подписи для Colourful Containers из ванильного ru_ru Minecraft.
+AvgustovStory Hot Air (ресурспак, наш) — текстуры горячего воздуха Create Aeronautics в 3 раза прозрачнее и с тёплым оттенком (сделаны из текстур мода, Create Aeronautics — MIT), чтобы под шейдерами шар не закрывала серая пелена.
 
 Скачиваются с CurseForge по манифесту (с 19.11.2026, раньше лежали здесь): The Roads More Travelled, Paragliders, Create: Pillager Arise,
 Better Days, Explosive Enhancement, Euphoria Patches, Cut Through, Overflowing Bars, Jade Sable Compat, Create Optical, Basic Weapons,

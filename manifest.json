@@ -12,7 +12,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "AvgustovStory",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "author": "Avgustov",
   "overrides": "overrides",
   "files": [
@@ -2036,11 +2036,6 @@
       "fileID": 8245230,
       "required": true,
       "isLocked": false
-    },
-    {
-      "projectID": 243190,
-      "fileID": 9547205,
-      "required": true
     },
     {
       "projectID": 1653026,
