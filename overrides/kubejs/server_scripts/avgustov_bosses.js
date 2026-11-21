@@ -156,8 +156,8 @@ NativeEvents.onEvent(AVBS_Incoming, function (e) {
     if (n > had) {
       var frac = victim.getHealth() / victim.getMaxHealth();
       var attr = victim.getAttribute(AVBS_Attributes.MAX_HEALTH);
-      attr.removeModifier(AVBS_PARTY_ID);
-      attr.addPermanentModifier(new AVBS_Modifier(AVBS_PARTY_ID, 0.35 * (n - 1), AVBS_Op.ADD_MULTIPLIED_BASE));
+      // 1.2.3: removeModifier(id) is ambiguous for Rhino and threw here, so party scaling never applied
+      attr.addOrReplacePermanentModifier(new AVBS_Modifier(AVBS_PARTY_ID, 0.35 * (n - 1), AVBS_Op.ADD_MULTIPLIED_BASE));
       victim.setHealth(Math.max(1, frac * victim.getMaxHealth()));
       pd.putInt('avParty', n);
     }

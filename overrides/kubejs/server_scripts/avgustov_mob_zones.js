@@ -51,8 +51,8 @@ ServerEvents.tick(function (e) {
 
 const avmzAdd = function (m, attr, key, amount, op) {
   var a = m.getAttribute(attr); if (!a || !amount) return;
-  a.removeModifier(AVMZ_ID(key));
-  a.addPermanentModifier(new AVMZ_Modifier(AVMZ_ID(key), amount, op));
+  // 1.2.3: removeModifier(id) is ambiguous for Rhino and threw here since 19.11, so no mob was ever scaled
+  a.addOrReplacePermanentModifier(new AVMZ_Modifier(AVMZ_ID(key), amount, op));
 };
 
 NativeEvents.onEvent(AVMZ_Finalize, function (e) {

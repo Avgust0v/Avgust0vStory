@@ -1,0 +1,20 @@
+[
+  {
+    "properties": {
+      "controller_type": "top_on"
+    },
+    "temperature": 6
+  },
+  {
+    "properties": {
+      "controller_type": "middle_on"
+    },
+    "temperature": 6
+  },
+  {
+    "properties": {
+      "controller_type": "bottom_on"
+    },
+    "temperature": 6
+  }
+]
