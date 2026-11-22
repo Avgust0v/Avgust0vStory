@@ -48,15 +48,15 @@
 	# Food exhausted every 10 ticks. Increase the base minecraft food exhaustion.
 	# Default: 0.05
 	# Range: 0.0 ~ 1000.0
-	"Base Food Exhaustion" = 0.05
+	"Base Food Exhaustion" = 0.03
 	# Food exhausted every 10 ticks while sprinting in addition to the sprinting minecraft food exhaustion.
 	# Default: 0.1
 	# Range: 0.0 ~ 1000.0
-	"Sprinting Food Exhaustion" = 0.1
+	"Sprinting Food Exhaustion" = 0.06
 	# Food exhausted on every attack in addition to the minecraft attack food exhaustion.
 	# Default: 0.1
 	# Range: 0.0 ~ 1000.0
-	"On Attack Food Exhaustion" = 0.1
+	"On Attack Food Exhaustion" = 0.06
 
 # Options related to the temperature system
 [temperature]
@@ -171,7 +171,7 @@
 		# 1 means no dryness effect; 0.5 means the biome temp will be divided by 2 at the middle of the night.
 		# Default: 0.2
 		# Range: 0.0 ~ 1.0
-		"Biome's Dryness Multiplier" = 0.2
+		"Biome's Dryness Multiplier" = 0.5
 
 	# The underground effect starts apply at Start Distance to the world surface.
 	# The underground effect will linearly apply a multiplier on the biome temperature, and averages the time and season temperature effects.
@@ -438,23 +438,23 @@
 		# Hydration exhausted every 10 ticks.
 		# Default: 0.03
 		# Range: 0.0 ~ 1000.0
-		"Base Hydration Exhaustion" = 0.02
+		"Base Hydration Exhaustion" = 0.012
 		# Hydration exhausted when sprinting, replacing the base hydration exhausted.
 		# Default: 0.1
 		# Range: 0.0 ~ 1000.0
-		"Sprinting Hydration Exhaustion" = 0.07
+		"Sprinting Hydration Exhaustion" = 0.045
 		# Hydration exhausted on every jump.
 		# Default: 0.15
 		# Range: 0.0 ~ 1000.0
-		"On Jump Hydration Exhaustion" = 0.1
+		"On Jump Hydration Exhaustion" = 0.06
 		# Hydration exhausted on every block break.
 		# Default: 0.07
 		# Range: 0.0 ~ 1000.0
-		"On Block Break Hydration Exhaustion" = 0.07
+		"On Block Break Hydration Exhaustion" = 0.04
 		# Hydration exhausted on every attack.
 		# Default: 0.3
 		# Range: 0.0 ~ 1000.0
-		"On Attack Hydration Exhaustion" = 0.3
+		"On Attack Hydration Exhaustion" = 0.18
 
 	[thirst.canteen]
 		# If enabled, the player can water himself by using the canteen while crouching.
