@@ -1,0 +1,19 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "magistuarmory:maximilian_helmet",
+       "magistuarmory:maximilian_chestplate",
+       "magistuarmory:maximilian_leggings",
+       "magistuarmory:maximilian_boots"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

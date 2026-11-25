@@ -1,0 +1,20 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "new_shield_variants:diamond_shield",
+       "magistuarmory:diamond_heatershield",
+       "magistuarmory:diamond_kiteshield",
+       "magistuarmory:diamond_roundshield",
+       "magistuarmory:diamond_ellipticalshield"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

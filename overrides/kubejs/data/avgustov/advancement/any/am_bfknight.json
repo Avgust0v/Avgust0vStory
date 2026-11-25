@@ -1,0 +1,19 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "block_factorys_bosses:knight_helmet",
+       "block_factorys_bosses:knight_chestplate",
+       "block_factorys_bosses:knight_leggings",
+       "block_factorys_bosses:knight_boots"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

@@ -1,1 +1,13 @@
-{"texture":"avgustov:textures/map_icons/minecraft/sheep.png"}
+{
+  "texture": "avgustov:textures/face_src/sheep/sheep.png",
+  "slice": {
+    "x": 7,
+    "y": 8,
+    "width": 8,
+    "height": 6
+  },
+  "default_image_size": {
+    "width": 64,
+    "height": 32
+  }
+}

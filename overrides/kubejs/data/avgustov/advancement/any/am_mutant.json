@@ -1,0 +1,18 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "mutantmonsters:mutant_skeleton_chestplate",
+       "mutantmonsters:mutant_skeleton_leggings",
+       "mutantmonsters:mutant_skeleton_boots"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "more_bows_and_arrows:diamond_bow",
+       "more_bows_and_arrows:obsidian_bow"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

@@ -1,1 +1,13 @@
-{"texture":"avgustov:textures/map_icons/minecraft/spider.png"}
+{
+  "texture": "avgustov:textures/face_src/spider/spider.png",
+  "slice": {
+    "x": 40,
+    "y": 12,
+    "width": 8,
+    "height": 8
+  },
+  "default_image_size": {
+    "width": 64,
+    "height": 32
+  }
+}

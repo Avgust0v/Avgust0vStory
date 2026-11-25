@@ -1,0 +1,23 @@
+{
+ "display": {
+  "icon": {
+   "id": "minecraft:stone_pickaxe"
+  },
+  "title": {
+   "text": "Нечестная игра"
+  },
+  "description": {
+   "text": "Победить Скульптора, не пройдя его испытания. Он ждал паркура, а получил по голове."
+  },
+  "frame": "goal",
+  "show_toast": true,
+  "announce_to_chat": true,
+  "hidden": true
+ },
+ "criteria": {
+  "granted": {
+   "trigger": "minecraft:impossible"
+  }
+ },
+ "parent": "avgustov:fun/root"
+}

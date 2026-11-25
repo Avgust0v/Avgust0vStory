@@ -1,0 +1,22 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "minecraft:diamond_sword",
+       "magistuarmory:diamond_shortsword",
+       "magistuarmory:diamond_katzbalger",
+       "magistuarmory:diamond_bastardsword",
+       "magistuarmory:diamond_claymore",
+       "magistuarmory:diamond_zweihander",
+       "magistuarmory:diamond_flamebladedsword"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

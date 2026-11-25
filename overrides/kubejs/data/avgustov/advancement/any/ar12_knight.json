@@ -1,0 +1,19 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "magistuarmory:armet",
+       "magistuarmory:knight_chestplate",
+       "magistuarmory:knight_leggings",
+       "magistuarmory:knight_boots"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

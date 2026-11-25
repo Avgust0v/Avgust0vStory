@@ -1,0 +1,19 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "createbigcannons:solid_shot",
+       "createbigcannons:bag_of_grapeshot",
+       "createbigcannons:mortar_stone",
+       "createbigcannons:shot_balls"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

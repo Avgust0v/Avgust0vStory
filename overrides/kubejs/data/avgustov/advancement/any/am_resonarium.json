@@ -1,0 +1,19 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "deeperdarker:resonarium_helmet",
+       "deeperdarker:resonarium_chestplate",
+       "deeperdarker:resonarium_leggings",
+       "deeperdarker:resonarium_boots"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

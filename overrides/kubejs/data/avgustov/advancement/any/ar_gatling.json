@@ -1,0 +1,19 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "cgs:gatling",
+       "cgs:round_gatling",
+       "cgs:gatling_drum",
+       "cgs:steam_engine"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

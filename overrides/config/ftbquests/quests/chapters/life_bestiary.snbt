@@ -8,7 +8,7 @@
 	}
 	id: "388F77CD4F772EF4"
 	images: [ ]
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -35,7 +35,7 @@
 					type: "item"
 				}
 			]
-			x: 21.5d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -68,7 +68,7 @@
 				}
 			]
 			x: 0.0d
-			y: 3.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["648CA8E4002792F8"]
@@ -93,8 +93,8 @@
 					type: "item"
 				}
 			]
-			x: 2.75d
-			y: 3.5d
+			x: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["648CA8E4002792F8"]
@@ -109,14 +109,15 @@
 					xp: 40
 				}
 			]
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "3F4F45406A0CB144"
 					type: "checkmark"
 				}
 			]
-			x: 5.25d
-			y: 3.5d
+			x: 2.0d
+			y: 3.75d
 		}
 		{
 			dependencies: ["648CA8E4002792F8"]
@@ -148,8 +149,8 @@
 					type: "item"
 				}
 			]
-			x: 8.75d
-			y: 3.5d
+			x: 0.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["107929A294983AF4"]
@@ -182,8 +183,8 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: 5.5d
+			x: 4.0d
+			y: 3.75d
 		}
 		{
 			dependencies: ["107929A294983AF4"]
@@ -199,18 +200,19 @@
 					xp: 40
 				}
 			]
-			shape: "diamond"
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "471A33D08F9C9EEF"
 					type: "checkmark"
 				}
 			]
-			x: 6.25d
-			y: 5.5d
+			x: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["648CA8E4002792F8"]
+			hide_dependency_lines: true
 			id: "6035F63716FF33C1"
 			optional: true
 			rewards: [
@@ -239,11 +241,12 @@
 					type: "item"
 				}
 			]
-			x: 11.5d
-			y: 3.5d
+			x: 4.0d
+			y: -1.25d
 		}
 		{
 			dependencies: ["648CA8E4002792F8", "0212EF427C731405"]
+			hide_dependency_lines: true
 			id: "170EB030A9F86563"
 			optional: true
 			rewards: [
@@ -264,8 +267,8 @@
 					type: "item"
 				}
 			]
-			x: 14.0d
-			y: 3.5d
+			x: 0.0d
+			y: 3.75d
 		}
 		{
 			dependencies: ["648CA8E4002792F8"]
@@ -297,8 +300,8 @@
 					type: "item"
 				}
 			]
-			x: 16.75d
-			y: 3.5d
+			x: -2.0d
+			y: 1.25d
 		}
 		{
 			dependencies: ["648CA8E4002792F8"]
@@ -328,8 +331,8 @@
 					type: "item"
 				}
 			]
-			x: 19.25d
-			y: 3.5d
+			x: 2.0d
+			y: 1.25d
 		}
 		{
 			dependencies: ["7EE2EA2995FDE8B4"]
@@ -359,8 +362,8 @@
 					type: "item"
 				}
 			]
-			x: 17.5d
-			y: 5.5d
+			x: 4.0d
+			y: 1.25d
 		}
 		{
 			dependencies: ["097E890E050C296D"]
@@ -390,8 +393,8 @@
 					type: "item"
 				}
 			]
-			x: 15.75d
-			y: 7.5d
+			x: 6.0d
+			y: 1.25d
 		}
 		{
 			dependencies: ["097E890E050C296D"]
@@ -423,8 +426,8 @@
 					type: "item"
 				}
 			]
-			x: 17.5d
-			y: 7.5d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["53427463D093ECE7", "5ACE0163F6203D78"]
@@ -457,8 +460,8 @@
 					type: "item"
 				}
 			]
-			x: 14.0d
-			y: 9.5d
+			x: 8.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["648CA8E4002792F8"]
@@ -492,8 +495,8 @@
 					type: "item"
 				}
 			]
-			x: 24.5d
-			y: 3.5d
+			x: 2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["061A25FE70E5C239"]
@@ -523,8 +526,8 @@
 					type: "item"
 				}
 			]
-			x: 23.75d
-			y: 5.5d
+			x: 4.0d
+			y: -3.75d
 		}
 		{
 			dependencies: ["061A25FE70E5C239", "38351AA20081E7AE"]
@@ -555,8 +558,8 @@
 					type: "item"
 				}
 			]
-			x: 25.5d
-			y: 5.5d
+			x: 4.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["1F76C6E74D4BC47E", "0FE63BEC8FE0FB9E", "1D1B7F599AF0A561"]
@@ -571,7 +574,7 @@
 					xp: 200
 				}
 			]
-			shape: "hexagon"
+			shape: "cog"
 			size: 1.5d
 			tasks: [
 				{
@@ -588,8 +591,8 @@
 					type: "checkmark"
 				}
 			]
-			x: 24.5d
-			y: 7.5d
+			x: 6.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["107929A294983AF4", "46BB8658D89E5BEA", "53427463D093ECE7"]
@@ -605,7 +608,7 @@
 					xp: 150
 				}
 			]
-			shape: "hexagon"
+			shape: "cog"
 			size: 1.5d
 			tasks: [
 				{
@@ -613,11 +616,12 @@
 					type: "checkmark"
 				}
 			]
-			x: 26.75d
+			x: 10.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["648CA8E4002792F8", "38351AA20081E7AE"]
+			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:beehive"
 			}
@@ -648,11 +652,12 @@
 					type: "advancement"
 				}
 			]
-			x: 27.25d
-			y: 3.5d
+			x: 0.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["648CA8E4002792F8", "4EFDEBDB7A6D75CA"]
+			hide_dependency_lines: true
 			id: "6761C7B4E826A261"
 			optional: true
 			rewards: [
@@ -674,8 +679,8 @@
 					type: "item"
 				}
 			]
-			x: 29.75d
-			y: 3.5d
+			x: 0.0d
+			y: -3.75d
 		}
 		{
 			dependencies: ["7EE2EA2995FDE8B4", "01C986BA577293FD"]
@@ -700,8 +705,8 @@
 					type: "item"
 				}
 			]
-			x: 19.25d
-			y: 5.5d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["61F5087944156F29"]
@@ -749,8 +754,8 @@
 					type: "item"
 				}
 			]
-			x: 8.75d
-			y: 5.5d
+			x: 2.0d
+			y: -3.75d
 		}
 		{
 			dependencies: ["648CA8E4002792F8"]
@@ -777,8 +782,8 @@
 					type: "item"
 				}
 			]
-			x: 32.5d
-			y: 3.5d
+			x: -2.0d
+			y: -1.25d
 		}
 		{
 			dependencies: ["648CA8E4002792F8"]
@@ -813,8 +818,8 @@
 					type: "item"
 				}
 			]
-			x: 35.0d
-			y: 3.5d
+			x: -2.0d
+			y: -3.75d
 		}
 		{
 			dependencies: ["7EE2EA2995FDE8B4"]
@@ -849,8 +854,8 @@
 					type: "item"
 				}
 			]
-			x: 21.0d
-			y: 5.5d
+			x: 4.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["0E96D6C35503C980"]
@@ -877,8 +882,8 @@
 					type: "item"
 				}
 			]
-			x: 21.0d
-			y: 7.5d
+			x: 6.0d
+			y: 3.75d
 		}
 		{
 			dependencies: ["53427463D093ECE7"]
@@ -913,8 +918,8 @@
 					type: "item"
 				}
 			]
-			x: 17.5d
-			y: 9.5d
+			x: 8.0d
+			y: 1.25d
 		}
 		{
 			dependencies: ["097E890E050C296D", "0212EF427C731405"]
@@ -949,8 +954,8 @@
 					type: "item"
 				}
 			]
-			x: 19.25d
-			y: 7.5d
+			x: 6.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["648CA8E4002792F8"]
@@ -977,8 +982,8 @@
 					type: "item"
 				}
 			]
-			x: 37.75d
-			y: 3.5d
+			x: -2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["648CA8E4002792F8"]
@@ -994,7 +999,7 @@
 					xp: 50
 				}
 			]
-			shape: "diamond"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "4FAAE2518FD597BE"
@@ -1002,8 +1007,8 @@
 					type: "structure"
 				}
 			]
-			x: 40.25d
-			y: 3.5d
+			x: 2.0d
+			y: -1.25d
 		}
 		{
 			dependencies: ["648CA8E4002792F8", "0212EF427C731405"]
@@ -1019,7 +1024,7 @@
 					xp: 80
 				}
 			]
-			shape: "diamond"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "7C3B1268CDE105F5"
@@ -1031,8 +1036,9 @@
 					type: "checkmark"
 				}
 			]
-			x: 43.0d
-			y: 3.5d
+			x: -2.0d
+			y: 3.75d
 		}
 	]
+	tags: ["grp_life"]
 }

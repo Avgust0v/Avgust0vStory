@@ -1,0 +1,20 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "createbigcannons:timed_fuze",
+       "createbigcannons:proximity_fuze",
+       "createbigcannons:delayed_impact_fuze",
+       "createbigcannons:inertia_fuze",
+       "createbigcannons:wired_fuze"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

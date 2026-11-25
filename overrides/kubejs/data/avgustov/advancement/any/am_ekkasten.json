@@ -1,0 +1,19 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "magistuarmory:grand_bascinet",
+       "magistuarmory:kastenbrust_chestplate",
+       "magistuarmory:kastenbrust_leggings",
+       "magistuarmory:kastenbrust_boots"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

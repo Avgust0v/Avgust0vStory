@@ -1,0 +1,19 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "basicweapons:iron_club",
+       "magistuarmory:iron_heavymace",
+       "magistuarmory:iron_morgenstern",
+       "magistuarmory:iron_chainmorgenstern"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "magistuarmory:kettlehat",
+       "magistuarmory:platemail_chestplate",
+       "magistuarmory:platemail_leggings",
+       "magistuarmory:platemail_boots"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

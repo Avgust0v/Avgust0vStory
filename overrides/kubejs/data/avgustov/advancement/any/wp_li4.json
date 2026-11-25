@@ -1,0 +1,17 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "magistuarmory:steel_stylet",
+       "magistuarmory:steel_estoc"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

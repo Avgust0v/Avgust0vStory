@@ -1,0 +1,22 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "basicweapons:diamond_club",
+       "basicweapons:diamond_hammer",
+       "garnished:diamond_hatchet",
+       "magistuarmory:diamond_heavymace",
+       "magistuarmory:diamond_morgenstern",
+       "magistuarmory:diamond_chainmorgenstern",
+       "magistuarmory:diamond_heavywarhammer"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

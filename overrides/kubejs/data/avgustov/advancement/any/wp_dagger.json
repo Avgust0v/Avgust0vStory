@@ -1,0 +1,19 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "basicweapons:stone_dagger",
+       "basicweapons:iron_dagger",
+       "magistuarmory:iron_stylet",
+       "magistuarmory:iron_estoc"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

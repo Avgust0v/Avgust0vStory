@@ -1,1 +1,13 @@
-{"texture":"avgustov:textures/map_icons/minecraft/creeper.png"}
+{
+  "texture": "avgustov:textures/face_src/creeper/creeper.png",
+  "slice": {
+    "x": 8,
+    "y": 8,
+    "width": 8,
+    "height": 8
+  },
+  "default_image_size": {
+    "width": 64,
+    "height": 32
+  }
+}

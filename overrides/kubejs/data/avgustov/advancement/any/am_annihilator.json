@@ -1,0 +1,19 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "legendary_monsters:annihilator_helmet",
+       "legendary_monsters:annihilator_chestplate",
+       "legendary_monsters:annihilator_leggings",
+       "legendary_monsters:annihilator_boots"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

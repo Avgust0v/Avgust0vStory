@@ -1,1 +1,13 @@
-{"texture":"avgustov:textures/map_icons/minecraft/bee.png"}
+{
+  "texture": "avgustov:textures/face_src/bee/bee.png",
+  "slice": {
+    "x": 9,
+    "y": 10,
+    "width": 9,
+    "height": 7
+  },
+  "default_image_size": {
+    "width": 64,
+    "height": 64
+  }
+}

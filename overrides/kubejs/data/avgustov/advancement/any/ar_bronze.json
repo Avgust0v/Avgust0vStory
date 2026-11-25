@@ -1,0 +1,18 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "createbigcannons:bronze_cannon_barrel",
+       "createbigcannons:bronze_cannon_chamber",
+       "createbigcannons:bronze_sliding_breech"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

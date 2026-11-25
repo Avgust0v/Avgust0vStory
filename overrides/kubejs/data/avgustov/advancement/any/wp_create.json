@@ -1,0 +1,18 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "create_sa:brass_sword",
+       "create_sa:rose_quartz_sword",
+       "create_sa:blazing_cleaver"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

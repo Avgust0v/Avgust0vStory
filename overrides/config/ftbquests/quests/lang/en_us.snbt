@@ -25,7 +25,7 @@
 		" ",
 		"",
 		" ",
-		"A hexagon is an era milestone, a circle leads on, a diamond is optional. Side chapters (kitchen, beasts, arsenal, dungeons) open together with the main line.",
+		"The cell shape is the quest type: a big hexagon starts a chapter, a gear is a milestone, an octagon is a boss or a hunt, a pentagon is a place (a structure or a dimension), a rounded square is a note or a story page, a diamond is optional, a circle is an ordinary quest. The bigger the cell, the more important the quest. Side chapters (kitchen, beasts, arsenal, dungeons) open together with the main line.",
 		" ",
 		"",
 		" ",
@@ -239,6 +239,10 @@
 		"",
 		" ",
 		"— Ratibor, chronicler of the First Guild",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Temple (underwater_village).",
 	]
 	quest.6C2B55B818AC4F67.title: "Page 5. The Stolen Sky"
 	quest.6C2B55B818AC4F67.quest_subtitle: "Master Ratibor's chronicle"
@@ -253,6 +257,7 @@
 		" ",
 		"— Ratibor, chronicler of the First Guild",
 	]
+	task.23E8D5103BF7FEBC.title: "Find a foundry or factory"
 	quest.5080490B94FDC787.title: "Page 6. The Foundry"
 	quest.5080490B94FDC787.quest_subtitle: "Master Ratibor's chronicle"
 	quest.5080490B94FDC787.quest_desc: [
@@ -265,6 +270,10 @@
 		"",
 		" ",
 		"— Ratibor, chronicler of the First Guild",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass (any of them):§r When Dungeons Arise: Foundry, Mechanical Nest; Create: Easy Structures: Factory 1, Factory 2.",
 	]
 	quest.07049344D99E519F.title: "Page 7. The Last Train"
 	quest.07049344D99E519F.quest_subtitle: "Master Ratibor's chronicle"
@@ -308,6 +317,10 @@
 		"",
 		" ",
 		"— Ratibor, chronicler of the First Guild",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Ancient Factory (L_Ender's Cataclysm 1.21.1).",
 	]
 	quest.16BD5124B9B1A7B0.title: "Page 10. The Oath of Fire"
 	quest.16BD5124B9B1A7B0.quest_subtitle: "Master Ratibor's chronicle"
@@ -327,6 +340,10 @@
 		"",
 		" ",
 		"— Ratibor, chronicler of the First Guild",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Burning Arena (L_Ender's Cataclysm 1.21.1).",
 	]
 	quest.69D2D4983CD65590.title: "Page 11. Above the Sky"
 	quest.69D2D4983CD65590.quest_subtitle: "Master Ratibor's chronicle"
@@ -374,6 +391,10 @@
 		"",
 		" ",
 		"— Ratibor, chronicler of the First Guild",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Wrought Chamber (Mowzie's Mobs).",
 	]
 	quest.789ADDE7463B48C8.title: "The Netherite Monstrosity"
 	quest.789ADDE7463B48C8.quest_subtitle: "A Predecessor guardian"
@@ -393,6 +414,10 @@
 		"",
 		" ",
 		"— Ratibor, chronicler of the First Guild",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Soul Black Smith (L_Ender's Cataclysm 1.21.1).",
 	]
 	quest.337D7CB8797BD211.title: "The Leviathan"
 	quest.337D7CB8797BD211.quest_subtitle: "A Predecessor guardian"
@@ -410,6 +435,10 @@
 		"",
 		" ",
 		"— Ratibor, chronicler of the First Guild",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Sunken City (L_Ender's Cataclysm 1.21.1).",
 	]
 	quest.35534A134624A5B2.title: "Scylla"
 	quest.35534A134624A5B2.quest_subtitle: "A Predecessor guardian"
@@ -423,6 +452,10 @@
 		"",
 		" ",
 		"— Ratibor, chronicler of the First Guild",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Acropolis (L_Ender's Cataclysm 1.21.1).",
 	]
 	quest.2E6AC0A4D2018FAC.title: "Maledictus"
 	quest.2E6AC0A4D2018FAC.quest_subtitle: "A Predecessor guardian"
@@ -442,6 +475,10 @@
 		"",
 		" ",
 		"— Ratibor, chronicler of the First Guild",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Frosted Prison (L_Ender's Cataclysm 1.21.1).",
 	]
 	quest.1DBA801D2FF722F8.title: "The Invoker"
 	quest.1DBA801D2FF722F8.quest_subtitle: "A Predecessor guardian"
@@ -459,6 +496,10 @@
 		"",
 		" ",
 		"— Ratibor, chronicler of the First Guild",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Labyrinth (Illager Invasion).",
 	]
 	quest.582020A541AB5D80.title: "The Ancient Remnant"
 	quest.582020A541AB5D80.quest_subtitle: "A Predecessor guardian"
@@ -478,6 +519,10 @@
 		"",
 		" ",
 		"— Ratibor, chronicler of the First Guild",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Cursed Pyramid (L_Ender's Cataclysm 1.21.1).",
 	]
 	quest.3AD3A6725655B6D0.title: "The Ender Guardian"
 	quest.3AD3A6725655B6D0.quest_subtitle: "A Predecessor guardian"
@@ -495,6 +540,10 @@
 		"",
 		" ",
 		"— Ratibor, chronicler of the First Guild",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Ruined Citadel (L_Ender's Cataclysm 1.21.1).",
 	]
 	quest.329AE237179B6018.title: "The Guardians Rest"
 	quest.329AE237179B6018.quest_subtitle: "All the Predecessors' guardians"
@@ -537,6 +586,10 @@
 	quest.2DF99D88266E4FD7.title: "Stones of the Predecessors"
 	quest.2DF99D88266E4FD7.quest_desc: [
 		"Ancient Remnants: monoliths and monuments of a civilization not even Ratibor's chronicle remembers stand across the world. Their cores still hum. Find any of them; each one grants its own blessing.",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass (any of them):§r Ancient Remnants: Cherry Monument, Coniferous Monument, Oakwood Monument, Hunter Monolith, Sentinel Monolith and 1 more.",
 	]
 	quest.4BFF5193874F0949.title: "The Monolith Codex"
 	quest.4BFF5193874F0949.quest_desc: [
@@ -558,6 +611,36 @@
 	quest.77B8FB998CA1C226.title: "A Grove for Dobrynya"
 	quest.77B8FB998CA1C226.quest_desc: [
 		"\"Plant a tree beside him. He would want a tree, not a stone.\" Plant a grove of at least sixteen trees by the mill and tick the task. Ratibor kept silent at the council; you did not.",
+	]
+	quest.054F9E2CE961B8D8.title: "Guardians of Other Lands"
+	quest.054F9E2CE961B8D8.quest_subtitle: "Master Ratibor's chronicle"
+	quest.054F9E2CE961B8D8.quest_desc: [
+		"We called this land ours because we came first. But beyond the river, the mountains and the sea, every land had its own master: a sun chief in the savanna, the Sculptor on the mountain, a mossy colossus in the jungle, a sentinel in the sands, the Kraken in the deep sea. None of us built them. They grew together with their land and slept as long as no one touched it.",
+		" ",
+		"",
+		" ",
+		"Our guardians watch over what we made. These watch over what we wanted to take. I keep a separate leaf of the chronicle for them and write down every one we woke.",
+		" ",
+		"",
+		" ",
+		"— Ratibor, chronicler of the First Guild",
+		" ",
+		"",
+		" ",
+		"§7This leaf opens after a victory over any guardian of another land (the Dungeons and Mini-Bosses and Bosses chapters). The chronicle lines about each of them are in their quest descriptions.§r",
+	]
+	quest.71C731CFE2F902A0.title: "No Masterless Land"
+	quest.71C731CFE2F902A0.quest_subtitle: "Master Ratibor's chronicle"
+	quest.71C731CFE2F902A0.quest_desc: [
+		"When our veins ran dry, we went for ore into other lands: the Nether, the End, the sea floor, the snows and the sands. And everywhere someone was already waiting: every vein, every lava lake had its own guardian. There is no masterless land, heir. There is only land whose master has not been woken yet.",
+		" ",
+		"",
+		" ",
+		"At the council about the rocket I kept silent again. The council decided to look for a masterless land above the sky. I still do not know whether my brothers found one, or whether something sleeps there too.",
+		" ",
+		"",
+		" ",
+		"— Ratibor, chronicler of the First Guild",
 	]
 	chapter.768E07399E2C5D87.title: "&#A7C957Era 0. First Steps&r"
 	chapter.768E07399E2C5D87.subtitle: "Settle in, find a village, make your first andesite alloy."
@@ -620,6 +703,10 @@
 	quest.7F31BD8C5EC8CCB6.title: "Find a Village"
 	quest.7F31BD8C5EC8CCB6.quest_desc: [
 		"Villages are your first allies: trades, beds, chests. Every village has a Waystone.",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass (any of them):§r ChoiceTheorem's Overhauled Village: Large/village Beach, Large/village Christmas, Large/village Desert, Large/village Desert Oasis, Large/village Dark Forest; Minecraft: Village Plains, Village Desert, Village Savanna, Village Snowy, Village Taiga and 61 more.",
 	]
 	quest.294D6C6083CE2ECE.title: "Waystone"
 	quest.294D6C6083CE2ECE.quest_desc: [
@@ -1565,10 +1652,6 @@
 	quest.3B059234A12FE49D.quest_desc: [
 		"Create Optical: an optical source shines a beam, a sensor catches it and gives a signal, and mirrors and lenses turn the beam. That carries a signal across the base without wires. The parts are made by sequenced assembly.",
 	]
-	quest.55449D6F4EB48018.title: "Diamond and Precision"
-	quest.55449D6F4EB48018.quest_desc: [
-		"Diamond armour is now assembled with a precision mechanism: one per piece, instead of one diamond. That is tier T3: 20 armour, 8 toughness and +2 health for a full set. Aquaculture neptunium armour is made the same way. Aquamirae abyssal and Deeper and Darker resonarium armour are built on diamond armour.",
-	]
 	quest.0BA4D815EEA1E98C.title: "Attribute Filter"
 	quest.0BA4D815EEA1E98C.quest_desc: [
 		"Right-click to set it up: instead of a list of items it checks properties such as crushable, smeltable, food, added by a mod and more. Put it in a filter slot of a Brass Funnel, Tunnel, Smart Chute or into Stock Ticker categories.",
@@ -1715,6 +1798,10 @@
 		"",
 		" ",
 		"Ratibor wrote that the Leviathan let their submarine no further than the gates. The gates are in front of you. Beyond them lies the port temple (page 4 of the Chronicle of the Predecessors), and deeper still, the Leviathan itself. Go further than they could.",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Small Gate (underwater_village).",
 	]
 	quest.70FFFD81AE0CCB62.title: "Captain"
 	quest.70FFFD81AE0CCB62.quest_desc: [
@@ -1795,10 +1882,18 @@
 	quest.13C84087EA17B3D2.title: "Floating Islands"
 	quest.13C84087EA17B3D2.quest_desc: [
 		"Islands hang above the clouds, with houses, towers, ponds and even a volcano. Ratibor's chronicle remembers the First Guild lifting whole streets into the sky on levitite. Find at least one island: a ship reaches what your feet cannot.",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass (any of them):§r mss: Arena, Birch River, Calcite House, Castle Ruin, Castle Tower and 30 more.",
 	]
 	quest.0AF94DACD04C9CCB.title: "The Sky Arena"
 	quest.0AF94DACD04C9CCB.quest_desc: [
 		"The biggest island is an arena with trial spawners and a vault. Team goal: clear it with your whole guild and open the vault, then tick the checkmark.",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Arena (mss).",
 	]
 	quest.5D5AA5F7B0B988AA.title: "Radar"
 	quest.5D5AA5F7B0B988AA.quest_desc: [
@@ -2555,6 +2650,10 @@
 		"",
 		" ",
 		"The guardian of the Predecessors' forge: see the Chronicle of the Predecessors, page 10.",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Burning Arena (L_Ender's Cataclysm 1.21.1).",
 	]
 	quest.55CA5B20172A1007.title: "Ignitium"
 	quest.55CA5B20172A1007.quest_desc: [
@@ -2571,6 +2670,10 @@
 		"",
 		" ",
 		"The guardian of the Predecessors' rocket factory, with a star map in its core: see the Chronicle, page 9.",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Ancient Factory (L_Ender's Cataclysm 1.21.1).",
 	]
 	quest.7D8C648876D1BE98.title: "Witherite"
 	quest.7D8C648876D1BE98.quest_desc: [
@@ -2583,18 +2686,6 @@
 	quest.55D9A380247187A0.title: "Netherite Drill"
 	quest.55D9A380247187A0.quest_desc: [
 		"The netherite drill for the drilling machine: a diamond drill, a netherite upgrade template and witherite on a smithing table. In this pack the Harbinger's witherite replaced the netherite ingot.",
-	]
-	quest.55024B3BC4964CE7.title: "Ignitium Armour"
-	quest.55024B3BC4964CE7.quest_desc: [
-		"Trophy armour T6: 28 armour, 16 toughness and up to +10 health per set. Smithing table: a netherite piece and Ignis's ignitium.",
-	]
-	quest.08694E65871B3DFD.title: "Cursium Armour"
-	quest.08694E65871B3DFD.quest_desc: [
-		"Maledictus's trophy, tier T6: 26 armour and 16 toughness. The chestplate saves you from death once, then needs a long recharge.",
-	]
-	quest.1EBD71F19CF7CA63.title: "Warden Armour"
-	quest.1EBD71F19CF7CA63.quest_desc: [
-		"Armour of reinforced echo shards, tier T6: 26 armour, 16 toughness; the helmet blocks blindness and darkness, the leggings make you faster.",
 	]
 	quest.30CB301B541829CE.title: "Veterans"
 	quest.30CB301B541829CE.quest_desc: [
@@ -2883,6 +2974,108 @@
 		" ",
 		"Every land has its own cuisine: ocean structure chests hold fish dishes, cold ones hot soups, deserts and jungles fruit and sweets, the Nether and the End their own dishes, dungeons cheese, wine and Crystal Heart fragments. The first win over each boss gives fragments, over a big one a whole Crystal Heart.",
 	]
+	chapter.0FE0B49642FB6CD5.title: "&#90BE6DFarms and Lines&r"
+	chapter.0FE0B49642FB6CD5.subtitle: "A good engineer does not chop trees — he builds what chops them."
+	quest.57DC511E55D14451.title: "Farms and Lines"
+	quest.57DC511E55D14451.quest_desc: [
+		"Ratibor: \"By hand we mine for one evening. By machine — for a lifetime.\" This chapter lists the farms that take the chores out of this pack: water, fuel, stone, ore, experience, steel and rocket fuel. How to build each is in the description and in the Ponder hints (hold W over a machine).",
+	]
+	quest.0C1AB0F17EF01CD9.title: "Clean Water Station"
+	quest.0C1AB0F17EF01CD9.quest_desc: [
+		"How: a mechanical pump feeds water into a mixer over a blaze burner, a deployer or hopper feeds glass bottles — the mixer boils water right into bottles (250 mB each). Without a burner: a cauldron on a campfire, bottles by hand.",
+		" ",
+		"Why: thirst is a daily chore. Clean water gives no thirst, and juices made from it also cool you down.",
+	]
+	quest.61DCBDD899D09163.title: "Lumber Mill"
+	quest.61DCBDD899D09163.quest_desc: [
+		"How: a mechanical saw fells the whole tree, a deployer plants the sapling, logs ride a belt into a furnace or a fire fan. Spruce or birch are easiest (straight trunk).",
+		" ",
+		"Why: charcoal fuels burners, the boiling campfires and furnaces; planks and sticks go into everything.",
+	]
+	quest.18BB7FC4F9D7A905.title: "Stone from Nothing"
+	quest.18BB7FC4F9D7A905.quest_desc: [
+		"How: the mechanical extruder between water and lava pushes out stone; with the right sample block next to it you get andesite, granite or diorite. Add rotation and you have an endless quarry.",
+		" ",
+		"Why: andesite alloy, stone blocks, gravel and sand for the next farms.",
+	]
+	quest.4474FCA42743231A.title: "Sand and Clay"
+	quest.4474FCA42743231A.quest_desc: [
+		"How: crushing wheels turn cobblestone into gravel and gravel into sand; a fan through water washes gravel (flint, iron nuggets) and sand (clay).",
+		" ",
+		"Why: glass, concrete, bricks, flint — and iron from washing before your mine is ready.",
+	]
+	quest.37C5F2BD8916DC49.title: "Autopilot Field"
+	quest.37C5F2BD8916DC49.quest_desc: [
+		"How: a harvester on a piston or a train passes over the field and reaps it, leaving the plants to regrow; a plough tills new land. Sugar cane and bamboo work the same way.",
+		" ",
+		"Why: bread, animal feed, sugar — and lots of dishes for gourmet points.",
+	]
+	quest.4DDFCA5EB06FDA77.title: "Kelp Boiler Room"
+	quest.4DDFCA5EB06FDA77.quest_desc: [
+		"How: kelp grows in a water column, a harvester or saw cuts it, a fire fan dries it, a press or crafter packs blocks.",
+		" ",
+		"Why: a dried kelp block is cheap renewable fuel for burners and furnaces.",
+	]
+	quest.639523AD0B236BF2.title: "Chicken Roost"
+	quest.639523AD0B236BF2.quest_desc: [
+		"How: a Create Integrated Farming roost — hens lay and moult inside the block, a hopper or belt collects eggs and feathers.",
+		" ",
+		"Why: feathers for arrows, eggs and chicken for the kitchen, without a fence full of hens.",
+	]
+	quest.5681907E1EC1DAAA.title: "Ore from Stone"
+	quest.5681907E1EC1DAAA.quest_desc: [
+		"How: an extruder (the brass one is faster) pushes out asurine, veridium, ochrum and crimsite when a sample block sits next to it; crushing wheels make crushed ore, washing and smelting give zinc, copper, gold and iron.",
+		" ",
+		"Why: brass without mining — the key resource of the era.",
+	]
+	quest.103BE13758B916A0.title: "Piped Experience"
+	quest.103BE13758B916A0.quest_desc: [
+		"How: mobs killed by a deployer with a sword or by crushing wheels drop experience; Create Enchantment Industry collects it as fluid and nuggets. Keep the mob farm away from mega torches.",
+		" ",
+		"Why: experience pays for enchanting and for the teleports, which cost XP here.",
+	]
+	quest.1CEB7ADE4A053DF7.title: "Blaze Rods"
+	quest.1CEB7ADE4A053DF7.quest_desc: [
+		"Where: blazes in Nether fortresses; fence the spawner and let a deployer fight. Gunpowder and rods also come from a mixer with blaze powder (Create Ultimate Factory, see JEI).",
+		" ",
+		"Why: blaze burners, potions, ender eyes and powder charges — before tier B3 bosses you always want a stock.",
+	]
+	quest.5539ED7AAC4C0048.title: "Coke Oven"
+	quest.5539ED7AAC4C0048.quest_desc: [
+		"How: the TFMG coke oven bakes coal into coke. Coal comes from mining, from haunting charcoal with a soul-fire fan, or from washing.",
+		" ",
+		"Why: the blast furnace needs coke for steel — no coke, no steel era.",
+	]
+	quest.584FC0929BD87BA9.title: "Endless Lava"
+	quest.584FC0929BD87BA9.quest_desc: [
+		"How: a hose pulley in a Nether lava sea — a pool of over 10 000 blocks counts as infinite and never runs dry. Pipes and pumps bring it home or into a train tank.",
+		" ",
+		"Why: fuel, casting and stone extruders.",
+	]
+	quest.7A379864171045A0.title: "Oil and Diesel"
+	quest.7A379864171045A0.quest_desc: [
+		"How: a TFMG pumpjack over an oil deposit (more of them in badlands), a distillation tower splits crude into gasoline, diesel, kerosene and gas.",
+		" ",
+		"Why: engines, generators and plastic of the steel era.",
+	]
+	quest.29DEC34A72369A8E.title: "Rocket Fuel"
+	quest.29DEC34A72369A8E.quest_desc: [
+		"How: a mechanical electrolyzer splits water into hydrogen and oxygen, an air liquefier gives liquid oxygen, and it all collects in cryogenic tanks. Fuel does not travel in buckets: pipes and tanks only.",
+		" ",
+		"Why: without fuel a rocket is a monument.",
+	]
+	quest.037F7593A8C97FE0.title: "Moon Quarry"
+	quest.037F7593A8C97FE0.quest_desc: [
+		"How: on the Moon the same extruder or a drill on a bearing; the valuable Moon ores go through crushing and washing like at home.",
+		" ",
+		"Why: building stone for the Moon base on the spot — shipping stone from Earth by rocket is expensive.",
+	]
+	quest.23F84575BE33D32D.title: "Questionable Farms"
+	quest.23F84575BE33D32D.quest_desc: [
+		"Ratibor frowns at the words \"iron golem farm\", \"raid farm\" and \"trading hall\". You can build them, but iron, totems and Mending stop being rewards, and the guild shop misses its customers. The chronicle will remember.",
+		" ",
+		"Tip: if you build them, wait until the steel era, when the game is about other things.",
+	]
 	chapter.388F77CD4F772EF4.title: "&#90BE6DBeasts, Fishing and Farms&r"
 	chapter.388F77CD4F772EF4.subtitle: "Wildlife, Aquaculture fishing, crop storage and automatic farms."
 	quest.648CA8E4002792F8.title: "Naturalist"
@@ -2989,10 +3182,18 @@
 	quest.2A49C2B7547DB685.title: "The Ribbit Market"
 	quest.2A49C2B7547DB685.quest_desc: [
 		"Ribbits: frog merchants live in swamp villages: fishermen, gardeners, sorcerers. They trade for amber.",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Ribbit Village (Ribbits).",
 	]
 	quest.2686668689286D25.title: "The Manor Prisoner"
 	quest.2686668689286D25.quest_desc: [
 		"Eternal Nether: the piglin manor keeps a piglin prisoner. Free him; the piglin hunters will not forgive it.",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Piglin Manor (Eternal Nether).",
 	]
 	chapter.5C651509E771767F.title: "&#2A9D8FVillagers and Trade&r"
 	chapter.5C651509E771767F.subtitle: "Trading, coins, village guards and villagers working Create machines."
@@ -3007,6 +3208,10 @@
 		"",
 		" ",
 		"The reward for the first village is in Era 0 (Find a Village). Here the village opens the chapter.",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass (any of them):§r ChoiceTheorem's Overhauled Village: Large/village Beach, Large/village Christmas, Large/village Desert, Large/village Desert Oasis, Large/village Dark Forest; Minecraft: Village Plains, Village Desert, Village Savanna, Village Snowy, Village Taiga and 61 more.",
 	]
 	quest.689955EBFEFBEE47.title: "Emeralds"
 	quest.689955EBFEFBEE47.quest_desc: [
@@ -3166,6 +3371,327 @@
 	quest.72BF7FF0C40952A5.quest_desc: [
 		"The gate batteries need a stock.",
 	]
+	chapter.6AC229FA60BF18CA.title: "&#E9C46ARatibor's Orders&r"
+	chapter.6AC229FA60BF18CA.subtitle: "Four orders a week, one per tier. New ones every Monday."
+	quest.7FFD99F0CED01858.title: "The Order Board"
+	quest.7FFD99F0CED01858.quest_desc: [
+		"Every Monday at midnight (Moscow time) Ratibor posts four orders, one per tier: Apprentice, Master, Engineer and Grand Order. Each order can be done once a week and pays two to four times what the exchange does.",
+		" ",
+		"",
+		" ",
+		"Higher tiers appear once the team reaches their era.",
+		" ",
+		"",
+		" ",
+		"§6Hand in the whole order and claim the reward before Monday:§r at midnight the board resets and an unfinished order burns together with what was handed in.",
+		" ",
+		"",
+		" ",
+		"\"I am not greedy. I am thrifty. The difference is in the coins you get.\" — Ratibor",
+	]
+	quest.2CF091C57E980F0D.title: "Order of the week: Cogs for the Store"
+	quest.2CF091C57E980F0D.quest_desc: [
+		"Order board helper quest: unlocks this week's order.",
+	]
+	quest.106EC15D4976C65D.title: "Apprentice: Cogs for the Store"
+	quest.106EC15D4976C65D.quest_subtitle: "Order of the week · Apprentice"
+	quest.106EC15D4976C65D.quest_desc: [
+		"Out of cogs again. I suspect someone eats them. Need plenty, small and large.",
+		" ",
+		"",
+		" ",
+		"§7Hand in before Monday 00:00 Moscow time.§r",
+	]
+	quest.3E46F342693390BA.title: "Order of the week: Shafts"
+	quest.3E46F342693390BA.quest_desc: [
+		"Order board helper quest: unlocks this week's order.",
+	]
+	quest.39F590193E88FBAC.title: "Apprentice: Shafts"
+	quest.39F590193E88FBAC.quest_subtitle: "Order of the week · Apprentice"
+	quest.39F590193E88FBAC.quest_desc: [
+		"A shaft is a cog that decided to stretch. I need a hundred and twenty-eight of those determined ones.",
+		" ",
+		"",
+		" ",
+		"§7Hand in before Monday 00:00 Moscow time.§r",
+	]
+	quest.1305B323ECA7234E.title: "Order of the week: Glass for the Greenhouse"
+	quest.1305B323ECA7234E.quest_desc: [
+		"Order board helper quest: unlocks this week's order.",
+	]
+	quest.2869ABB1CFEAD86D.title: "Apprentice: Glass for the Greenhouse"
+	quest.2869ABB1CFEAD86D.quest_subtitle: "Order of the week · Apprentice"
+	quest.2869ABB1CFEAD86D.quest_desc: [
+		"We are building a greenhouse. Glass from sand, sand from gravel, gravel from cobble: one crushing line does it all.",
+		" ",
+		"",
+		" ",
+		"§7Hand in before Monday 00:00 Moscow time.§r",
+	]
+	quest.1D3C17FEFD03BBEF.title: "Order of the week: Andesite Casings"
+	quest.1D3C17FEFD03BBEF.quest_desc: [
+		"Order board helper quest: unlocks this week's order.",
+	]
+	quest.562049D856052268.title: "Apprentice: Andesite Casings"
+	quest.562049D856052268.quest_subtitle: "Order of the week · Apprentice"
+	quest.562049D856052268.quest_desc: [
+		"The new mill needs casings. Someone took the old ones apart \"to see how they work\".",
+		" ",
+		"",
+		" ",
+		"§7Hand in before Monday 00:00 Moscow time.§r",
+	]
+	quest.55326995BCF86EFB.title: "Order of the week: Fuel for the Boilers"
+	quest.55326995BCF86EFB.quest_desc: [
+		"Order board helper quest: unlocks this week's order.",
+	]
+	quest.71A646CE102DB59B.title: "Apprentice: Fuel for the Boilers"
+	quest.71A646CE102DB59B.quest_subtitle: "Order of the week · Apprentice"
+	quest.71A646CE102DB59B.quest_desc: [
+		"Dried kelp burns as well as coal and grows by itself. A shore farm pays off in a week.",
+		" ",
+		"",
+		" ",
+		"§7Hand in before Monday 00:00 Moscow time.§r",
+	]
+	quest.716C9FDCECA3EECC.title: "Order of the week: Bread for the Guild"
+	quest.716C9FDCECA3EECC.quest_desc: [
+		"Order board helper quest: unlocks this week's order.",
+	]
+	quest.5836EE4772AC8C94.title: "Apprentice: Bread for the Guild"
+	quest.5836EE4772AC8C94.quest_subtitle: "Order of the week · Apprentice"
+	quest.5836EE4772AC8C94.quest_desc: [
+		"The guild works three shifts and all three are hungry. A mill and an oven are a foreman's best friends.",
+		" ",
+		"",
+		" ",
+		"§7Hand in before Monday 00:00 Moscow time.§r",
+	]
+	quest.3C028E127F3709C1.title: "Order of the week: Brass Casings"
+	quest.3C028E127F3709C1.quest_desc: [
+		"Order board helper quest: unlocks this week's order.",
+	]
+	quest.6FA5E4C97518B74F.title: "Master: Brass Casings"
+	quest.6FA5E4C97518B74F.quest_subtitle: "Order of the week · Master"
+	quest.6FA5E4C97518B74F.quest_desc: [
+		"Brass shines, brass rings, everyone needs brass. I need thirty-two casings.",
+		" ",
+		"",
+		" ",
+		"§7Hand in before Monday 00:00 Moscow time.§r",
+	]
+	quest.0B5C19793885B2A9.title: "Order of the week: Electron Tubes"
+	quest.0B5C19793885B2A9.quest_desc: [
+		"Order board helper quest: unlocks this week's order.",
+	]
+	quest.42361E3C4B4FEAF3.title: "Master: Electron Tubes"
+	quest.42361E3C4B4FEAF3.quest_subtitle: "Order of the week · Master"
+	quest.42361E3C4B4FEAF3.quest_desc: [
+		"Tubes for smart logistics. Without them storage thinks slowly, and I do not like slow-thinking storage.",
+		" ",
+		"",
+		" ",
+		"§7Hand in before Monday 00:00 Moscow time.§r",
+	]
+	quest.3D6D1BFB84387656.title: "Order of the week: Belts"
+	quest.3D6D1BFB84387656.quest_desc: [
+		"Order board helper quest: unlocks this week's order.",
+	]
+	quest.409442411C770D86.title: "Master: Belts"
+	quest.409442411C770D86.quest_subtitle: "Order of the week · Master"
+	quest.409442411C770D86.quest_desc: [
+		"Sixty-four belts. Yes, that is a lot of rubber. No, kelp is not for belts: the boiler eats it.",
+		" ",
+		"",
+		" ",
+		"§7Hand in before Monday 00:00 Moscow time.§r",
+	]
+	quest.27A3C7E1EEC890D2.title: "Order of the week: Copper Sheets"
+	quest.27A3C7E1EEC890D2.quest_desc: [
+		"Order board helper quest: unlocks this week's order.",
+	]
+	quest.4531FF093C10BD4B.title: "Master: Copper Sheets"
+	quest.4531FF093C10BD4B.quest_subtitle: "Order of the week · Master"
+	quest.4531FF093C10BD4B.quest_desc: [
+		"Pipes need copper, tanks need copper, the station roof needs copper. The press will cope.",
+		" ",
+		"",
+		" ",
+		"§7Hand in before Monday 00:00 Moscow time.§r",
+	]
+	quest.64F5885A91175645.title: "Order of the week: Chocolate for the Fair"
+	quest.64F5885A91175645.quest_desc: [
+		"Order board helper quest: unlocks this week's order.",
+	]
+	quest.3FD0B204B8392FE6.title: "Master: Chocolate for the Fair"
+	quest.3FD0B204B8392FE6.quest_subtitle: "Order of the week · Master"
+	quest.3FD0B204B8392FE6.quest_desc: [
+		"A village fair. Chocolate runs out faster than it arrives. I checked personally.",
+		" ",
+		"",
+		" ",
+		"§7Hand in before Monday 00:00 Moscow time.§r",
+	]
+	quest.006877F235862994.title: "Order of the week: Beer for the Tavern"
+	quest.006877F235862994.quest_desc: [
+		"Order board helper quest: unlocks this week's order.",
+	]
+	quest.1C2CB993D819274F.title: "Master: Beer for the Tavern"
+	quest.1C2CB993D819274F.quest_subtitle: "Order of the week · Master"
+	quest.1C2CB993D819274F.quest_desc: [
+		"The innkeeper asks for beer. He says engineers argue louder without it. True.",
+		" ",
+		"",
+		" ",
+		"§7Hand in before Monday 00:00 Moscow time.§r",
+	]
+	quest.6DA5EC7CA6F1F8DC.title: "Order of the week: Track for the Branch Line"
+	quest.6DA5EC7CA6F1F8DC.quest_desc: [
+		"Order board helper quest: unlocks this week's order.",
+	]
+	quest.738DC37194AECFA6.title: "Engineer: Track for the Branch Line"
+	quest.738DC37194AECFA6.quest_subtitle: "Order of the week · Engineer"
+	quest.738DC37194AECFA6.quest_desc: [
+		"We are laying a line to the far mines. Two hundred and fifty-six rails get us only to the first bend.",
+		" ",
+		"",
+		" ",
+		"§7Hand in before Monday 00:00 Moscow time.§r",
+	]
+	quest.2A4DF7375737D5C9.title: "Order of the week: Casings for the Depot"
+	quest.2A4DF7375737D5C9.quest_desc: [
+		"Order board helper quest: unlocks this week's order.",
+	]
+	quest.3926ADD8ECEADB40.title: "Engineer: Casings for the Depot"
+	quest.3926ADD8ECEADB40.quest_subtitle: "Order of the week · Engineer"
+	quest.3926ADD8ECEADB40.quest_desc: [
+		"A new depot for three trains. Casings for bogeys and for switches.",
+		" ",
+		"",
+		" ",
+		"§7Hand in before Monday 00:00 Moscow time.§r",
+	]
+	quest.00D2B8F6F088BE36.title: "Order of the week: Precision Mechanisms"
+	quest.00D2B8F6F088BE36.quest_desc: [
+		"Order board helper quest: unlocks this week's order.",
+	]
+	quest.00C2D4B7217D1E58.title: "Engineer: Precision Mechanisms"
+	quest.00C2D4B7217D1E58.quest_subtitle: "Order of the week · Engineer"
+	quest.00C2D4B7217D1E58.quest_desc: [
+		"The clockmakers ordered a batch. If even one is crooked, all sixteen come back.",
+		" ",
+		"",
+		" ",
+		"§7Hand in before Monday 00:00 Moscow time.§r",
+	]
+	quest.213E019F1EFD575F.title: "Order of the week: Steel for the Bridge"
+	quest.213E019F1EFD575F.quest_desc: [
+		"Order board helper quest: unlocks this week's order.",
+	]
+	quest.552456BB6C4A265E.title: "Engineer: Steel for the Bridge"
+	quest.552456BB6C4A265E.quest_subtitle: "Order of the week · Engineer"
+	quest.552456BB6C4A265E.quest_desc: [
+		"A bridge over the river. The wooden one got washed away. We weakened the current, but still.",
+		" ",
+		"",
+		" ",
+		"§7Hand in before Monday 00:00 Moscow time.§r",
+	]
+	quest.764F2646D06E5D21.title: "Order of the week: Shells for the Fort"
+	quest.764F2646D06E5D21.quest_desc: [
+		"Order board helper quest: unlocks this week's order.",
+	]
+	quest.01EB45DDA56B7FB1.title: "Engineer: Shells for the Fort"
+	quest.01EB45DDA56B7FB1.quest_subtitle: "Order of the week · Engineer"
+	quest.01EB45DDA56B7FB1.quest_desc: [
+		"The gate fort asks for shells. Hopefully for drills.",
+		" ",
+		"",
+		" ",
+		"§7Hand in before Monday 00:00 Moscow time.§r",
+	]
+	quest.4F12538AE9AA53A5.title: "Order of the week: Wine for the Feast"
+	quest.4F12538AE9AA53A5.quest_desc: [
+		"Order board helper quest: unlocks this week's order.",
+	]
+	quest.1E4B3D65D330D314.title: "Engineer: Wine for the Feast"
+	quest.1E4B3D65D330D314.quest_subtitle: "Order of the week · Engineer"
+	quest.1E4B3D65D330D314.quest_desc: [
+		"The First Guild's anniversary. Miron would not approve without wine: a thorough man.",
+		" ",
+		"",
+		" ",
+		"§7Hand in before Monday 00:00 Moscow time.§r",
+	]
+	quest.521608C325D556EA.title: "Order of the week: Plastic"
+	quest.521608C325D556EA.quest_desc: [
+		"Order board helper quest: unlocks this week's order.",
+	]
+	quest.07011C31D4297104.title: "Grand Order: Plastic"
+	quest.07011C31D4297104.quest_subtitle: "Order of the week · Grand Order"
+	quest.07011C31D4297104.quest_desc: [
+		"Plastic is crude oil that got its act together. We need a lot: we are building control desks.",
+		" ",
+		"",
+		" ",
+		"§7Hand in before Monday 00:00 Moscow time.§r",
+	]
+	quest.6EDC875BF533F7E3.title: "Order of the week: Circuit Boards"
+	quest.6EDC875BF533F7E3.quest_desc: [
+		"Order board helper quest: unlocks this week's order.",
+	]
+	quest.49EB1B96A03D4497.title: "Grand Order: Circuit Boards"
+	quest.49EB1B96A03D4497.quest_subtitle: "Order of the week · Grand Order"
+	quest.49EB1B96A03D4497.quest_desc: [
+		"Boards for desks, rockets and, reportedly, one very clever toaster. Do not ask.",
+		" ",
+		"",
+		" ",
+		"§7Hand in before Monday 00:00 Moscow time.§r",
+	]
+	quest.0D8AE9498936170D.title: "Order of the week: Netherite"
+	quest.0D8AE9498936170D.quest_desc: [
+		"Order board helper quest: unlocks this week's order.",
+	]
+	quest.0CA1365B9E5A05C7.title: "Grand Order: Netherite"
+	quest.0CA1365B9E5A05C7.quest_subtitle: "Order of the week · Grand Order"
+	quest.0CA1365B9E5A05C7.quest_desc: [
+		"Four netherite ingots. The piglins will call another meeting. Let them.",
+		" ",
+		"",
+		" ",
+		"§7Hand in before Monday 00:00 Moscow time.§r",
+	]
+	quest.75DEFBA09E84CA73.title: "Order of the week: Moon Stone"
+	quest.75DEFBA09E84CA73.quest_desc: [
+		"Order board helper quest: unlocks this week's order.",
+	]
+	quest.1F968B8169E5D631.title: "Grand Order: Moon Stone"
+	quest.1F968B8169E5D631.quest_subtitle: "Order of the week · Grand Order"
+	quest.1F968B8169E5D631.quest_desc: [
+		"I want Moon tiles in the workshop. Yes, it is a whim. Yes, I pay a crown.",
+		" ",
+		"",
+		" ",
+		"§7Hand in before Monday 00:00 Moscow time.§r",
+	]
+	quest.51A2C4F03EAFD787.title: "Order of the week: Rocket Engine"
+	quest.51A2C4F03EAFD787.quest_desc: [
+		"Order board helper quest: unlocks this week's order.",
+	]
+	quest.58C10040443352A2.title: "Grand Order: Rocket Engine"
+	quest.58C10040443352A2.quest_subtitle: "Order of the week · Grand Order"
+	quest.58C10040443352A2.quest_desc: [
+		"One engine. A spare. Rockets, they say, like to break at the most interesting moment.",
+		" ",
+		"",
+		" ",
+		"§7Hand in before Monday 00:00 Moscow time.§r",
+	]
+	image.7A2AD6EE3ACC123C.title: "Apprentice"
+	image.71E9CCF6916FF0D3.title: "Master"
+	image.3AFC0839FB33A857.title: "Engineer"
+	image.390B42136569120E.title: "Grand Order"
 	chapter.3454B04FF0C25AD0.title: "&#F4A261The Guild Shop&r"
 	chapter.3454B04FF0C25AD0.subtitle: "Exchange coins and guardian tokens for what you cannot craft. Every purchase can be repeated."
 	quest.169ACB71D2B05BC1.title: "How the Shop Works"
@@ -3285,6 +3811,9 @@
 		"Trial chambers, ancient cities, ocean monuments and mansions, plus dozens of Dungeons Arise and Structory structures. Explore everything you find.",
 	]
 	quest.4C3524EDA359F682.title: "Trial Chambers"
+	quest.4C3524EDA359F682.quest_desc: [
+		"§6Explorer's Compass:§r Trial Chambers (Minecraft).",
+	]
 	quest.2A0A115E794F6C18.title: "Trial Key"
 	quest.6E2D5370531169F7.title: "Mace"
 	quest.6E2D5370531169F7.quest_desc: [
@@ -3295,7 +3824,13 @@
 		"The reward for the first Nether trip is in Era 2 (Into the Nether). Here the Nether opens the search for a fortress and a bastion.",
 	]
 	quest.7D9ACB82381CA35B.title: "Nether Fortress"
+	quest.7D9ACB82381CA35B.quest_desc: [
+		"§6Explorer's Compass:§r Fortress (Minecraft).",
+	]
 	quest.649777B977AB5A64.title: "Bastion Remnant"
+	quest.649777B977AB5A64.quest_desc: [
+		"§6Explorer's Compass:§r Bastion Remnant (Minecraft).",
+	]
 	quest.1DC70211B9AE8946.title: "Netherite"
 	quest.1DC70211B9AE8946.quest_desc: [
 		"Ancient debris plus gold. Look for the upgrade template in bastions.",
@@ -3307,6 +3842,10 @@
 	quest.2689AE7493FD8B7D.title: "Stronghold"
 	quest.2689AE7493FD8B7D.quest_desc: [
 		"Eyes of Ender lead to the stronghold with the End portal.",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Stronghold (Minecraft).",
 	]
 	quest.0198B30433C0AD4D.title: "The End"
 	quest.0198B30433C0AD4D.quest_desc: [
@@ -3315,21 +3854,35 @@
 	quest.69BD03EE3F98CBF1.title: "End City"
 	quest.69BD03EE3F98CBF1.quest_desc: [
 		"Elytra are found on End ships.",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r End City (Minecraft).",
 	]
 	quest.2E5781E0AB6080EC.title: "Ancient City"
 	quest.2E5781E0AB6080EC.quest_desc: [
 		"Stay quiet — the Warden hunts here.",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Ancient City (Minecraft).",
 	]
 	quest.4ADDF55ACD6F5E6A.title: "Recovery Compass"
 	quest.4ADDF55ACD6F5E6A.quest_desc: [
 		"Points to where you last died.",
 	]
 	quest.3155C400BA0020AF.title: "Ocean Monument"
+	quest.3155C400BA0020AF.quest_desc: [
+		"§6Explorer's Compass:§r Monument (Minecraft).",
+	]
 	quest.3CFC306E8DBE0E31.title: "Buried Treasure"
 	quest.3CFC306E8DBE0E31.quest_desc: [
 		"Treasure maps are found on shipwrecks.",
 	]
 	quest.5DCF5F177B22169F.title: "Woodland Mansion"
+	quest.5DCF5F177B22169F.quest_desc: [
+		"§6Explorer's Compass:§r Mansion (Minecraft).",
+	]
 	quest.083932C79138D22E.title: "World Traveler"
 	quest.083932C79138D22E.quest_desc: [
 		"Go everywhere worth going: an End City, an Ancient City, netherite, the Mace and an Ocean Monument.",
@@ -3345,14 +3898,26 @@
 	quest.35046B73B8850B23.title: "Towers on the Horizon"
 	quest.35046B73B8850B23.quest_desc: [
 		"Structory: Towers places a tower suited to each biome: watchtowers, forest towers, desert towers and more. The top gives a long view, and the chests hold the pack loot like other buildings.",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass (any of them):§r Structory: Towers: Ancient Temple, Engineer Tower, Farmer Outpost, Foraging Outpost, Great Toadstool and 16 more.",
 	]
 	quest.0860A224B4B7D61B.title: "Bones in the Void"
 	quest.0860A224B4B7D61B.quest_desc: [
 		"Nullscape reshaped the End: floating islands, rifts and crystal peaks, and among them lie the skeletons of ancient dragons. Find one. Bring an elytra or plenty of blocks.",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Dragon Skeleton (Nullscape).",
 	]
 	quest.56E18D619505984F.title: "The Flying End Ship"
 	quest.56E18D619505984F.quest_desc: [
 		"Unusual End brought the End to life: flying ships, blob nests, towers and wanderer islands. With Nullscape its biomes appear here: warped reefs and gloop lands.",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Flying End Ship (Unusual End).",
 	]
 	quest.4073A19A4CE19B6C.title: "The Enderblob Queen"
 	quest.4073A19A4CE19B6C.quest_desc: [
@@ -3361,37 +3926,451 @@
 		"",
 		" ",
 		"Mistress of the blob nest, one of the strongest in the End. Her armour is almost impenetrable: bring armour-piercing weapons and friends.",
+		" ",
+		"",
+		" ",
+		"Chronicle: \"We never settled the far islands of the End where the blobs build their nests, however much levitite lay there. Their queen suffers no guests and makes no bargains. We left her islands to her, and perhaps that was the wisest thing we ever did.\"",
+	]
+	chapter.4407398F80F7B747.title: "&#B8C4FFUnder the Moon&r"
+	chapter.4407398F80F7B747.subtitle: "Blood, harvest, blue and super moons: each has its own rules and its own spoils."
+	quest.6A69EC405671CD11.title: "The Lunar Calendar"
+	quest.6A69EC405671CD11.quest_desc: [
+		"Sometimes an unusual moon rises at night; chat tells you when.",
+		" ",
+		"",
+		" ",
+		"§cBlood moon:§r three times the undead, spawning close by, no sleeping, villages get raided.",
+		" ",
+		"§6Harvest moon:§r crops yield more.",
+		" ",
+		"§9Blue moon:§r more experience, cheaper enchanting and anvil.",
+		" ",
+		"§aSuper moon:§r slimes spawn anywhere.",
+		" ",
+		"Blood, harvest and blue moons have \"super\" versions: the same, only stronger.",
+		" ",
+		"",
+		" ",
+		"The chronicler advises: meet a blood moon behind walls, a harvest moon in the field, a blue moon at the enchanting table and a super moon with a sword and empty chests for slime.",
+	]
+	quest.593D77D1B5095AFA.title: "Blood Moon Hunt"
+	quest.593D77D1B5095AFA.quest_desc: [
+		"Defeat 20 hostile mobs under a blood moon (over several moons if needed).",
+		" ",
+		"",
+		" ",
+		"The undead spawn right next to you that night, so stay together and near a wall.",
+	]
+	quest.75BBA6A9DDCC783F.title: "Live to See the Dawn"
+	quest.75BBA6A9DDCC783F.quest_desc: [
+		"Be in the Overworld when a blood moon rises and live until it sets without dying once.",
+		" ",
+		"",
+		" ",
+		"You cannot sleep that night: a bed will not help. Walls, light and friends will.",
+	]
+	quest.15E80221A0486886.title: "Harvest Night"
+	quest.15E80221A0486886.quest_desc: [
+		"Harvest 32 ripe crops under a harvest moon (over several moons if needed).",
+		" ",
+		"",
+		" ",
+		"A Create harvester does not count: pick them by hand, the moon likes the personal touch.",
+	]
+	quest.248601BE4FF21097.title: "Blue Moon Luck"
+	quest.248601BE4FF21097.quest_desc: [
+		"Gain 5 experience levels during one blue moon.",
+		" ",
+		"",
+		" ",
+		"There is more experience that night, and enchanting and the anvil cost less: time for your dream armour.",
+	]
+	quest.4F75796BE0847468.title: "Slime Rain"
+	quest.4F75796BE0847468.quest_desc: [
+		"Defeat 8 slimes during a super moon (over several moons if needed).",
+		" ",
+		"",
+		" ",
+		"That night they spawn anywhere. Slime means pistons, belts and sticky Create contraptions.",
+	]
+	quest.41327865CBDB7989.title: "Under Every Moon"
+	quest.41327865CBDB7989.quest_desc: [
+		"You have seen every moon of this world and survived each one.",
+		" ",
+		"",
+		" ",
+		"The chronicler writes: \"They were not afraid of the dark. Only of missing something interesting.\"",
 	]
 	chapter.6384AA12155B113A.title: "&#E63946Arsenal and Defence&r"
-	chapter.6384AA12155B113A.subtitle: "Weapons, armour, Big Cannons and base defence, across every era."
-	quest.10B7D2BF5BA572F7.title: "Arm Yourself"
+	chapter.6384AA12155B113A.subtitle: "Create Gunsmithing firearms and ammunition, Big Cannons and munitions, base defence and shields, across every era. Melee weapons and bows are in the Weapons chapter, armour in Armour Sets."
+	quest.10B7D2BF5BA572F7.title: "The Arsenal"
 	quest.10B7D2BF5BA572F7.quest_desc: [
-		"Basic Weapons adds daggers, clubs, hammers, spears, quarterstaffs and glaives in every vanilla material, each with its own speed and reach. There are also lunging spears (Backported Spears) and medieval armour, shields and weapons from Epic Knights. Pick your style.",
+		"Six independent branches: firearms, ammunition, cannons, munitions, base defence and shields. Each runs through the eras from left to right: brass, precision mechanism, steel, bosses. In a family quest any one item counts, and a click on any of them shows its recipe.",
+		" ",
+		"",
+		" ",
+		"How to make: a plain shield is 6 planks and an iron ingot on a crafting table.",
 		" ",
 		"",
 		" ",
 		"Chronicle: \"For a long time the First Guild did without weapons: we built, we did not fight. When we had to defend the workshops from our own apprentices, it was too late to forge swords. Prepare your defences early.\"",
 	]
-	quest.64BE3391B428A886.title: "Shield and Bow"
-	quest.5EA91EDFFD55CF09.title: "Brass Armour"
-	quest.5EA91EDFFD55CF09.quest_desc: [
-		"Create Stuff & Additions: brass armour is the armour of the brass era. Tougher than iron (18 armour, 4 toughness, +2 health), below diamond.",
+	quest.61F51669057A5A69.title: "Lead"
+	quest.61F51669057A5A69.quest_desc: [
+		"Create Gunsmithing: guns are built on a crafting table and mechanical crafters, ammunition by sequenced assembly. All of it needs lead.",
+		" ",
+		"",
+		" ",
+		"Where to get it: TFMG lead ore in the Overworld (Gunsmithing ore does not generate in this pack). Smelt the ore or crushed ore; nuggets come from an ingot on a crafting table.",
 	]
-	quest.3533D9A9B549A644.title: "Heavy Armour"
-	quest.3533D9A9B549A644.quest_desc: [
-		"Immersive Armors: heavy armour is forged from TFMG steel - tier T4. 20 armour, 12 toughness, full knockback immunity and +4 health, but you move slower.",
+	quest.5372210F85C8C1F8.title: "Flintlock"
+	quest.5372210F85C8C1F8.quest_desc: [
+		"How to make: andesite alloy, an iron sheet, flint and steel and a stripped log on a crafting table. A paper cartridge is a lead nugget, gunpowder and paper (or sequenced assembly: paper, gunpowder, nugget).",
+		" ",
+		"",
+		" ",
+		"One shot per reload. Paper shot (lead balls from nuggets on a stonecutter, gunpowder and paper) fires a spread of 12 pellets.",
 	]
-	quest.167B967639030738.title: "Steampunk"
-	quest.167B967639030738.quest_desc: [
-		"A set in the spirit of Create: brass, pistons, clocks and a compass (since 1.1 forged from brass, not gold). Tier T2: 16 armour, 4 toughness, +2 health.",
+	task.75F78B212C180387.title: "Any item from the list"
+	quest.2D103EFF73F65B56.title: "Musket and Blunderbuss"
+	quest.2D103EFF73F65B56.quest_desc: [
+		"Flintlock attachments go on with the \"Modify Attachments\" key (controls, NTGL Weapons section).",
+		" ",
+		"",
+		" ",
+		"How to make: the musket barrel is 2 iron sheets and 2 stripped logs; the blunderbuss barrel and the long blunderbuss barrel are iron sheets and a stripped log; the flintlock chambers are 8 iron sheets around a cogwheel.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
 	]
-	quest.1594ED87597CB23C.title: "XP Tome"
-	quest.1594ED87597CB23C.quest_desc: [
-		"Stores experience: keep your levels safe and share them with a friend.",
+	task.76928AFC347B7EF1.title: "Any item from the list"
+	quest.55E240F4678C38C1.title: "Stock, Scope and Bayonet"
+	quest.55E240F4678C38C1.quest_desc: [
+		"Shared attachments. The stock fits the flintlock, revolver, shotgun and nailgun, the scope the flintlock, revolver and launcher, the bayonet the flintlock, the large bayonet the launcher.",
+		" ",
+		"",
+		" ",
+		"How to make: the stock is a brass sheet and stripped logs; the scope a spyglass, a brass sheet and black dye; the bayonet 2 iron sheets and a brass sheet, the large bayonet 4 iron sheets and a brass sheet.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
+	]
+	quest.77780F3504F257AB.title: "Revolver"
+	quest.77780F3504F257AB.quest_desc: [
+		"How to make: mechanical crafters with andesite alloy, steel sheets and an ingot, a cogwheel, a brass sheet and stripped logs. Steel comes only from the TFMG blast furnace.",
+		" ",
+		"",
+		" ",
+		"Six rounds in the cylinder: plain and piercing revolver rounds (ammunition branch).",
+	]
+	task.03971271BBA6D833.title: "Any item from the list"
+	quest.73652F36B4E055A0.title: "Revolver Attachments"
+	quest.73652F36B4E055A0.quest_desc: [
+		"How to make: the long barrel is iron and brass sheets and stripped logs; the chamber belt brass nuggets and steel sheets on mechanical crafters; the auto fire frame andesite alloy, a cogwheel, a brass sheet, a precision mechanism and shafts on mechanical crafters.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
+	]
+	task.0E80BD6C4BC97CCB.title: "Any item from the list"
+	quest.6E3070B895BB4A7F.title: "Shotgun"
+	quest.6E3070B895BB4A7F.quest_desc: [
+		"Two barrels; rounds: buckshot, flechettes (nails), steel flechettes and incendiary.",
+		" ",
+		"",
+		" ",
+		"How to make: the shotgun is andesite alloy, steel and brass sheets and stripped logs on mechanical crafters. Long barrels are steel and brass sheets with logs, spreading barrels steel and iron sheets, drums cogwheels with brass and steel sheets, the automatic loader brass sheets, precision mechanisms and andesite alloy (crafters).",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
+	]
+	task.6010172D1037E0EA.title: "Any item from the list"
+	quest.1405461DC7088898.title: "Gatling"
+	quest.1405461DC7088898.quest_desc: [
+		"A hundred rounds per box. The steam engine is the \"engine\" attachment for the gatling, nailgun and blazegun.",
+		" ",
+		"",
+		" ",
+		"How to make: the gatling is steel sheets and an ingot, brass sheets, cogwheels, a precision mechanism and andesite alloy on mechanical crafters. The drum magazine is a large cogwheel, andesite alloy and brass sheets. The steam engine is a blast furnace, a Create steam engine and flywheel, brass sheets, a precision mechanism, a pipe and a tank.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
+	]
+	task.00AC4331E845E807.title: "Any item from the list"
+	quest.0C4BB363D1D1CF68.title: "Nailgun"
+	quest.0C4BB363D1D1CF68.quest_desc: [
+		"A pneumatic gun: it fires nails, 40 per magazine. Steel nails are in the ammunition branch.",
+		" ",
+		"",
+		" ",
+		"How to make: mechanical crafters with andesite alloy, a toolbox, a fluid valve, iron and brass sheets, a precision mechanism, pipes, a copper backtank and stripped logs. Nails are 3 iron nuggets in a column (or a nugget cut and pressed). The splitter is iron sheets, a chute, a precision mechanism and pipes.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
+	]
+	quest.6437978C77D7DE73.title: "Blazegun"
+	quest.6437978C77D7DE73.quest_desc: [
+		"How to make: mechanical crafters with a blaze burner, a chute, brass sheets, pipes, a fluid tank, andesite alloy and stripped logs.",
+		" ",
+		"",
+		" ",
+		"Refuel: right-click the blazegun with fuel (coal and other burnables) or a blaze cake.",
+	]
+	task.6DD7B64DE465D41F.title: "Any item from the list"
+	quest.5671B097B9F914F7.title: "Launcher"
+	quest.5671B097B9F914F7.quest_desc: [
+		"Four rockets in the tube. The auto launcher is the launcher's magazine attachment.",
+		" ",
+		"",
+		" ",
+		"How to make: the launcher is andesite alloy, chutes, steel and brass sheets, pipes and stripped logs on mechanical crafters. A rocket is sequenced assembly: a pipe, TNT, a brass sheet; the small rocket starts from an iron sheet with brass and TNT. The auto launcher is a toolbox, copper and brass sheets, pipes, a copper backtank, cogwheels and a precision mechanism.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
+	]
+	task.4A2267156ADD91EA.title: "Any item from the list"
+	quest.759440345AB6D06E.title: "Ballistazooka"
+	quest.759440345AB6D06E.quest_desc: [
+		"A magazine attachment for the launcher: it throws spears instead of rockets.",
+		" ",
+		"",
+		" ",
+		"How to make: the ballistazooka is flywheels, iron and brass sheets, string and stripped logs on mechanical crafters. A spear is iron sheets and stripped logs on a crafting table.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
+	]
+	quest.72FDF6FBA89E2F82.title: "Frag Grenade"
+	quest.72FDF6FBA89E2F82.quest_desc: [
+		"How to make: a brass and an iron sheet, a copper nugget, gunpowder and a cogwheel on a crafting table.",
+	]
+	task.6E1FA2250BA20B03.title: "Any item from the list"
+	quest.4CA873468808C681.title: "Pneumatic Hammer"
+	quest.4CA873468808C681.quest_desc: [
+		"A pneumatic melee weapon. A hammer or axe head goes on as an attachment; with the gun chamber it fires blank shotgun rounds.",
+		" ",
+		"",
+		" ",
+		"How to make: the hammer is andesite alloy, a brass block, a mechanical piston, a copper backtank and stripped logs on mechanical crafters. Heads: stone from stone, iron and diamond from a block and ingots, netherite from the diamond head on a smithing table. The chamber is steel, copper and brass sheets with andesite alloy.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
+	]
+	task.2D61F593DA723A85.title: "Any item from the list"
+	quest.7918413E6BB6F54F.title: "The Harbinger's Guns"
+	quest.7918413E6BB6F54F.quest_desc: [
+		"Where to get it: the Harbinger drops a witherite block (a crafting table turns it into ingots), the Ender Golem drops the void core.",
+		" ",
+		"",
+		" ",
+		"How to make: the laser gatling is witherite ingots, iron, redstone and a redstone block; the wither assault shoulder weapon witherite, gunpowder and a redstone block; the void assault weapon the wither one plus a void core on the Mechanical Fusion Anvil (witherite, redstone blocks and an anvil).",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
+	]
+	task.66C8F501DF035764.title: "Any item from the list"
+	quest.4D7B9F923518F36F.title: "Home-made Gunpowder"
+	quest.4D7B9F923518F36F.quest_desc: [
+		"Every round and charge takes gunpowder, more than creepers will supply.",
+		" ",
+		"",
+		" ",
+		"How to make: gunpowder is charcoal dust, sulfur and niter on a crafting table (or in the TFMG mixer). Dust comes from crushing charcoal, sulfur from crushing magma blocks, niter from a heated mixer: rotten flesh or guano and 250 mB of water.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
+	]
+	task.50D001798CCC8056.title: "Any item from the list"
+	quest.1E0C3D38B3FD973A.title: "Cartridge Cases"
+	quest.1E0C3D38B3FD973A.quest_desc: [
+		"How to make: press forms are an iron ingot on a stonecutter. A blank is sequenced assembly from a brass sheet: a deployer applies the press form (it is kept), then gunpowder; the shotgun one also takes paper. One sheet gives 8 blanks.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
+	]
+	task.69E4EAA50CA7EFB2.title: "Any item from the list"
+	quest.4E8C02DAE9D35040.title: "Live Rounds"
+	quest.4E8C02DAE9D35040.quest_desc: [
+		"How to make: sequenced assembly from a blank. Revolver: a lead nugget; gatling: a lead and a copper nugget; shotgun: lead balls, flechette: a nail, incendiary: blaze powder.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
+	]
+	task.412E9FFB02C43DB5.title: "Any item from the list"
+	quest.2915627E580B0467.title: "Piercing Rounds"
+	quest.2915627E580B0467.quest_desc: [
+		"How to make: a steel nugget instead of lead, in the revolver round (with lead) and the gatling round (with copper); the steel flechette takes a steel nail; steel nails are 3 steel nuggets in a column or a nugget cut and pressed. Steel nuggets come from a steel ingot on a crafting table.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
+	]
+	quest.11FCCB9AB188671C.title: "First Cannon"
+	quest.11FCCB9AB188671C.quest_desc: [
+		"Create Big Cannons: a cannon is built from blocks (chamber, barrel, breech end) on a carriage or mount. A log cannon is weak, but it fires.",
+		" ",
+		"",
+		" ",
+		"How to make: the chamber is 4 logs around gunpowder; the end 3 logs, a button and gunpowder; the carriage planks, a shaft and a pair of wheels (a log in iron sheets).",
+	]
+	quest.3BFC9638790CFB7F.title: "Mount and Charges"
+	quest.3BFC9638790CFB7F.quest_desc: [
+		"Powder charges and shot are rammed in; the number of charges sets the range. The mount turns with rotation.",
+		" ",
+		"",
+		" ",
+		"How to make: the mount is an andesite casing, shafts, iron sheets and gunpowder; the ram rod a head (planks and a piston extension pole) on two sticks; a charge a bag (string and wool) and packed gunpowder (gunpowder in a compactor); solid shot iron ingots, nuggets and a slab.",
+	]
+	task.74C3A384A11950CB.title: "Any item from the list"
+	quest.3A56ABA5279C1D80.title: "Wrought Iron Cannon and Mortar"
+	quest.3A56ABA5279C1D80.quest_desc: [
+		"Stronger than the log cannon and, like it, joins up when placed. The drop mortar end fires mortar shells dropped into the barrel.",
+		" ",
+		"",
+		" ",
+		"How to make: the chamber is 4 iron sheets around gunpowder; the end iron ingots, a sheet and gunpowder; the drop mortar end a wrought iron end and iron bars.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
+	]
+	quest.37E52492C6443C01.title: "Cannon Workshop"
+	quest.37E52492C6443C01.quest_desc: [
+		"The drill bores cast barrels (drill and lathe speeds must match), the builder fits the layers of steel barrels together, the loader with a ram head feeds munitions.",
+		" ",
+		"",
+		" ",
+		"How to make: each is an andesite casing with a piston extension pole: the drill adds iron and a pipe, the builder iron sheets and nuggets, the loader gunpowder.",
+	]
+	quest.7EA7A3F925D95AE8.title: "Casting"
+	quest.7EA7A3F925D95AE8.quest_desc: [
+		"Metal melts in a basin under a foundry lid over a blaze burner and is poured into a mould packed with casting sand. A filled cast takes time to set (bigger takes longer); break it to get an unbored block.",
+		" ",
+		"",
+		" ",
+		"How to make: the lid is 4 andesite alloy; sand is sand, dirt and clay; moulds are a log on a mechanical saw.",
+	]
+	quest.7BE14415BC16599B.title: "Cast Iron Cannon"
+	quest.7BE14415BC16599B.quest_desc: [
+		"TFMG cast iron is iron and coal in a heated compactor; it melts in the foundry basin. Bore the cast barrel and chamber with the drill, then add the missing breech parts by hand or with a deployer (the block lists them).",
+		" ",
+		"",
+		" ",
+		"Cast iron blocks do not join when placed: build the cannon in one piece or weld it. Broken without Silk Touch, a cannon turns into scrap.",
+	]
+	quest.529A00BF0C8D298D.title: "Cannon Welder"
+	quest.529A00BF0C8D298D.quest_desc: [
+		"Right-click two adjacent cannon blocks of the same material and type to weld them. Welding weakens some barrels, so casting and moving a whole cannon is better.",
+		" ",
+		"",
+		" ",
+		"How to make: a blaze burner, brass and iron sheets and a valve handle on a crafting table.",
+	]
+	task.5A73EC0830F83462.title: "Any item from the list"
+	quest.75326C0F476326EC.title: "Bronze Cannon"
+	quest.75326C0F476326EC.quest_desc: [
+		"Bronze holds more powder than cast iron and is cast the same way.",
+		" ",
+		"",
+		" ",
+		"How to make: bronze ingots come from a heated mixer: 2 brass ingots and cinder flour, or copper, zinc and cinder flour (2 ingots). Cinder flour is crushed netherrack.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
+	]
+	task.35BAA68F6448DB02.title: "Any item from the list"
+	quest.2CD0481462C678A7.title: "Autocannon"
+	quest.2CD0481462C678A7.quest_desc: [
+		"A rapid-fire gun with a magazine: defence against sky pirates and a ship weapon. Barrel, breech and recoil spring are cast in their own moulds (a log on a saw).",
+		" ",
+		"",
+		" ",
+		"How to make: the container is a brass ingot and iron sheets; a flak round an iron sheet, gunpowder and shot balls (an iron ingot in nuggets); an AP round cast iron and iron ingots; a machine gun round a case (cut from a sheet), gunpowder and a copper nugget.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
+	]
+	quest.327C192415E8CC66.title: "Steel Barrel"
+	quest.327C192415E8CC66.quest_desc: [
+		"Steel withstands far more charges than cast iron and bronze. The barrel is built from layers: each is cast and bored, the builder fits them together, and a fan blowing through lava turns the layers into a finished barrel.",
+	]
+	quest.3216571E90BBE848.title: "Nethersteel"
+	quest.3216571E90BBE848.quest_desc: [
+		"How to make: nethersteel comes from a superheated mixer: netherite scrap and a steel (or cast iron) ingot. The barrel is built from layers like the steel one.",
+	]
+	task.37E2AB9E11E22E71.title: "Any item from the list"
+	quest.02EA33D7875AE63A.title: "Shot and Grapeshot"
+	quest.02EA33D7875AE63A.quest_desc: [
+		"Solid shot punches through walls, grapeshot hits crowds, the mortar stone flies furthest and explodes on impact.",
+		" ",
+		"",
+		" ",
+		"How to make: shot balls are an iron ingot in 8 nuggets; grapeshot shot balls, wool, string and a slab; a mortar stone stone and a slab.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
+	]
+	quest.4DC5ECBC76FBF9CD.title: "Munitions"
+	quest.4DC5ECBC76FBF9CD.quest_desc: [
+		"An HE shell with a fuze breaks structures, shrapnel hits crowds. Fuzes go into the shell.",
+		" ",
+		"",
+		" ",
+		"How to make: guncotton is paper, gunpowder, redstone and 200 mB of water in a mixer, then a compactor; the HE shell iron, a slab and packed guncotton on mechanical crafters; the impact fuze a button and redstone.",
+	]
+	task.2A5DCDCA90C03369.title: "Any item from the list"
+	quest.717DAE49E9909408.title: "Fuzes"
+	quest.717DAE49E9909408.quest_desc: [
+		"How to make: timed is a clock, iron and redstone; proximity iron bars, quartz, iron and redstone; delayed impact a timed and an impact fuze; inertia a button, a recoil spring (a sheet cut on a saw and pressed) and redstone; wired copper and redstone.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
+	]
+	task.0048F8C71D073B67.title: "Any item from the list"
+	quest.1159F550A1F3E589.title: "Special Shells"
+	quest.1159F550A1F3E589.quest_desc: [
+		"How to make: AP shot and shell are cast iron (TFMG), iron and a slab, the shell also guncotton; smoke hay and iron; the fluid shell iron and pipes (filled with a fluid); the drop mortar shell a powder charge, an iron sheet, a shaft and guncotton.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
+	]
+	task.08292A2AF8CF4186.title: "Any item from the list"
+	quest.0B55CEA58AB85331.title: "Cartridges and Nitropowder"
+	quest.0B55CEA58AB85331.quest_desc: [
+		"A big cartridge is a compact charge filled with stronger powder; after a shot it can be refilled.",
+		" ",
+		"",
+		" ",
+		"How to make: a cartridge sheet is 4 brass sheets, then 5 pressings by sequenced assembly. Congealed nitro is blaze powder, magma cream and gunpowder in a mixer (or guncotton, slime, redstone and water); a furnace hardens it and a millstone grinds it into nitropowder.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
 	]
 	quest.20FC3401E61EA89B.title: "Mega Torch"
 	quest.20FC3401E61EA89B.quest_desc: [
-		"Stops hostile mobs spawning within 64 blocks. One torch and your base is safe.",
+		"Stops hostile mobs spawning within 64 blocks.",
+		" ",
+		"",
+		" ",
+		"How to make: a mechanical mixer without heat: 3 torches, 2 diamonds, 2 gold blocks, 2 logs and 250 mB of lava.",
 	]
 	quest.69711FBF08F72FB9.title: "Guards"
 	quest.69711FBF08F72FB9.quest_desc: [
@@ -3399,311 +4378,1437 @@
 	]
 	quest.703292B04762F4AB.title: "Dread Lamp"
 	quest.703292B04762F4AB.quest_desc: [
-		"The reverse: blocks passive spawns, for clean farms and warehouses.",
+		"The reverse: blocks passive spawns within 64 blocks, for clean farms and warehouses.",
+		" ",
+		"",
+		" ",
+		"How to make: obsidian, glass panes, glowstone and black dye.",
 	]
-	quest.61F51669057A5A69.title: "Lead"
-	quest.61F51669057A5A69.quest_desc: [
-		"Create Gunsmithing: guns are made on Create machines and ammunition by sequenced assembly.",
+	quest.75D83EE5912EE169.title: "Feral Flare"
+	quest.75D83EE5912EE169.quest_desc: [
+		"Places invisible light sources within 16 blocks by itself: mines and cellars without torches.",
+		" ",
+		"",
+		" ",
+		"How to make: gold ingots, glowstone dust and glass.",
 	]
-	quest.5372210F85C8C1F8.title: "Flintlock"
-	quest.6437978C77D7DE73.title: "Blazegun"
-	quest.759440345AB6D06E.title: "Ballistazooka"
-	quest.0C4BB363D1D1CF68.title: "Nailgun"
-	quest.77780F3504F257AB.title: "Revolver"
-	quest.77780F3504F257AB.quest_desc: [
-		"Steel firearms open with TFMG steel.",
+	quest.1594ED87597CB23C.title: "XP Tome"
+	quest.1594ED87597CB23C.quest_desc: [
+		"Stores experience: keep your levels safe and share them with a friend.",
+		" ",
+		"",
+		" ",
+		"How to make: a book and 4 ender pearls.",
 	]
-	quest.1405461DC7088898.title: "Gatling"
-	quest.11FCCB9AB188671C.title: "First Cannon"
-	quest.11FCCB9AB188671C.quest_desc: [
-		"Create Big Cannons: a cannon is built from blocks — barrel, chamber, breech — on a mount. A log cannon is weak, but it fires.",
+	task.1CCB580E9874FEB9.title: "Any item from the list"
+	quest.131C69AF71A5EF6E.title: "Radar Turret"
+	quest.131C69AF71A5EF6E.quest_desc: [
+		"Create Radar aims the cannon itself: the auto yaw controller goes under the mount, the auto pitch controller beside it, the fire controller emits a redstone signal once the mount is aligned. Link it all to the radar monitor with data links and pick the target on the monitor.",
+		" ",
+		"",
+		" ",
+		"How to make: auto yaw and pitch are a precision mechanism and a gearbox; the fire controller a brass casing, comparators, a precision mechanism and redstone; monitors electron tubes, a brass casing and a precision mechanism; the target filter paper, a precision mechanism and redstone.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
 	]
-	quest.3BFC9638790CFB7F.title: "Mount and Charges"
-	quest.3BFC9638790CFB7F.quest_desc: [
-		"Powder charges and shot are rammed in; the number of charges sets the range. The mount turns with rotation.",
+	task.45520D2E38C635B9.title: "Any item from the list"
+	quest.64BE3391B428A886.title: "Stone and Metal Shields"
+	quest.64BE3391B428A886.quest_desc: [
+		"New Shield Variants: tougher than the plain shield.",
+		" ",
+		"",
+		" ",
+		"How to make: the shape of a plain shield; the iron shield from iron ingots, stone from cobblestone and an iron ingot, gold from gold and an iron ingot.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
 	]
-	quest.37E52492C6443C01.title: "Cannon Workshop"
-	quest.37E52492C6443C01.quest_desc: [
-		"The drill bores cast barrels, the builder assembles parts, the loader feeds ammo automatically.",
-	]
-	quest.7EA7A3F925D95AE8.title: "Casting"
-	quest.7EA7A3F925D95AE8.quest_desc: [
-		"Metal melts in a basin under a foundry lid over a blaze burner and is poured into a mould packed with casting sand.",
-	]
-	quest.7BE14415BC16599B.title: "Cast Iron Cannon"
-	quest.529A00BF0C8D298D.title: "Cannon Welder"
-	quest.529A00BF0C8D298D.quest_desc: [
-		"Welded parts withstand more charges: longer shots, less risk of bursting.",
-	]
-	quest.4DC5ECBC76FBF9CD.title: "Munitions"
-	quest.4DC5ECBC76FBF9CD.quest_desc: [
-		"An HE shell with a fuze breaks structures, shrapnel hits crowds. Fuzes go into the shell.",
-	]
-	quest.2CD0481462C678A7.title: "Autocannon"
-	quest.2CD0481462C678A7.quest_desc: [
-		"A rapid-fire gun with a magazine: defence against sky pirates and a ship weapon.",
-	]
-	quest.327C192415E8CC66.title: "Steel Barrel"
-	quest.3216571E90BBE848.title: "Nethersteel"
-	quest.1D3A3C518F2002BA.title: "The Incinerator"
-	quest.7918413E6BB6F54F.title: "Laser Gatling"
-	quest.05E666F85CC7AF48.title: "Moon Crystal"
-	quest.05E666F85CC7AF48.quest_desc: [
-		"Fantasy Armor: 30 legendary sets. A Moon Crystal is made from a glow ink sac and amethyst. On a smithing table it turns a netherite armour piece into a hero's armour, and the third item picks which: iron ingot for the Hero, feather for Lady Maria, snowball for the Silver Knight, bone for the Dark Lord. JEI shows every set.",
-	]
-	quest.4278CC7FD36D973A.title: "A Hero's Armour"
-	quest.4278CC7FD36D973A.quest_desc: [
-		"Any of the 30 Fantasy Armor chestplates counts. Helmets, leggings and boots are made the same way from netherite ones.",
-	]
-	quest.7250BC396A7E5C1A.title: "Blazing Stone"
-	quest.7250BC396A7E5C1A.quest_desc: [
-		"Fantasy Weapons: over 70 legendary weapons: claymores, katanas, halberds, rapiers, hammers. A Blazing Stone is made from blaze powder, glowstone dust and stone. On a smithing table it turns a netherite sword into a weapon, and the third item picks which: iron ingot for the Hero Claymore, raw copper for the Kingslayer.",
-	]
-	quest.5D2B6635742EA1A0.title: "Weapon of Legends"
-	quest.5D2B6635742EA1A0.quest_desc: [
-		"Any Fantasy Weapons weapon counts.",
-	]
-	quest.40184F99961A1B00.title: "Geared Arsenal"
-	quest.40184F99961A1B00.quest_desc: [
-		"Create Tools n Weapons: netherite tools rebuilt on a mechanical crafter with a precision mechanism, industrial iron and cogwheels. There are also an axe, a shovel and a hoe.",
-	]
-	quest.1A154ACAF9B5E524.title: "A 3×3 Hammer"
-	quest.1A154ACAF9B5E524.quest_desc: [
-		"Just Hammers: a hammer mines a 3×3 area at once. Recipe: two ingots at the ends of the top row and three sticks down the middle. There are stone, iron, gold, diamond and netherite ones; the tooltip shows the area size.",
-	]
-	quest.3AEF941AF2BE4490.title: "Impact Hammer"
-	quest.3AEF941AF2BE4490.quest_desc: [
-		"An Impact Core is made from a netherite hammer, an iron block, a gold block and redstone. The impact hammer mines 3×3×3, the reinforced one 5×5×1, the reinforced impact one 5×5×3 and the destructor 5×5×5. Each core is made from the previous one; JEI has the recipes.",
-	]
-	quest.7258126D7955C827.title: "The Knight's Armoury"
-	quest.7258126D7955C827.quest_desc: [
-		"Epic Knights: 2 leather make 6 leather strips, a stick and a strip make a hilt, two hilts make a pole. A short sword is 2 iron ingots over a hilt; a bastard sword is a short sword plus one more ingot. The iron weapons match an iron sword, but polearms reach 1-3 blocks further and hammers and stilettos pierce armour. Two-handed weapons get weaker while your off hand is busy. The longbow (4 sticks, 3 string, a hilt) hits harder than a bow but takes almost twice as long to draw.",
-	]
-	quest.0E970AF69A9D5397.title: "Heraldic Shield"
+	task.54407A8A5CFE18C7.title: "Any item from the list"
+	quest.0E970AF69A9D5397.title: "Knightly Shields"
 	quest.0E970AF69A9D5397.quest_desc: [
-		"A wooden heater shield is planks and an iron ingot; an iron one is the wooden shield plus iron. Epic Knights shields only stop damage up to a limit (heater 10, rondache 13, pavise 17); the rest goes through. A shield and a banner on a crafting table give a shield with your coat of arms. A pavise can be placed on the ground as cover for an archer. Steel shields come in the steel era.",
+		"Epic Knights: four shield shapes in different materials.",
+		" ",
+		"",
+		" ",
+		"How to make: a wooden shield (heater, kite, round, elliptical) is planks and an iron ingot; a metal one the wooden shield of that shape with 4 ingots or stones around it.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
 	]
-	quest.657ED9E1A9327981.title: "Knight's Plate"
-	quest.657ED9E1A9327981.quest_desc: [
-		"The plate is forged from TFMG steel: 2 ingots make 2 steel plates. A half armour is 6 ingots and 2 plates, the knight chestplate is a half armour and 5 plates, the armet is a barbute and 3 plates. Tier T4: 20 armour, 10 toughness, 0.4 knockback resistance and +4 health per set, no slowness. Immersive Armors heavy armour is 20 / 12 with full knockback immunity but slows you. Gothic and kastenbrust plate have the same numbers in another look and upgrade to netherite on the smithing table.",
+	task.56565184CD6DA66F.title: "Any item from the list"
+	quest.246BE58B314DF1CA.title: "Diamond Shields"
+	quest.246BE58B314DF1CA.quest_desc: [
+		"How to make: the New Shield Variants diamond shield is diamonds and an iron ingot; the Epic Knights shields a wooden shield and 4 diamonds.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
 	]
-	quest.3438447756AD852E.title: "The Tournament"
-	quest.3438447756AD852E.quest_desc: [
-		"Jousting plate is knight plate plus steel plates; the frog-mouth helm is a barbute and 8 plates. 22 armour and 10 toughness, no knockback, but every piece gives Slowness II, so nobody fights in it on foot. The lance hits harder the faster your horse runs. Saddle: 5 leather, string and 2 iron ingots.",
+	task.7ED558D33B6C3A8C.title: "Any item from the list"
+	quest.4A3024A8A0A20293.title: "Steel Shields"
+	quest.4A3024A8A0A20293.quest_desc: [
+		"How to make: an Epic Knights wooden shield and 4 TFMG steel ingots.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
 	]
-	quest.625291F2050E0432.title: "Maximilian Armour"
-	quest.625291F2050E0432.quest_desc: [
-		"Smithing table: a netherite upgrade template, a knight plate piece and a netherite ingot. Maximilian armour is tier T5 like netherite: 20 armour, 12 toughness, 0.4 knockback resistance and +6 health per set, no slowness.",
+	task.74B78FF637A7AC95.title: "Any item from the list"
+	quest.4D2876ED23A162FE.title: "Netherite Shields"
+	quest.4D2876ED23A162FE.quest_desc: [
+		"How to make: the New Shield Variants netherite shield is netherite and iron ingots on a crafting table; the Epic Knights shields a diamond shield, a netherite ingot and the upgrade template on a smithing table.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
 	]
-	quest.26870972FB8692A0.title: "Mail and Brigandine"
-	quest.26870972FB8692A0.quest_desc: [
-		"Cheap Epic Knights armour is now forged from iron: chainmail from iron chains, brigandine and cuirassier from Create iron sheets, crusader and plate-with-mail too. These are tiers T0-T1, iron-level protection in many styles.",
+	task.50832667D166B864.title: "Any item from the list"
+	quest.2D10A077B461842B.title: "Special Shields"
+	quest.2D10A077B461842B.quest_desc: [
+		"The fire charge and TNT shields throw a fireball and TNT.",
+		" ",
+		"",
+		" ",
+		"How to make: a netherite ingot and a special part: a fire charge, TNT, a redstone block, a blaze rod, an ender pearl, a shulker shell (End cities) or a dragon head (End ships).",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
 	]
-	quest.60C2A51D9D5B3449.title: "14th-Century Plate"
-	quest.60C2A51D9D5B3449.quest_desc: [
-		"Epic Knights: 14th-century plate is forged from Create brass sheets and iron chains, the bascinet from a norman helmet and brass. Tier T2, like Create Stuff & Additions brass armour: 16 armour, 4 toughness, +2 health. Nether castles sometimes hold them ready-made.",
+	task.3DD96756E438F82B.title: "Any item from the list"
+	quest.193C7623D7FF43C6.title: "Guardians' Shields"
+	quest.193C7623D7FF43C6.quest_desc: [
+		"How to make: the Bulwark of the Flame is ignitium (from Ignis), blaze rods, nether bricks and a shield; the Azure Sea Shield lacrima (from Scylla, Cataclysm sea creatures and the Acropolis treasure) and gold; the corrupted shield End enderman teeth (Enderman Overhaul), planks and iron.",
+		" ",
+		"",
+		" ",
+		"Where to get it: the Block Factory's Bosses enhanced shield and dragon guard shield cannot be crafted: they lie in dragon tower chests, the enhanced one also in the underworld arena vault.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
 	]
 	quest.3472B863BF92E3C0.title: "The Fortress"
 	quest.3472B863BF92E3C0.quest_desc: [
 		"Team goal: a base under a mega torch, with guards and at least one cast-iron cannon on the wall.",
 	]
+	image.33B7BCC1BD1C8DBB.title: "Firearms"
+	image.01CEB0D673A6B78F.title: "Cannons"
+	image.66051C4D60E02FDA.title: "Base Defence"
+	image.3680975E2E88F189.title: "Shields"
 	chapter.0C8BC331080BBBB1.title: "&#C9A227Armour Sets&r"
-	chapter.0C8BC331080BBBB1.subtitle: "Which armour sets the pack has, where to get them and what they do. Every quest but the first is optional."
+	chapter.0C8BC331080BBBB1.subtitle: "The pack's armour sets by branch: where to get every piece and what the set does. Every quest but the first is optional."
 	quest.27A9A632D062727C.title: "The Wardrobe"
 	quest.27A9A632D062727C.quest_desc: [
-		"This chapter is a guide to the armour sets. A quest completes when a chestplate of the set is in your inventory, and clicking the item in the quest opens its recipe.",
+		"This chapter is a guide to the armour sets. A quest lists every piece of a set: clicking a piece opens its recipe in JEI, and the quest completes once each piece has been in your inventory.",
 		" ",
 		"",
 		" ",
-		"Every item's tooltip says \"Tier Tn · era\". A full set by tier: §7T0§r 7-10 armour · §fT1§r 12-15 · §6T2§r 16-18 armour and 4 toughness · §bT3§r 20 and 8 · §9T4§r 20 and 10 · §5T5§r 20 and 12 · §cT6§r 26-28 and 16. From T2 every piece also adds health: from +2 for a T2-T3 set up to +10 for T6. Sets of one tier differ by their effects.",
+		"The branches do not depend on each other: §6metal§r, from copper through brass and diamond to netherite and the trophy armour built on it · §6Immersive Armors§r, wood, bone, slime, the robe, steampunk, heavy armour · §6Epic Knights§r, from padded armour and mail to steel plate · §6the Ice Maze§r, Aquamirae armour · §6monster trophies§r, armour from mini-boss loot. Inside a branch a set opens after the set it is made from or the tier before it, later sets also after their era.",
 		" ",
 		"",
 		" ",
-		"Brass, steampunk, heavy armour, Epic Knights plate and Fantasy Armor are in the Arsenal and Defence chapter, diamond in the brass era, boss trophy armour in the war era.",
+		"Every item's tooltip says \"Tier Tn · era\". A full set by tier: §7T0§r 7-10 armour · §fT1§r 12-15 · §6T2§r 16-18 armour and 4 toughness · §bT3§r 20 and 8 · §9T4§r 20 and 10 · §5T5§r 20 and 12 · §cT6§r 26-28 and 16. From T2 every piece also adds health: from +2 for a T2-T3 set up to +10 for T6.",
+		" ",
+		"",
+		" ",
+		"Diving gear, jetpacks and spacesuits are in the era chapters.",
 	]
-	quest.3380C4BC0F0287C6.title: "Wooden Armour"
-	quest.3380C4BC0F0287C6.quest_desc: [
-		"Immersive Armors: armour made of logs, the chestplate takes 8 logs the way an iron one takes ingots. Tier T0: 7 armour per set, like leather. But every piece gives a chance to deflect arrows and softens explosions a little. Armour on your very first day.",
-	]
-	quest.365BB99134E4CBDF.title: "Bone Armour"
-	quest.365BB99134E4CBDF.quest_desc: [
-		"A chestplate of 8 bones. Tier T0: 7 armour, but the set is light: every piece makes you walk a little faster. The bone chestplate is later the base of wither armour.",
-	]
-	quest.68D6835BB68D55C9.title: "Slime Armour"
-	quest.68D6835BB68D55C9.quest_desc: [
-		"A chestplate of 8 slimeballs. Tier T0: 10 armour. Every piece knocks back whoever hits you, softens explosions and reduces knockback. Good against creepers and crowds.",
-	]
-	quest.446771FA574107D5.title: "Copper and Zinc"
+	task.333AE41AF344EE02.title: "Any piece of the set"
+	quest.446771FA574107D5.title: "Copper Armour"
 	quest.446771FA574107D5.quest_desc: [
-		"Create Stuff & Additions: copper armour (tier T0, 10 armour) is made of copper ingots and zinc armour (T1, 12 armour) of zinc ingots, shaped like iron armour. Next on this line is brass armour from the Arsenal and Defence chapter.",
+		"How to make: copper ingots, laid out like iron armour (the chestplate takes 8).",
+		" ",
+		"Tier T0: 10 armour per set. The metal branch starts here: zinc, brass, diamond, netherite.",
+		" ",
+		"",
+		" ",
+		"§7One piece of the set completes the quest, the rest are optional (click a piece for its recipe).§r",
 	]
-	quest.61FA51811135FCBD.title: "Warrior's Armour"
-	quest.61FA51811135FCBD.quest_desc: [
-		"A leather chestplate, 4 iron ingots and leather. Tier T1: 15 armour, like iron. Its trait is berserk: the less health you have, the harder you hit, and the pieces also add axe damage. For those who fight to the last heart.",
+	task.1F107C9521CC02F6.title: "Any piece of the set"
+	quest.4CA3A49EEC85DBB3.title: "Zinc Armour"
+	quest.4CA3A49EEC85DBB3.quest_desc: [
+		"How to make: the same shapes in zinc ingots.",
+		" ",
+		"Tier T1: 12 armour, like chainmail.",
+		" ",
+		"",
+		" ",
+		"§7One piece of the set completes the quest, the rest are optional (click a piece for its recipe).§r",
 	]
-	quest.2145966031DE22C0.title: "Prismarine Armour"
-	quest.2145966031DE22C0.quest_desc: [
-		"The chestplate: 7 prismarine shards and a heart of the sea (it lies in buried treasure, the maps are in shipwrecks). Tier T1: 15 armour. Spikes hurt whoever hits you up close, you swim faster, and on land the set is a little heavier.",
+	task.07548928043A7CBA.title: "Any piece of the set"
+	quest.5EA91EDFFD55CF09.title: "Brass Armour"
+	quest.5EA91EDFFD55CF09.quest_desc: [
+		"How to make: brass ingots, laid out like iron armour.",
+		" ",
+		"Where to get: brass is mixed in a mixer over a blaze burner (brass era).",
+		" ",
+		"Tier T2: 18 armour, 4 toughness, +2 health.",
+		" ",
+		"",
+		" ",
+		"§7One piece of the set completes the quest, the rest are optional (click a piece for its recipe).§r",
 	]
-	quest.671570D4F48FA9CC.title: "Mutant Skeleton Armour"
-	quest.671570D4F48FA9CC.quest_desc: [
-		"Mutant Monsters: a mutant skeleton falls apart into bones when it dies: ribs, limbs, shoulder pads, a pelvis and a skull. 6 ribs make a rib cage, 2 shoulder pads and 4 limbs make arms, arms over the rib cage make the chestplate. Leggings and boots are made of its bones too. Chestplate, leggings and boots are tier T2: 15 armour and 3 toughness together.",
+	task.08517D7651D6DAFC.title: "Any piece of the set"
+	quest.55449D6F4EB48018.title: "Diamond and Precision"
+	quest.55449D6F4EB48018.quest_desc: [
+		"How to make: diamonds and a precision mechanism in every piece (instead of one diamond).",
+		" ",
+		"Where to get: the precision mechanism is made by sequenced assembly (the Sequenced Assembly quest of the brass era).",
+		" ",
+		"Tier T3: 20 armour, 8 toughness, +2 health. Resonarium, abyssal and netherite armour are forged on diamond pieces.",
+		" ",
+		"",
+		" ",
+		"§7One piece of the set completes the quest, the rest are optional (click a piece for its recipe).§r",
 	]
-	quest.7724668EE148A963.title: "The Robe"
-	quest.7724668EE148A963.quest_desc: [
-		"The robe: 7 wool and blaze powder. Little protection (8 armour per set), but it resists fire and magic and sets whoever hits you on fire. It is also the base of divine armour.",
-	]
-	quest.478CCBD01C5969A2.title: "Wither Armour"
-	quest.478CCBD01C5969A2.quest_desc: [
-		"A bone chestplate lined with 7 nether bricks. Tier T2: 16 armour, 4 toughness, +2 health per set, and a slightly faster step. Whoever hits you gets withered.",
-	]
-	quest.537BFD3C81045911.title: "Divine Armour"
-	quest.537BFD3C81045911.quest_desc: [
-		"A robe, a totem of undying and 6 gold ingots. Tier T2: 18 armour, 4 toughness, +2 health. The point: every piece fully deflects one hit once a minute. Evokers drop totems in mansions and during raids.",
-	]
-	quest.4DB0B29951E80979.title: "Bone Reptile Armour"
-	quest.4DB0B29951E80979.quest_desc: [
-		"Cataclysm: a chestplate of 4 ancient metal ingots and 4 koboleton bones, plus a helmet. Koboletons and the Kobolediator live near Cataclysm desert structures; ancient metal drops from them and from the Wadjet and lies in desert treasure. Helmet and chestplate are tier T2: 10 armour and 2 toughness together, and they resist knockback.",
-	]
-	quest.33DAE07EA6AF67A4.title: "Salvager"
-	quest.33DAE07EA6AF67A4.quest_desc: [
-		"Aquamirae: the salvager suit is 3 leather, 3 iron ingots and 2 ship graveyard echoes. Echoes drop from Ice Maze creatures: anglerfish, maws, scuttlers, spinefish and abyssal scyphoids. Tier T1: 15 armour. Underwater the set speeds up swimming and mining, and depth's resilience protects you from the maze creatures.",
-	]
-	quest.3BC4DBD7C46A9301.title: "Terrible Armour"
-	quest.3BC4DBD7C46A9301.quest_desc: [
-		"Smithing table: an iron chestplate, a fin and the smithing template. Eels, anglerfish and maws drop fins; the template lies in pirate pouches and treasure pouches in the maze. The template can be copied: a template, 4 angler fangs and 4 fins make two. Tier T2: 16 armour, 4 toughness, +2 health, more depth's resilience than the salvager suit.",
-	]
-	quest.3839C02C25DF9125.title: "Abyssal Armour"
-	quest.3839C02C25DF9125.quest_desc: [
-		"Smithing table: a diamond piece, an abyssal amethyst and the abyssal template. The template is made of a terrible template, 4 abyssal amethysts and 4 ship graveyard echoes. The maze mother drops amethysts, and now and then they lie in treasure pouches. Tier T3: 20 armour, 8 toughness, +2 health and the highest depth's resilience.",
-	]
+	task.78C88ECD30E15641.title: "Any piece of the set"
 	quest.26F132859F0F0742.title: "Neptunium"
 	quest.26F132859F0F0742.quest_desc: [
-		"Aquaculture: neptunium ingots lie in Neptune's Bounty, a rare chest you can fish up. The chestplate is 7 ingots and a precision mechanism. Tier T3: 20 armour, 8 toughness, +2 health. Every piece works underwater: the helmet gives vision, the chestplate breathing, the leggings weightlessness, the boots swim speed. The set for underwater bases and submarines.",
+		"How to make: neptunium ingots and a precision mechanism in every piece, like diamond armour.",
+		" ",
+		"Where to get: the ingots lie in Neptune's Bounty, a rare box you fish up with a rod.",
+		" ",
+		"Tier T3: 20 armour, 8 toughness, +2 health. Underwater the helmet gives vision, the chestplate breathing, the leggings weightlessness, the boots speed.",
+		" ",
+		"",
+		" ",
+		"§7One piece of the set completes the quest, the rest are optional (click a piece for its recipe).§r",
 	]
+	task.3EDBCA004ADE93DA.title: "Any piece of the set"
 	quest.500EC8607B466E1D.title: "Resonarium"
 	quest.500EC8607B466E1D.quest_desc: [
-		"Deeper and Darker: resonarium drops from sludges in the Otherside. A resonarium plate is 4 resonarium and 4 turtle or armadillo scutes. The upgrade template lies in the chests at the top of the Otherside's ancient temple. Smithing table: a diamond piece, the plate and the template. Tier T3: 20 armour, 8 toughness, +2 health.",
+		"How to make: smithing table: the resonarium template, a diamond piece and a resonarium plate (4 resonarium and 4 turtle or armadillo scutes).",
+		" ",
+		"Where to get: resonarium drops from sludges in the Otherside; the template lies in the chests at the top of the Otherside's ancient temple, and sometimes in ancient city, stronghold and trial chamber chests.",
+		" ",
+		"Tier T3: 20 armour, 8 toughness, +2 health.",
+		" ",
+		"",
+		" ",
+		"§7One piece of the set completes the quest, the rest are optional (click a piece for its recipe).§r",
+	]
+	task.0D080CFDE2A51A20.title: "Any piece of the set"
+	quest.50B4906E206B9171.title: "Netherite Armour"
+	quest.50B4906E206B9171.quest_desc: [
+		"How to make: smithing table: a netherite upgrade template, a diamond piece and a netherite ingot. The ingot is 4 scrap, 2 gold and 2 TFMG steel in a superheated mixer.",
+		" ",
+		"Where to get: scrap comes from ancient debris deep in the Nether, the template from bastion chests.",
+		" ",
+		"Tier T5: 20 armour, 12 toughness, 0.4 knockback resistance, +6 health.",
+		" ",
+		"",
+		" ",
+		"§7One piece of the set completes the quest, the rest are optional (click a piece for its recipe).§r",
+	]
+	quest.05E666F85CC7AF48.title: "Moon Crystal"
+	quest.05E666F85CC7AF48.quest_desc: [
+		"How to make: 8 glow ink sacs around an amethyst shard (glow squids drop the sacs).",
+		" ",
+		"On a smithing table the crystal turns a netherite piece into a hero's armour, and the third item picks which: iron ingot for the Hero, feather for Lady Maria, snowball for the Silver Knight, bone for the Dark Lord. JEI shows all 30 sets.",
+	]
+	quest.4278CC7FD36D973A.title: "A Hero's Armour"
+	quest.4278CC7FD36D973A.quest_desc: [
+		"How to make: smithing table: a netherite piece, a Moon Crystal and the hero's item (JEI has all 30 Fantasy Armor sets). Any chestplate counts.",
+		" ",
+		"Tier T5 like netherite: 20 armour, 12 toughness, +6 health; the sets differ by their effects.",
+	]
+	task.5654D1DEEEF7D3E4.title: "Any piece of the set"
+	quest.55024B3BC4964CE7.title: "Ignitium Armour"
+	quest.55024B3BC4964CE7.quest_desc: [
+		"How to make: smithing table: the ignitium template, a netherite piece and an ignitium ingot. The template: a netherite upgrade template, 4 blaze powder and 4 nether brick blocks.",
+		" ",
+		"Where to get: Ignis drops ignitium in the Burning Arena in the Nether (compass: Burning Arena).",
+		" ",
+		"Tier T6, the highest: 28 armour, 16 toughness, 0.8 knockback resistance, +10 health.",
+		" ",
+		"",
+		" ",
+		"§7One piece of the set completes the quest, the rest are optional (click a piece for its recipe).§r",
+	]
+	task.0BE13FCB1FB32690.title: "Any piece of the set"
+	quest.08694E65871B3DFD.title: "Cursium Armour"
+	quest.08694E65871B3DFD.quest_desc: [
+		"How to make: smithing table: the cursium template, a netherite piece and a cursium ingot. The template: a netherite upgrade template, 2 black steel ingots and 6 gold ingots.",
+		" ",
+		"Where to get: Maledictus drops cursium in the Frosted Prison (compass: Frosted Prison); black steel drops from draugrs and lies in the prison chests.",
+		" ",
+		"Tier T6: 26 armour, 16 toughness, +8 health. The chestplate saves you from death once, then needs a long recharge.",
+		" ",
+		"",
+		" ",
+		"§7One piece of the set completes the quest, the rest are optional (click a piece for its recipe).§r",
+	]
+	task.7932BBD0FD2479CD.title: "Any piece of the set"
+	quest.1EBD71F19CF7CA63.title: "Warden Armour"
+	quest.1EBD71F19CF7CA63.quest_desc: [
+		"How to make: smithing table: the warden template, a netherite piece and a reinforced echo shard (an echo shard, 4 warden carapaces and 4 phantom membranes).",
+		" ",
+		"Where to get: the template and carapaces lie in ancient city chests and in the Otherside's ancient temple; the Warden itself drops carapaces too.",
+		" ",
+		"Tier T6: 26 armour, 16 toughness, +8 health. The helmet blocks blindness and darkness, the leggings make you faster.",
+		" ",
+		"",
+		" ",
+		"§7One piece of the set completes the quest, the rest are optional (click a piece for its recipe).§r",
+	]
+	task.42D39A8659D370C5.title: "Any piece of the set"
+	quest.76ABD4D0C9421375.title: "Annihilator Armour"
+	quest.76ABD4D0C9421375.quest_desc: [
+		"How to make: smithing table: the annihilator template, a netherite piece and a portal shard. The template: 4 enderitium ingots, 4 end stone and a bottle of annihilation.",
+		" ",
+		"Where to get: the Obliterator drops portal shards on the space station in the End; enderitium comes from ore in the End (9 gems make an ingot) and station chests, bottles from station chests.",
+		" ",
+		"Tier T6, the highest: 28 armour, 16 toughness, +10 health, almost no knockback.",
+		" ",
+		"",
+		" ",
+		"§7One piece of the set completes the quest, the rest are optional (click a piece for its recipe).§r",
+	]
+	task.3759F30698D790A1.title: "Any piece of the set"
+	quest.3380C4BC0F0287C6.title: "Wooden Armour"
+	quest.3380C4BC0F0287C6.quest_desc: [
+		"How to make: logs, laid out like iron armour.",
+		" ",
+		"Tier T0: 7 armour, like leather. Every piece gives a chance to deflect arrows and softens explosions a little.",
+		" ",
+		"",
+		" ",
+		"§7One piece of the set completes the quest, the rest are optional (click a piece for its recipe).§r",
+	]
+	task.532DFE38A786D6C4.title: "Any piece of the set"
+	quest.365BB99134E4CBDF.title: "Bone Armour"
+	quest.365BB99134E4CBDF.quest_desc: [
+		"How to make: bones, laid out like iron armour.",
+		" ",
+		"Tier T0: 7 armour, but every piece makes you walk a little faster. The bone pieces are the base of wither armour.",
+		" ",
+		"",
+		" ",
+		"§7One piece of the set completes the quest, the rest are optional (click a piece for its recipe).§r",
+	]
+	task.11B87C24DBE83F85.title: "Any piece of the set"
+	quest.478CCBD01C5969A2.title: "Wither Armour"
+	quest.478CCBD01C5969A2.quest_desc: [
+		"How to make: a bone piece lined with nether bricks.",
+		" ",
+		"Tier T2: 16 armour, 4 toughness, +2 health, a slightly faster step. Whoever hits you gets withered.",
+		" ",
+		"",
+		" ",
+		"§7One piece of the set completes the quest, the rest are optional (click a piece for its recipe).§r",
+	]
+	task.301F3991E9176A2A.title: "Any piece of the set"
+	quest.68D6835BB68D55C9.title: "Slime Armour"
+	quest.68D6835BB68D55C9.quest_desc: [
+		"How to make: slimeballs, laid out like iron armour.",
+		" ",
+		"Where to get: slimes drop them in swamps and slime chunks.",
+		" ",
+		"Tier T0: 10 armour. Every piece knocks back whoever hits you, softens explosions and reduces knockback.",
+		" ",
+		"",
+		" ",
+		"§7One piece of the set completes the quest, the rest are optional (click a piece for its recipe).§r",
+	]
+	task.1D07E6049C969400.title: "Any piece of the set"
+	quest.61FA51811135FCBD.title: "Warrior's Armour"
+	quest.61FA51811135FCBD.quest_desc: [
+		"How to make: a leather piece of the same kind and iron ingots, plus a bone for the helmet and leather for the chestplate.",
+		" ",
+		"Tier T1: 15 armour. Berserk: the less health, the harder you hit; the pieces add axe damage.",
+		" ",
+		"",
+		" ",
+		"§7One piece of the set completes the quest, the rest are optional (click a piece for its recipe).§r",
+	]
+	task.0F7EF5AE46216678.title: "Any piece of the set"
+	quest.167B967639030738.title: "Steampunk"
+	quest.167B967639030738.quest_desc: [
+		"How to make: brass ingots and pistons, plus a clock and a compass in the chestplate and glass and a redstone torch in the helmet.",
+		" ",
+		"Tier T2: 16 armour, 4 toughness, +2 health.",
+		" ",
+		"",
+		" ",
+		"§7One piece of the set completes the quest, the rest are optional (click a piece for its recipe).§r",
+	]
+	task.4323FFD9BAAAE51A.title: "Any piece of the set"
+	quest.3533D9A9B549A644.title: "Heavy Armour"
+	quest.3533D9A9B549A644.quest_desc: [
+		"How to make: TFMG steel blocks and ingots.",
+		" ",
+		"Where to get: steel is made in the steel era (the Steel quest).",
+		" ",
+		"Tier T4: 20 armour, 12 toughness, +4 health; a full set cancels knockback completely, but you move slower.",
+		" ",
+		"",
+		" ",
+		"§7One piece of the set completes the quest, the rest are optional (click a piece for its recipe).§r",
+	]
+	task.544110E5628F9718.title: "Any piece of the set"
+	quest.7724668EE148A963.title: "The Robe"
+	quest.7724668EE148A963.quest_desc: [
+		"How to make: wool and blaze powder in every piece.",
+		" ",
+		"Where to get: blazes in Nether fortresses drop the rods.",
+		" ",
+		"8 armour per set, but it resists fire and magic and sets whoever hits you on fire. The robe is the base of divine armour.",
+		" ",
+		"",
+		" ",
+		"§7One piece of the set completes the quest, the rest are optional (click a piece for its recipe).§r",
+	]
+	task.707302D084E1F63C.title: "Any piece of the set"
+	quest.537BFD3C81045911.title: "Divine Armour"
+	quest.537BFD3C81045911.quest_desc: [
+		"How to make: a robe piece and gold ingots, plus a totem of undying in the chestplate and an emerald in the helmet.",
+		" ",
+		"Where to get: evokers drop totems in woodland mansions and during raids.",
+		" ",
+		"Tier T2: 18 armour, 4 toughness, +2 health. Every piece fully deflects one hit once a minute.",
+		" ",
+		"",
+		" ",
+		"§7One piece of the set completes the quest, the rest are optional (click a piece for its recipe).§r",
+	]
+	task.1FFEB160AF95B474.title: "Any piece of the set"
+	quest.2145966031DE22C0.title: "Prismarine Armour"
+	quest.2145966031DE22C0.quest_desc: [
+		"How to make: prismarine shards and crystals, and a heart of the sea in the chestplate.",
+		" ",
+		"Where to get: guardians at ocean monuments drop prismarine, the heart of the sea lies in buried treasure (maps are in shipwrecks).",
+		" ",
+		"Tier T1: 15 armour. Spikes hurt enemies up close, you swim faster.",
+		" ",
+		"",
+		" ",
+		"§7One piece of the set completes the quest, the rest are optional (click a piece for its recipe).§r",
+	]
+	task.6B26E8A92871BE96.title: "Any piece of the set"
+	quest.51ADF598BC7BF7BB.title: "Gambeson"
+	quest.51ADF598BC7BF7BB.quest_desc: [
+		"How to make: woolen fabric (3 white wool make 4 fabrics, 6 string make 2); the boots add leather and strips (2 leather make 6 strips).",
+		" ",
+		"Tier T0: 10 armour. The knight branch starts here.",
+		" ",
+		"",
+		" ",
+		"§7One piece of the set completes the quest, the rest are optional (click a piece for its recipe).§r",
+	]
+	task.247BE6E5C2198E06.title: "Any piece of the set"
+	quest.26870972FB8692A0.title: "Chainmail"
+	quest.26870972FB8692A0.quest_desc: [
+		"How to make: the helmet, hauberk and leggings are iron chains (5, 8 and 7), the boots leather and strips.",
+		" ",
+		"Tier T1: 12 armour. The brigandine is a chestplate of leather and Create iron sheets, tier T0.",
+		" ",
+		"",
+		" ",
+		"§7One piece of the set completes the quest, the rest are optional (click a piece for its recipe).§r",
+	]
+	task.75282B03011074D5.title: "Any piece of the set"
+	quest.4E7D9ACBC56C484A.title: "Plate and Mail"
+	quest.4E7D9ACBC56C484A.quest_desc: [
+		"How to make: the chestplate is 2 iron ingots and 6 chains, the leggings 2 ingots and 5 chains, the boots ingots, leather and strips, the kettle hat ingots, Create iron sheets and chains.",
+		" ",
+		"Tier T1: 15 armour, like iron.",
+		" ",
+		"",
+		" ",
+		"§7One piece of the set completes the quest, the rest are optional (click a piece for its recipe).§r",
+	]
+	task.1EDDD68493898FEA.title: "Any piece of the set"
+	quest.41EC71E2A20510B4.title: "Crusader"
+	quest.41EC71E2A20510B4.quest_desc: [
+		"How to make: the chestplate is a plate-and-mail chestplate and 7 woolen fabrics, the great helm 7 iron ingots and a chain, the leggings ingots and chains, the boots leather and chains.",
+		" ",
+		"Tier T1: 15 armour.",
+		" ",
+		"",
+		" ",
+		"§7One piece of the set completes the quest, the rest are optional (click a piece for its recipe).§r",
+	]
+	task.0BF0DF7116DA28C4.title: "Any piece of the set"
+	quest.50CA65F161269273.title: "Cuirassier"
+	quest.50CA65F161269273.quest_desc: [
+		"How to make: the helmet and cuirass are Create iron sheets and ingots, the leggings leather and woolen fabric, the boots leather and strips.",
+		" ",
+		"Tier T1: 15 armour.",
+		" ",
+		"",
+		" ",
+		"§7One piece of the set completes the quest, the rest are optional (click a piece for its recipe).§r",
+	]
+	task.3F287CD139941517.title: "Any piece of the set"
+	quest.0D77D52DE41CE293.title: "Lamellar"
+	quest.0D77D52DE41CE293.quest_desc: [
+		"How to make: the chestplate is 8 lamellar rows, the boots 2 rows, leather and strips; a row is 6 iron nuggets and 3 strips. The face helmet is a shishak and 5 iron nuggets. No leggings.",
+		" ",
+		"Tier T1: 8 armour for the three pieces.",
+		" ",
+		"",
+		" ",
+		"§7One piece of the set completes the quest, the rest are optional (click a piece for its recipe).§r",
+	]
+	task.125A20E314088D6D.title: "Any piece of the set"
+	quest.60C2A51D9D5B3449.title: "14th-Century Plate"
+	quest.60C2A51D9D5B3449.quest_desc: [
+		"How to make: Create brass sheets and iron chains, the boots sheets and leather, the bascinet a norman helmet and 2 brass sheets.",
+		" ",
+		"Where to get: ready pieces sometimes lie in the chests of Nether castles, fortresses and bastions.",
+		" ",
+		"Tier T2: 16 armour, 4 toughness, +2 health.",
+		" ",
+		"",
+		" ",
+		"§7One piece of the set completes the quest, the rest are optional (click a piece for its recipe).§r",
+	]
+	task.5070218A727656D2.title: "Any piece of the set"
+	quest.31A17ED3B19C63AA.title: "Half Armour and Barbute"
+	quest.31A17ED3B19C63AA.quest_desc: [
+		"How to make: the half armour is 6 iron ingots and 2 Create iron sheets, the barbute 3 ingots and 2 sheets, the hussar chestplate a half armour, 6 feathers, a rabbit hide and a stick.",
+		" ",
+		"The half armour and barbute are the base of steel plate. Tier T1: 8 armour for the helmet and half armour.",
+		" ",
+		"",
+		" ",
+		"§7One piece of the set completes the quest, the rest are optional (click a piece for its recipe).§r",
+	]
+	task.364187F101631D7F.title: "Any piece of the set"
+	quest.657ED9E1A9327981.title: "Knight's Plate"
+	quest.657ED9E1A9327981.quest_desc: [
+		"How to make: the knight chestplate is a half armour and 5 steel plates, the armet a barbute and 3 plates, the leggings 7 plates, the boots 4. 2 TFMG steel ingots make 2 plates.",
+		" ",
+		"Tier T4: 20 armour, 10 toughness, 0.4 knockback resistance, +4 health, no slowness.",
+		" ",
+		"",
+		" ",
+		"§7One piece of the set completes the quest, the rest are optional (click a piece for its recipe).§r",
+	]
+	task.40A846C5E4A441E0.title: "Any piece of the set"
+	quest.3438447756AD852E.title: "The Tournament"
+	quest.3438447756AD852E.quest_desc: [
+		"How to make: every piece is a knight plate piece plus more steel plates, the frog-mouth helm a barbute and 8 plates.",
+		" ",
+		"22 armour, 10 toughness, +4 health, no knockback, but every piece gives Slowness II: this is plate for mounted combat with the chivalry lance.",
+		" ",
+		"",
+		" ",
+		"§7One piece of the set completes the quest, the rest are optional (click a piece for its recipe).§r",
+	]
+	task.38A138395836D47B.title: "Any piece of the set"
+	quest.625291F2050E0432.title: "Maximilian Armour"
+	quest.625291F2050E0432.quest_desc: [
+		"How to make: smithing table: a netherite upgrade template, a knight plate piece and a netherite ingot.",
+		" ",
+		"Where to get: the template is in Nether bastion chests.",
+		" ",
+		"Tier T5 like netherite: 20 armour, 12 toughness, 0.4 knockback resistance, +6 health, no slowness.",
+		" ",
+		"",
+		" ",
+		"§7One piece of the set completes the quest, the rest are optional (click a piece for its recipe).§r",
+	]
+	task.25D69997310AFC35.title: "Any piece of the set"
+	quest.5B793200B6CCE2ED.title: "Gothic Plate"
+	quest.5B793200B6CCE2ED.quest_desc: [
+		"How to make: the sallet is a barbute and 3 steel plates, the chestplate a half armour, 5 plates and 2 steel nuggets, the leggings and boots plates and nuggets.",
+		" ",
+		"Tier T4: 20 armour, 10 toughness, +4 health. It upgrades to netherite on the smithing table, keeping its enchantments.",
+		" ",
+		"",
+		" ",
+		"§7One piece of the set completes the quest, the rest are optional (click a piece for its recipe).§r",
+	]
+	task.02B64E9B9E4E16EA.title: "Any piece of the set"
+	quest.00F576F383A93517.title: "Kastenbrust"
+	quest.00F576F383A93517.quest_desc: [
+		"How to make: the grand bascinet is a norman helmet and 5 steel plates, the chestplate a half armour, 5 plates and 2 small steel plates (6 steel nuggets make 8), the leggings and boots plates and small plates.",
+		" ",
+		"Tier T4 like knight plate. It upgrades to netherite, keeping its enchantments.",
+		" ",
+		"",
+		" ",
+		"§7One piece of the set completes the quest, the rest are optional (click a piece for its recipe).§r",
+	]
+	task.53CDAD1EAA433E71.title: "Any piece of the set"
+	quest.57207835097E4913.title: "Rusted Mail"
+	quest.57207835097E4913.quest_desc: [
+		"How to make: it cannot be forged, only found.",
+		" ",
+		"Where to get: in the chests of castles, citadels, armouries and strongholds, together with a rusted great helm and crusader chestplate.",
+		" ",
+		"Tier T1: 12 armour, like new mail. The quest opens nothing.",
+		" ",
+		"",
+		" ",
+		"§7One piece of the set completes the quest, the rest are optional (click a piece for its recipe).§r",
+	]
+	task.5CFD3D6AA54DBA9A.title: "Any piece of the set"
+	quest.33DAE07EA6AF67A4.title: "Salvager"
+	quest.33DAE07EA6AF67A4.quest_desc: [
+		"How to make: the suit, waders and boots are leather, iron ingots and ship graveyard echoes.",
+		" ",
+		"Where to get: Ice Maze creatures drop the echoes: anglerfish, maws, scuttlers, spinefish and abyssal scyphoids; the helmet cannot be crafted, Captain Cornelia of the pirate ship in the maze drops it.",
+		" ",
+		"Tier T1: 15 armour for the full set; faster swimming and mining underwater, and depth's resilience protects you from the maze creatures.",
+		" ",
+		"",
+		" ",
+		"§7One piece of the set completes the quest, the rest are optional (click a piece for its recipe).§r",
+	]
+	task.238D19158E00A89B.title: "Any piece of the set"
+	quest.3BC4DBD7C46A9301.title: "Terrible Armour"
+	quest.3BC4DBD7C46A9301.quest_desc: [
+		"How to make: smithing table: the terrible template, an iron piece and a fin. The template copies: a template, 4 angler fangs and 4 fins make two.",
+		" ",
+		"Where to get: all in the Ice Maze. Eels, anglerfish and maws drop fins; the template lies in pirate pouches and treasure pouches, which the maze pillagers, eels and maws drop and which lie in its barrels and frozen chests.",
+		" ",
+		"Tier T2: 16 armour, 4 toughness, +2 health.",
+		" ",
+		"",
+		" ",
+		"§7One piece of the set completes the quest, the rest are optional (click a piece for its recipe).§r",
+	]
+	task.74F80249F6DD7D0C.title: "Any piece of the set"
+	quest.3839C02C25DF9125.title: "Abyssal Armour"
+	quest.3839C02C25DF9125.quest_desc: [
+		"How to make: smithing table: the abyssal template, a diamond piece and an abyssal amethyst. The template: a terrible template, 4 abyssal amethysts and 4 ship graveyard echoes.",
+		" ",
+		"Where to get: the maze mother in the Ice Maze drops 2-6 amethysts, and now and then they lie in treasure pouches.",
+		" ",
+		"Tier T3: 20 armour, 8 toughness, +2 health, the highest depth's resilience. The abyssal tiara (a totem and an amethyst) can replace the helmet.",
+		" ",
+		"",
+		" ",
+		"§7One piece of the set completes the quest, the rest are optional (click a piece for its recipe).§r",
+	]
+	quest.6870F8D32D22A6B4.title: "Monster Trophies"
+	quest.6870F8D32D22A6B4.quest_desc: [
+		"These sets are made from mini-boss and rare-mob loot, or drop ready-made. The quests for ready-made loot open nothing; they just mark a finished set. T6 trophy armour (ignitium, cursium, warden, annihilator) is forged on netherite pieces, so it sits in the metal branch after netherite.",
+	]
+	task.4603924CFE8432B0.title: "Any piece of the set"
+	quest.671570D4F48FA9CC.title: "Mutant Skeleton Armour"
+	quest.671570D4F48FA9CC.quest_desc: [
+		"How to make: a mutant skeleton falls apart into bones. 6 ribs make a rib cage, 2 shoulder pads and 4 limbs make arms, arms over the cage make the chestplate; the leggings are the pelvis and limbs, the boots limbs.",
+		" ",
+		"Where to get: the mutant skeleton is a very rare giant that spawns where normal skeletons do.",
+		" ",
+		"Tier T2: 15 armour and 3 toughness together.",
+		" ",
+		"",
+		" ",
+		"§7One piece of the set completes the quest, the rest are optional (click a piece for its recipe).§r",
+	]
+	task.7967AD3521F044EB.title: "Any piece of the set"
+	quest.4DB0B29951E80979.title: "Bone Reptile Armour"
+	quest.4DB0B29951E80979.quest_desc: [
+		"How to make: the chestplate is 4 ancient metal ingots and 4 koboleton bones, the helmet also takes a kobolediator skull.",
+		" ",
+		"Where to get: koboletons and the Kobolediator live in Cataclysm desert structures (compass: Desert Site, Desert Temple); ancient metal drops from them and from the Wadjet and lies in desert treasure.",
+		" ",
+		"Tier T2: 10 armour and 2 toughness together, and they resist knockback.",
+		" ",
+		"",
+		" ",
+		"§7One piece of the set completes the quest, the rest are optional (click a piece for its recipe).§r",
 	]
 	quest.1158D7A0B717A7D0.title: "Mossy Chestplate"
 	quest.1158D7A0B717A7D0.quest_desc: [
-		"Legendary Monsters: the nature crystal drops from the Overgrown Colossus. The chestplate: the crystal, 2 moss blocks, 4 chiseled stone bricks and an iron block. Tier T3: 8 armour, 2 toughness, resists knockback. The R key releases poison clouds around you that hurt mobs and heal you.",
+		"How to make: the nature crystal, 2 moss blocks, 4 chiseled stone bricks and an iron block.",
+		" ",
+		"Where to get: the Overgrown Colossus drops the nature crystal in the mossy temple (compass: Mossy Temple).",
+		" ",
+		"Tier T3: 8 armour, 2 toughness, resists knockback. The R key releases poison clouds that hurt mobs and heal you.",
 	]
+	task.2DD4B3C696E30741.title: "Any piece of the set"
 	quest.39E14246D31E4509.title: "Dragon Bones"
 	quest.39E14246D31E4509.quest_desc: [
-		"Block Factory's Bosses: the bones drop from the Infernal Dragon, the chestplate takes 8. Chestplate, leggings and boots are tier T3: 17 armour and 6 toughness together. Every piece adds a dodge roll (set the key in the controls) and shortens burning.",
+		"How to make: dragon bones: 8 for the chestplate, the leggings and boots are bones too.",
+		" ",
+		"Where to get: the Infernal Dragon drops the bones in the Dragon Tower (compass: Dragon Tower).",
+		" ",
+		"Tier T3: 17 armour and 6 toughness together. Every piece adds a dodge roll (set the key in the controls) and shortens burning.",
+		" ",
+		"",
+		" ",
+		"§7One piece of the set completes the quest, the rest are optional (click a piece for its recipe).§r",
 	]
+	task.402BBDAC70E0E66A.title: "Any piece of the set"
 	quest.0AC4EE60A85F7F5F.title: "Warped Armour"
 	quest.0AC4EE60A85F7F5F.quest_desc: [
-		"Unusual End: the chestplate is 4 bolok scales and 4 spunkler spines. Boloks swim in the End's warped reefs and their scales lie in warped ship chests too; spines drop from spunklers. Chestplate and boots are tier T4: 11 armour, 5 toughness and +2 health together, but you walk a little slower. In the boots you can stand on warped bubbles instead of bouncing off.",
+		"How to make: the chestplate is 4 bolok scales and 4 spunkler spines, the boots bolok scales and a bolok fin.",
+		" ",
+		"Where to get: boloks and spunklers live in the End's warped reefs; scales, fins and spines also lie in warped ship chests.",
+		" ",
+		"Tier T4: 11 armour, 5 toughness and +2 health together, a slightly slower step. In the boots you can stand on warped bubbles.",
+		" ",
+		"",
+		" ",
+		"§7One piece of the set completes the quest, the rest are optional (click a piece for its recipe).§r",
 	]
-	quest.76ABD4D0C9421375.title: "Annihilator Armour"
-	quest.76ABD4D0C9421375.quest_desc: [
-		"Smithing table: a netherite piece, a portal shard (it drops from the Obliterator) and the annihilator template. The template: 4 enderitium ingots, 4 end stone and a bottle of annihilation; JEI has their recipes. Tier T6, the highest: 28 armour, 16 toughness, +10 health, almost no knockback.",
+	quest.312598F9B29FBDA5.title: "Sol Visage"
+	quest.312598F9B29FBDA5.quest_desc: [
+		"How to make: it cannot be crafted, it is a trophy.",
+		" ",
+		"Where to get: Umvuthi, chief of the Umvuthana grove in the savanna, drops the mask (compass: Umvuthana Grove).",
+		" ",
+		"Tier T3: as protective as a diamond helmet.",
 	]
+	task.1B9669AC21E96607.title: "Any piece of the set"
+	quest.7A05AF0987081E2B.title: "Geomancer's Garb"
+	quest.7A05AF0987081E2B.quest_desc: [
+		"How to make: it cannot be crafted, it is a trophy.",
+		" ",
+		"Where to get: after the trial in the mountain monastery (compass: Monastery) the Sculptor leaves his staff or one of the pieces; the monastery chests hold pieces too.",
+		" ",
+		"Tier T3: 20 armour, 8 toughness, +2 health.",
+		" ",
+		"",
+		" ",
+		"§7One piece of the set completes the quest, the rest are optional (click a piece for its recipe).§r",
+	]
+	quest.13663CEA9C4B4A51.title: "Wrought Helm"
+	quest.13663CEA9C4B4A51.quest_desc: [
+		"How to make: it cannot be crafted, it is a trophy.",
+		" ",
+		"Where to get: the Ferrous Wroughtnaut drops the helm in the underground halls (compass: Wrought Chamber) when a player kills it.",
+		" ",
+		"Tier T3: like a diamond helmet, resists knockback.",
+	]
+	task.3F3ABABEF22A4330.title: "Any piece of the set"
+	quest.5C4E2E06B8F02EA7.title: "Dragon Tower Plate"
+	quest.5C4E2E06B8F02EA7.quest_desc: [
+		"How to make: it cannot be crafted, only found.",
+		" ",
+		"Where to get: the pieces lie in the chests of the Dragon Tower (compass: Dragon Tower) and in the rare chests of the Underworld Knight's arena (compass: Underworld Arena).",
+		" ",
+		"Tier T3: 20 armour, 8 toughness, +2 health.",
+		" ",
+		"",
+		" ",
+		"§7One piece of the set completes the quest, the rest are optional (click a piece for its recipe).§r",
+	]
+	quest.7C5BFE658385002B.title: "Ancient Helmet"
+	quest.7C5BFE658385002B.quest_desc: [
+		"How to make: it cannot be crafted, it is a trophy.",
+		" ",
+		"Where to get: the Ancient Blaze, a Living Things fire boss, drops the helmet. It is summoned by a ritual: a jack o'lantern on top of two glowstone blocks. When it dies it calls 4 normal blazes.",
+		" ",
+		"Tier T3: like a diamond helmet, gives fire resistance.",
+	]
+	image.712139F6C8DE77E0.title: "Metal"
+	image.3093F92EAF2FC5C6.title: "Immersive Armors"
+	image.3C8A5ADC4839D0FB.title: "Epic Knights"
+	image.46B204EFCEA61D4F.title: "Ice Maze"
+	image.53B1B8C748B84192.title: "Monster Trophies"
 	chapter.35A43AB9AA47B8F6.title: "&#D96C3BWeapons&r"
-	chapter.35A43AB9AA47B8F6.subtitle: "Which weapons the pack has, where to get them and how they differ. Every quest but the first is optional."
+	chapter.35A43AB9AA47B8F6.subtitle: "Melee weapons and bows by branch and tier: how to make them and where to get them. Every quest but the first is optional."
 	quest.79A5EFDD69A29C72.title: "The Armoury"
 	quest.79A5EFDD69A29C72.quest_desc: [
-		"This chapter is a weapons guide. A quest completes when the weapon is in your inventory, and clicking it in the quest opens the recipe.",
+		"This chapter is a weapons guide. A quest shows a whole family: clicking any item opens its recipe in JEI.",
 		" ",
 		"",
 		" ",
-		"A weapon's tooltip shows two numbers: attack damage and attack speed (hits per second). Their product is a rough melee strength. Era marks: iron sword 9.6 · brass 12 · TFMG steel 15 · netherite 16.8 · boss trophies 19-23. Weapons from the balance table also show their tier. Fast weapons hit softer, heavy ones hit rarely, polearms reach further.",
+		"The branches do not depend on each other and go up the tiers from left to right: §6swords§r · §6maces, hammers and hatchets§r · §6polearms§r: spears, pikes, halberds · §6daggers and stilettos§r · §6bows and crossbows§r · §6the sea§r: Ice Maze weapons and neptunium. Later quests wait for their era (brass, steel, netherite), T6 trophies for their boss.",
 		" ",
 		"",
 		" ",
-		"Basic Weapons glaives and Epic Knights weapons are in the Arsenal and Defence chapter, together with Fantasy Weapons, the gear sword, Just Hammers, firearms, the Incinerator and the laser gatling. Mowzie's weapons are in the Dungeons and Mini-Bosses chapter.",
+		"A weapon's tooltip shows attack damage and attack speed (hits per second); their product is a rough melee strength. Marks: §7T0§r 6-8 · §fT1§r 9-10 · §6T2§r 11-12 · §bT3§r 11-13 · §9T4§r 15-16 · §5T5§r 17-18 · §cT6§r 19-23. Fast weapons hit softer, heavy ones hit rarely, polearms reach further, Epic Knights two-handers get weaker while the off hand is busy.",
+		" ",
+		"",
+		" ",
+		"Firearms and cannons are in Arsenal and Defence, Mowzie's weapons in Dungeons and Mini-Bosses.",
 	]
-	quest.6E7F7AFB349B01D9.title: "Dagger"
-	quest.6E7F7AFB349B01D9.quest_desc: [
-		"Basic Weapons: an iron ingot over a stick. Damage 4, speed 2.4, the fastest of the simple weapons: many light hits instead of one heavy one.",
+	task.60FE4BDDA94FEBC4.title: "Any item from the list"
+	quest.7D83B82221448BE7.title: "Copper Swords"
+	quest.7D83B82221448BE7.quest_desc: [
+		"How to make: the Create Stuff & Additions copper sword is 2 copper ingots and a stick. Epic Knights swords are built on a hilt: 2 leather make 6 leather strips, a stick and a strip make a hilt. The short sword and the katzbalger are 2 ingots and a hilt, the bastard sword a short sword and one more ingot.",
+		" ",
+		"",
+		" ",
+		"Tier T0: damage 3.5-5.3, speed 1.4-1.7.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
 	]
-	quest.1F26DCA3814FEE3A.title: "Club"
-	quest.1F26DCA3814FEE3A.quest_desc: [
-		"Two iron ingots on a stick. Damage 8, speed 1, almost like an iron axe (9 and 0.9), and your axe stays whole for chopping.",
+	task.0CD7F6ED311B8302.title: "Any item from the list"
+	quest.7258126D7955C827.title: "Iron Swords"
+	quest.7258126D7955C827.quest_desc: [
+		"How to make: the zinc sword is 2 zinc ingots and a stick. Epic Knights: the short sword and the katzbalger are 2 iron ingots and a hilt, the bastard sword and the claymore a short sword and an ingot (different shapes), the zweihander a short sword, 3 ingots and a hilt, the messer a short sword, an ingot and a nugget. The claymore and zweihander are two-handed: harder hits, slower swings.",
+		" ",
+		"",
+		" ",
+		"Tier T1: damage 5-9.9, speed 1.0-1.8.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
 	]
-	quest.61C0C9AAA2E4FF1F.title: "War Hammer"
-	quest.61C0C9AAA2E4FF1F.quest_desc: [
-		"Five iron ingots and two sticks. Damage 9, speed 0.7, the heaviest hit among iron weapons, but slow: make each swing count.",
-	]
-	quest.3935E99F9974F1EE.title: "Quarterstaff"
-	quest.3935E99F9974F1EE.quest_desc: [
-		"An iron ingot between two sticks. Damage 4, speed 1.7, and it reaches 1.25 blocks further than a sword. Good for keeping enemies at a distance.",
-	]
-	quest.424149ED2563BBA7.title: "Charging Spear"
-	quest.424149ED2563BBA7.quest_desc: [
-		"Backported Spears: an iron ingot and two sticks. A normal jab is weak; the spear's strength is the charge: hold right-click and the damage grows with your speed, especially on horseback.",
-	]
-	quest.1F068CE1876D1439.title: "Hatchet"
-	quest.1F068CE1876D1439.quest_desc: [
-		"Garnished: a hatchet of two iron ingots, a stick and string. Damage 8, speed 1.3, faster than a normal axe (9 and 0.9). There are copper, zinc, brass, rose quartz, blazing and other hatchets.",
-	]
-	quest.442C055B325E7F80.title: "Pike"
-	quest.442C055B325E7F80.quest_desc: [
-		"Epic Knights: a pole (two hilts), a stick and an iron ingot. Damage 6.7, speed 1.2, and it reaches 3 blocks further than a sword: strike before the enemy closes in. Two-handed: weaker with a shield in the off hand.",
-	]
+	task.7EF1AAED4A7CEC7D.title: "Any item from the list"
 	quest.0DA7C1628996CF9D.title: "Create Swords"
 	quest.0DA7C1628996CF9D.quest_desc: [
-		"Create Stuff & Additions: the brass sword is 2 brass ingots and a stick, damage 7.5, speed 1.6. Copper (5 and 1.6) and zinc (5 and 1.8) come earlier. The rose quartz sword is built on a mechanical crafter (6 and 1.8). The blazing cleaver is a golden sword mixed with powdered obsidian (7 and 1.6).",
+		"How to make: the brass sword is 2 brass ingots and a stick. The rose quartz sword is built on a mechanical crafter: 2 polished rose quartz, 2 iron sheets, a gold ingot and a zinc handle. The blazing cleaver is a golden sword and powdered obsidian in a heated mixer.",
+		" ",
+		"",
+		" ",
+		"Tier T2: damage 6-7.5, speed 1.6-1.8.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
 	]
-	quest.4306488DEE155889.title: "Ancient Spear"
-	quest.4306488DEE155889.quest_desc: [
-		"Cataclysm: 4 ancient metal ingots (from koboletons, the Kobolediator and the Wadjet, and desert treasure). Damage 9.5, speed 1.4, reaches 2 blocks further, and left-click releases a sandstorm.",
+	task.6E47FD8D25832EA3.title: "Any item from the list"
+	quest.717E9AA13689F64E.title: "Diamond Swords"
+	quest.717E9AA13689F64E.quest_desc: [
+		"How to make: diamond Epic Knights swords are made like the iron ones. The flame-bladed sword is smithed: a netherite upgrade template, a diamond zweihander and blaze powder (the template is used up). Diamond swords later upgrade to netherite.",
+		" ",
+		"",
+		" ",
+		"Tier T3: damage 6.3-11.3, speed 0.9-1.7.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
 	]
-	quest.7C1295FD212D7992.title: "Neptunium Sword"
-	quest.7C1295FD212D7992.quest_desc: [
-		"Aquaculture: 2 neptunium ingots from Neptune's Bounty and a stick. Damage 7.5, speed 1.6, and it hits enemies in water harder. For underwater bases and reef hunts.",
+	quest.6A5FE136D8C03DD2.title: "Resonarium Sword"
+	quest.6A5FE136D8C03DD2.quest_desc: [
+		"How to make: smithing table: a resonarium upgrade template, a diamond sword and a resonarium plate (4 resonarium and 4 turtle or armadillo scutes).",
+		" ",
+		"Where to get: resonarium drops from sludges in the Otherside, the template lies in the chests at the top of the Otherside's ancient temple.",
+		" ",
+		"",
+		" ",
+		"Tier T3: damage 7, speed 1.6.",
 	]
-	quest.17F4FCFA632CF04A.title: "Terrible Weapons"
-	quest.17F4FCFA632CF04A.quest_desc: [
-		"Aquamirae: 2 iron ingots, 2 fins, a stick and 2 maze trophies. With angler fangs you get the terrible fang (damage 6, speed 2), with anglerfish esca the terrible blade (5 and 3), with ship graveyard echoes the terrible cleaver (7 and 1). Frozen and ship chests now and then hold the dagger of greed (9 and 2).",
-	]
-	quest.7AEE279B4EA43B3B.title: "Abyssal Weapons"
-	quest.7AEE279B4EA43B3B.quest_desc: [
-		"The shatterblade: 2 diamonds, 4 abyssal amethysts (from the maze mother), 2 ship graveyard echoes and a stick. Damage 7, speed 1.4. The same materials in another shape make the shatterspike, a heavy one at 14 and 0.8.",
-	]
-	quest.5801D4A152775691.title: "Steel Sword"
+	task.2CDAE06A448ACBA5.title: "Any item from the list"
+	quest.5801D4A152775691.title: "Steel Swords"
 	quest.5801D4A152775691.quest_desc: [
-		"TFMG: 2 steel ingots and a stick. Damage 9.5, speed 1.6, the backbone of the steel era. The aluminium sword is lighter and faster (6.5 and 2). The lithium blade is built from a steel sword, a heavy plate, a circuit board, a spark plug, aluminium plates and copper wire: 10 and 1.6.",
+		"How to make: TFMG, 2 steel or aluminium ingots and a stick. The lithium blade: a steel sword, a heavy plate, a circuit board, a spark plug, 2 aluminium plates and copper wire. The refined radiance sword is sequenced assembly on a stick: rose quartz, a stick, refined radiance, lava, water, more radiance and a press (radiance: 2 glowstone dust, 2 powdered obsidian and rose quartz in a mixer). Epic Knights swords are made like the iron ones from TFMG steel.",
+		" ",
+		"",
+		" ",
+		"Tier T4: damage 6.5-15.7, speed 1.0-2.0. The TFMG steel sword is 9.5 and 1.6.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
+	]
+	task.671AB88F8EDBC446.title: "Any item from the list"
+	quest.51DA7801A67108D4.title: "Netherite Swords"
+	quest.51DA7801A67108D4.quest_desc: [
+		"How to make: smithing table: a netherite upgrade template, a diamond sword of the same kind and a netherite ingot. Netherite is made only in a superheated mixer: 4 scrap, 2 gold and 2 TFMG steel. The netherite sword is the base of Fantasy Weapons, the gear sword, the Incinerator and the warden sword.",
+		" ",
+		"",
+		" ",
+		"Tier T5: damage 10.5-20.3, speed 0.7-1.7. The netherite sword is 10.5 and 1.6.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
+	]
+	quest.7250BC396A7E5C1A.title: "Blazing Stone"
+	quest.7250BC396A7E5C1A.quest_desc: [
+		"Fantasy Weapons: 76 legendary weapons: claymores, katanas, halberds, rapiers, hammers.",
+		" ",
+		"How to make: a Blazing Stone is 4 blaze powder, 4 glowstone dust and stone. Smithing table: the template slot takes the item that picks the weapon (iron ingot for the Hero Claymore, raw copper for the Kingslayer), then a netherite sword and the blazing stone. JEI shows every recipe.",
+	]
+	quest.5D2B6635742EA1A0.title: "Weapon of Legends"
+	quest.5D2B6635742EA1A0.quest_desc: [
+		"Any Fantasy Weapons weapon counts.",
+		" ",
+		"",
+		" ",
+		"Tier T5, a little stronger than a netherite sword, and different by kind: daggers damage 8.8, speed 2; swords, katanas and rapiers 11 and 1.6; spears, halberds and glaives 13 and 1.35; greatswords, hammers and battleaxes 16 and 1.1.",
+	]
+	task.33584954CDA1402B.title: "Any item from the list"
+	quest.40184F99961A1B00.title: "Geared Arsenal"
+	quest.40184F99961A1B00.quest_desc: [
+		"Create Tools n Weapons.",
+		" ",
+		"How to make: a mechanical crafter: a netherite sword (or axe), a precision mechanism, 3 brass sheets, industrial iron, a gantry shaft and cogwheels. There are also a pickaxe, a shovel and a hoe.",
+		" ",
+		"",
+		" ",
+		"Tier T5: the sword damage 9.5, speed 1.8; the axe 12 and 1.2.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
+	]
+	task.7C17047740CEDF82.title: "Any item from the list"
+	quest.40AEFB360E37CCDB.title: "Warden Sword"
+	quest.40AEFB360E37CCDB.quest_desc: [
+		"Deeper and Darker.",
+		" ",
+		"How to make: smithing table: the warden template, a netherite sword (or a Garnished netherite hatchet) and a reinforced echo shard: an echo shard, 4 warden carapaces and 4 phantom membranes.",
+		" ",
+		"Where to get: the template lies in the secret room of the Otherside's ancient temple, the carapaces in ancient vases and the chests of the same temple.",
+		" ",
+		"",
+		" ",
+		"Tier T6: the sword damage 13, speed 1.6; the hatchet 10 and 1.3.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
+	]
+	quest.1D3A3C518F2002BA.title: "The Incinerator"
+	quest.1D3A3C518F2002BA.quest_desc: [
+		"Cataclysm.",
+		" ",
+		"How to make: crafting table: a netherite sword, 2 ignitium ingots and 4 blaze rods.",
+		" ",
+		"Where to get: ignitium drops from Ignis, the Burning Arena in the Nether.",
+		" ",
+		"",
+		" ",
+		"Tier T6: damage 16, speed 1.4, reaches 2 blocks further.",
+	]
+	task.0D2AFC90364D47CB.title: "Any item from the list"
+	quest.5696EB92584A1EAF.title: "Clubs and Hatchets"
+	quest.5696EB92584A1EAF.quest_desc: [
+		"How to make: Basic Weapons, a club of 2 planks or stones and a stick, a hammer of 5 stones and 2 sticks. A Garnished hatchet is 2 stones or copper ingots, 2 sticks and string. The Epic Knights mace and morning star are 3 copper ingots, a stick and a hilt (a stick and a leather strip).",
+		" ",
+		"",
+		" ",
+		"Tier T0: damage 5.7-8, speed 0.8-1.5.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
+	]
+	task.4F2C79816518EE6B.title: "Any item from the list"
+	quest.61C0C9AAA2E4FF1F.title: "War Hammers"
+	quest.61C0C9AAA2E4FF1F.quest_desc: [
+		"How to make: the Basic Weapons hammer is 5 iron ingots and 2 sticks, the Epic Knights heavy war hammer 4 ingots, a stick and a hilt. The heaviest hit among iron weapons, but slow, and Epic Knights hammers pierce armour.",
+		" ",
+		"",
+		" ",
+		"Tier T1: damage 9, speed 0.7-0.95.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
 	]
 	quest.499A79BFFE0C453F.title: "Mossy Hammer"
 	quest.499A79BFFE0C453F.quest_desc: [
-		"Legendary Monsters: the nature crystal from the Overgrown Colossus, a moss block, 4 chiseled stone bricks and a stick. Damage 9, speed 0.8. Right-clicking a block hits everything within 4 blocks for 10 damage and poisons it. It also mines like a pickaxe.",
+		"Legendary Monsters.",
+		" ",
+		"How to make: a nature crystal, a moss block, 4 chiseled stone bricks and a stick.",
+		" ",
+		"Where to get: the nature crystal drops from the Overgrown Colossus in the Mossy Temple.",
+		" ",
+		"",
+		" ",
+		"Tier T1: damage 9, speed 0.8. Right-clicking a block hits everything within 4 blocks for 10 damage and poisons it. It also mines like a pickaxe.",
 	]
-	quest.40AEFB360E37CCDB.title: "Warden Sword"
-	quest.40AEFB360E37CCDB.quest_desc: [
-		"Deeper and Darker. Smithing table: a netherite sword, a reinforced echo shard and the warden template from the secret room of the Otherside's ancient temple. The shard: an echo shard, 4 warden carapaces and 4 phantom membranes. Damage 13, speed 1.6, a tier T6 trophy.",
+	task.6AFD4A9675A94A0F.title: "Any item from the list"
+	quest.1F26DCA3814FEE3A.title: "Clubs and Maces"
+	quest.1F26DCA3814FEE3A.quest_desc: [
+		"How to make: the Basic Weapons club is 2 iron ingots and a stick. Epic Knights: the mace and the morning star are 3 ingots, a stick and a hilt, the flail also takes a chain (a vanilla one works here). Almost an iron axe, and your axe stays whole for chopping.",
+		" ",
+		"",
+		" ",
+		"Tier T1: damage 8-10.4, speed 0.9-1.15.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
 	]
-	quest.6BEB77F8F97DA85E.title: "Gauntlet of Guard"
-	quest.6BEB77F8F97DA85E.quest_desc: [
-		"Dropped by the Ender Guardian. Damage 11, speed 1.6, right-click pulls enemies to you. On the weapon fusion anvil, with the Bulwark of the Flame (recipe in JEI) it becomes the Gauntlet of Bulwark, with a Sandstorm in a Bottle (the Ancient Remnant) the Gauntlet of Maelstrom.",
+	task.1049EB5B536C39C7.title: "Any item from the list"
+	quest.1F068CE1876D1439.title: "Hatchets"
+	quest.1F068CE1876D1439.quest_desc: [
+		"Garnished.",
+		" ",
+		"How to make: 2 iron or zinc ingots, 2 sticks and string. Faster than a normal axe (damage 9, speed 0.9).",
+		" ",
+		"",
+		" ",
+		"Tier T1: damage 8-8.5, speed 1.2-1.3.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
 	]
+	task.4CE53108043DC0F2.title: "Any item from the list"
+	quest.39E575E70A002F44.title: "Brass-Era Hatchets"
+	quest.39E575E70A002F44.quest_desc: [
+		"How to make: the brass one is 2 brass ingots, 2 sticks and string, the quartz one 2 nether quartz, 2 sticks and string. The rose quartz one is built on a mechanical crafter: 2 polished rose quartz, an iron sheet, a gold ingot, a zinc handle and string. The blazing one is a golden hatchet and powdered obsidian in a heated mixer.",
+		" ",
+		"",
+		" ",
+		"Tier T2: damage 7.5-9, speed 1.2-1.5.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
+	]
+	task.15E46185F367D1C7.title: "Any item from the list"
+	quest.2EA0389E830F65D4.title: "Diamond Maces and Hammers"
+	quest.2EA0389E830F65D4.quest_desc: [
+		"How to make: like the iron ones, from diamonds. The Epic Knights flail takes a vanilla chain. Diamond ones later upgrade to netherite.",
+		" ",
+		"",
+		" ",
+		"Tier T3: damage 8-12, speed 0.7-1.4.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
+	]
+	task.43D1CEAFD99590FF.title: "Any item from the list"
+	quest.3036DC6F030ECF28.title: "Steel Maces and Hammers"
+	quest.3036DC6F030ECF28.quest_desc: [
+		"Epic Knights in TFMG steel.",
+		" ",
+		"How to make: the mace and the morning star are 3 steel ingots, a stick and a hilt, the hammer 4, the flail also a steel chain. The barbed club is 2 steel ingots, 4 steel nuggets and a stick, the blacksmith hammer 5 ingots, a stick and a hilt.",
+		" ",
+		"",
+		" ",
+		"Tier T4: damage 9.4-17.9, speed 0.9-1.15. The maces, hammers and flail have 15-16 strength.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
+	]
+	task.2ABCADD6A4B75327.title: "Any item from the list"
+	quest.320D44AED8AAB828.title: "Netherite Maces and Hammers"
+	quest.320D44AED8AAB828.quest_desc: [
+		"How to make: smithing table: a netherite upgrade template, a diamond item of the same kind and a netherite ingot (netherite comes from a superheated mixer: scrap, gold and steel).",
+		" ",
+		"",
+		" ",
+		"Tier T5: damage 9-21.8, speed 0.7-1.4. Epic Knights maces and hammers have 15-17 strength.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
+	]
+	task.31FECD95E0DCCEAC.title: "Any item from the list"
 	quest.64B09BC2DB7A3AC1.title: "Infernal Forge"
 	quest.64B09BC2DB7A3AC1.quest_desc: [
-		"Dropped by the Netherite Monstrosity. It is both a hammer and a pickaxe: damage 14, speed 1, right-clicking a block hits an area. On the fusion anvil, with a void core (the Ender Golem) it becomes the Void Forge (summons void runes in a fan), with Astrape it becomes Brontes (16 and 1.2, it can be thrown).",
+		"Cataclysm.",
+		" ",
+		"Where to get: the forge drops from the Netherite Monstrosity in the Soul Blacksmith forge in the Nether.",
+		" ",
+		"How to make: on the mechanical fusion anvil, the forge with a void core (dropped by the Ender Golem, the Ruined Citadel in the End) becomes the Void Forge, with Astrape it becomes Brontes.",
+		" ",
+		"",
+		" ",
+		"Tier T6: the forge damage 14, speed 1, a hammer and a pickaxe in one, right-clicking a block hits an area. The Void Forge summons void runes in a fan, Brontes (16 and 1.2) can be thrown.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
 	]
-	quest.75692FFCF4F6DD18.title: "Storm Weapons"
-	quest.75692FFCF4F6DD18.quest_desc: [
-		"The essence of the storm drops from Scylla, lacrima from her and from the Acropolis creatures. Astrape: 2 essences and 3 lacrima, damage 12, speed 1.4, right-click throws a lightning spear. Ceraunus is the same materials in another shape: an anchor at 20 and 0.8 that can be thrown, and with Shift it sends waves in a fan.",
+	quest.1A154ACAF9B5E524.title: "A 3×3 Hammer"
+	quest.1A154ACAF9B5E524.quest_desc: [
+		"Just Hammers: a tool rather than a weapon (damage 4), the hammer mines a 3×3 area at once.",
+		" ",
+		"How to make: 3 ingots and 3 sticks, JEI shows the shape. There are stone, iron, gold, diamond and netherite ones; the tooltip shows the area size.",
+	]
+	quest.3AEF941AF2BE4490.title: "Impact Hammer"
+	quest.3AEF941AF2BE4490.quest_desc: [
+		"How to make: an impact core is a netherite hammer, an iron block, a gold block and 6 redstone. The impact hammer is the core, 3 iron blocks and 2 sticks. The impact hammer mines 3×3×3, the reinforced one 5×5×1, the reinforced impact one 5×5×3 and the destructor 5×5×5. Each core is made from the previous one; JEI has the recipes.",
+	]
+	task.73DBA6F59BA68F16.title: "Any item from the list"
+	quest.39BE750ACA6D65B7.title: "Staffs, Glaives and Spears"
+	quest.39BE750ACA6D65B7.quest_desc: [
+		"How to make: Basic Weapons, a quarterstaff of a plank or stone between two sticks, a glaive of 3 planks or stones and 2 sticks. A Backported Spears spear is the material and 2 sticks. The staff and the glaive reach 1.25 blocks further than a sword.",
+		" ",
+		"",
+		" ",
+		"Tier T0: damage 1-7, speed 0.8-1.7.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
+	]
+	quest.424149ED2563BBA7.title: "Charging Spear"
+	quest.424149ED2563BBA7.quest_desc: [
+		"Backported Spears.",
+		" ",
+		"How to make: an iron ingot and 2 sticks.",
+		" ",
+		"A normal jab is weak (damage 3); the spear's strength is the charge: hold right-click and the damage grows with your speed, especially on horseback. Tier T1.",
+	]
+	quest.4306488DEE155889.title: "Ancient Spear"
+	quest.4306488DEE155889.quest_desc: [
+		"Cataclysm.",
+		" ",
+		"How to make: 4 ancient metal ingots.",
+		" ",
+		"Where to get: ancient metal drops from koboletons, the Kobolediator and the Wadjet near Cataclysm desert structures and lies in desert treasure.",
+		" ",
+		"",
+		" ",
+		"Tier T2: damage 9.5, speed 1.4, reaches 2 blocks further, left-click releases a sandstorm.",
+	]
+	task.44F8463DD5B9691B.title: "Any item from the list"
+	quest.442C055B325E7F80.title: "Pikes and Halberds"
+	quest.442C055B325E7F80.quest_desc: [
+		"Epic Knights.",
+		" ",
+		"How to make: a hilt is a stick and a leather strip, a pole 2 hilts. The pike is an ingot, a stick and a pole, the ranseur a short sword and a pole, the guisarme also an ingot, the ahlspiess 4 ingots and a pole, the halberd 4 ingots, a stick and a pole, the Lochaber axe 3 ingots and a pole, the Lucerne hammer 3 ingots, a stick and a hilt, the chivalry lance 3 ingots, a pole and a hilt.",
+		" ",
+		"",
+		" ",
+		"Tier T1: damage 6.3-11.9, speed 0.8-1.25, they reach 0.7-3 blocks further than a sword. The lance hits harder the faster your horse runs.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
+	]
+	task.0A329B97A27A7599.title: "Any item from the list"
+	quest.3935E99F9974F1EE.title: "Iron Staff and Glaive"
+	quest.3935E99F9974F1EE.quest_desc: [
+		"Basic Weapons.",
+		" ",
+		"How to make: the quarterstaff is an iron ingot between two sticks, the glaive 3 ingots and 2 sticks. Both reach 1.25 blocks further than a sword: good for keeping enemies at a distance.",
+		" ",
+		"",
+		" ",
+		"Tier T1: the staff damage 4, speed 1.7; the glaive 8 and 0.8.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
+	]
+	task.47C0DF37061BD3CF.title: "Any item from the list"
+	quest.7BA4D88BE8994CEA.title: "Diamond Polearms"
+	quest.7BA4D88BE8994CEA.quest_desc: [
+		"How to make: like the iron ones, from diamonds. Diamond ones later upgrade to netherite.",
+		" ",
+		"",
+		" ",
+		"Tier T3: damage 4-13.6, speed 0.75-1.7. The halberd and the Lochaber axe hit hardest, the pike reaches furthest.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
+	]
+	task.5A2BBE528703F3B8.title: "Any item from the list"
+	quest.3E787A93CB370F86.title: "Steel Polearms"
+	quest.3E787A93CB370F86.quest_desc: [
+		"Epic Knights in TFMG steel.",
+		" ",
+		"How to make: like the iron ones, from steel ingots. The pitchfork is 2 steel ingots and 3 sticks and reaches 2 blocks further.",
+		" ",
+		"",
+		" ",
+		"Tier T4: damage 6.7-20, speed 0.8-1.25. The halberd and the axe have 16 strength, the pike 14 and the longest reach.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
+	]
+	task.78789AACE02379FA.title: "Any item from the list"
+	quest.1C1FD63726CFA75D.title: "Netherite Polearms"
+	quest.1C1FD63726CFA75D.quest_desc: [
+		"How to make: smithing table: a netherite upgrade template, a diamond weapon of the same kind and a netherite ingot.",
+		" ",
+		"",
+		" ",
+		"Tier T5: damage 5-24.7, speed 0.65-1.7. Epic Knights polearms have 15-18 strength.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
 	]
 	quest.32881EA946AFEDC9.title: "Soul Render"
 	quest.32881EA946AFEDC9.quest_desc: [
-		"A halberd of 3 cursium ingots (Maledictus) and 2 black steel ingots (draugrs, the frosted prison). Damage 20, speed 1.05, reaches 2 blocks further. Right-click dashes, with Shift it summons phantom halberds in a spiral.",
+		"Cataclysm.",
+		" ",
+		"How to make: 3 cursium ingots and 2 black steel ingots.",
+		" ",
+		"Where to get: cursium drops from Maledictus in the Frosted Prison. Draugrs and aptrgangrs drop black steel, and it lies in Frosted Prison chests too.",
+		" ",
+		"",
+		" ",
+		"Tier T6: damage 20, speed 1.05, reaches 2 blocks further. Right-click dashes, with Shift it summons phantom halberds in a spiral.",
 	]
-	quest.31352F29D5CC7FD1.title: "Tidal Claws"
-	quest.31352F29D5CC7FD1.quest_desc: [
-		"Dropped by the Leviathan. Damage 8, speed 1.6. Right-click fires a grappling hook, left-click a tentacle that hurts from afar.",
+	task.373DCB6A1314ADE5.title: "Any item from the list"
+	quest.75692FFCF4F6DD18.title: "Storm Weapons"
+	quest.75692FFCF4F6DD18.quest_desc: [
+		"Cataclysm.",
+		" ",
+		"How to make: Astrape and Ceraunus each take 2 essences of the storm and 3 lacrima, in different shapes.",
+		" ",
+		"Where to get: the essence of the storm drops from Scylla in the Acropolis. Lacrima drops from her and the Acropolis creatures and lies in its treasure.",
+		" ",
+		"",
+		" ",
+		"Tier T6: Astrape damage 12, speed 1.4, right-click throws a lightning spear. Ceraunus is an anchor, 20 and 0.8, it can be thrown, and with Shift it sends waves in a fan.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
 	]
 	quest.0E61C4D3F95C100D.title: "The Tesseract"
 	quest.0E61C4D3F95C100D.quest_desc: [
-		"Legendary Monsters: a bottle of annihilation, 2 portal shards (the Obliterator) and 2 enderitium ingots. Damage 18, speed 1.25. Hold right-click for 1.5 seconds and annihilation portals open around you in a star and pull enemies in.",
+		"Legendary Monsters.",
+		" ",
+		"How to make: a bottle of annihilation (an eye of ender and a glass bottle), 2 portal shards and 2 enderitium ingots (an ingot is 9 enderitium gems).",
+		" ",
+		"Where to get: portal shards drop from the Obliterator on its space station. Enderitium ore lies in the End, and the station chests hold gems too.",
+		" ",
+		"",
+		" ",
+		"Tier T6: damage 18, speed 1.25. Hold right-click for 1.5 seconds and annihilation portals open around you in a star and pull enemies in.",
 	]
+	task.49CDE8DEB11476B2.title: "Any item from the list"
+	quest.6E7F7AFB349B01D9.title: "Daggers and Stilettos"
+	quest.6E7F7AFB349B01D9.quest_desc: [
+		"How to make: the Basic Weapons dagger is stone or an iron ingot over a stick. Epic Knights: the stiletto is an ingot and a hilt (a stick and a leather strip), the estoc a short sword and an ingot. The dagger is the fastest weapon: many light hits instead of one heavy one. Stilettos pierce armour, the estoc reaches half a block further.",
+		" ",
+		"",
+		" ",
+		"Tier T1: damage 3-7.4, speed 1.35-2.4.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
+	]
+	task.02E3C86669CAEA41.title: "Any item from the list"
+	quest.2EEF81AD8CE1DEEC.title: "Diamond Daggers"
+	quest.2EEF81AD8CE1DEEC.quest_desc: [
+		"How to make: like the iron ones, from diamonds. They later upgrade to netherite.",
+		" ",
+		"",
+		" ",
+		"Tier T3: damage 5-8.5, speed 1.35-2.4.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
+	]
+	task.6EA5B97A7C011E09.title: "Any item from the list"
+	quest.7CF20A8350EA86C5.title: "Steel Stiletto and Estoc"
+	quest.7CF20A8350EA86C5.quest_desc: [
+		"Epic Knights.",
+		" ",
+		"How to make: the stiletto is a TFMG steel ingot and a hilt, the estoc a steel short sword and an ingot.",
+		" ",
+		"",
+		" ",
+		"Tier T4: the stiletto damage 8.8, speed 1.6; the estoc 11.8 and 1.36.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
+	]
+	task.0980A8D4F77CB204.title: "Any item from the list"
+	quest.5184725707E30D36.title: "Netherite Daggers"
+	quest.5184725707E30D36.quest_desc: [
+		"How to make: smithing table: a netherite upgrade template, a diamond dagger of the same kind and a netherite ingot.",
+		" ",
+		"",
+		" ",
+		"Tier T5: damage 6-13.8, speed 1.3-2.4. The Epic Knights stiletto and estoc have about 18 strength.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
+	]
+	task.73D11B28FDE8F316.title: "Any item from the list"
+	quest.6BEB77F8F97DA85E.title: "Cataclysm Gauntlets"
+	quest.6BEB77F8F97DA85E.quest_desc: [
+		"Cataclysm.",
+		" ",
+		"Where to get: the Gauntlet of Guard drops from the Ender Guardian in the Ruined Citadel in the End.",
+		" ",
+		"How to make: on the mechanical fusion anvil, the gauntlet with the Bulwark of the Flame (a shield, 2 ignitium ingots from Ignis, 2 blaze rods and 4 nether bricks) becomes the Gauntlet of Bulwark, with a Sandstorm in a Bottle (dropped by the Ancient Remnant, the Cursed Pyramid) the Gauntlet of Maelstrom.",
+		" ",
+		"",
+		" ",
+		"Tier T6: damage 11, speed 1.6, right-click pulls enemies to you.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
+	]
+	quest.31352F29D5CC7FD1.title: "Tidal Claws"
+	quest.31352F29D5CC7FD1.quest_desc: [
+		"Cataclysm.",
+		" ",
+		"Where to get: dropped by the Leviathan in the Sunken City.",
+		" ",
+		"",
+		" ",
+		"Tier T6: damage 8, speed 1.6. Right-click fires a grappling hook, left-click a tentacle that hurts from afar.",
+	]
+	task.7B84C80AE893496A.title: "Any item from the list"
+	quest.17D92094E21B3E64.title: "Wooden Bows"
+	quest.17D92094E21B3E64.quest_desc: [
+		"More Bows and Arrows.",
+		" ",
+		"How to make: a plain bow and 2 logs of the wood (the bamboo one takes 2 bamboo blocks). The bonus damage is in the bow's tooltip.",
+		" ",
+		"",
+		" ",
+		"Tier T0: wooden bows give +2 damage.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
+	]
+	task.2CF9879823B03381.title: "Any item from the list"
+	quest.23A813F10114D44E.title: "Bows, Longbow and Crossbow"
+	quest.23A813F10114D44E.quest_desc: [
+		"How to make: More Bows and Arrows bows are a plain bow and 2 of a material: iron, copper or gold ingots, bones, coal, lapis, amethyst. The Epic Knights longbow is 4 sticks, 3 string and a hilt: it hits harder than a bow but takes almost twice as long to draw.",
+		" ",
+		"",
+		" ",
+		"Tier T1: metal and stone bows give +2 damage, the golden one +1.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
+	]
+	task.201EA41B671F5E70.title: "Any item from the list"
+	quest.1251F92219FE7C10.title: "Blaze and Emerald Bows"
+	quest.1251F92219FE7C10.quest_desc: [
+		"How to make: a plain bow and 2 blaze rods or 2 emeralds.",
+		" ",
+		"Where to get: blazes in Nether fortresses drop the rods, villagers trade emeralds.",
+		" ",
+		"",
+		" ",
+		"Tier T2: +3 damage.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
+	]
+	task.0F38897136ED63F2.title: "Any item from the list"
+	quest.7A93B012288663BC.title: "Diamond and Obsidian Bows"
+	quest.7A93B012288663BC.quest_desc: [
+		"How to make: a plain bow and 2 diamonds or 2 obsidian. The diamond one later upgrades to netherite.",
+		" ",
+		"",
+		" ",
+		"Tier T3: the diamond bow gives +5 damage, the obsidian one +4.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
+	]
+	quest.78FB0938EE581859.title: "Heavy Crossbow"
+	quest.78FB0938EE581859.quest_desc: [
+		"Epic Knights.",
+		" ",
+		"How to make: 3 TFMG steel ingots, 2 string, a tripwire hook and a pole (2 hilts). Tier T4.",
+	]
+	task.2AB9D0172ECF3851.title: "Any item from the list"
+	quest.68FFE8E733634134.title: "Netherite Bows"
+	quest.68FFE8E733634134.quest_desc: [
+		"How to make: smithing table: a netherite upgrade template, a diamond bow and a netherite ingot. The nocturnal bow is made the same way from a netherite bow and one more ingot.",
+		" ",
+		"",
+		" ",
+		"Tier T5: the netherite bow gives +6 damage, the nocturnal one +4 but makes you faster.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
+	]
+	task.5E77C8AAB8AA362E.title: "Any item from the list"
+	quest.271915FF5579D3BE.title: "Cursed Bow"
+	quest.271915FF5579D3BE.quest_desc: [
+		"Cataclysm.",
+		" ",
+		"How to make: the cursed bow is 2 cursium ingots, a black steel ingot and 3 string. On the mechanical fusion anvil the bow with a Sandstorm in a Bottle becomes the Wrath of the Desert.",
+		" ",
+		"Where to get: cursium drops from Maledictus in the Frosted Prison, black steel from draugrs and the chests of the same prison, the Sandstorm in a Bottle from the Ancient Remnant in the Cursed Pyramid.",
+		" ",
+		"",
+		" ",
+		"Tier T6.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
+	]
+	task.1F3A4261FF32D837.title: "Any item from the list"
+	quest.17F4FCFA632CF04A.title: "Ice Maze Weapons"
+	quest.17F4FCFA632CF04A.quest_desc: [
+		"Aquamirae.",
+		" ",
+		"How to make: the remnant saber is 2 sharp bones, string and a stick. Terrible weapons are 2 iron ingots, 2 fins, a stick and 2 trophies: angler fangs make the fang, anglerfish esca the blade, ship graveyard echoes the cleaver.",
+		" ",
+		"Where to get: everything comes from Ice Maze creatures. Eels, anglerfish and maws drop fins, anglerfish drop fangs and esca, scuttlers, maws, anglerfish and abyssal scyphoids drop echoes, eels, maws and the maze mother drop sharp bones. The dagger of greed cannot be crafted; it now and then lies in the maze's frozen and ship chests.",
+		" ",
+		"",
+		" ",
+		"Tier T2: the saber damage 5, speed 2; the fang 6 and 2; the blade 5 and 3; the cleaver 7 and 1; the dagger of greed 9 and 2.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
+	]
+	task.1A3D36D968DB6644.title: "Any item from the list"
+	quest.7AEE279B4EA43B3B.title: "Abyssal Weapons"
+	quest.7AEE279B4EA43B3B.quest_desc: [
+		"Aquamirae.",
+		" ",
+		"How to make: the shatterblade is 2 diamonds, 4 abyssal amethysts, 2 ship graveyard echoes and a stick. The shatterspike is a diamond, 2 amethysts, 2 echoes and 2 sticks.",
+		" ",
+		"Where to get: the maze mother drops abyssal amethysts, and now and then they lie in the Ice Maze's treasure pouches.",
+		" ",
+		"",
+		" ",
+		"Tier T3: the blade damage 7, speed 1.4; the spike 14 and 0.8, reaching a third further.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
+	]
+	task.7E300E102FA1BB72.title: "Any item from the list"
+	quest.7C1295FD212D7992.title: "Neptunium"
+	quest.7C1295FD212D7992.quest_desc: [
+		"Aquaculture.",
+		" ",
+		"How to make: the sword is 2 neptunium ingots and a stick, the bow 3 ingots and 3 string.",
+		" ",
+		"Where to get: the ingots lie in Neptune's Bounty, a rare chest you can fish up.",
+		" ",
+		"",
+		" ",
+		"Tier T3: the sword damage 7.5, speed 1.6.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
+	]
+	image.7E935AD28662F630.title: "Swords"
+	image.454C0D79CA1A5D38.title: "Maces and Hammers"
+	image.59F5D45A453FB115.title: "Polearms"
+	image.35ECE778E9DDB852.title: "Daggers"
+	image.6E688016D3E0BDFB.title: "Bows and Crossbows"
+	image.1A1ADEDFCBB65510.title: "Sea Weapons"
 	chapter.52004070A26F5A92.title: "&#B5838DDungeons and Mini-Bosses&r"
 	chapter.52004070A26F5A92.subtitle: "Structures from easy to hard, and mini-bosses before the big bosses."
+	task.7C942631C8A2DAEF.title: "Enter any Create-style structure"
 	quest.73B70C9E08960368.title: "On the Road"
 	quest.73B70C9E08960368.quest_desc: [
 		"The world has many Create-style ruins: windmills, cranes, water towers, abandoned stations. Small ones are common, big dungeons rare.",
+		" ",
+		"",
+		" ",
+		"§6How it works:§r step inside any small Create-style structure: a windmill, crane, water tower, station, barn, smithy, well, camp, house or a mine cart on rails. You have to walk in; seeing it from afar is not enough. Explorer's Compass finds the nearest one.",
+		" ",
+		"§6Why:§r opens the chapter: illager camps and forts, abandoned stations and the first bosses (Umvuthi, Sculptor).",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass (any of them):§r Create: Structures Arise: Windmill, Createcushercrane, Createfluidtank, Createlosttrainstation, Minetrain; Create: Rustic Structures: Rustic Windmill, Rustic Barn, Rustic Smithy, Rustic Well; Create: Easy Structures: Windmill, Camp 1, Camp 2, Camp 3, Camp 4 and 24 more.",
 	]
 	quest.4CA7D0A34DE1C9AE.title: "Local Creepers"
 	quest.4CA7D0A34DE1C9AE.quest_desc: [
@@ -3713,10 +5818,24 @@
 	quest.08C43B6F1875CA10.quest_desc: [
 		"Mimics hide among dungeon chests. The reward is an artifact.",
 	]
+	task.4617DCA3CBDD714D.title: "Find an illager camp or outpost"
 	quest.3EB6DEE93DB0986D.title: "Illager Camp"
+	quest.3EB6DEE93DB0986D.quest_desc: [
+		"Any illager camp or outpost counts: a campsite, an illager windmill, a watchtower, sorcerer huts, a Create pillager camp. Walk into its grounds.",
+		" ",
+		"§6Why:§r opens the first bosses from easy to hard: Umvuthi → Sculptor → Ferrous Wroughtnaut → Frostmaw. The Legendary Monsters bosses open after the Sculptor.",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass (any of them):§r When Dungeons Arise: Illager Campsite, Illager Windmill; Minecraft: Pillager Outpost; Terralith: Desert Outpost; ChoiceTheorem's Overhauled Village: Pillager Outpost Badlands, Pillager Outpost Beach, Pillager Outpost Dark Forest, Pillager Outpost Desert, Pillager Outpost Jungle; Moog's Voyager Structures: Small Pillager Tower; Structory: Towers: Pillager Lookout; Create: Pillagers Arise: Createpillagercamp, Createpillageroutpost, Createpillagerhousesmall, Createpillagersmallhouse and 11 more.",
+	]
 	quest.6DCD9D06CBB4A147.title: "Lost Train Station"
 	quest.6DCD9D06CBB4A147.quest_desc: [
 		"Old stations keep train parts, ahead of the rails era.",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Createlosttrainstation (Create: Structures Arise).",
 	]
 	quest.19F7D886FBE8E1B8.title: "Ferrous Wroughtnaut"
 	quest.19F7D886FBE8E1B8.quest_desc: [
@@ -3729,6 +5848,10 @@
 		"",
 		" ",
 		"The First Guild's first automaton (Chronicle of the Predecessors).",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Wrought Chamber (Mowzie's Mobs).",
 	]
 	quest.70316C8DA55A4226.title: "Naga"
 	quest.70316C8DA55A4226.quest_desc: [
@@ -3737,8 +5860,22 @@
 		"",
 		" ",
 		"A flying serpent of sea cliffs. Bring ranged weapons: a bow or a flintlock.",
+		" ",
+		"",
+		" ",
+		"Chronicle: \"From the height of the sea cliffs the naga sees the whole shore. It left our fishermen alone until we began breaking its cliffs for the port's stone. Since then not a single boat goes near those rocks.\"",
 	]
+	task.01B3E061FB91E001.title: "Find an illager fort"
 	quest.4FBE4C40EDF3B9D7.title: "Illager Fort"
+	quest.4FBE4C40EDF3B9D7.quest_desc: [
+		"Any illager fort counts (Dungeons Arise or Illager Invasion), a Create pillager fort gate or village, the illager cathedral, a woodland mansion. Walk inside.",
+		" ",
+		"§6Why:§r leads to the Invoker, the Foundry and the castles.",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass (any of them):§r When Dungeons Arise: Illager Fort; Illager Invasion: Illager Fort; Create: Pillagers Arise: Createpillagerfortgate, Createpillagervillage, Cathedral Create; Minecraft: Mansion.",
+	]
 	quest.7798BC3AAAB21479.title: "Invoker"
 	quest.7798BC3AAAB21479.quest_desc: [
 		"§6Tier B2§r · recommended armour T1+ (iron)",
@@ -3750,6 +5887,10 @@
 		"",
 		" ",
 		"A former Predecessor apprentice, now the illagers' chief (Chronicle).",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Labyrinth (Illager Invasion).",
 	]
 	quest.79A40BB8311AA38D.title: "Imbuing Table"
 	quest.1CE654B0FE286ED8.title: "Frostmaw"
@@ -3761,7 +5902,16 @@
 		"",
 		" ",
 		"Sleeps in snowy biomes. Its ice crystal grants frost breath.",
+		" ",
+		"",
+		" ",
+		"Chronicle: \"In the north, where Frostmaw sleeps, the snow does not melt even in summer. The wagon trains to Maledictus' ice prison went the long way round its drift: whoever woke the beast never arrived. The ice crystal it guards is the very heart of the northern winter.\"",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Frostmaw Spawn (Mowzie's Mobs).",
 	]
+	task.10B3652C7F45EDFB.title: "Find a foundry or factory"
 	quest.486992895F5AE103.title: "The Foundry"
 	quest.486992895F5AE103.quest_desc: [
 		"A huge When Dungeons Arise industrial complex, the most Create-like dungeon.",
@@ -3769,8 +5919,21 @@
 		"",
 		" ",
 		"The reward for the foundry is on page 6 of the Chronicle of the Predecessors. Here it opens the way further into the dungeons.",
+		" ",
+		"",
+		" ",
+		"§6How it works:§r a foundry, a mechanical nest or an abandoned Create factory counts. Foundryman Prokhor's shift sheet is only in the chests of the Dungeons Arise foundry.",
+		" ",
+		"§6Why:§r leads to the mutants, the pirate airships and the mechanical nest.",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass (any of them):§r When Dungeons Arise: Foundry, Mechanical Nest; Create: Easy Structures: Factory 1, Factory 2.",
 	]
 	quest.43BCD5BEDAD97A28.title: "Mechanical Nest"
+	quest.43BCD5BEDAD97A28.quest_desc: [
+		"§6Explorer's Compass:§r Mechanical Nest (When Dungeons Arise).",
+	]
 	quest.427CBF8A4DCC4604.title: "Umvuthi"
 	quest.427CBF8A4DCC4604.quest_desc: [
 		"§6Tier B1§r · recommended armour T0+ (leather, wood)",
@@ -3778,6 +5941,14 @@
 		"",
 		" ",
 		"Chief of the Umvuthana grove in the savanna. The Sol Visage is a strong support weapon.",
+		" ",
+		"",
+		" ",
+		"Chronicle: \"The Umvuthana lived in their savanna grove long before we came to this land. Chief Umvuthi traded with us until we began cutting his grove for charcoal. Now the sun mask greets strangers with fire.\"",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Umvuthana Grove (Mowzie's Mobs).",
 	]
 	quest.3D39AC590848515D.title: "Mutants"
 	quest.3D39AC590848515D.quest_desc: [
@@ -3786,12 +5957,23 @@
 		"",
 		" ",
 		"Rare giants. The mutant skeleton's bones make armour, the mutant zombie drops a hammer.",
+		" ",
+		"",
+		" ",
+		"Chronicle: \"When the rivers by the foundries turned black, giants began to turn up on their banks: zombies and skeletons twice the height of the old ones. We told ourselves it was a sickness. I think it was the water we let out of the foundries.\"",
 	]
 	quest.279A7D44272088E3.title: "Pirate Airship"
 	quest.279A7D44272088E3.quest_desc: [
 		"A steampunk raider airship. Best approached in your own ship with an autocannon.",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Pillagersteampunkairship (Create: Structures Arise).",
 	]
 	quest.17D3428EAAF76613.title: "Sea Fortress"
+	quest.17D3428EAAF76613.quest_desc: [
+		"§6Explorer's Compass:§r Typhon (When Dungeons Arise).",
+	]
 	quest.48BCF78DE9988978.title: "Sculptor"
 	quest.48BCF78DE9988978.quest_desc: [
 		"§6Tier B1§r · recommended armour T0+ (leather, wood)",
@@ -3799,10 +5981,22 @@
 		"",
 		" ",
 		"A mountaintop monastery trial: climb the pillars. The reward is a gauntlet that raises the earth.",
+		" ",
+		"",
+		" ",
+		"Chronicle: \"The Sculptor is the master of stone: he raises rocks with a wave of his hand. Into his mountaintop monastery he admits only those who climb his pillars themselves, without machines. He threw our lifts off the mountain the very first night.\"",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Monastery (Mowzie's Mobs).",
 	]
 	quest.3D7D3C0F8D30BBEC.title: "Heavenly Isles"
 	quest.3D7D3C0F8D30BBEC.quest_desc: [
 		"The hardest When Dungeons Arise dungeon: floating islands. Only with a ship or a jetpack.",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Heavenly Challenger (When Dungeons Arise).",
 	]
 	quest.7FF8E2A4E5AA959C.title: "The Hunter"
 	quest.7FF8E2A4E5AA959C.quest_desc: [
@@ -3819,10 +6013,18 @@
 		"",
 		" ",
 		"The undead captain arrives with a skeleton crew. His chest is the best prize on the coast.",
+		" ",
+		"",
+		" ",
+		"Chronicle: \"While he was still alive, Dead Beard sailed along our shores and smuggled our brass across the sea. A storm took him and his crew but never let them go: on foggy nights he still sails in for a cargo that no longer exists.\"",
 	]
 	quest.18C073B0C5E8D751.title: "The Fallen Knight"
 	quest.18C073B0C5E8D751.quest_desc: [
 		"Ender Zoology: the fallen knight rides a dead horse at night. Unhorse him first.",
+		" ",
+		"",
+		" ",
+		"Chronicle: \"Mounted watchmen guarded the roads between our towns. When the guild left, one of them was never relieved from his post, and he did not leave it even after death. He still rides the old road and cuts down anyone who walks it without a pass.\"",
 	]
 	quest.3EE25C32D1CB359C.title: "The Overgrown Colossus"
 	quest.3EE25C32D1CB359C.quest_desc: [
@@ -3831,6 +6033,14 @@
 		"",
 		" ",
 		"Legendary Monsters: a colossus of stone and roots sleeps in the mossy temple.",
+		" ",
+		"",
+		" ",
+		"Chronicle: \"The colossus is older than the mossy temple: it seems the temple was simply built around it while it slept. We cut the jungle around it for plantations until the colossus rose, and the forest came back in a single summer. Since then I have believed that the land can defend itself.\"",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Mossy Temple (Legendary Monsters).",
 	]
 	quest.686148F36ABC3617.title: "The Frostbitten Golem"
 	quest.686148F36ABC3617.quest_desc: [
@@ -3841,6 +6051,14 @@
 		"",
 		" ",
 		"An ice temple in the snow is guarded by a golem that freezes everything around it.",
+		" ",
+		"",
+		" ",
+		"Chronicle: \"No man built the ice temple: its walls grow like frost on glass. We tried to cut ice there for our cellars, but the golem stopped our steam drill at full speed. The drill is still in the ice.\"",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Frostbitten Temple (Legendary Monsters).",
 	]
 	quest.2C8FF03B385BDEF7.title: "The Dune Sentinel"
 	quest.2C8FF03B385BDEF7.quest_desc: [
@@ -3851,6 +6069,14 @@
 		"",
 		" ",
 		"The ruined desert pyramid is not a tomb but a sentinel post. He wakes at the sound of footsteps.",
+		" ",
+		"",
+		" ",
+		"Chronicle: \"The ruined pyramid was raised by those who lived in the sands before us, and they left a sentinel in it: a machine without a single cog that walks all the same. We never understood how it was built. When we began digging wells nearby for the observatory, the sentinel came out to meet us.\"",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Ruined Pyramid (Legendary Monsters).",
 	]
 	quest.2A65CFE61AEB1003.title: "The Void Blossom"
 	quest.2A65CFE61AEB1003.quest_desc: [
@@ -3859,6 +6085,14 @@
 		"",
 		" ",
 		"A flower that drinks light and life grows in lush caves. Cut it before it takes root.",
+		" ",
+		"",
+		" ",
+		"Chronicle: \"This flower grew slowly while it was quiet underground. We went down into the lush caves for clay and water, and our mines brought it air and noise: it woke and reached for our lanterns. Where it blooms, every living thing fades.\"",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Void Blossom (Bosses of Mass Destruction).",
 	]
 	quest.0429C3D8CE8E46FD.title: "The Night Lich"
 	quest.0429C3D8CE8E46FD.quest_desc: [
@@ -3869,6 +6103,14 @@
 		"",
 		" ",
 		"Bosses of Mass Destruction: a lich tower stands in the snowy mountains. He summons spirits and throws frost bolts.",
+		" ",
+		"",
+		" ",
+		"Chronicle: \"The lich's tower is older than our ice prison. Its master, they say, also looked for a way to live longer than he was given, and found it, to his sorrow. Runaway apprentices asked him for shelter; at night their voices can still be heard from the tower.\"",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Lich Tower (Bosses of Mass Destruction).",
 	]
 	quest.04DC3BDA0C03A032.title: "The Nether Gauntlet"
 	quest.04DC3BDA0C03A032.quest_desc: [
@@ -3879,6 +6121,14 @@
 		"",
 		" ",
 		"A huge stone gauntlet lies in a Nether arena. It fires lasers and hurls fireballs.",
+		" ",
+		"",
+		" ",
+		"Chronicle: \"Whose hand it is we never learned: none of us ever saw the giant it belonged to whole. Ignat wanted to break it up for fireproof stone for the forge, but the hand clenched into a fist and struck with fire. Since then we have kept away from that Nether arena.\"",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Gauntlet Arena (Bosses of Mass Destruction).",
 	]
 	quest.1B7BA27E6BE00990.title: "The Obsidilith"
 	quest.1B7BA27E6BE00990.quest_desc: [
@@ -3887,6 +6137,14 @@
 		"",
 		" ",
 		"A living obsidian monolith stands in the End. Whoever defeats it gets the obsidian heart.",
+		" ",
+		"",
+		" ",
+		"Chronicle: \"The monolith in the End is like the stones whose carvings my father followed for his first cog, only it is alive. It guards the obsidian heart and lets no one near it. We thought the monoliths were silent; this one answered.\"",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Obsidilith Arena (Bosses of Mass Destruction).",
 	]
 	quest.0EB4F8AFE6A5B3D1.title: "The Ice Maze"
 	quest.0EB4F8AFE6A5B3D1.quest_desc: [
@@ -3895,6 +6153,10 @@
 		"",
 		" ",
 		"Chronicle: \"The apprentices fled Maledictus' ice prison towards the sea. A stranger's ship waited for them at the edge of the ice: the captain took her fee in advance and promised warm water. In spring we found only masts sticking out of the pack ice.\"",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Shipwreck (Aquamirae).",
 	]
 	quest.4F8C62BD832D48F0.title: "Captain Cornelia"
 	quest.4F8C62BD832D48F0.quest_desc: [
@@ -3909,6 +6171,10 @@
 		"",
 		" ",
 		"Chronicle: \"Cornelia swore to carry the runaways to warm water. She still holds her course, in the ice. We punished the hungry, and the cold punished both them and her.\"",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Pirate Ship (Aquamirae).",
 	]
 	quest.3D4A10682B7DC98E.title: "The Otherside"
 	quest.3D4A10682B7DC98E.quest_desc: [
@@ -3925,6 +6191,10 @@
 		"",
 		" ",
 		"Chronicle: \"When the mountain veins ran dry, the council ordered us down. We ran a tram to the deepslate and cut halls, stores and barracks for the shifts there. It was our last and deepest mine.\"",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Ancient Keep (Archaion).",
 	]
 	quest.04A01F6009A3DC4F.title: "The Last of Deepslate"
 	quest.04A01F6009A3DC4F.quest_desc: [
@@ -3937,26 +6207,50 @@
 		"",
 		" ",
 		"Chronicle: \"Efim told us to wall up the far face, and we laughed. The last thing we found down there found us first. The tram went up empty.\"",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Ancient Keep (Archaion).",
 	]
 	quest.46682DFD209254EF.title: "Raider Settlement"
 	quest.46682DFD209254EF.quest_desc: [
 		"Create: Pillager Arise: raiders have settled among Create machinery: traps, towers, their own camps and forts. Settlements are rare, usually 1-3 thousand blocks away. Go in pairs.",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Createpillagervillage (Create: Pillagers Arise).",
 	]
 	quest.36A56701B93E88B5.title: "Raider Blimp"
 	quest.36A56701B93E88B5.quest_desc: [
 		"A raider blimp hangs in the sky. Get up there with your own ship, a jetpack, or by gliding from a nearby mountain.",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Createpillagerblimp (Create: Pillagers Arise).",
 	]
 	quest.1629CA747584D1D0.title: "Keep Kayra"
 	quest.1629CA747584D1D0.quest_desc: [
 		"Castle, citadel and armoury chests hold Epic Knights weapons and shields, strips and hilts, heraldry and plumes, and now and then chainmail horse armour and a war barding: these cannot be crafted, only found. The farther from spawn, the more often steel plate turns up.",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Keep Kayra (When Dungeons Arise).",
 	]
 	quest.6DDB148C9AF494AF.title: "The Forbidden Castle"
 	quest.6DDB148C9AF494AF.quest_desc: [
 		"Incendium rebuilt the Nether: new biomes, dwellers and fortresses. The Forbidden Castle is the most dangerous of them: traps, piglin guards and a vault with Incendium weapons. Do not go alone.",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Forbidden Castle (Incendium).",
 	]
 	quest.704E905ADFCB78A3.title: "Castles of the Realm"
 	quest.704E905ADFCB78A3.quest_desc: [
 		"The dark castle, castle ruins, forts and the Collapsed Kingdom. Their chests hold Epic Knights weapons and shields, heraldry, horse armour and now and then steel plate.",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass (any of them):§r Create: Structures Arise: Create Ruined Castle, Darkcastle; Moog's Voyager Structures: Castle Ruins; mss: Castle Ruin; Medieval Buildings: Fort; When Dungeons Arise: Keep Kayra; Legendary Monsters: Collapsed Kingdom.",
 	]
 	quest.0AC2981AA27F29AA.title: "The Lava Eater"
 	quest.0AC2981AA27F29AA.quest_desc: [
@@ -3967,6 +6261,14 @@
 		"",
 		" ",
 		"It lives in the Nether's lava lakes. Its hide makes fiery boots that let you walk on lava like stone.",
+		" ",
+		"",
+		" ",
+		"Chronicle: \"For this beast lava is what water is to us. We pumped lava from its Nether lakes for the foundries, and with every barrel it swam closer. The last time it dragged the barrel down, pump and all.\"",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Lava Eater Spawn (Legendary Monsters).",
 	]
 	quest.7539F6D15BEECA36.title: "The Possessed Paladin"
 	quest.7539F6D15BEECA36.quest_desc: [
@@ -3975,6 +6277,14 @@
 		"",
 		" ",
 		"An ancient fortress in the dark forest holds a paladin his oath never released. He hits hard and takes hits well, and is nearly untouchable at range.",
+		" ",
+		"",
+		" ",
+		"Chronicle: \"The Collapsed Kingdom was already old when we came here: the king had long since turned to dust and the walls had fallen, yet the paladin still stands guard. He serves his king the way our guardians serve us, who are gone. Only the one who defeats him can set him free.\"",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Collapsed Kingdom (Legendary Monsters).",
 	]
 	quest.296028D6BC6BA78D.title: "The Obliterator"
 	quest.296028D6BC6BA78D.quest_desc: [
@@ -3983,6 +6293,10 @@
 		"",
 		" ",
 		"The Legendary Monsters space station and its master. Its shards make annihilator armour, trophy tier T6.",
+		" ",
+		"",
+		" ",
+		"Chronicle: \"On the islands of the End stands a foreign station, made of metal like our rocket but built long before us. So someone before us also tried to leave their land for the sky. The Obliterator guards it still, though there has long been no one left to fly away in it.\"",
 	]
 	quest.7B292058E97E10D1.title: "The Cataclysm Retinue"
 	quest.7B292058E97E10D1.quest_desc: [
@@ -3991,6 +6305,14 @@
 		"",
 		" ",
 		"Tier B2 mini-bosses near the Cataclysm guardians' lairs: the Kobolediator in desert camps, the Prowler in the Ancient Factory, the Clawdian in the Acropolis. Practice before the guardians themselves.",
+		" ",
+		"",
+		" ",
+		"Chronicle: \"The great guardians have servants: the kobolds of the desert camps, the beasts of the Acropolis, and our own mechanical Prowler, which still walks the workshops of the Ancient Factory as on the day we wound it up. The servants are strong, but nowhere near their masters. Whoever cannot handle the servants should not go to their lords.\"",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass (any of them):§r L_Ender's Cataclysm 1.21.1: Ancient Factory, Acropolis.",
 	]
 	quest.03BA46A98823FEDC.title: "Monster Hunter"
 	quest.03BA46A98823FEDC.quest_desc: [
@@ -4019,14 +6341,30 @@
 	quest.189164932188DE72.title: "Elder Guardian"
 	quest.189164932188DE72.quest_desc: [
 		"§6Tier B1§r · recommended armour T0+ (leather, wood)",
+		" ",
+		"",
+		" ",
+		"Chronicle: \"The ocean monument stood in the sea long before our port. Its Elder Guardian laid such a weariness on our divers that the pick fell from their hands. We left the monument alone: the first and last time we ever listened to the sea.\"",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Monument (Minecraft).",
 	]
 	quest.326318105CFEBFA0.title: "The Wither"
 	quest.326318105CFEBFA0.quest_desc: [
 		"§6Tier B3§r · recommended armour T2+ (brass)",
+		" ",
+		"",
+		" ",
+		"Chronicle: \"No land and no master sets the Wither: you put it together with your own hands, from soul sand and skulls taken in the Nether fortresses, for the star in its chest. We built one once to light a beacon. The beacon burns to this day, and grass still does not grow on that spot.\"",
 	]
 	quest.643E6D152A424A54.title: "Ender Dragon"
 	quest.643E6D152A424A54.quest_desc: [
 		"§6Tier B5§r · recommended armour T4+ (steel plate)",
+		" ",
+		"",
+		" ",
+		"Chronicle: \"A dragon circles over the main island of the End, the eldest of all the guardians we ever met. We never touched it: we flew to the far islands for levitite in our ships, in a wide circle, and still lost people. You, the heirs, can do what we never dared.\"",
 	]
 	quest.14E69E154C2CB3B6.title: "The Warden"
 	quest.14E69E154C2CB3B6.quest_desc: [
@@ -4035,6 +6373,14 @@
 		"",
 		" ",
 		"Optional and very dangerous. Sometimes running is the better plan.",
+		" ",
+		"",
+		" ",
+		"Chronicle: \"Below our mines stand ancient cities older than us, and the Warden lives in them. It is blind, but it hears every step and every stroke of a pick. Efim the mine master taught his shift to walk there in silence, and still not all of them came back.\"",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Ancient City (Minecraft).",
 	]
 	quest.77BBF5FA460B1483.title: "L_Ender's Cataclysm"
 	quest.77BBF5FA460B1483.quest_desc: [
@@ -4043,6 +6389,14 @@
 	quest.178004D6CDBA6E92.title: "Ender Golem"
 	quest.178004D6CDBA6E92.quest_desc: [
 		"§6Tier B5§r · recommended armour T4+ (steel plate)",
+		" ",
+		"",
+		" ",
+		"Chronicle: \"In the Ruined Citadel of the End the stone walks on its own: golems of the void guard its gates and halls. They were made not by us but by those who lived in the End before us. The masters left long ago, and the golems still serve the Ender Guardian.\"",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Ruined Citadel (L_Ender's Cataclysm 1.21.1).",
 	]
 	quest.5EA8C91B92D8229F.title: "Ender Guardian"
 	quest.5EA8C91B92D8229F.quest_desc: [
@@ -4055,6 +6409,10 @@
 		"",
 		" ",
 		"Guardian of the last levitite veins (Chronicle of the Predecessors).",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Ruined Citadel (L_Ender's Cataclysm 1.21.1).",
 	]
 	quest.4E57459B78B47811.title: "Netherite Monstrosity"
 	quest.4E57459B78B47811.quest_desc: [
@@ -4069,6 +6427,10 @@
 		"",
 		" ",
 		"The smith Ignat's golem that fed the Nether furnaces (Chronicle of the Predecessors).",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Soul Black Smith (L_Ender's Cataclysm 1.21.1).",
 	]
 	quest.208FFA609A30F062.title: "Ignis"
 	quest.208FFA609A30F062.quest_desc: [
@@ -4079,6 +6441,14 @@
 		"",
 		" ",
 		"The lord of flame from the Burning Arena in the Nether.",
+		" ",
+		"",
+		" ",
+		"Chronicle: \"Ignat wanted a fire that knows by itself where to strike, and he grew Ignis. The knight still holds the Burning Arena by the forge and cannot tell a thief from an heir.\" More in the Chronicle of the Predecessors, page 10.",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Burning Arena (L_Ender's Cataclysm 1.21.1).",
 	]
 	quest.2CBA25BA0957B46C.title: "The Harbinger"
 	quest.2CBA25BA0957B46C.quest_desc: [
@@ -4087,6 +6457,14 @@
 		"",
 		" ",
 		"A mechanical boss from the Ancient Factory.",
+		" ",
+		"",
+		" ",
+		"Chronicle: \"The whole guild built the Harbinger: every master put a mechanism of his own into it. It stands at the gates of the Ancient Factory and lets through only one who is stronger than itself.\" More in the Chronicle of the Predecessors, pages 8 and 9.",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Ancient Factory (L_Ender's Cataclysm 1.21.1).",
 	]
 	quest.0E8566C7CED0495F.title: "The Leviathan"
 	quest.0E8566C7CED0495F.quest_desc: [
@@ -4099,6 +6477,10 @@
 		"",
 		" ",
 		"Guardian of the Predecessors' sunken port (Chronicle of the Predecessors).",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Sunken City (L_Ender's Cataclysm 1.21.1).",
 	]
 	quest.698F9A216828CADC.title: "Ancient Remnant"
 	quest.698F9A216828CADC.quest_desc: [
@@ -4113,6 +6495,10 @@
 		"",
 		" ",
 		"Guardian of the observatory where the Predecessors plotted the rocket's path (Chronicle).",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Cursed Pyramid (L_Ender's Cataclysm 1.21.1).",
 	]
 	quest.068D465E27A99775.title: "Maledictus"
 	quest.068D465E27A99775.quest_desc: [
@@ -4127,6 +6513,10 @@
 		"",
 		" ",
 		"Warden of the ice prison that held the future illagers (Chronicle of the Predecessors).",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Frosted Prison (L_Ender's Cataclysm 1.21.1).",
 	]
 	quest.1E0164143136A3DB.title: "Scylla"
 	quest.1E0164143136A3DB.quest_desc: [
@@ -4135,6 +6525,14 @@
 		"",
 		" ",
 		"The storm queen of the sea.",
+		" ",
+		"",
+		" ",
+		"Chronicle: \"The storm in which Scylla was born left the sunken port for the open sea and settled over the Acropolis. Our airships came up to its columns more than once, but Scylla raised the wind before we could drop anchor.\" More in the Chronicle of the Predecessors.",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Acropolis (L_Ender's Cataclysm 1.21.1).",
 	]
 	quest.5668AD0EA39A2CC0.title: "Block Factory's Bosses"
 	quest.5668AD0EA39A2CC0.quest_desc: [
@@ -4149,6 +6547,14 @@
 		"",
 		" ",
 		"Lives in snowy lands.",
+		" ",
+		"",
+		" ",
+		"Chronicle: \"On the snowy plains, in a hideout under the drifts, lives the yeti. It left our hunters alone while they took one beast a winter. When we began killing animals for hides to sell, the yeti came out onto the trail itself.\"",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Yeti Hideout (Bosses'Rise).",
 	]
 	quest.483EF1AFDC5F8771.title: "Sandworm"
 	quest.483EF1AFDC5F8771.quest_desc: [
@@ -4159,6 +6565,14 @@
 		"",
 		" ",
 		"Hides in the desert sands.",
+		" ",
+		"",
+		" ",
+		"Chronicle: \"The desert where our observatory stood only looks empty: under the dunes, in the sandworm's nest, the ground trembles. It smelled our water caravans a mile away. We laid our road over stone, not sand, and still lost wagons.\"",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Sandworm Nest (Bosses'Rise).",
 	]
 	quest.5D39013E81828865.title: "Pirate Captain"
 	quest.5D39013E81828865.quest_desc: [
@@ -4167,23 +6581,58 @@
 		"",
 		" ",
 		"Commands a pirate ship.",
+		" ",
+		"",
+		" ",
+		"Chronicle: \"Pirates came from foreign shores when our port grew rich. Their vessel is called the Kraken Ship: they say the captain feeds the beast in the deep, and it sinks whoever will not pay tribute.\"",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Kraken Ship (Bosses'Rise).",
 	]
 	quest.22F2F97114CE638E.title: "Kraken"
 	quest.22F2F97114CE638E.quest_desc: [
 		"§6Tier B4§r · recommended armour T3+ (diamond-level)",
+		" ",
+		"",
+		" ",
+		"Chronicle: \"The Kraken is the guardian of the deep sea, older than the pirates and older than us. The pirates only learned to sail their ship above its lair and pay it with other people's vessels. Our ore barges it took for nothing.\"",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Kraken Ship (Bosses'Rise).",
 	]
 	quest.1BA7B7B5AC438D9C.title: "Underworld Knight"
 	quest.1BA7B7B5AC438D9C.quest_desc: [
 		"§6Tier B3§r · recommended armour T2+ (brass)",
 		" ",
 		"§cHeat:§r a cooling lining on your armour and water",
+		" ",
+		"",
+		" ",
+		"Chronicle: \"In the Underworld Arena in the Nether wastes stands a knight who swore his oath to fire long before Ignat lit his first burner. We found the key to the arena but never dared to open it. Ignat envied it: if only I had such a guardian, he used to say.\"",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Underworld Arena (Bosses'Rise).",
 	]
 	quest.79AD95D4B5440CF7.title: "Infernal Dragon"
 	quest.79AD95D4B5440CF7.quest_desc: [
 		"§6Tier B3§r · recommended armour T2+ (brass)",
+		" ",
+		"",
+		" ",
+		"Chronicle: \"We did not build the Dragon Tower: it stood here when my father was still carving cogs from stone. The knights who guarded it have long since crumbled inside their armour, and the fire dragon in the tower was left without a master. We took their iron from the stairs, and the dragon woke.\"",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Dragon Tower (Bosses'Rise).",
 	]
 	quest.303CF052DFDAC070.title: "Boss Slayer"
 	quest.303CF052DFDAC070.quest_desc: [
 		"Defeat the pack's major bosses: the Ender Dragon, the Wither, Ignis, the Harbinger, the Leviathan. A server legend!",
 	]
+	image.14257608E6E536AF.title: "Vanilla Guardians"
+	image.4A635952CE769FF5.title: "Cataclysm"
+	image.2FFD88A278348B9A.title: "Block Factory"
 }

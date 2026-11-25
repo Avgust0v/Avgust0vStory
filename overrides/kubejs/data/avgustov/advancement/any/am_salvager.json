@@ -1,0 +1,18 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "aquamirae:salvager_suit",
+       "aquamirae:salvager_waders",
+       "aquamirae:salvager_boots"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

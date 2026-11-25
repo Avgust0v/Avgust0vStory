@@ -1,0 +1,19 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "cataclysm:cursium_helmet",
+       "cataclysm:cursium_chestplate",
+       "cataclysm:cursium_leggings",
+       "cataclysm:cursium_boots"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

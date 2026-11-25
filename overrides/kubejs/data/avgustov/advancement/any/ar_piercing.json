@@ -1,0 +1,19 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "cgs:round_revolver_piercing",
+       "cgs:round_gatling_piercing",
+       "cgs:round_shotgun_flechette_steel",
+       "cgs:nail_steel"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

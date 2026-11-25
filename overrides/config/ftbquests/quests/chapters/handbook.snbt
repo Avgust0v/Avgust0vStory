@@ -31,7 +31,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 13.5d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -56,14 +56,15 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "336C8CB622BB21FA"
 					type: "checkmark"
 				}
 			]
-			x: 1.75d
-			y: 3.5d
+			x: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["277DE12840B5758E"]
@@ -78,14 +79,15 @@
 					xp: 20
 				}
 			]
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "5ECE32B9B758CC83"
 					type: "checkmark"
 				}
 			]
-			x: 4.5d
-			y: 3.5d
+			x: 0.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["277DE12840B5758E"]
@@ -100,14 +102,15 @@
 					xp: 20
 				}
 			]
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "3A654746CB85FF11"
 					type: "checkmark"
 				}
 			]
-			x: 7.0d
-			y: 3.5d
+			x: 2.0d
+			y: 3.75d
 		}
 		{
 			dependencies: ["511F2A5EA7E27314"]
@@ -122,14 +125,15 @@
 					xp: 20
 				}
 			]
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "6CFDDB421A6CA34C"
 					type: "checkmark"
 				}
 			]
-			x: 6.25d
-			y: 5.5d
+			x: 4.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["277DE12840B5758E"]
@@ -144,14 +148,15 @@
 					xp: 10
 				}
 			]
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "79B163FF482C5F04"
 					type: "checkmark"
 				}
 			]
-			x: 9.75d
-			y: 3.5d
+			x: -2.0d
+			y: -1.25d
 		}
 		{
 			dependencies: ["277DE12840B5758E"]
@@ -166,14 +171,15 @@
 					xp: 10
 				}
 			]
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "48E5EB7C3C31014D"
 					type: "checkmark"
 				}
 			]
-			x: 12.25d
-			y: 3.5d
+			x: 2.0d
+			y: 1.25d
 		}
 		{
 			dependencies: ["511F2A5EA7E27314"]
@@ -188,14 +194,15 @@
 					xp: 10
 				}
 			]
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "1664C77070805897"
 					type: "checkmark"
 				}
 			]
-			x: 8.0d
-			y: 5.5d
+			x: 4.0d
+			y: 3.75d
 		}
 		{
 			dependencies: ["6C64A75635356346"]
@@ -219,14 +226,15 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "4E965B687760EBEE"
 					type: "checkmark"
 				}
 			]
-			x: 1.75d
-			y: 5.5d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5C05E25AE1149DB2"]
@@ -241,14 +249,15 @@
 					xp: 10
 				}
 			]
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "35F77579D44F5BE1"
 					type: "checkmark"
 				}
 			]
-			x: 0.0d
-			y: 7.5d
+			x: 6.0d
+			y: -1.25d
 		}
 		{
 			dependencies: ["5C05E25AE1149DB2", "2741FB41F86956F1"]
@@ -277,8 +286,8 @@
 					type: "checkmark"
 				}
 			]
-			x: 1.75d
-			y: 7.5d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5C05E25AE1149DB2"]
@@ -293,14 +302,15 @@
 					xp: 20
 				}
 			]
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "62A114E8F5F1729B"
 					type: "checkmark"
 				}
 			]
-			x: 3.5d
-			y: 7.5d
+			x: 6.0d
+			y: 1.25d
 		}
 		{
 			dependencies: ["277DE12840B5758E"]
@@ -315,14 +325,15 @@
 					xp: 10
 				}
 			]
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "7D7891EB369443AC"
 					type: "checkmark"
 				}
 			]
-			x: 15.0d
-			y: 3.5d
+			x: 0.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["277DE12840B5758E"]
@@ -337,14 +348,15 @@
 					xp: 10
 				}
 			]
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "7CFA3CA3527C0288"
 					type: "checkmark"
 				}
 			]
-			x: 17.5d
-			y: 3.5d
+			x: -2.0d
+			y: 1.25d
 		}
 		{
 			dependencies: ["277DE12840B5758E"]
@@ -359,14 +371,15 @@
 					xp: 10
 				}
 			]
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "4E31C11FC7D03A9D"
 					type: "checkmark"
 				}
 			]
-			x: 20.25d
-			y: 3.5d
+			x: 2.0d
+			y: -3.75d
 		}
 		{
 			dependencies: ["277DE12840B5758E"]
@@ -381,14 +394,15 @@
 					xp: 10
 				}
 			]
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "043817B2EB0C6291"
 					type: "checkmark"
 				}
 			]
-			x: 22.75d
-			y: 3.5d
+			x: 2.0d
+			y: -1.25d
 		}
 		{
 			dependencies: ["277DE12840B5758E"]
@@ -403,14 +417,16 @@
 					xp: 10
 				}
 			]
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "53C3C693D78113B3"
 					type: "checkmark"
 				}
 			]
-			x: 25.5d
-			y: 3.5d
+			x: -2.0d
+			y: 0.0d
 		}
 	]
+	tags: ["grp_eras"]
 }

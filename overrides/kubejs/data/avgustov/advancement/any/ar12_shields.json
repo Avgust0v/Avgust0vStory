@@ -1,0 +1,21 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "magistuarmory:iron_heatershield",
+       "magistuarmory:wood_heatershield",
+       "magistuarmory:iron_kiteshield",
+       "magistuarmory:iron_roundshield",
+       "magistuarmory:iron_ellipticalshield",
+       "magistuarmory:copper_heatershield"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

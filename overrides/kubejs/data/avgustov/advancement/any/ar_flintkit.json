@@ -1,0 +1,20 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "cgs:flintlock_long_barrel",
+       "cgs:blunderbuss_barrel",
+       "cgs:blunderbuss_barrel_long",
+       "cgs:flintlock_chambers",
+       "cgs:paper_shot"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

@@ -1,1 +1,13 @@
-{"texture":"avgustov:textures/map_icons/minecraft/warden.png"}
+{
+  "texture": "avgustov:textures/face_src/warden/warden.png",
+  "slice": {
+    "x": 10,
+    "y": 42,
+    "width": 16,
+    "height": 16
+  },
+  "default_image_size": {
+    "width": 128,
+    "height": 128
+  }
+}

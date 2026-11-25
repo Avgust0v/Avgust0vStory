@@ -1,0 +1,20 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "new_shield_variants:netherite_shield",
+       "magistuarmory:netherite_heatershield",
+       "magistuarmory:netherite_kiteshield",
+       "magistuarmory:netherite_roundshield",
+       "magistuarmory:netherite_ellipticalshield"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

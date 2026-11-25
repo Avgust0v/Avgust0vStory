@@ -7,14 +7,75 @@
 		id: "createbigcannons:cannon_mount"
 	}
 	id: "6384AA12155B113A"
-	images: [ ]
-	order_index: 1
+	images: [
+		{
+			alpha: 255
+			color: 16777215
+			height: 0.75d
+			id: "33B7BCC1BD1C8DBB"
+			image: "avgustov:textures/questbook/decor/banner_plaque.png"
+			order: 0
+			rotation: 0.0d
+			text_inset: 14
+			text_on_image: true
+			text_shadow: true
+			width: 3.0d
+			x: -2.7d
+			y: 0.0d
+		}
+		{
+			alpha: 255
+			color: 16777215
+			height: 0.75d
+			id: "01CEB0D673A6B78F"
+			image: "avgustov:textures/questbook/decor/banner_plaque.png"
+			order: 0
+			rotation: 0.0d
+			text_inset: 14
+			text_on_image: true
+			text_shadow: true
+			width: 3.0d
+			x: -2.7d
+			y: 1.25d
+		}
+		{
+			alpha: 255
+			color: 16777215
+			height: 0.75d
+			id: "66051C4D60E02FDA"
+			image: "avgustov:textures/questbook/decor/banner_plaque.png"
+			order: 0
+			rotation: 0.0d
+			text_inset: 14
+			text_on_image: true
+			text_shadow: true
+			width: 3.0d
+			x: -0.2d
+			y: -3.75d
+		}
+		{
+			alpha: 255
+			color: 16777215
+			height: 0.75d
+			id: "3680975E2E88F189"
+			image: "avgustov:textures/questbook/decor/banner_plaque.png"
+			order: 0
+			rotation: 0.0d
+			text_inset: 14
+			text_on_image: true
+			text_shadow: true
+			width: 3.0d
+			x: -2.2d
+			y: 2.5d
+		}
+	]
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["3C85E444B7B97A9C"]
 			icon: {
-				id: "basicweapons:iron_glaive"
+				id: "createbigcannons:cannon_mount"
 			}
 			id: "10B7D2BF5BA572F7"
 			rewards: [
@@ -31,266 +92,13 @@
 					id: "2E7E4AC506E0EEF9"
 					item: {
 						count: 1
-						id: "basicweapons:iron_glaive"
-					}
-					type: "item"
-				}
-			]
-			x: 10.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["10B7D2BF5BA572F7"]
-			id: "64BE3391B428A886"
-			rewards: [
-				{
-					id: "3404CF4E6B2804DE"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					id: "799411D8633BE238"
-					item: {
-						count: 1
-						id: "new_shield_variants:iron_shield"
-					}
-					type: "item"
-				}
-				{
-					id: "5D95BFCEC90772C0"
-					item: {
-						count: 1
-						id: "more_bows_and_arrows:iron_bow"
+						id: "minecraft:shield"
 					}
 					type: "item"
 				}
 			]
 			x: 0.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["10B7D2BF5BA572F7", "2C8F1AF81F0DCA24"]
-			icon: {
-				id: "create_sa:brass_chestplate"
-			}
-			id: "5EA91EDFFD55CF09"
-			rewards: [
-				{
-					id: "087EE7617E8357A9"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [
-				{
-					id: "775A559A298180A0"
-					item: {
-						count: 1
-						id: "create_sa:brass_helmet"
-					}
-					type: "item"
-				}
-				{
-					id: "782A2042FBA9A7D2"
-					item: {
-						count: 1
-						id: "create_sa:brass_chestplate"
-					}
-					type: "item"
-				}
-				{
-					id: "29C1C8DEBF9F9F11"
-					item: {
-						count: 1
-						id: "create_sa:brass_leggings"
-					}
-					type: "item"
-				}
-				{
-					id: "2AE09CA447F811C5"
-					item: {
-						count: 1
-						id: "create_sa:brass_boots"
-					}
-					type: "item"
-				}
-			]
-			x: 2.75d
-			y: 3.5d
-		}
-		{
-			dependencies: ["5EA91EDFFD55CF09", "5DAF564C963FD05E"]
-			id: "3533D9A9B549A644"
-			rewards: [
-				{
-					id: "052FBDC30DD68AAC"
-					type: "xp"
-					xp: 80
-				}
-			]
-			tasks: [
-				{
-					id: "4C687C9E755C038B"
-					item: {
-						count: 1
-						id: "immersive_armors:heavy_helmet"
-					}
-					type: "item"
-				}
-				{
-					id: "4A92F08A3C3F6975"
-					item: {
-						count: 1
-						id: "immersive_armors:heavy_chestplate"
-					}
-					type: "item"
-				}
-				{
-					id: "4848232E5A13ED29"
-					item: {
-						count: 1
-						id: "immersive_armors:heavy_leggings"
-					}
-					type: "item"
-				}
-				{
-					id: "643232793EFE1DBF"
-					item: {
-						count: 1
-						id: "immersive_armors:heavy_boots"
-					}
-					type: "item"
-				}
-			]
-			x: 1.75d
-			y: 5.5d
-		}
-		{
-			dependencies: ["10B7D2BF5BA572F7", "2C8F1AF81F0DCA24"]
-			id: "167B967639030738"
-			optional: true
-			rewards: [
-				{
-					id: "6DFAB9E3F34FE68F"
-					type: "xp"
-					xp: 40
-				}
-			]
-			shape: "diamond"
-			tasks: [
-				{
-					id: "168DF337A4CE3572"
-					item: {
-						count: 1
-						id: "immersive_armors:steampunk_chestplate"
-					}
-					type: "item"
-				}
-			]
-			x: 5.25d
-			y: 3.5d
-		}
-		{
-			dependencies: ["10B7D2BF5BA572F7"]
-			id: "1594ED87597CB23C"
-			optional: true
-			rewards: [
-				{
-					id: "166FC29032A7A259"
-					type: "xp"
-					xp: 20
-				}
-			]
-			shape: "diamond"
-			tasks: [
-				{
-					id: "7ACCC9B8FAD986C4"
-					item: {
-						count: 1
-						id: "xpbook:xp_tome"
-					}
-					type: "item"
-				}
-			]
-			x: 8.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["10B7D2BF5BA572F7"]
-			id: "20FC3401E61EA89B"
-			rewards: [
-				{
-					id: "37B236B72C5FB6A7"
-					type: "xp"
-					xp: 60
-				}
-				{
-					id: "77DF21DDEFD58E93"
-					table_id: 85931532171863961L
-					type: "choice"
-				}
-			]
-			tasks: [
-				{
-					id: "1E38B1E6E437146E"
-					item: {
-						count: 1
-						id: "torchmaster:megatorch"
-					}
-					type: "item"
-				}
-			]
-			x: 10.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["20FC3401E61EA89B"]
-			icon: {
-				id: "minecraft:iron_sword"
-			}
-			id: "69711FBF08F72FB9"
-			rewards: [
-				{
-					id: "6CAA5B35014B599A"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [
-				{
-					id: "60078FBF6CBF74DD"
-					type: "checkmark"
-				}
-			]
-			x: 9.75d
-			y: 5.5d
-		}
-		{
-			dependencies: ["20FC3401E61EA89B", "0212EF427C731405"]
-			id: "703292B04762F4AB"
-			optional: true
-			rewards: [
-				{
-					id: "6BC4A67C21F5D893"
-					type: "xp"
-					xp: 30
-				}
-			]
-			shape: "diamond"
-			tasks: [
-				{
-					id: "1A905B657FF9729B"
-					item: {
-						count: 1
-						id: "torchmaster:dreadlamp"
-					}
-					type: "item"
-				}
-			]
-			x: 11.5d
-			y: 5.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["10B7D2BF5BA572F7"]
@@ -313,8 +121,8 @@
 					type: "item"
 				}
 			]
-			x: 14.0d
-			y: 3.5d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["61F51669057A5A69"]
@@ -345,8 +153,400 @@
 					type: "item"
 				}
 			]
-			x: 14.0d
-			y: 5.5d
+			x: 6.0d
+			y: 1.25d
+		}
+		{
+			dependencies: ["5372210F85C8C1F8"]
+			icon: {
+				id: "cgs:blunderbuss_barrel"
+			}
+			id: "2D103EFF73F65B56"
+			optional: true
+			rewards: [
+				{
+					id: "1B355EB16810B8E1"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "47B7F7BFFD782A08"
+					item: {
+						count: 1
+						id: "cgs:flintlock_long_barrel"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "08F282E03E55EE4A"
+					item: {
+						count: 1
+						id: "cgs:blunderbuss_barrel"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3151ADEDA46D2573"
+					item: {
+						count: 1
+						id: "cgs:blunderbuss_barrel_long"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6DA976A4C98E389D"
+					item: {
+						count: 1
+						id: "cgs:flintlock_chambers"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "12A5CC4E55A19143"
+					item: {
+						count: 1
+						id: "cgs:paper_shot"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/ar_flintkit"
+					criterion: ""
+					id: "75F78B212C180387"
+					type: "advancement"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D103EFF73F65B56", "2C8F1AF81F0DCA24"]
+			icon: {
+				id: "cgs:scope"
+			}
+			id: "55E240F4678C38C1"
+			optional: true
+			rewards: [
+				{
+					id: "702F0DFB931EDD46"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "39EA766B7175AE1A"
+					item: {
+						count: 1
+						id: "cgs:stock"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "170FE2837A7F9078"
+					item: {
+						count: 1
+						id: "cgs:scope"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "738F6A06E813E876"
+					item: {
+						count: 1
+						id: "cgs:bayonet"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2643FB090C1B2154"
+					item: {
+						count: 1
+						id: "cgs:big_bayonet"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/ar_gunkit"
+					criterion: ""
+					id: "76928AFC347B7EF1"
+					type: "advancement"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5372210F85C8C1F8", "5DAF564C963FD05E"]
+			id: "77780F3504F257AB"
+			rewards: [
+				{
+					id: "3F8C694D5176108C"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					id: "554856FDEF180A85"
+					item: {
+						count: 1
+						id: "cgs:revolver"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 1.25d
+		}
+		{
+			dependencies: ["77780F3504F257AB"]
+			icon: {
+				id: "cgs:auto_fire"
+			}
+			id: "73652F36B4E055A0"
+			optional: true
+			rewards: [
+				{
+					id: "5425ED4EF5AFA81A"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "008E2BE9C7698C19"
+					item: {
+						count: 1
+						id: "cgs:long_barrel"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "71EC3CF9BDB991D0"
+					item: {
+						count: 1
+						id: "cgs:round_belt"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "51F714C745BC64AE"
+					item: {
+						count: 1
+						id: "cgs:auto_fire"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/ar_revkit"
+					criterion: ""
+					id: "03971271BBA6D833"
+					type: "advancement"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["77780F3504F257AB"]
+			icon: {
+				id: "cgs:shotgun"
+			}
+			id: "6E3070B895BB4A7F"
+			optional: true
+			rewards: [
+				{
+					id: "104ACE27FE449CF6"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "34C4C3ABB2FB0871"
+					item: {
+						count: 1
+						id: "cgs:shotgun"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4FFB5814DFBCB22C"
+					item: {
+						count: 1
+						id: "cgs:shotgun_long_barrel"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2D4E62C0A101CED0"
+					item: {
+						count: 1
+						id: "cgs:shotgun_spread_barrel"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2E23DE5C3A3E0BAB"
+					item: {
+						count: 1
+						id: "cgs:shotgun_drum"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "25C014D3DBDD5ECD"
+					item: {
+						count: 1
+						id: "cgs:shotgun_pump"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/ar_shotgun"
+					criterion: ""
+					id: "0E80BD6C4BC97CCB"
+					type: "advancement"
+				}
+			]
+			x: 12.0d
+			y: 1.25d
+		}
+		{
+			dependencies: ["77780F3504F257AB"]
+			id: "1405461DC7088898"
+			optional: true
+			rewards: [
+				{
+					id: "466063DF3C79B107"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "55F7CDFC37B6DC18"
+					item: {
+						count: 1
+						id: "cgs:gatling"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "0673AFF11C4CF2EE"
+					item: {
+						count: 1
+						id: "cgs:round_gatling"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "05F028B9ECABD70F"
+					item: {
+						count: 1
+						id: "cgs:gatling_drum"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6BDF75A40BEA83C3"
+					item: {
+						count: 1
+						id: "cgs:steam_engine"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/ar_gatling"
+					criterion: ""
+					id: "6010172D1037E0EA"
+					type: "advancement"
+				}
+			]
+			x: 12.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5372210F85C8C1F8", "49C8E1C2CB9DF78F"]
+			id: "0C4BB363D1D1CF68"
+			optional: true
+			rewards: [
+				{
+					id: "775F8BDDA4B4A4A9"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "77CAC6D6D9B977D0"
+					item: {
+						count: 1
+						id: "cgs:nailgun"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "29C3607AFBDBA3D3"
+					item: {
+						count: 1
+						id: "cgs:nail"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7E517E8ACCC8D580"
+					item: {
+						count: 1
+						id: "cgs:nailgun_splitter"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/ar_nailgun"
+					criterion: ""
+					id: "00AC4331E845E807"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["5372210F85C8C1F8", "2C8F1AF81F0DCA24"]
@@ -370,11 +570,75 @@
 					type: "item"
 				}
 			]
-			x: 11.5d
-			y: 7.5d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["5372210F85C8C1F8", "2C8F1AF81F0DCA24", "5DAF564C963FD05E"]
+			dependencies: ["5372210F85C8C1F8", "5DAF564C963FD05E"]
+			icon: {
+				id: "cgs:launcher"
+			}
+			id: "5671B097B9F914F7"
+			optional: true
+			rewards: [
+				{
+					id: "209FDFF768B70BBD"
+					type: "xp"
+					xp: 80
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "6A894517BE203070"
+					item: {
+						count: 1
+						id: "cgs:launcher"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5462350BBD4AFC1B"
+					item: {
+						count: 1
+						id: "cgs:rocket"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "34A140CC657AEA95"
+					item: {
+						count: 1
+						id: "cgs:rocket_small"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "60BEFB3E8C1036C1"
+					item: {
+						count: 1
+						id: "cgs:launcher_auto"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/ar_launcher"
+					criterion: ""
+					id: "6DD7B64DE465D41F"
+					type: "advancement"
+				}
+			]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5671B097B9F914F7", "2C8F1AF81F0DCA24", "5DAF564C963FD05E"]
 			id: "759440345AB6D06E"
 			optional: true
 			rewards: [
@@ -392,67 +656,142 @@
 						count: 1
 						id: "cgs:ballistazooka"
 					}
+					optional_task: true
 					type: "item"
 				}
+				{
+					count: 8L
+					id: "0CDC766ED9462DCB"
+					item: {
+						count: 1
+						id: "cgs:spear"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/ar_balista"
+					criterion: ""
+					id: "4A2267156ADD91EA"
+					type: "advancement"
+				}
 			]
-			x: 13.25d
-			y: 7.5d
+			x: 10.0d
+			y: 2.5d
 		}
 		{
-			dependencies: ["5372210F85C8C1F8", "49C8E1C2CB9DF78F"]
-			id: "0C4BB363D1D1CF68"
+			dependencies: ["61F51669057A5A69", "2C8F1AF81F0DCA24"]
+			id: "72FDF6FBA89E2F82"
 			optional: true
 			rewards: [
 				{
-					id: "775F8BDDA4B4A4A9"
+					id: "32CFA49296AC2935"
 					type: "xp"
-					xp: 60
+					xp: 30
 				}
 			]
 			shape: "diamond"
 			tasks: [
 				{
-					id: "77CAC6D6D9B977D0"
+					count: 4L
+					id: "1066A498D4AB497B"
 					item: {
 						count: 1
-						id: "cgs:nailgun"
+						id: "cgs:frag_grenade"
 					}
 					type: "item"
 				}
 			]
-			x: 15.0d
-			y: 7.5d
+			x: 4.0d
+			y: 1.25d
 		}
 		{
-			dependencies: ["5372210F85C8C1F8", "5DAF564C963FD05E"]
-			id: "77780F3504F257AB"
-			rewards: [
-				{
-					id: "3F8C694D5176108C"
-					type: "xp"
-					xp: 80
-				}
-			]
-			tasks: [
-				{
-					id: "554856FDEF180A85"
-					item: {
-						count: 1
-						id: "cgs:revolver"
-					}
-					type: "item"
-				}
-			]
-			x: 16.75d
-			y: 7.5d
-		}
-		{
-			dependencies: ["77780F3504F257AB"]
-			id: "1405461DC7088898"
+			dependencies: ["5372210F85C8C1F8", "2C8F1AF81F0DCA24"]
+			icon: {
+				id: "cgs:hammer"
+			}
+			id: "4CA873468808C681"
 			optional: true
 			rewards: [
 				{
-					id: "466063DF3C79B107"
+					id: "5FBB7248A4EB35E7"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "450D55EFC1C5B954"
+					item: {
+						count: 1
+						id: "cgs:hammer"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4A46D04C05146616"
+					item: {
+						count: 1
+						id: "cgs:hammer_iron"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "59A47CE8806927A8"
+					item: {
+						count: 1
+						id: "cgs:axe_iron"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4FF09C70657F82F7"
+					item: {
+						count: 1
+						id: "cgs:hammer_diamond"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2819C3AFC7F5B098"
+					item: {
+						count: 1
+						id: "cgs:axe_diamond"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "52BE4EEF97D62F18"
+					item: {
+						count: 1
+						id: "cgs:hammer_chamber"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/ar_hammer"
+					criterion: ""
+					id: "6E1FA2250BA20B03"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1405461DC7088898", "7D8C648876D1BE98"]
+			id: "7918413E6BB6F54F"
+			optional: true
+			rewards: [
+				{
+					id: "2E34B2ED0FE32592"
 					type: "xp"
 					xp: 120
 				}
@@ -460,28 +799,332 @@
 			shape: "diamond"
 			tasks: [
 				{
-					id: "55F7CDFC37B6DC18"
+					id: "745D4A40961643FA"
 					item: {
 						count: 1
-						id: "cgs:gatling"
+						id: "cataclysm:laser_gatling"
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
-					count: 64L
-					id: "0673AFF11C4CF2EE"
+					id: "20DCA4CAEDA573E0"
+					item: {
+						count: 1
+						id: "cataclysm:wither_assault_shoulder_weapon"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "321DAF80E5844CA7"
+					item: {
+						count: 1
+						id: "cataclysm:void_assault_shoulder_weapon"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/ar_laser"
+					criterion: ""
+					id: "2D61F593DA723A85"
+					type: "advancement"
+				}
+			]
+			x: 14.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["61F51669057A5A69"]
+			icon: {
+				id: "minecraft:gunpowder"
+			}
+			id: "4D7B9F923518F36F"
+			optional: true
+			rewards: [
+				{
+					id: "1F9786BA5B23F1EA"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "03CE172E99CEB5B4"
+					item: {
+						count: 1
+						id: "cgs:niter"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3F4C67A63F6B82C6"
+					item: {
+						count: 1
+						id: "cgs:sulfur"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "572AC0577A7903FD"
+					item: {
+						count: 1
+						id: "cgs:charcoal_dust"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "0C38EA1C78FC2BE6"
+					item: {
+						count: 1
+						id: "minecraft:gunpowder"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/ar_powder"
+					criterion: ""
+					id: "66C8F501DF035764"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: -1.25d
+		}
+		{
+			dependencies: ["4D7B9F923518F36F", "22DEBD5AC32E1906"]
+			icon: {
+				id: "cgs:round_revolver_blank"
+			}
+			id: "1E0C3D38B3FD973A"
+			optional: true
+			rewards: [
+				{
+					id: "7C9E599FF26EF544"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "37D8B8AA4B1C46AA"
+					item: {
+						count: 1
+						id: "cgs:press_form_revolver"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "65F3189E1162C8C2"
+					item: {
+						count: 1
+						id: "cgs:press_form_shotgun"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "089785A52654ABD8"
+					item: {
+						count: 1
+						id: "cgs:press_form_gatling"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "17F05D70D3A5D471"
+					item: {
+						count: 1
+						id: "cgs:round_revolver_blank"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "708639499EC7294B"
+					item: {
+						count: 1
+						id: "cgs:round_shotgun_blank"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "50910C5961A93D02"
+					item: {
+						count: 1
+						id: "cgs:round_gatling_blank"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/ar_casings"
+					criterion: ""
+					id: "50D001798CCC8056"
+					type: "advancement"
+				}
+			]
+			x: 8.0d
+			y: -1.25d
+		}
+		{
+			dependencies: ["1E0C3D38B3FD973A"]
+			icon: {
+				id: "cgs:round_revolver"
+			}
+			id: "4E8C02DAE9D35040"
+			optional: true
+			rewards: [
+				{
+					id: "6053713464F89BD2"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					count: 16L
+					id: "7D65B1460E4FC5F0"
+					item: {
+						count: 1
+						id: "cgs:round_revolver"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "108FD8CF792E02AD"
+					item: {
+						count: 1
+						id: "cgs:round_shotgun"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "29ED476E666F033B"
 					item: {
 						count: 1
 						id: "cgs:round_gatling"
 					}
+					optional_task: true
 					type: "item"
 				}
+				{
+					count: 8L
+					id: "6290EBEE81DAF74C"
+					item: {
+						count: 1
+						id: "cgs:round_shotgun_flechette"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "089EE9F52893575C"
+					item: {
+						count: 1
+						id: "cgs:round_shotgun_incendiary"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/ar_rounds"
+					criterion: ""
+					id: "69E4EAA50CA7EFB2"
+					type: "advancement"
+				}
 			]
-			x: 16.75d
-			y: 9.5d
+			x: 10.0d
+			y: -1.25d
 		}
 		{
-			dependencies: ["4EFDEBDB7A6D75CA"]
+			dependencies: ["4E8C02DAE9D35040", "5DAF564C963FD05E"]
+			icon: {
+				id: "cgs:round_revolver_piercing"
+			}
+			id: "2915627E580B0467"
+			optional: true
+			rewards: [
+				{
+					id: "4D118A9000AA8D3B"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					count: 16L
+					id: "5BAFB1A9F8754F92"
+					item: {
+						count: 1
+						id: "cgs:round_revolver_piercing"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "1E87EBB02AD43D8D"
+					item: {
+						count: 1
+						id: "cgs:round_gatling_piercing"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "279BA5955EA1BA37"
+					item: {
+						count: 1
+						id: "cgs:round_shotgun_flechette_steel"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "6D9FDBBE6861A4DF"
+					item: {
+						count: 1
+						id: "cgs:nail_steel"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/ar_piercing"
+					criterion: ""
+					id: "412E9FFB02C43DB5"
+					type: "advancement"
+				}
+			]
+			x: 12.0d
+			y: -1.25d
+		}
+		{
+			dependencies: ["10B7D2BF5BA572F7", "4EFDEBDB7A6D75CA"]
 			icon: {
 				id: "createbigcannons:log_cannon_chamber"
 			}
@@ -519,8 +1162,8 @@
 					type: "item"
 				}
 			]
-			x: 29.75d
-			y: 0.0d
+			x: 2.0d
+			y: 1.25d
 		}
 		{
 			dependencies: ["11FCCB9AB188671C"]
@@ -568,8 +1211,61 @@
 					type: "item"
 				}
 			]
-			x: 29.75d
-			y: 3.5d
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3BFC9638790CFB7F"]
+			icon: {
+				id: "createbigcannons:wrought_iron_cannon_chamber"
+			}
+			id: "3A56ABA5279C1D80"
+			optional: true
+			rewards: [
+				{
+					id: "624BEF08BCBABA34"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "107A9180A730755E"
+					item: {
+						count: 1
+						id: "createbigcannons:wrought_iron_cannon_chamber"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4A5753F744674333"
+					item: {
+						count: 1
+						id: "createbigcannons:wrought_iron_cannon_end"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "73046812214567F1"
+					item: {
+						count: 1
+						id: "createbigcannons:wrought_iron_drop_mortar_end"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/ar_wrought"
+					criterion: ""
+					id: "74C3A384A11950CB"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: 3.75d
 		}
 		{
 			dependencies: ["3BFC9638790CFB7F"]
@@ -607,8 +1303,8 @@
 					type: "item"
 				}
 			]
-			x: 29.75d
-			y: 5.5d
+			x: 6.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["37E52492C6443C01", "6E0A417E075574BC"]
@@ -647,8 +1343,8 @@
 					type: "item"
 				}
 			]
-			x: 29.0d
-			y: 7.5d
+			x: 8.0d
+			y: 6.25d
 		}
 		{
 			dependencies: ["7EA7A3F925D95AE8"]
@@ -687,8 +1383,8 @@
 					type: "item"
 				}
 			]
-			x: 29.0d
-			y: 9.5d
+			x: 10.0d
+			y: 6.25d
 		}
 		{
 			dependencies: ["37E52492C6443C01", "2C8F1AF81F0DCA24"]
@@ -712,8 +1408,273 @@
 					type: "item"
 				}
 			]
-			x: 30.75d
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7BE14415BC16599B", "2C8F1AF81F0DCA24"]
+			icon: {
+				id: "createbigcannons:bronze_cannon_barrel"
+			}
+			id: "75326C0F476326EC"
+			optional: true
+			rewards: [
+				{
+					id: "18524BEBC05B29AC"
+					type: "xp"
+					xp: 80
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "33DEE6B8FD3AF04C"
+					item: {
+						count: 1
+						id: "createbigcannons:bronze_cannon_barrel"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "651278E6F2B57847"
+					item: {
+						count: 1
+						id: "createbigcannons:bronze_cannon_chamber"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "695B5384D9B3BF9E"
+					item: {
+						count: 1
+						id: "createbigcannons:bronze_sliding_breech"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/ar_bronze"
+					criterion: ""
+					id: "5A73EC0830F83462"
+					type: "advancement"
+				}
+			]
+			x: 12.0d
+			y: 6.25d
+		}
+		{
+			dependencies: ["7BE14415BC16599B"]
+			id: "2CD0481462C678A7"
+			optional: true
+			rewards: [
+				{
+					id: "6D4E75FFFCA7922A"
+					type: "xp"
+					xp: 80
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "187BD4462A4B49CF"
+					item: {
+						count: 1
+						id: "createbigcannons:cast_iron_autocannon_barrel"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7719F7B192A8618B"
+					item: {
+						count: 1
+						id: "createbigcannons:cast_iron_autocannon_breech"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5B7822BE804DE014"
+					item: {
+						count: 1
+						id: "createbigcannons:autocannon_ammo_container"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "6A5AB2947B16C545"
+					item: {
+						count: 1
+						id: "createbigcannons:flak_autocannon_round"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "405B80CD403F669C"
+					item: {
+						count: 1
+						id: "createbigcannons:ap_autocannon_round"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "7E16F2E28DDBD292"
+					item: {
+						count: 1
+						id: "createbigcannons:machine_gun_round"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/ar_auto"
+					criterion: ""
+					id: "35BAA68F6448DB02"
+					type: "advancement"
+				}
+			]
+			x: 10.0d
 			y: 7.5d
+		}
+		{
+			dependencies: ["7BE14415BC16599B", "5DAF564C963FD05E"]
+			id: "327C192415E8CC66"
+			rewards: [
+				{
+					id: "43D139A469A0D578"
+					type: "xp"
+					xp: 120
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "526AA7DBAC73E9B1"
+					item: {
+						count: 1
+						id: "createbigcannons:built_up_steel_cannon_barrel"
+					}
+					type: "item"
+				}
+				{
+					id: "7490E45F8CC28854"
+					item: {
+						count: 1
+						id: "createbigcannons:steel_screw_breech"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["327C192415E8CC66", "130148D3B8439F46"]
+			id: "3216571E90BBE848"
+			optional: true
+			rewards: [
+				{
+					id: "4F52E485798EA097"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					count: 4L
+					id: "51C84EE145DC8675"
+					item: {
+						count: 1
+						id: "createbigcannons:nethersteel_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "21107EDFD676D244"
+					item: {
+						count: 1
+						id: "createbigcannons:built_up_nethersteel_cannon_barrel"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3BFC9638790CFB7F"]
+			icon: {
+				id: "createbigcannons:bag_of_grapeshot"
+			}
+			id: "02EA33D7875AE63A"
+			optional: true
+			rewards: [
+				{
+					id: "3609C8F91361D59B"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					count: 4L
+					id: "1BC4F83E813E94DF"
+					item: {
+						count: 1
+						id: "createbigcannons:solid_shot"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "31F32178018FE076"
+					item: {
+						count: 1
+						id: "createbigcannons:bag_of_grapeshot"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1C5DC5848CC270E1"
+					item: {
+						count: 1
+						id: "createbigcannons:mortar_stone"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "5873124862087034"
+					item: {
+						count: 1
+						id: "createbigcannons:shot_balls"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/ar_shot"
+					criterion: ""
+					id: "37E2AB9E11E22E71"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: 6.25d
 		}
 		{
 			dependencies: ["7BE14415BC16599B"]
@@ -754,335 +1715,278 @@
 					type: "item"
 				}
 			]
-			x: 26.25d
-			y: 11.5d
+			x: 12.0d
+			y: 7.5d
 		}
 		{
-			dependencies: ["7BE14415BC16599B"]
-			id: "2CD0481462C678A7"
+			dependencies: ["4DC5ECBC76FBF9CD"]
+			icon: {
+				id: "createbigcannons:proximity_fuze"
+			}
+			id: "717DAE49E9909408"
 			optional: true
 			rewards: [
 				{
-					id: "6D4E75FFFCA7922A"
+					id: "3A2C32CA08B10462"
 					type: "xp"
-					xp: 80
+					xp: 40
 				}
 			]
 			shape: "diamond"
 			tasks: [
 				{
-					id: "187BD4462A4B49CF"
+					id: "30E429C861CE1F3A"
 					item: {
 						count: 1
-						id: "createbigcannons:cast_iron_autocannon_barrel"
+						id: "createbigcannons:timed_fuze"
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
-					id: "7719F7B192A8618B"
+					id: "589BA9E151B2E42A"
 					item: {
 						count: 1
-						id: "createbigcannons:cast_iron_autocannon_breech"
+						id: "createbigcannons:proximity_fuze"
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
-					id: "5B7822BE804DE014"
+					id: "16F76AD96665E20B"
 					item: {
 						count: 1
-						id: "createbigcannons:autocannon_ammo_container"
+						id: "createbigcannons:delayed_impact_fuze"
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
-					count: 32L
-					id: "6A5AB2947B16C545"
+					id: "321837C0735B0E19"
 					item: {
 						count: 1
-						id: "createbigcannons:flak_autocannon_round"
+						id: "createbigcannons:inertia_fuze"
 					}
+					optional_task: true
 					type: "item"
+				}
+				{
+					id: "007C13DC7F64A00F"
+					item: {
+						count: 1
+						id: "createbigcannons:wired_fuze"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/ar_fuzes"
+					criterion: ""
+					id: "2A5DCDCA90C03369"
+					type: "advancement"
 				}
 			]
-			x: 28.0d
-			y: 11.5d
+			x: 14.0d
+			y: 6.25d
 		}
 		{
-			dependencies: ["7BE14415BC16599B", "5DAF564C963FD05E"]
-			id: "327C192415E8CC66"
-			rewards: [
-				{
-					id: "43D139A469A0D578"
-					type: "xp"
-					xp: 120
-				}
-			]
-			tasks: [
-				{
-					count: 2L
-					id: "526AA7DBAC73E9B1"
-					item: {
-						count: 1
-						id: "createbigcannons:built_up_steel_cannon_barrel"
-					}
-					type: "item"
-				}
-				{
-					id: "7490E45F8CC28854"
-					item: {
-						count: 1
-						id: "createbigcannons:steel_screw_breech"
-					}
-					type: "item"
-				}
-			]
-			x: 29.75d
-			y: 11.5d
-		}
-		{
-			dependencies: ["327C192415E8CC66", "130148D3B8439F46"]
-			id: "3216571E90BBE848"
+			dependencies: ["4DC5ECBC76FBF9CD"]
+			icon: {
+				id: "createbigcannons:ap_shell"
+			}
+			id: "1159F550A1F3E589"
 			optional: true
 			rewards: [
 				{
-					id: "4F52E485798EA097"
+					id: "77302DC49E2B90E9"
 					type: "xp"
-					xp: 150
+					xp: 50
 				}
 			]
 			shape: "diamond"
 			tasks: [
 				{
 					count: 4L
-					id: "51C84EE145DC8675"
+					id: "179FF08C779A124B"
 					item: {
 						count: 1
-						id: "createbigcannons:nethersteel_ingot"
-					}
-					type: "item"
-				}
-				{
-					id: "21107EDFD676D244"
-					item: {
-						count: 1
-						id: "createbigcannons:built_up_nethersteel_cannon_barrel"
-					}
-					type: "item"
-				}
-			]
-			x: 29.75d
-			y: 13.5d
-		}
-		{
-			dependencies: ["55CA5B20172A1007"]
-			id: "1D3A3C518F2002BA"
-			optional: true
-			rewards: [
-				{
-					id: "3FBE9CF610634C49"
-					type: "xp"
-					xp: 120
-				}
-			]
-			shape: "diamond"
-			tasks: [
-				{
-					id: "1803FB1A87FBB7ED"
-					item: {
-						count: 1
-						id: "cataclysm:the_incinerator"
-					}
-					type: "item"
-				}
-			]
-			x: 35.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["7D8C648876D1BE98"]
-			id: "7918413E6BB6F54F"
-			optional: true
-			rewards: [
-				{
-					id: "2E34B2ED0FE32592"
-					type: "xp"
-					xp: 120
-				}
-			]
-			shape: "diamond"
-			tasks: [
-				{
-					id: "745D4A40961643FA"
-					item: {
-						count: 1
-						id: "cataclysm:laser_gatling"
-					}
-					type: "item"
-				}
-			]
-			x: 38.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["1DC70211B9AE8946"]
-			id: "05E666F85CC7AF48"
-			optional: true
-			rewards: [
-				{
-					id: "6F27D9831DCED41D"
-					type: "xp"
-					xp: 40
-				}
-			]
-			shape: "diamond"
-			tasks: [
-				{
-					id: "4ADEDED5566C8065"
-					item: {
-						count: 1
-						id: "fantasy_armor:moon_crystal"
-					}
-					type: "item"
-				}
-			]
-			x: 42.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["05E666F85CC7AF48"]
-			icon: {
-				id: "fantasy_armor:hero_chestplate"
-			}
-			id: "4278CC7FD36D973A"
-			optional: true
-			rewards: [
-				{
-					id: "17BBF90E705E64B8"
-					type: "xp"
-					xp: 150
-				}
-			]
-			shape: "diamond"
-			tasks: [
-				{
-					id: "6576B654DADA9108"
-					item: {
-						count: 1
-						id: "fantasy_armor:hero_chestplate"
+						id: "createbigcannons:ap_shot"
 					}
 					optional_task: true
 					type: "item"
 				}
 				{
-					advancement: "avgustov:arsenal/fantasy_chestplate"
-					criterion: ""
-					id: "399BA8146D27470D"
-					type: "advancement"
-				}
-			]
-			x: 42.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["1DC70211B9AE8946"]
-			id: "7250BC396A7E5C1A"
-			optional: true
-			rewards: [
-				{
-					id: "0ADE58BDF7F5A387"
-					type: "xp"
-					xp: 40
-				}
-			]
-			shape: "diamond"
-			tasks: [
-				{
-					id: "78162B3631E5A4F4"
+					count: 2L
+					id: "0EBD42F450A67241"
 					item: {
 						count: 1
-						id: "fantasy_weapons:blazing_stone"
-					}
-					type: "item"
-				}
-			]
-			x: 45.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["7250BC396A7E5C1A"]
-			icon: {
-				id: "fantasy_weapons:weapon_hero_claymore"
-			}
-			id: "5D2B6635742EA1A0"
-			optional: true
-			rewards: [
-				{
-					id: "2C0843976D1EAA4A"
-					type: "xp"
-					xp: 150
-				}
-			]
-			shape: "diamond"
-			tasks: [
-				{
-					id: "4E2A40965C727BA6"
-					item: {
-						count: 1
-						id: "fantasy_weapons:weapon_hero_claymore"
+						id: "createbigcannons:ap_shell"
 					}
 					optional_task: true
 					type: "item"
 				}
 				{
-					advancement: "avgustov:arsenal/fantasy_weapon"
+					count: 2L
+					id: "3F6CD9ECBE7D9DC4"
+					item: {
+						count: 1
+						id: "createbigcannons:smoke_shell"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "77D229984F0279EE"
+					item: {
+						count: 1
+						id: "createbigcannons:fluid_shell"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "345BDD1E48E2AC91"
+					item: {
+						count: 1
+						id: "createbigcannons:drop_mortar_shell"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/ar_shells"
 					criterion: ""
-					id: "0F3B061668362A00"
+					id: "0048F8C71D073B67"
 					type: "advancement"
 				}
 			]
-			x: 45.5d
-			y: 3.5d
+			x: 14.0d
+			y: 8.75d
 		}
 		{
-			dependencies: ["1DC70211B9AE8946", "49C8E1C2CB9DF78F"]
-			id: "40184F99961A1B00"
+			dependencies: ["4DC5ECBC76FBF9CD", "22DEBD5AC32E1906"]
+			icon: {
+				id: "createbigcannons:big_cartridge"
+			}
+			id: "0B55CEA58AB85331"
 			optional: true
 			rewards: [
 				{
-					id: "63729A5C59AE63A0"
+					id: "3B98B242ED84153E"
 					type: "xp"
-					xp: 120
+					xp: 50
 				}
 			]
 			shape: "diamond"
 			tasks: [
 				{
-					id: "1B93B038A1910B39"
+					count: 4L
+					id: "130D40228A153A6E"
 					item: {
 						count: 1
-						id: "create_tools_n_weapons:gear_sword"
+						id: "createbigcannons:big_cartridge"
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
-					id: "284255C37530ACE8"
+					id: "19EA7AD3AA2B8062"
 					item: {
 						count: 1
-						id: "create_tools_n_weapons:gear_pickaxe"
+						id: "createbigcannons:congealed_nitro"
 					}
+					optional_task: true
 					type: "item"
 				}
+				{
+					id: "1A5844B1C7875856"
+					item: {
+						count: 1
+						id: "createbigcannons:hardened_nitro"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "5286767805F72ED7"
+					item: {
+						count: 1
+						id: "createbigcannons:nitropowder"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/ar_nitro"
+					criterion: ""
+					id: "08292A2AF8CF4186"
+					type: "advancement"
+				}
 			]
-			x: 49.0d
-			y: 0.0d
+			x: 14.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["10B7D2BF5BA572F7"]
-			id: "1A154ACAF9B5E524"
+			id: "20FC3401E61EA89B"
+			rewards: [
+				{
+					id: "37B236B72C5FB6A7"
+					type: "xp"
+					xp: 60
+				}
+				{
+					id: "77DF21DDEFD58E93"
+					table_id: 85931532171863961L
+					type: "choice"
+				}
+			]
+			tasks: [
+				{
+					id: "1E38B1E6E437146E"
+					item: {
+						count: 1
+						id: "torchmaster:megatorch"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["20FC3401E61EA89B"]
+			icon: {
+				id: "minecraft:iron_sword"
+			}
+			id: "69711FBF08F72FB9"
+			rewards: [
+				{
+					id: "6CAA5B35014B599A"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "60078FBF6CBF74DD"
+					type: "checkmark"
+				}
+			]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["20FC3401E61EA89B", "0212EF427C731405"]
+			id: "703292B04762F4AB"
 			optional: true
 			rewards: [
 				{
-					id: "291B1776B2758C0F"
+					id: "6BC4A67C21F5D893"
 					type: "xp"
 					xp: 30
 				}
@@ -1090,24 +1994,77 @@
 			shape: "diamond"
 			tasks: [
 				{
-					id: "26E8FFF1D6F9B5B8"
+					id: "1A905B657FF9729B"
 					item: {
 						count: 1
-						id: "justhammers:iron_hammer"
+						id: "torchmaster:dreadlamp"
 					}
 					type: "item"
 				}
 			]
-			x: 16.75d
-			y: 3.5d
+			x: 4.0d
+			y: -3.75d
 		}
 		{
-			dependencies: ["1A154ACAF9B5E524", "1DC70211B9AE8946"]
-			id: "3AEF941AF2BE4490"
+			dependencies: ["20FC3401E61EA89B"]
+			id: "75D83EE5912EE169"
 			optional: true
 			rewards: [
 				{
-					id: "78E802DDF048D3F3"
+					id: "2833461545079DD6"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "181FADF7F2D97EAA"
+					item: {
+						count: 1
+						id: "torchmaster:feral_flare_lantern"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["10B7D2BF5BA572F7"]
+			id: "1594ED87597CB23C"
+			optional: true
+			rewards: [
+				{
+					id: "166FC29032A7A259"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "7ACCC9B8FAD986C4"
+					item: {
+						count: 1
+						id: "xpbook:xp_tome"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2CD0481462C678A7", "49C8E1C2CB9DF78F", "5D5AA5F7B0B988AA"]
+			icon: {
+				id: "create_radar:auto_yaw_controller"
+			}
+			id: "131C69AF71A5EF6E"
+			optional: true
+			rewards: [
+				{
+					id: "7839DC12B07E6997"
 					type: "xp"
 					xp: 80
 				}
@@ -1115,53 +2072,115 @@
 			shape: "diamond"
 			tasks: [
 				{
-					id: "04BD78CA0122C920"
+					id: "17646A1E461A3874"
 					item: {
 						count: 1
-						id: "justhammers:iron_impact_hammer"
+						id: "create_radar:auto_yaw_controller"
 					}
+					optional_task: true
 					type: "item"
 				}
+				{
+					id: "1D1B9AF06419A664"
+					item: {
+						count: 1
+						id: "create_radar:auto_pitch_controller"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1D38533ED7A53144"
+					item: {
+						count: 1
+						id: "create_radar:fire_controller"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "11A3BCBB5A3828D6"
+					item: {
+						count: 1
+						id: "create_radar:monitor"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "76B0261D05FCF497"
+					item: {
+						count: 1
+						id: "create_radar:target_filter_item"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/ar_turret"
+					criterion: ""
+					id: "1CCB580E9874FEB9"
+					type: "advancement"
+				}
 			]
-			x: 16.75d
-			y: 5.5d
+			x: 12.0d
+			y: 8.75d
 		}
 		{
 			dependencies: ["10B7D2BF5BA572F7"]
 			icon: {
-				id: "magistuarmory:iron_bastardsword"
+				id: "new_shield_variants:iron_shield"
 			}
-			id: "7258126D7955C827"
+			id: "64BE3391B428A886"
+			optional: true
 			rewards: [
 				{
-					id: "066BFC9296C1CA86"
+					id: "3404CF4E6B2804DE"
 					type: "xp"
-					xp: 30
+					xp: 25
 				}
 			]
+			shape: "diamond"
 			tasks: [
 				{
-					id: "48FE9AD924C9086E"
+					id: "799411D8633BE238"
 					item: {
 						count: 1
-						id: "magistuarmory:hilt"
+						id: "new_shield_variants:iron_shield"
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
-					id: "350C76A60EC5FBB2"
+					id: "5D95BFCEC90772C0"
 					item: {
 						count: 1
-						id: "magistuarmory:iron_bastardsword"
+						id: "new_shield_variants:stone_shield"
 					}
+					optional_task: true
 					type: "item"
 				}
+				{
+					id: "4693D2016D7ED853"
+					item: {
+						count: 1
+						id: "new_shield_variants:gold_shield"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/ar_shield"
+					criterion: ""
+					id: "45520D2E38C635B9"
+					type: "advancement"
+				}
 			]
-			x: 21.0d
-			y: 3.5d
+			x: 0.0d
+			y: 2.5d
 		}
 		{
-			dependencies: ["7258126D7955C827"]
+			dependencies: ["10B7D2BF5BA572F7"]
 			icon: {
 				id: "magistuarmory:iron_heatershield"
 			}
@@ -1182,180 +2201,74 @@
 						count: 1
 						id: "magistuarmory:iron_heatershield"
 					}
+					optional_task: true
 					type: "item"
 				}
+				{
+					id: "191D5BACF6E1EB8F"
+					item: {
+						count: 1
+						id: "magistuarmory:wood_heatershield"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "45DE0DF20AA9EC42"
+					item: {
+						count: 1
+						id: "magistuarmory:iron_kiteshield"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2AEEA329BFF896EA"
+					item: {
+						count: 1
+						id: "magistuarmory:iron_roundshield"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "51B1020834EB649B"
+					item: {
+						count: 1
+						id: "magistuarmory:iron_ellipticalshield"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "43B34E82F5D3476C"
+					item: {
+						count: 1
+						id: "magistuarmory:copper_heatershield"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/ar12_shields"
+					criterion: ""
+					id: "54407A8A5CFE18C7"
+					type: "advancement"
+				}
 			]
-			x: 19.25d
-			y: 5.5d
+			x: 2.0d
+			y: -1.25d
 		}
 		{
-			dependencies: ["7258126D7955C827", "5DAF564C963FD05E"]
+			dependencies: ["64BE3391B428A886", "22DEBD5AC32E1906"]
 			icon: {
-				id: "magistuarmory:knight_chestplate"
+				id: "new_shield_variants:diamond_shield"
 			}
-			id: "657ED9E1A9327981"
-			rewards: [
-				{
-					id: "7678B965E08E2E93"
-					type: "xp"
-					xp: 80
-				}
-			]
-			tasks: [
-				{
-					id: "6E93D833BDAE7922"
-					item: {
-						count: 1
-						id: "magistuarmory:armet"
-					}
-					type: "item"
-				}
-				{
-					id: "6AB1EEBEDEC9A2AA"
-					item: {
-						count: 1
-						id: "magistuarmory:knight_chestplate"
-					}
-					type: "item"
-				}
-				{
-					id: "70D958471A5DED7D"
-					item: {
-						count: 1
-						id: "magistuarmory:knight_leggings"
-					}
-					type: "item"
-				}
-				{
-					id: "30CE156D2C31A077"
-					item: {
-						count: 1
-						id: "magistuarmory:knight_boots"
-					}
-					type: "item"
-				}
-			]
-			x: 21.0d
-			y: 5.5d
-		}
-		{
-			dependencies: ["657ED9E1A9327981"]
-			icon: {
-				id: "magistuarmory:steel_chivalrylance"
-			}
-			id: "3438447756AD852E"
+			id: "246BE58B314DF1CA"
 			optional: true
 			rewards: [
 				{
-					id: "2DA3037FFF1CF74C"
-					type: "xp"
-					xp: 100
-				}
-			]
-			shape: "diamond"
-			tasks: [
-				{
-					id: "7729ACF36691FD72"
-					item: {
-						count: 1
-						id: "magistuarmory:stechhelm"
-					}
-					type: "item"
-				}
-				{
-					id: "7957C91150844999"
-					item: {
-						count: 1
-						id: "magistuarmory:jousting_chestplate"
-					}
-					type: "item"
-				}
-				{
-					id: "34C4FB0BD19324A4"
-					item: {
-						count: 1
-						id: "magistuarmory:steel_chivalrylance"
-					}
-					type: "item"
-				}
-				{
-					id: "4BF840C29CD79327"
-					item: {
-						count: 1
-						id: "minecraft:saddle"
-					}
-					type: "item"
-				}
-			]
-			x: 20.25d
-			y: 7.5d
-		}
-		{
-			dependencies: ["657ED9E1A9327981", "1DC70211B9AE8946"]
-			icon: {
-				id: "magistuarmory:maximilian_chestplate"
-			}
-			id: "625291F2050E0432"
-			optional: true
-			rewards: [
-				{
-					id: "4E500B89D76D4F35"
-					type: "xp"
-					xp: 120
-				}
-			]
-			shape: "diamond"
-			tasks: [
-				{
-					id: "1D3184A6503889C1"
-					item: {
-						count: 1
-						id: "magistuarmory:maximilian_chestplate"
-					}
-					type: "item"
-				}
-			]
-			x: 22.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["7258126D7955C827"]
-			icon: {
-				id: "magistuarmory:chainmail_chestplate"
-			}
-			id: "26870972FB8692A0"
-			optional: true
-			rewards: [
-				{
-					id: "054D976E75283D3C"
-					type: "xp"
-					xp: 25
-				}
-			]
-			shape: "diamond"
-			tasks: [
-				{
-					id: "4FC09F13BC579D2A"
-					item: {
-						count: 1
-						id: "magistuarmory:chainmail_chestplate"
-					}
-					type: "item"
-				}
-			]
-			x: 22.75d
-			y: 5.5d
-		}
-		{
-			dependencies: ["5EA91EDFFD55CF09"]
-			icon: {
-				id: "magistuarmory:xivcenturyknight_chestplate"
-			}
-			id: "60C2A51D9D5B3449"
-			optional: true
-			rewards: [
-				{
-					id: "566CB1D083DC0F78"
+					id: "148FDDAF07DCEFFD"
 					type: "xp"
 					xp: 40
 				}
@@ -1363,16 +2276,352 @@
 			shape: "diamond"
 			tasks: [
 				{
-					id: "1EB27816DAD8B176"
+					id: "499FFB75A5EA311A"
 					item: {
 						count: 1
-						id: "magistuarmory:xivcenturyknight_chestplate"
+						id: "new_shield_variants:diamond_shield"
 					}
+					optional_task: true
 					type: "item"
 				}
+				{
+					id: "260CB93F7A3D6439"
+					item: {
+						count: 1
+						id: "magistuarmory:diamond_heatershield"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0201A3D7AF43F8CC"
+					item: {
+						count: 1
+						id: "magistuarmory:diamond_kiteshield"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "693E1A33B615DC37"
+					item: {
+						count: 1
+						id: "magistuarmory:diamond_roundshield"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2BCD655C548C768B"
+					item: {
+						count: 1
+						id: "magistuarmory:diamond_ellipticalshield"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/ar_shield_dia"
+					criterion: ""
+					id: "56565184CD6DA66F"
+					type: "advancement"
+				}
 			]
-			x: 3.5d
-			y: 5.5d
+			x: 0.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["0E970AF69A9D5397", "5DAF564C963FD05E"]
+			icon: {
+				id: "magistuarmory:steel_kiteshield"
+			}
+			id: "4A3024A8A0A20293"
+			optional: true
+			rewards: [
+				{
+					id: "4E7E9A79F82BC210"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "36D4BB42F3B0D95F"
+					item: {
+						count: 1
+						id: "magistuarmory:steel_heatershield"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "14B850413C4317BF"
+					item: {
+						count: 1
+						id: "magistuarmory:steel_kiteshield"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "185FE95632E2574C"
+					item: {
+						count: 1
+						id: "magistuarmory:steel_roundshield"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "30474A413BD7E1B6"
+					item: {
+						count: 1
+						id: "magistuarmory:steel_ellipticalshield"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/ar_shield_steel"
+					criterion: ""
+					id: "7ED558D33B6C3A8C"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: -1.25d
+		}
+		{
+			dependencies: ["246BE58B314DF1CA", "1DC70211B9AE8946"]
+			icon: {
+				id: "new_shield_variants:netherite_shield"
+			}
+			id: "4D2876ED23A162FE"
+			optional: true
+			rewards: [
+				{
+					id: "2B53962BDD3EA9C7"
+					type: "xp"
+					xp: 80
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "0E2002CC20FA99F9"
+					item: {
+						count: 1
+						id: "new_shield_variants:netherite_shield"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "43DFA0AC245E23E5"
+					item: {
+						count: 1
+						id: "magistuarmory:netherite_heatershield"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2EB33E3330C86CDE"
+					item: {
+						count: 1
+						id: "magistuarmory:netherite_kiteshield"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3027B5E6B33831C8"
+					item: {
+						count: 1
+						id: "magistuarmory:netherite_roundshield"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0B4FF9AFDC14E36F"
+					item: {
+						count: 1
+						id: "magistuarmory:netherite_ellipticalshield"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/ar_shield_neth"
+					criterion: ""
+					id: "74B78FF637A7AC95"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4D2876ED23A162FE"]
+			icon: {
+				id: "new_shield_variants:tnt_shield"
+			}
+			id: "2D10A077B461842B"
+			optional: true
+			rewards: [
+				{
+					id: "13A8C4E95C2F36C1"
+					type: "xp"
+					xp: 80
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "7DC97BD7AD64B269"
+					item: {
+						count: 1
+						id: "new_shield_variants:fire_charge_shield"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7FE1D01591FC0D6B"
+					item: {
+						count: 1
+						id: "new_shield_variants:tnt_shield"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6AEEFF793A234706"
+					item: {
+						count: 1
+						id: "new_shield_variants:redstone_shield"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "085BCDF873D20A4E"
+					item: {
+						count: 1
+						id: "new_shield_variants:blaze_shield"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3FFC4C862664723F"
+					item: {
+						count: 1
+						id: "new_shield_variants:ender_shield"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "629066E9C48C45DD"
+					item: {
+						count: 1
+						id: "new_shield_variants:shulker_shield"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4FEC18501C1A2BE2"
+					item: {
+						count: 1
+						id: "new_shield_variants:dragon_head_shield"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/ar_shield_magic"
+					criterion: ""
+					id: "50832667D166B864"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 6.25d
+		}
+		{
+			dependencies: ["64BE3391B428A886", "130148D3B8439F46"]
+			icon: {
+				id: "cataclysm:bulwark_of_the_flame"
+			}
+			id: "193C7623D7FF43C6"
+			optional: true
+			rewards: [
+				{
+					id: "46C61F9140CD68EB"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "343FCA55CA83B900"
+					item: {
+						count: 1
+						id: "cataclysm:bulwark_of_the_flame"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "34DED93CCC025F58"
+					item: {
+						count: 1
+						id: "cataclysm:azure_sea_shield"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5DF38FD9560FDE6B"
+					item: {
+						count: 1
+						id: "block_factorys_bosses:enhanced_shield"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "09CED3B48DA4FC46"
+					item: {
+						count: 1
+						id: "block_factorys_bosses:dragon_guard_shield"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "07FDA773B65A9166"
+					item: {
+						count: 1
+						id: "endermanoverhaul:corrupted_shield"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/ar_shield_boss"
+					criterion: ""
+					id: "3DD96756E438F82B"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 3.75d
 		}
 		{
 			dependencies: ["7BE14415BC16599B", "20FC3401E61EA89B", "5372210F85C8C1F8"]
@@ -1408,7 +2657,7 @@
 					type: "item"
 				}
 			]
-			shape: "hexagon"
+			shape: "cog"
 			size: 1.5d
 			tasks: [
 				{
@@ -1425,8 +2674,9 @@
 					type: "checkmark"
 				}
 			]
-			x: 15.75d
+			x: 16.0d
 			y: 0.0d
 		}
 	]
+	tags: ["grp_adv"]
 }

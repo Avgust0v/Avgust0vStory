@@ -1,0 +1,18 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "new_shield_variants:iron_shield",
+       "new_shield_variants:stone_shield",
+       "new_shield_variants:gold_shield"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

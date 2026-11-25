@@ -49,7 +49,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 13.5d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -72,8 +72,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 5.5d
+			x: 4.0d
+			y: -1.25d
 		}
 		{
 			dependencies: ["05B4081B9721AB3B"]
@@ -104,8 +104,8 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: 3.5d
+			x: 2.0d
+			y: -1.25d
 		}
 		{
 			dependencies: ["3584BC96C05B81A9"]
@@ -136,8 +136,8 @@
 					type: "item"
 				}
 			]
-			x: 1.75d
-			y: 5.5d
+			x: 4.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["7CD3245C528E9F02"]
@@ -161,8 +161,8 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: 7.5d
+			x: 6.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["7CD3245C528E9F02"]
@@ -186,8 +186,8 @@
 					type: "item"
 				}
 			]
-			x: 2.75d
-			y: 7.5d
+			x: 6.0d
+			y: -3.75d
 		}
 		{
 			dependencies: ["05B4081B9721AB3B"]
@@ -217,8 +217,8 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
-			y: 3.5d
+			x: 0.0d
+			y: 3.75d
 		}
 		{
 			dependencies: ["0C9F9F01CFF640B2"]
@@ -240,8 +240,8 @@
 					type: "item"
 				}
 			]
-			x: 5.25d
-			y: 5.5d
+			x: 2.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["1A1EC416333250E2"]
@@ -263,7 +263,7 @@
 					type: "item"
 				}
 			]
-			x: 5.25d
+			x: 4.0d
 			y: 7.5d
 		}
 		{
@@ -279,6 +279,7 @@
 					xp: 50
 				}
 			]
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "69E1BEB0955CEF7C"
@@ -294,8 +295,8 @@
 					type: "checkmark"
 				}
 			]
-			x: 7.0d
-			y: 5.5d
+			x: 0.0d
+			y: 6.25d
 		}
 		{
 			dependencies: ["05B4081B9721AB3B"]
@@ -336,14 +337,15 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "7A01D6700DE6A81F"
 					type: "checkmark"
 				}
 			]
-			x: 14.0d
-			y: 3.5d
+			x: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7E1F90B300B465D7"]
@@ -372,6 +374,7 @@
 					type: "item"
 				}
 			]
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "720C4DD84CEB2BA7"
@@ -379,8 +382,8 @@
 					type: "structure"
 				}
 			]
-			x: 11.5d
-			y: 5.5d
+			x: 4.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["4C3524EDA359F682"]
@@ -402,8 +405,8 @@
 					type: "item"
 				}
 			]
-			x: 11.5d
-			y: 7.5d
+			x: 6.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["2A0A115E794F6C18"]
@@ -415,7 +418,7 @@
 					xp: 300
 				}
 			]
-			shape: "hexagon"
+			shape: "cog"
 			size: 1.5d
 			tasks: [
 				{
@@ -435,8 +438,8 @@
 					type: "item"
 				}
 			]
-			x: 11.5d
-			y: 9.5d
+			x: 8.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["05B4081B9721AB3B"]
@@ -444,6 +447,7 @@
 				id: "minecraft:obsidian"
 			}
 			id: "720E2A84641D95E3"
+			shape: "pentagon"
 			tasks: [
 				{
 					dimension: "minecraft:the_nether"
@@ -451,8 +455,8 @@
 					type: "dimension"
 				}
 			]
-			x: 20.25d
-			y: 3.5d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["720E2A84641D95E3"]
@@ -477,6 +481,7 @@
 					type: "item"
 				}
 			]
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "6113690090F86383"
@@ -493,8 +498,8 @@
 					type: "item"
 				}
 			]
-			x: 19.25d
-			y: 5.5d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["720E2A84641D95E3"]
@@ -509,6 +514,7 @@
 					xp: 150
 				}
 			]
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "05394D8D66F68F52"
@@ -516,8 +522,8 @@
 					type: "structure"
 				}
 			]
-			x: 21.0d
-			y: 5.5d
+			x: 6.0d
+			y: -1.25d
 		}
 		{
 			dependencies: ["649777B977AB5A64", "5DAF564C963FD05E"]
@@ -548,8 +554,8 @@
 					type: "item"
 				}
 			]
-			x: 21.0d
-			y: 7.5d
+			x: 8.0d
+			y: -1.25d
 		}
 		{
 			dependencies: ["7D9ACB82381CA35B"]
@@ -573,6 +579,7 @@
 					type: "item"
 				}
 			]
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "6872462EF3468F8B"
@@ -580,8 +587,8 @@
 					type: "structure"
 				}
 			]
-			x: 19.25d
-			y: 7.5d
+			x: 8.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2689AE7493FD8B7D"]
@@ -589,6 +596,7 @@
 				id: "minecraft:end_stone"
 			}
 			id: "0198B30433C0AD4D"
+			shape: "pentagon"
 			tasks: [
 				{
 					dimension: "minecraft:the_end"
@@ -596,8 +604,8 @@
 					type: "dimension"
 				}
 			]
-			x: 19.25d
-			y: 9.5d
+			x: 10.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0198B30433C0AD4D", "643E6D152A424A54"]
@@ -621,7 +629,7 @@
 					type: "item"
 				}
 			]
-			shape: "hexagon"
+			shape: "cog"
 			size: 1.5d
 			tasks: [
 				{
@@ -638,8 +646,8 @@
 					type: "item"
 				}
 			]
-			x: 17.5d
-			y: 11.5d
+			x: 12.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["7E1F90B300B465D7"]
@@ -663,6 +671,7 @@
 					type: "item"
 				}
 			]
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "241C354D1C86628B"
@@ -679,8 +688,8 @@
 					type: "item"
 				}
 			]
-			x: 13.25d
-			y: 5.5d
+			x: 4.0d
+			y: 1.25d
 		}
 		{
 			dependencies: ["2E5781E0AB6080EC"]
@@ -704,8 +713,8 @@
 					type: "item"
 				}
 			]
-			x: 13.25d
-			y: 7.5d
+			x: 6.0d
+			y: 1.25d
 		}
 		{
 			dependencies: ["7E1F90B300B465D7"]
@@ -720,6 +729,7 @@
 					xp: 150
 				}
 			]
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "5BE3C0BE7EA576DC"
@@ -727,8 +737,8 @@
 					type: "structure"
 				}
 			]
-			x: 15.0d
-			y: 5.5d
+			x: 4.0d
+			y: 3.75d
 		}
 		{
 			dependencies: ["0C9F9F01CFF640B2"]
@@ -752,8 +762,8 @@
 					type: "item"
 				}
 			]
-			x: 8.75d
-			y: 5.5d
+			x: 2.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["7E1F90B300B465D7"]
@@ -769,7 +779,7 @@
 					xp: 300
 				}
 			]
-			shape: "diamond"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "00E32D1273C5A859"
@@ -777,8 +787,8 @@
 					type: "structure"
 				}
 			]
-			x: 16.75d
-			y: 5.5d
+			x: 2.0d
+			y: 3.75d
 		}
 		{
 			dependencies: ["69BD03EE3F98CBF1", "2E5781E0AB6080EC", "1DC70211B9AE8946", "6E2D5370531169F7", "3155C400BA0020AF"]
@@ -799,7 +809,7 @@
 					type: "choice"
 				}
 			]
-			shape: "hexagon"
+			shape: "cog"
 			size: 1.5d
 			tasks: [
 				{
@@ -807,7 +817,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 18.75d
+			x: 16.0d
 			y: 0.0d
 		}
 		{
@@ -830,8 +840,8 @@
 					type: "item"
 				}
 			]
-			x: 23.75d
-			y: 3.5d
+			x: 0.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["1EC1218CE11C10F0"]
@@ -859,8 +869,8 @@
 					type: "item"
 				}
 			]
-			x: 23.75d
-			y: 5.5d
+			x: 2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["05B4081B9721AB3B"]
@@ -876,7 +886,7 @@
 					xp: 40
 				}
 			]
-			shape: "diamond"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "56836A1F141E61FC"
@@ -884,8 +894,8 @@
 					type: "structure"
 				}
 			]
-			x: 26.25d
-			y: 3.5d
+			x: 2.0d
+			y: 1.25d
 		}
 		{
 			dependencies: ["0198B30433C0AD4D", "643E6D152A424A54"]
@@ -901,7 +911,7 @@
 					xp: 60
 				}
 			]
-			shape: "diamond"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "6FE14DA37951893D"
@@ -909,8 +919,8 @@
 					type: "structure"
 				}
 			]
-			x: 19.25d
-			y: 11.5d
+			x: 12.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0198B30433C0AD4D"]
@@ -926,7 +936,7 @@
 					xp: 80
 				}
 			]
-			shape: "diamond"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "25FCED49C4A8F91E"
@@ -934,8 +944,8 @@
 					type: "structure"
 				}
 			]
-			x: 21.0d
-			y: 11.5d
+			x: 12.0d
+			y: 1.25d
 		}
 		{
 			dependencies: ["56E18D619505984F", "5DAF564C963FD05E"]
@@ -951,7 +961,7 @@
 					xp: 400
 				}
 			]
-			shape: "diamond"
+			shape: "octagon"
 			tasks: [
 				{
 					entity: "unusualend:enderblob_queen"
@@ -960,8 +970,9 @@
 					value: 1L
 				}
 			]
-			x: 21.0d
-			y: 13.5d
+			x: 14.0d
+			y: 1.25d
 		}
 	]
+	tags: ["grp_adv"]
 }

@@ -1,0 +1,21 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "magistuarmory:steel_heavymace",
+       "magistuarmory:steel_morgenstern",
+       "magistuarmory:steel_chainmorgenstern",
+       "magistuarmory:steel_heavywarhammer",
+       "magistuarmory:barbedclub",
+       "magistuarmory:blacksmith_hammer"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

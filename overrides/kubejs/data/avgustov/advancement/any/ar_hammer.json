@@ -1,0 +1,21 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "cgs:hammer",
+       "cgs:hammer_iron",
+       "cgs:axe_iron",
+       "cgs:hammer_diamond",
+       "cgs:axe_diamond",
+       "cgs:hammer_chamber"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

@@ -48,7 +48,7 @@
 				}
 			]
 			x: 0.0d
-			y: 9.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["64F9716A95B4C4F9"]
@@ -87,8 +87,8 @@
 					type: "advancement"
 				}
 			]
-			x: 2.5d
-			y: 7.25d
+			x: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4C9138ED290F5D61", "66ED7F7448F796FE"]
@@ -120,8 +120,8 @@
 					type: "advancement"
 				}
 			]
-			x: 4.5d
-			y: 7.25d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["136D243046ECF770", "21255BCC44ED797D"]
@@ -160,8 +160,8 @@
 					type: "advancement"
 				}
 			]
-			x: 6.5d
-			y: 5.75d
+			x: 6.0d
+			y: -1.25d
 		}
 		{
 			dependencies: ["1208C18957072236", "78B5B9A254BDDA39"]
@@ -183,6 +183,7 @@
 					type: "command"
 				}
 			]
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "46E9F98E7B8A39F9"
@@ -190,8 +191,8 @@
 					type: "structure"
 				}
 			]
-			x: 8.5d
-			y: 4.25d
+			x: 8.0d
+			y: -1.25d
 		}
 		{
 			dependencies: ["6D0EBADDF753515D", "465941E135A689AB"]
@@ -230,8 +231,8 @@
 					type: "advancement"
 				}
 			]
-			x: 10.5d
-			y: 3.0d
+			x: 10.0d
+			y: -1.25d
 		}
 		{
 			dependencies: ["6C2B55B818AC4F67", "37C7E988DD06B6B3"]
@@ -253,15 +254,16 @@
 					type: "command"
 				}
 			]
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "23E8D5103BF7FEBC"
-					structure: "dungeons_arise:foundry"
+					structure: "#avgustov:foundries"
 					type: "structure"
 				}
 			]
-			x: 12.5d
-			y: 2.25d
+			x: 12.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["5080490B94FDC787", "7C9CA89A3742B492"]
@@ -300,8 +302,8 @@
 					type: "advancement"
 				}
 			]
-			x: 14.5d
-			y: 2.25d
+			x: 14.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["07049344D99E519F", "5927541A6852BA3D"]
@@ -333,8 +335,8 @@
 					type: "advancement"
 				}
 			]
-			x: 16.5d
-			y: 1.5d
+			x: 16.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["4CE27C1BF38E94F4", "066C0076956AAE88", "5DAF564C963FD05E"]
@@ -366,8 +368,8 @@
 					type: "advancement"
 				}
 			]
-			x: 18.5d
-			y: 0.75d
+			x: 18.0d
+			y: -1.25d
 		}
 		{
 			dependencies: ["672FF7EFC7AFD2A5", "5DAF564C963FD05E"]
@@ -399,8 +401,8 @@
 					type: "advancement"
 				}
 			]
-			x: 20.5d
-			y: 0.75d
+			x: 20.0d
+			y: -1.25d
 		}
 		{
 			dependencies: ["16BD5124B9B1A7B0", "141E0EDDF78B547B"]
@@ -415,6 +417,7 @@
 					xp: 200
 				}
 			]
+			shape: "pentagon"
 			tasks: [
 				{
 					dimension: "creatingspace:earth_orbit"
@@ -422,8 +425,8 @@
 					type: "dimension"
 				}
 			]
-			x: 22.5d
-			y: 0.0d
+			x: 22.0d
+			y: -1.25d
 		}
 		{
 			dependencies: ["69D2D4983CD65590"]
@@ -456,6 +459,7 @@
 					type: "item"
 				}
 			]
+			shape: "pentagon"
 			tasks: [
 				{
 					dimension: "creatingspace:the_moon"
@@ -463,8 +467,8 @@
 					type: "dimension"
 				}
 			]
-			x: 24.5d
-			y: 0.0d
+			x: 24.0d
+			y: -1.25d
 		}
 		{
 			dependencies: ["136D243046ECF770", "6ECC7C838BBEE14E"]
@@ -498,8 +502,8 @@
 					type: "advancement"
 				}
 			]
-			x: 6.5d
-			y: 7.25d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1208C18957072236", "5DAF564C963FD05E"]
@@ -533,8 +537,8 @@
 					type: "advancement"
 				}
 			]
-			x: 8.5d
-			y: 5.75d
+			x: 8.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6D0EBADDF753515D", "5EB3BA9F3F56F287"]
@@ -568,8 +572,8 @@
 					type: "advancement"
 				}
 			]
-			x: 10.5d
-			y: 5.25d
+			x: 10.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["337D7CB8797BD211", "5EB3BA9F3F56F287"]
@@ -603,8 +607,8 @@
 					type: "advancement"
 				}
 			]
-			x: 12.5d
-			y: 5.25d
+			x: 12.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6C2B55B818AC4F67", "5DAF564C963FD05E"]
@@ -638,8 +642,8 @@
 					type: "advancement"
 				}
 			]
-			x: 12.5d
-			y: 3.75d
+			x: 12.0d
+			y: -1.25d
 		}
 		{
 			dependencies: ["6ECC7C838BBEE14E", "1208C18957072236"]
@@ -655,7 +659,7 @@
 					xp: 150
 				}
 			]
-			shape: "diamond"
+			shape: "octagon"
 			tasks: [
 				{
 					entity: "illagerinvasion:invoker"
@@ -664,8 +668,8 @@
 					value: 1L
 				}
 			]
-			x: 8.5d
-			y: 7.25d
+			x: 8.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["07049344D99E519F", "5EB3BA9F3F56F287"]
@@ -699,8 +703,8 @@
 					type: "advancement"
 				}
 			]
-			x: 16.5d
-			y: 3.0d
+			x: 16.0d
+			y: -1.25d
 		}
 		{
 			dependencies: ["4CE27C1BF38E94F4", "5DAF564C963FD05E"]
@@ -734,8 +738,8 @@
 					type: "advancement"
 				}
 			]
-			x: 18.5d
-			y: 2.25d
+			x: 18.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["283EB5A9AD5C1061", "789ADDE7463B48C8", "337D7CB8797BD211", "2E6AC0A4D2018FAC", "582020A541AB5D80", "3AD3A6725655B6D0", "672FF7EFC7AFD2A5", "16BD5124B9B1A7B0", "35534A134624A5B2"]
@@ -770,8 +774,8 @@
 					type: "advancement"
 				}
 			]
-			x: 0.0d
-			y: 5.0d
+			x: 26.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["141E0EDDF78B547B"]
@@ -796,15 +800,15 @@
 					type: "item"
 				}
 			]
-			shape: "diamond"
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "7B63DE7E3097D4ED"
 					type: "checkmark"
 				}
 			]
-			x: 0.0d
-			y: 14.75d
+			x: 18.0d
+			y: -3.75d
 		}
 		{
 			dependencies: ["64F9716A95B4C4F9"]
@@ -1015,8 +1019,8 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: 9.5d
+			x: 2.0d
+			y: -1.25d
 		}
 		{
 			dependencies: ["64F9716A95B4C4F9"]
@@ -1032,7 +1036,7 @@
 					xp: 150
 				}
 			]
-			shape: "diamond"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "71F3A52E6F9BA2DD"
@@ -1040,8 +1044,8 @@
 					type: "structure"
 				}
 			]
-			x: 2.5d
-			y: 11.75d
+			x: 2.0d
+			y: 1.25d
 		}
 		{
 			dependencies: ["2DF99D88266E4FD7"]
@@ -1076,8 +1080,8 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: 11.75d
+			x: 4.0d
+			y: 1.25d
 		}
 		{
 			dependencies: ["136D243046ECF770"]
@@ -1110,8 +1114,8 @@
 					type: "item"
 				}
 			]
-			x: 6.5d
-			y: 8.75d
+			x: 6.0d
+			y: 1.25d
 		}
 		{
 			dependencies: ["0B3E8C1A9FDC0C43"]
@@ -1150,8 +1154,8 @@
 					type: "checkmark"
 				}
 			]
-			x: 8.5d
-			y: 8.75d
+			x: 8.0d
+			y: 1.25d
 		}
 		{
 			dependencies: ["382EC0DD56E92FE4"]
@@ -1192,8 +1196,58 @@
 					type: "checkmark"
 				}
 			]
-			x: 10.5d
-			y: 8.75d
+			x: 10.0d
+			y: 1.25d
+		}
+		{
+			dependencies: ["427CBF8A4DCC4604", "48BCF78DE9988978", "70316C8DA55A4226", "1CE654B0FE286ED8", "3EE25C32D1CB359C", "686148F36ABC3617", "2C8FF03B385BDEF7", "5D39013E81828865", "6356E223E486C0C9", "483EF1AFDC5F8771", "189164932188DE72"]
+			dependency_requirement: "one_completed"
+			icon: {
+				id: "minecraft:filled_map"
+			}
+			id: "054F9E2CE961B8D8"
+			optional: true
+			rewards: [
+				{
+					id: "4AC5313975EB0097"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "50E477ADEE124AFD"
+					type: "checkmark"
+				}
+			]
+			x: 14.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["054F9E2CE961B8D8", "07049344D99E519F"]
+			icon: {
+				id: "minecraft:grass_block"
+			}
+			id: "71C731CFE2F902A0"
+			optional: true
+			rewards: [
+				{
+					id: "2B21159A18D9E556"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "1C7BA4DC2063443E"
+					type: "checkmark"
+				}
+			]
+			x: 16.0d
+			y: -3.75d
 		}
 	]
+	tags: ["grp_eras"]
 }

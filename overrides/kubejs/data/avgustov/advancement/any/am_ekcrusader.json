@@ -1,0 +1,19 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "magistuarmory:greathelm",
+       "magistuarmory:crusader_chestplate",
+       "magistuarmory:crusader_leggings",
+       "magistuarmory:crusader_boots"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

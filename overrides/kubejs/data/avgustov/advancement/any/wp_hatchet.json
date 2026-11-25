@@ -1,0 +1,17 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "garnished:iron_hatchet",
+       "garnished:zinc_hatchet"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

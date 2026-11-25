@@ -1,0 +1,18 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "createbigcannons:wrought_iron_cannon_chamber",
+       "createbigcannons:wrought_iron_cannon_end",
+       "createbigcannons:wrought_iron_drop_mortar_end"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

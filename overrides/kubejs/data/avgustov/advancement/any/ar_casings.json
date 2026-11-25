@@ -1,0 +1,21 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "cgs:press_form_revolver",
+       "cgs:press_form_shotgun",
+       "cgs:press_form_gatling",
+       "cgs:round_revolver_blank",
+       "cgs:round_shotgun_blank",
+       "cgs:round_gatling_blank"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

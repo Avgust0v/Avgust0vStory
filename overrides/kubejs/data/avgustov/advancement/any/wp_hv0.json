@@ -1,0 +1,22 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "basicweapons:wooden_club",
+       "basicweapons:stone_club",
+       "basicweapons:stone_hammer",
+       "garnished:stone_hatchet",
+       "garnished:copper_hatchet",
+       "magistuarmory:copper_heavymace",
+       "magistuarmory:copper_morgenstern"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

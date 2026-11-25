@@ -39,7 +39,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 18.5d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -72,8 +72,8 @@
 					type: "item"
 				}
 			]
-			x: 18.5d
-			y: 2.5d
+			x: 2.0d
+			y: -1.25d
 		}
 		{
 			dependencies: ["6ECC7C838BBEE14E"]
@@ -95,8 +95,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 5.5d
+			x: 2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["6ECC7C838BBEE14E"]
@@ -138,8 +138,8 @@
 					type: "advancement"
 				}
 			]
-			x: 1.75d
-			y: 5.5d
+			x: 4.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["4F48098BE4C15E3B"]
@@ -163,8 +163,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 8.5d
+			x: 6.0d
+			y: 3.75d
 		}
 		{
 			dependencies: ["4F48098BE4C15E3B"]
@@ -198,8 +198,8 @@
 					type: "advancement"
 				}
 			]
-			x: 1.75d
-			y: 8.5d
+			x: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["6ECC7C838BBEE14E"]
@@ -231,8 +231,8 @@
 					type: "advancement"
 				}
 			]
-			x: 33.5d
-			y: 5.5d
+			x: 4.0d
+			y: -3.75d
 		}
 		{
 			dependencies: ["4E2F08A493893CD4"]
@@ -264,11 +264,12 @@
 					type: "advancement"
 				}
 			]
-			x: 23.25d
-			y: 8.5d
+			x: 6.0d
+			y: -1.25d
 		}
 		{
 			dependencies: ["4EFDEBDB7A6D75CA"]
+			hide_dependency_lines: true
 			icon: {
 				id: "create:stressometer"
 			}
@@ -299,8 +300,8 @@
 					type: "advancement"
 				}
 			]
-			x: 5.25d
-			y: 11.5d
+			x: 6.0d
+			y: 6.25d
 		}
 		{
 			dependencies: ["4F48098BE4C15E3B"]
@@ -332,8 +333,8 @@
 					type: "advancement"
 				}
 			]
-			x: 3.5d
-			y: 8.5d
+			x: 6.0d
+			y: 1.25d
 		}
 		{
 			dependencies: ["4EFDEBDB7A6D75CA"]
@@ -366,7 +367,7 @@
 				}
 			]
 			x: 8.0d
-			y: 11.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["54F4C46D1A02AFDB", "15B86A6E44F88225"]
@@ -398,8 +399,8 @@
 					type: "advancement"
 				}
 			]
-			x: 7.0d
-			y: 13.5d
+			x: 10.0d
+			y: 1.25d
 		}
 		{
 			dependencies: ["4EFDEBDB7A6D75CA"]
@@ -431,8 +432,8 @@
 					type: "advancement"
 				}
 			]
-			x: 13.25d
-			y: 11.5d
+			x: 8.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["12A6FC78202DB4C7"]
@@ -464,8 +465,8 @@
 					type: "advancement"
 				}
 			]
-			x: 10.5d
-			y: 13.5d
+			x: 10.0d
+			y: -1.25d
 		}
 		{
 			dependencies: ["12A6FC78202DB4C7"]
@@ -497,8 +498,8 @@
 					type: "advancement"
 				}
 			]
-			x: 12.25d
-			y: 13.5d
+			x: 10.0d
+			y: -3.75d
 		}
 		{
 			dependencies: ["4EFDEBDB7A6D75CA"]
@@ -530,8 +531,8 @@
 					type: "advancement"
 				}
 			]
-			x: 20.25d
-			y: 11.5d
+			x: 8.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["4416282B085423CF"]
@@ -563,8 +564,8 @@
 					type: "advancement"
 				}
 			]
-			x: 17.5d
-			y: 13.5d
+			x: 10.0d
+			y: 3.75d
 		}
 		{
 			dependencies: ["1098B5E64A0D1721"]
@@ -598,8 +599,8 @@
 					type: "advancement"
 				}
 			]
-			x: 17.5d
-			y: 15.5d
+			x: 12.0d
+			y: 3.75d
 		}
 		{
 			dependencies: ["4416282B085423CF"]
@@ -631,8 +632,8 @@
 					type: "advancement"
 				}
 			]
-			x: 19.25d
-			y: 13.5d
+			x: 8.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["4EFDEBDB7A6D75CA"]
@@ -664,8 +665,8 @@
 					type: "advancement"
 				}
 			]
-			x: 27.5d
-			y: 11.5d
+			x: 8.0d
+			y: -3.75d
 		}
 		{
 			dependencies: ["38351AA20081E7AE"]
@@ -697,8 +698,8 @@
 					type: "advancement"
 				}
 			]
-			x: 24.5d
-			y: 13.5d
+			x: 8.0d
+			y: -6.25d
 		}
 		{
 			dependencies: ["3A38D7ABE34F76A9"]
@@ -732,8 +733,8 @@
 					type: "advancement"
 				}
 			]
-			x: 24.5d
-			y: 15.5d
+			x: 10.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["4EFDEBDB7A6D75CA"]
@@ -765,8 +766,8 @@
 					type: "advancement"
 				}
 			]
-			x: 32.5d
-			y: 11.5d
+			x: 8.0d
+			y: -1.25d
 		}
 		{
 			dependencies: ["3FFA51A73031CEC3"]
@@ -789,8 +790,8 @@
 					type: "item"
 				}
 			]
-			x: 32.5d
-			y: 13.5d
+			x: 10.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7DEF708B73A8F70F"]
@@ -815,8 +816,8 @@
 					type: "item"
 				}
 			]
-			x: 32.5d
-			y: 15.5d
+			x: 12.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["38351AA20081E7AE"]
@@ -850,8 +851,8 @@
 					type: "advancement"
 				}
 			]
-			x: 27.25d
-			y: 13.5d
+			x: 10.0d
+			y: -6.25d
 		}
 		{
 			dependencies: ["4150C56EE4F70F6C"]
@@ -885,8 +886,8 @@
 					type: "advancement"
 				}
 			]
-			x: 26.25d
-			y: 15.5d
+			x: 12.0d
+			y: -6.25d
 		}
 		{
 			dependencies: ["4384678F160BB3BD", "7DEF708B73A8F70F", "389C3435AF290359"]
@@ -939,7 +940,7 @@
 					type: "command"
 				}
 			]
-			shape: "hexagon"
+			shape: "cog"
 			size: 1.5d
 			tasks: [
 				{
@@ -951,11 +952,12 @@
 					type: "item"
 				}
 			]
-			x: 23.75d
+			x: 16.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4EFDEBDB7A6D75CA"]
+			hide_dependency_lines: true
 			id: "58E29D718355BF98"
 			rewards: [
 				{
@@ -988,8 +990,8 @@
 					type: "advancement"
 				}
 			]
-			x: 34.25d
-			y: 11.5d
+			x: 8.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["4EFDEBDB7A6D75CA"]
@@ -1021,8 +1023,8 @@
 					type: "item"
 				}
 			]
-			x: 36.0d
-			y: 11.5d
+			x: 4.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["4E2F08A493893CD4"]
@@ -1054,8 +1056,8 @@
 					type: "item"
 				}
 			]
-			x: 25.0d
-			y: 8.5d
+			x: 2.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["1F3C2E85AC605CB9"]
@@ -1085,8 +1087,8 @@
 					type: "advancement"
 				}
 			]
-			x: 5.25d
-			y: 13.5d
+			x: 8.0d
+			y: 6.25d
 		}
 		{
 			dependencies: ["4EFDEBDB7A6D75CA"]
@@ -1108,8 +1110,8 @@
 					type: "item"
 				}
 			]
-			x: 37.75d
-			y: 11.5d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7BEBD608D80FB369"]
@@ -1133,11 +1135,12 @@
 					type: "item"
 				}
 			]
-			x: 12.25d
-			y: 15.5d
+			x: 12.0d
+			y: -3.75d
 		}
 		{
 			dependencies: ["54F4C46D1A02AFDB"]
+			hide_dependency_lines: true
 			id: "5962BBC27879708E"
 			optional: true
 			rewards: [
@@ -1158,8 +1161,8 @@
 					type: "item"
 				}
 			]
-			x: 8.75d
-			y: 13.5d
+			x: 12.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["4E2F08A493893CD4"]
@@ -1175,7 +1178,7 @@
 					xp: 20
 				}
 			]
-			shape: "diamond"
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "6124DD3C29F7DCDB"
@@ -1191,8 +1194,8 @@
 					type: "checkmark"
 				}
 			]
-			x: 26.75d
-			y: 8.5d
+			x: 2.0d
+			y: -3.75d
 		}
 		{
 			dependencies: ["12A6FC78202DB4C7"]
@@ -1216,8 +1219,8 @@
 					type: "item"
 				}
 			]
-			x: 14.0d
-			y: 13.5d
+			x: 10.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["4E2F08A493893CD4"]
@@ -1255,8 +1258,8 @@
 					type: "item"
 				}
 			]
-			x: 43.75d
-			y: 8.5d
+			x: 4.0d
+			y: -6.25d
 		}
 		{
 			dependencies: ["4079F25838407C2F"]
@@ -1289,8 +1292,8 @@
 					type: "item"
 				}
 			]
-			x: 43.0d
-			y: 11.5d
+			x: 6.0d
+			y: -6.25d
 		}
 		{
 			dependencies: ["4079F25838407C2F"]
@@ -1330,8 +1333,8 @@
 					type: "item"
 				}
 			]
-			x: 44.75d
-			y: 11.5d
+			x: 6.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["4416282B085423CF"]
@@ -1362,8 +1365,8 @@
 					type: "item"
 				}
 			]
-			x: 21.0d
-			y: 13.5d
+			x: 10.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["632AEE7F419978EA"]
@@ -1397,8 +1400,8 @@
 					type: "advancement"
 				}
 			]
-			x: 21.0d
-			y: 15.5d
+			x: 12.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["4416282B085423CF"]
@@ -1431,8 +1434,8 @@
 					type: "item"
 				}
 			]
-			x: 22.75d
-			y: 13.5d
+			x: 10.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["0D46A4828275B515", "2C8F1AF81F0DCA24"]
@@ -1481,8 +1484,8 @@
 					type: "item"
 				}
 			]
-			x: 32.5d
-			y: 17.5d
+			x: 14.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0D33890A1ECCEE87"]
@@ -1516,8 +1519,8 @@
 					type: "advancement"
 				}
 			]
-			x: 1.75d
-			y: 11.5d
+			x: 6.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["4150C56EE4F70F6C"]
@@ -1545,8 +1548,8 @@
 					type: "advancement"
 				}
 			]
-			x: 28.0d
-			y: 15.5d
+			x: 12.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["38FA369CC3B7EB77"]
@@ -1580,8 +1583,8 @@
 					type: "advancement"
 				}
 			]
-			x: 28.0d
-			y: 17.5d
+			x: 14.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["389C3435AF290359", "2741FB41F86956F1"]
@@ -1611,8 +1614,8 @@
 					type: "advancement"
 				}
 			]
-			x: 6.25d
-			y: 15.5d
+			x: 12.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["389C3435AF290359", "2C8F1AF81F0DCA24"]
@@ -1652,8 +1655,8 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: 15.5d
+			x: 12.0d
+			y: 1.25d
 		}
 		{
 			dependencies: ["6ECC7C838BBEE14E"]
@@ -1685,8 +1688,8 @@
 					type: "item"
 				}
 			]
-			x: 35.25d
-			y: 5.5d
+			x: 2.0d
+			y: 1.25d
 		}
 		{
 			dependencies: ["4EFDEBDB7A6D75CA"]
@@ -1710,8 +1713,8 @@
 					type: "item"
 				}
 			]
-			x: 39.5d
-			y: 11.5d
+			x: 4.0d
+			y: -1.25d
 		}
 		{
 			dependencies: ["38351AA20081E7AE"]
@@ -1744,8 +1747,8 @@
 					type: "item"
 				}
 			]
-			x: 29.0d
-			y: 13.5d
+			x: 6.0d
+			y: -3.75d
 		}
 		{
 			dependencies: ["38351AA20081E7AE"]
@@ -1770,8 +1773,8 @@
 					type: "item"
 				}
 			]
-			x: 30.75d
-			y: 13.5d
+			x: 6.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["15B86A6E44F88225"]
@@ -1805,8 +1808,8 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: 11.5d
+			x: 6.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["01265E4D3384E645"]
@@ -1831,8 +1834,8 @@
 					type: "item"
 				}
 			]
-			x: 19.25d
-			y: 15.5d
+			x: 10.0d
+			y: 6.25d
 		}
 		{
 			dependencies: ["4EFDEBDB7A6D75CA"]
@@ -1856,8 +1859,8 @@
 					type: "item"
 				}
 			]
-			x: 41.25d
-			y: 11.5d
+			x: 6.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["6ECC7C838BBEE14E"]
@@ -1881,8 +1884,8 @@
 					type: "item"
 				}
 			]
-			x: 37.0d
-			y: 5.5d
+			x: 0.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["12A6FC78202DB4C7"]
@@ -1906,8 +1909,9 @@
 					type: "item"
 				}
 			]
-			x: 15.75d
-			y: 13.5d
+			x: 10.0d
+			y: -5.0d
 		}
 	]
+	tags: ["grp_eras"]
 }

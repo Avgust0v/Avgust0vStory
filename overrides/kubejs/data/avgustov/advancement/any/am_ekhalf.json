@@ -1,0 +1,18 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "magistuarmory:barbute",
+       "magistuarmory:halfarmor_chestplate",
+       "magistuarmory:wingedhussar_chestplate"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

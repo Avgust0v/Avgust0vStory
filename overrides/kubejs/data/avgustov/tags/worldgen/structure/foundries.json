@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {"id": "dungeons_arise:foundry", "required": false},
+    {"id": "dungeons_arise:mechanical_nest", "required": false},
+    {"id": "create_easy_structures:factory_1", "required": false},
+    {"id": "create_easy_structures:factory_2", "required": false}
+  ]
+}

@@ -1,0 +1,18 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "cataclysm:infernal_forge",
+       "cataclysm:void_forge",
+       "cataclysm:brontes"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

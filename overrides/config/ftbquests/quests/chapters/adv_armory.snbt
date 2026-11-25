@@ -7,8 +7,84 @@
 		id: "immersive_armors:divine_chestplate"
 	}
 	id: "0C8BC331080BBBB1"
-	images: [ ]
-	order_index: 2
+	images: [
+		{
+			alpha: 255
+			color: 16777215
+			height: 0.75d
+			id: "712139F6C8DE77E0"
+			image: "avgustov:textures/questbook/decor/banner_plaque.png"
+			order: 0
+			rotation: 0.0d
+			text_inset: 14
+			text_on_image: true
+			text_shadow: true
+			width: 3.0d
+			x: -2.7d
+			y: 1.25d
+		}
+		{
+			alpha: 255
+			color: 16777215
+			height: 0.75d
+			id: "3093F92EAF2FC5C6"
+			image: "avgustov:textures/questbook/decor/banner_plaque.png"
+			order: 0
+			rotation: 0.0d
+			text_inset: 14
+			text_on_image: true
+			text_shadow: true
+			width: 3.0d
+			x: -0.2d
+			y: 3.75d
+		}
+		{
+			alpha: 255
+			color: 16777215
+			height: 0.75d
+			id: "3C8A5ADC4839D0FB"
+			image: "avgustov:textures/questbook/decor/banner_plaque.png"
+			order: 0
+			rotation: 0.0d
+			text_inset: 14
+			text_on_image: true
+			text_shadow: true
+			width: 3.0d
+			x: -0.2d
+			y: -3.75d
+		}
+		{
+			alpha: 255
+			color: 16777215
+			height: 0.75d
+			id: "46B204EFCEA61D4F"
+			image: "avgustov:textures/questbook/decor/banner_plaque.png"
+			order: 0
+			rotation: 0.0d
+			text_inset: 14
+			text_on_image: true
+			text_shadow: true
+			width: 3.0d
+			x: -2.7d
+			y: 0.0d
+		}
+		{
+			alpha: 255
+			color: 16777215
+			height: 0.75d
+			id: "53B1B8C748B84192"
+			image: "avgustov:textures/questbook/decor/banner_plaque.png"
+			order: 0
+			rotation: 0.0d
+			text_inset: 14
+			text_on_image: true
+			text_shadow: true
+			width: 3.0d
+			x: -2.7d
+			y: -1.25d
+		}
+	]
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -31,86 +107,14 @@
 					type: "checkmark"
 				}
 			]
-			x: 19.75d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["27A9A632D062727C"]
-			id: "3380C4BC0F0287C6"
-			optional: true
-			rewards: [
-				{
-					id: "1CAE48E5BD94CAAB"
-					type: "xp"
-					xp: 15
-				}
-			]
-			shape: "diamond"
-			tasks: [
-				{
-					id: "41B72E9BE60656AF"
-					item: {
-						count: 1
-						id: "immersive_armors:wooden_chestplate"
-					}
-					type: "item"
-				}
-			]
-			x: 0.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["27A9A632D062727C"]
-			id: "365BB99134E4CBDF"
-			optional: true
-			rewards: [
-				{
-					id: "7C51F8E59CF06F38"
-					type: "xp"
-					xp: 15
-				}
-			]
-			shape: "diamond"
-			tasks: [
-				{
-					id: "6F6ED347970379AD"
-					item: {
-						count: 1
-						id: "immersive_armors:bone_chestplate"
-					}
-					type: "item"
-				}
-			]
-			x: 2.75d
-			y: 3.5d
-		}
-		{
-			dependencies: ["27A9A632D062727C"]
-			id: "68D6835BB68D55C9"
-			optional: true
-			rewards: [
-				{
-					id: "230F86EFFAC78ED8"
-					type: "xp"
-					xp: 20
-				}
-			]
-			shape: "diamond"
-			tasks: [
-				{
-					id: "27F21263AF652A83"
-					item: {
-						count: 1
-						id: "immersive_armors:slime_chestplate"
-					}
-					type: "item"
-				}
-			]
-			x: 5.25d
-			y: 3.5d
-		}
-		{
-			dependencies: ["27A9A632D062727C"]
+			icon: {
+				id: "create_sa:copper_chestplate"
+			}
 			id: "446771FA574107D5"
 			optional: true
 			rewards: [
@@ -126,71 +130,427 @@
 					id: "220EE9D70E69375F"
 					item: {
 						count: 1
+						id: "create_sa:copper_helmet"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6950539E6C83E9A9"
+					item: {
+						count: 1
 						id: "create_sa:copper_chestplate"
 					}
+					optional_task: true
 					type: "item"
+				}
+				{
+					id: "3D7E7B435FC8D9FA"
+					item: {
+						count: 1
+						id: "create_sa:copper_leggings"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "53A006D90766F056"
+					item: {
+						count: 1
+						id: "create_sa:copper_boots"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/am_copper"
+					criterion: ""
+					id: "333AE41AF344EE02"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 1.25d
+		}
+		{
+			dependencies: ["446771FA574107D5"]
+			icon: {
+				id: "create_sa:zinc_chestplate"
+			}
+			id: "4CA3A49EEC85DBB3"
+			optional: true
+			rewards: [
+				{
+					id: "37774093BEF892F3"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "086DFBD43389CB07"
+					item: {
+						count: 1
+						id: "create_sa:zinc_helmet"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "31203390DE1C059E"
+					item: {
+						count: 1
+						id: "create_sa:zinc_chestplate"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "78438070C0AB1EF8"
+					item: {
+						count: 1
+						id: "create_sa:zinc_leggings"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "338DC33015D22336"
+					item: {
+						count: 1
+						id: "create_sa:zinc_boots"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/am_zinc"
+					criterion: ""
+					id: "1F107C9521CC02F6"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 1.25d
+		}
+		{
+			dependencies: ["4CA3A49EEC85DBB3", "2C8F1AF81F0DCA24"]
+			icon: {
+				id: "create_sa:brass_chestplate"
+			}
+			id: "5EA91EDFFD55CF09"
+			optional: true
+			rewards: [
+				{
+					id: "087EE7617E8357A9"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "775A559A298180A0"
+					item: {
+						count: 1
+						id: "create_sa:brass_helmet"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "782A2042FBA9A7D2"
+					item: {
+						count: 1
+						id: "create_sa:brass_chestplate"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "29C1C8DEBF9F9F11"
+					item: {
+						count: 1
+						id: "create_sa:brass_leggings"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2AE09CA447F811C5"
+					item: {
+						count: 1
+						id: "create_sa:brass_boots"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/ar_brassarmor"
+					criterion: ""
+					id: "07548928043A7CBA"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["5EA91EDFFD55CF09", "22DEBD5AC32E1906"]
+			icon: {
+				id: "minecraft:diamond_chestplate"
+			}
+			id: "55449D6F4EB48018"
+			optional: true
+			rewards: [
+				{
+					id: "35658AED435AB626"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "6012841C41DE5345"
+					item: {
+						count: 1
+						id: "minecraft:diamond_helmet"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "25800D29F1081B2F"
+					item: {
+						count: 1
+						id: "minecraft:diamond_chestplate"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "43A87AD2BFEA0DD8"
+					item: {
+						count: 1
+						id: "minecraft:diamond_leggings"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "01E2B3FECF4A258A"
+					item: {
+						count: 1
+						id: "minecraft:diamond_boots"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/b13_diamond"
+					criterion: ""
+					id: "08517D7651D6DAFC"
+					type: "advancement"
 				}
 			]
 			x: 8.0d
-			y: 3.5d
+			y: 3.75d
 		}
 		{
-			dependencies: ["27A9A632D062727C"]
-			id: "61FA51811135FCBD"
+			dependencies: ["5EA91EDFFD55CF09", "22DEBD5AC32E1906"]
+			icon: {
+				id: "aquaculture:neptunium_chestplate"
+			}
+			id: "26F132859F0F0742"
 			optional: true
 			rewards: [
 				{
-					id: "7BFF6FC5BB2B9385"
+					id: "508A588084AAF092"
 					type: "xp"
-					xp: 25
+					xp: 60
 				}
 			]
 			shape: "diamond"
 			tasks: [
 				{
-					id: "3B4DD574FD8FA4DD"
+					id: "606525DBE60CCDB2"
 					item: {
 						count: 1
-						id: "immersive_armors:warrior_chestplate"
+						id: "aquaculture:neptunium_helmet"
 					}
+					optional_task: true
 					type: "item"
 				}
+				{
+					id: "4907502C88FAABD9"
+					item: {
+						count: 1
+						id: "aquaculture:neptunium_chestplate"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1BFD69897593F8C2"
+					item: {
+						count: 1
+						id: "aquaculture:neptunium_leggings"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5D8E88A1D92A9EF4"
+					item: {
+						count: 1
+						id: "aquaculture:neptunium_boots"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/am_neptunium"
+					criterion: ""
+					id: "78C88ECD30E15641"
+					type: "advancement"
+				}
 			]
-			x: 10.5d
-			y: 3.5d
+			x: 8.0d
+			y: 5.0d
 		}
 		{
-			dependencies: ["27A9A632D062727C"]
-			id: "2145966031DE22C0"
+			dependencies: ["55449D6F4EB48018", "3D4A10682B7DC98E"]
+			icon: {
+				id: "deeperdarker:resonarium_chestplate"
+			}
+			id: "500EC8607B466E1D"
 			optional: true
 			rewards: [
 				{
-					id: "61F5E0CBBED6E3AC"
+					id: "71CAF272574E6AC9"
 					type: "xp"
-					xp: 30
+					xp: 60
 				}
 			]
 			shape: "diamond"
 			tasks: [
 				{
-					id: "268CCAC6467E6694"
+					id: "4E14FD1E3798ED06"
 					item: {
 						count: 1
-						id: "immersive_armors:prismarine_chestplate"
+						id: "deeperdarker:resonarium_helmet"
 					}
+					optional_task: true
 					type: "item"
 				}
+				{
+					id: "5ABEE3D4B8EEFC3C"
+					item: {
+						count: 1
+						id: "deeperdarker:resonarium_chestplate"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "204D459B5B16F6A5"
+					item: {
+						count: 1
+						id: "deeperdarker:resonarium_leggings"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3B3699F09B569BBC"
+					item: {
+						count: 1
+						id: "deeperdarker:resonarium_boots"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/am_resonarium"
+					criterion: ""
+					id: "3EDBCA004ADE93DA"
+					type: "advancement"
+				}
 			]
-			x: 13.25d
-			y: 3.5d
+			x: 10.0d
+			y: 2.5d
 		}
 		{
-			dependencies: ["27A9A632D062727C"]
-			id: "671570D4F48FA9CC"
+			dependencies: ["55449D6F4EB48018", "1DC70211B9AE8946"]
+			icon: {
+				id: "minecraft:netherite_chestplate"
+			}
+			id: "50B4906E206B9171"
 			optional: true
 			rewards: [
 				{
-					id: "578C7D4E38C762CB"
+					id: "69C25A1EDF621670"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "25444A1483654B5C"
+					item: {
+						count: 1
+						id: "minecraft:netherite_helmet"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7D576FAEC43A837A"
+					item: {
+						count: 1
+						id: "minecraft:netherite_chestplate"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "604434BC655F2F70"
+					item: {
+						count: 1
+						id: "minecraft:netherite_leggings"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "709691438ABE65B1"
+					item: {
+						count: 1
+						id: "minecraft:netherite_boots"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/am_netherite"
+					criterion: ""
+					id: "0D080CFDE2A51A20"
+					type: "advancement"
+				}
+			]
+			x: 12.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["50B4906E206B9171"]
+			id: "05E666F85CC7AF48"
+			optional: true
+			rewards: [
+				{
+					id: "6F27D9831DCED41D"
 					type: "xp"
 					xp: 40
 				}
@@ -198,44 +558,429 @@
 			shape: "diamond"
 			tasks: [
 				{
-					id: "1C5FF35420A35BF1"
+					id: "4ADEDED5566C8065"
 					item: {
 						count: 1
-						id: "mutantmonsters:mutant_skeleton_chestplate"
+						id: "fantasy_armor:moon_crystal"
 					}
 					type: "item"
 				}
 			]
-			x: 15.75d
-			y: 3.5d
+			x: 12.0d
+			y: 5.0d
 		}
 		{
-			dependencies: ["27A9A632D062727C", "0212EF427C731405"]
-			id: "7724668EE148A963"
+			dependencies: ["05E666F85CC7AF48"]
+			icon: {
+				id: "fantasy_armor:hero_chestplate"
+			}
+			id: "4278CC7FD36D973A"
 			optional: true
 			rewards: [
 				{
-					id: "08A40B45F645D578"
+					id: "17BBF90E705E64B8"
 					type: "xp"
-					xp: 25
+					xp: 150
 				}
 			]
 			shape: "diamond"
 			tasks: [
 				{
-					id: "118A35FC5F233F0F"
+					id: "6576B654DADA9108"
 					item: {
 						count: 1
-						id: "immersive_armors:robe_chestplate"
+						id: "fantasy_armor:hero_chestplate"
 					}
+					optional_task: true
 					type: "item"
 				}
+				{
+					advancement: "avgustov:arsenal/fantasy_chestplate"
+					criterion: ""
+					id: "399BA8146D27470D"
+					type: "advancement"
+				}
 			]
-			x: 18.5d
-			y: 3.5d
+			x: 12.0d
+			y: 6.25d
+		}
+		{
+			dependencies: ["50B4906E206B9171", "55CA5B20172A1007"]
+			icon: {
+				id: "cataclysm:ignitium_chestplate"
+			}
+			id: "55024B3BC4964CE7"
+			optional: true
+			rewards: [
+				{
+					id: "5AC56D2CCA3A275A"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "429C1C884DF57994"
+					item: {
+						count: 1
+						id: "cataclysm:ignitium_helmet"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3B2FCBD2F7FF08B7"
+					item: {
+						count: 1
+						id: "cataclysm:ignitium_chestplate"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "21FFBA22F8BE81BC"
+					item: {
+						count: 1
+						id: "cataclysm:ignitium_leggings"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "686C65252217C2F8"
+					item: {
+						count: 1
+						id: "cataclysm:ignitium_boots"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/w13_ignitium"
+					criterion: ""
+					id: "5654D1DEEEF7D3E4"
+					type: "advancement"
+				}
+			]
+			x: 14.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["50B4906E206B9171", "068D465E27A99775"]
+			icon: {
+				id: "cataclysm:cursium_chestplate"
+			}
+			id: "08694E65871B3DFD"
+			optional: true
+			rewards: [
+				{
+					id: "7648566C59FEEF3D"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "67277D1523B30554"
+					item: {
+						count: 1
+						id: "cataclysm:cursium_helmet"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "63E5C16C123D391D"
+					item: {
+						count: 1
+						id: "cataclysm:cursium_chestplate"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0C7617BE8A385B1E"
+					item: {
+						count: 1
+						id: "cataclysm:cursium_leggings"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "07FD2F7A43A0F41B"
+					item: {
+						count: 1
+						id: "cataclysm:cursium_boots"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/w13_cursium"
+					criterion: ""
+					id: "0BE13FCB1FB32690"
+					type: "advancement"
+				}
+			]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50B4906E206B9171", "14E69E154C2CB3B6"]
+			icon: {
+				id: "deeperdarker:warden_chestplate"
+			}
+			id: "1EBD71F19CF7CA63"
+			optional: true
+			rewards: [
+				{
+					id: "7C409B698E9F3506"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "6DA39CCCBCEFA088"
+					item: {
+						count: 1
+						id: "deeperdarker:warden_helmet"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "52858AD0C56CA35A"
+					item: {
+						count: 1
+						id: "deeperdarker:warden_chestplate"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1ED95073134FE7AE"
+					item: {
+						count: 1
+						id: "deeperdarker:warden_leggings"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2446EB479092F787"
+					item: {
+						count: 1
+						id: "deeperdarker:warden_boots"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/w13_warden"
+					criterion: ""
+					id: "7932BBD0FD2479CD"
+					type: "advancement"
+				}
+			]
+			x: 14.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["50B4906E206B9171", "296028D6BC6BA78D"]
+			icon: {
+				id: "legendary_monsters:annihilator_chestplate"
+			}
+			id: "76ABD4D0C9421375"
+			optional: true
+			rewards: [
+				{
+					id: "0E15A38DC3D8E065"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "4D3DC9B3ED00490B"
+					item: {
+						count: 1
+						id: "legendary_monsters:annihilator_helmet"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "22CD93476754E531"
+					item: {
+						count: 1
+						id: "legendary_monsters:annihilator_chestplate"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "19859840F8B268BC"
+					item: {
+						count: 1
+						id: "legendary_monsters:annihilator_leggings"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "433CD908372B81F9"
+					item: {
+						count: 1
+						id: "legendary_monsters:annihilator_boots"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/am_annihilator"
+					criterion: ""
+					id: "42D39A8659D370C5"
+					type: "advancement"
+				}
+			]
+			x: 14.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["27A9A632D062727C"]
+			icon: {
+				id: "immersive_armors:wooden_chestplate"
+			}
+			id: "3380C4BC0F0287C6"
+			optional: true
+			rewards: [
+				{
+					id: "1CAE48E5BD94CAAB"
+					type: "xp"
+					xp: 15
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "41B72E9BE60656AF"
+					item: {
+						count: 1
+						id: "immersive_armors:wooden_helmet"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "569CC023D5BB9047"
+					item: {
+						count: 1
+						id: "immersive_armors:wooden_chestplate"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "25D55CE3DBA6D368"
+					item: {
+						count: 1
+						id: "immersive_armors:wooden_leggings"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "276F6CF9EDCFE26E"
+					item: {
+						count: 1
+						id: "immersive_armors:wooden_boots"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/am_wood"
+					criterion: ""
+					id: "3759F30698D790A1"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["3380C4BC0F0287C6"]
+			icon: {
+				id: "immersive_armors:bone_chestplate"
+			}
+			id: "365BB99134E4CBDF"
+			optional: true
+			rewards: [
+				{
+					id: "7C51F8E59CF06F38"
+					type: "xp"
+					xp: 15
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "6F6ED347970379AD"
+					item: {
+						count: 1
+						id: "immersive_armors:bone_helmet"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "06E12A2FE7215F98"
+					item: {
+						count: 1
+						id: "immersive_armors:bone_chestplate"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0B552E7E760D4A13"
+					item: {
+						count: 1
+						id: "immersive_armors:bone_leggings"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "70D48E2480FDB0EB"
+					item: {
+						count: 1
+						id: "immersive_armors:bone_boots"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/am_bone"
+					criterion: ""
+					id: "532DFE38A786D6C4"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 3.75d
 		}
 		{
 			dependencies: ["365BB99134E4CBDF", "0212EF427C731405"]
+			icon: {
+				id: "immersive_armors:wither_chestplate"
+			}
 			id: "478CCBD01C5969A2"
 			optional: true
 			rewards: [
@@ -251,16 +996,363 @@
 					id: "4CAF4E5F470C5EC0"
 					item: {
 						count: 1
-						id: "immersive_armors:wither_chestplate"
+						id: "immersive_armors:wither_helmet"
 					}
+					optional_task: true
 					type: "item"
 				}
+				{
+					id: "25CE103E63A904A6"
+					item: {
+						count: 1
+						id: "immersive_armors:wither_chestplate"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "67790D32A34D577A"
+					item: {
+						count: 1
+						id: "immersive_armors:wither_leggings"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "71B4EB9A3739AD74"
+					item: {
+						count: 1
+						id: "immersive_armors:wither_boots"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/am_wither"
+					criterion: ""
+					id: "11B87C24DBE83F85"
+					type: "advancement"
+				}
 			]
-			x: 2.75d
-			y: 5.5d
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3380C4BC0F0287C6"]
+			icon: {
+				id: "immersive_armors:slime_chestplate"
+			}
+			id: "68D6835BB68D55C9"
+			optional: true
+			rewards: [
+				{
+					id: "230F86EFFAC78ED8"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "27F21263AF652A83"
+					item: {
+						count: 1
+						id: "immersive_armors:slime_helmet"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "03ED719D388A0A35"
+					item: {
+						count: 1
+						id: "immersive_armors:slime_chestplate"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5BF8883F4B64F2E3"
+					item: {
+						count: 1
+						id: "immersive_armors:slime_leggings"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "729B9D567DA56AC9"
+					item: {
+						count: 1
+						id: "immersive_armors:slime_boots"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/am_slime"
+					criterion: ""
+					id: "301F3991E9176A2A"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 6.25d
+		}
+		{
+			dependencies: ["3380C4BC0F0287C6"]
+			icon: {
+				id: "immersive_armors:warrior_chestplate"
+			}
+			id: "61FA51811135FCBD"
+			optional: true
+			rewards: [
+				{
+					id: "7BFF6FC5BB2B9385"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "3B4DD574FD8FA4DD"
+					item: {
+						count: 1
+						id: "immersive_armors:warrior_helmet"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "603F90AD3610178E"
+					item: {
+						count: 1
+						id: "immersive_armors:warrior_chestplate"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "46194EEDB2FDF060"
+					item: {
+						count: 1
+						id: "immersive_armors:warrior_leggings"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "07E64C3A1188E2A3"
+					item: {
+						count: 1
+						id: "immersive_armors:warrior_boots"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/am_warrior"
+					criterion: ""
+					id: "1D07E6049C969400"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["61FA51811135FCBD", "2C8F1AF81F0DCA24"]
+			icon: {
+				id: "immersive_armors:steampunk_chestplate"
+			}
+			id: "167B967639030738"
+			optional: true
+			rewards: [
+				{
+					id: "6DFAB9E3F34FE68F"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "168DF337A4CE3572"
+					item: {
+						count: 1
+						id: "immersive_armors:steampunk_helmet"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "354DF5EB0002F5BC"
+					item: {
+						count: 1
+						id: "immersive_armors:steampunk_chestplate"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5121FB6E1293EEAF"
+					item: {
+						count: 1
+						id: "immersive_armors:steampunk_leggings"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "53E31F1F9F267115"
+					item: {
+						count: 1
+						id: "immersive_armors:steampunk_boots"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/ar_steampunk"
+					criterion: ""
+					id: "0F7EF5AE46216678"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: 6.25d
+		}
+		{
+			dependencies: ["167B967639030738", "5DAF564C963FD05E"]
+			icon: {
+				id: "immersive_armors:heavy_chestplate"
+			}
+			id: "3533D9A9B549A644"
+			optional: true
+			rewards: [
+				{
+					id: "052FBDC30DD68AAC"
+					type: "xp"
+					xp: 80
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "4C687C9E755C038B"
+					item: {
+						count: 1
+						id: "immersive_armors:heavy_helmet"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4A92F08A3C3F6975"
+					item: {
+						count: 1
+						id: "immersive_armors:heavy_chestplate"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4848232E5A13ED29"
+					item: {
+						count: 1
+						id: "immersive_armors:heavy_leggings"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "643232793EFE1DBF"
+					item: {
+						count: 1
+						id: "immersive_armors:heavy_boots"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/ar_armor"
+					criterion: ""
+					id: "4323FFD9BAAAE51A"
+					type: "advancement"
+				}
+			]
+			x: 10.0d
+			y: 6.25d
+		}
+		{
+			dependencies: ["3380C4BC0F0287C6", "0212EF427C731405"]
+			icon: {
+				id: "immersive_armors:robe_chestplate"
+			}
+			id: "7724668EE148A963"
+			optional: true
+			rewards: [
+				{
+					id: "08A40B45F645D578"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "118A35FC5F233F0F"
+					item: {
+						count: 1
+						id: "immersive_armors:robe_helmet"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "69DF6B50ECDEA571"
+					item: {
+						count: 1
+						id: "immersive_armors:robe_chestplate"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7BF347F1A9F912FC"
+					item: {
+						count: 1
+						id: "immersive_armors:robe_leggings"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6C5F02911E1B0850"
+					item: {
+						count: 1
+						id: "immersive_armors:robe_boots"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/am_robe"
+					criterion: ""
+					id: "544110E5628F9718"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["7724668EE148A963"]
+			icon: {
+				id: "immersive_armors:divine_chestplate"
+			}
 			id: "537BFD3C81045911"
 			optional: true
 			rewards: [
@@ -276,21 +1368,483 @@
 					id: "2130F8FF1A07B0AA"
 					item: {
 						count: 1
-						id: "immersive_armors:divine_chestplate"
+						id: "immersive_armors:divine_helmet"
 					}
+					optional_task: true
 					type: "item"
 				}
+				{
+					id: "381D370614654FC2"
+					item: {
+						count: 1
+						id: "immersive_armors:divine_chestplate"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7FA8A1C5C6A5DC2C"
+					item: {
+						count: 1
+						id: "immersive_armors:divine_leggings"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "61026AD5B7973EBB"
+					item: {
+						count: 1
+						id: "immersive_armors:divine_boots"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/am_divine"
+					criterion: ""
+					id: "707302D084E1F63C"
+					type: "advancement"
+				}
 			]
-			x: 18.5d
-			y: 5.5d
+			x: 6.0d
+			y: 7.5d
 		}
 		{
-			dependencies: ["27A9A632D062727C", "2C8F1AF81F0DCA24"]
-			id: "4DB0B29951E80979"
+			dependencies: ["3380C4BC0F0287C6"]
+			icon: {
+				id: "immersive_armors:prismarine_chestplate"
+			}
+			id: "2145966031DE22C0"
 			optional: true
 			rewards: [
 				{
-					id: "5B2F98A4438593A4"
+					id: "61F5E0CBBED6E3AC"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "268CCAC6467E6694"
+					item: {
+						count: 1
+						id: "immersive_armors:prismarine_helmet"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4C5B018F65749208"
+					item: {
+						count: 1
+						id: "immersive_armors:prismarine_chestplate"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4D4B76B363FED392"
+					item: {
+						count: 1
+						id: "immersive_armors:prismarine_leggings"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2B4C8EDDBE33DE88"
+					item: {
+						count: 1
+						id: "immersive_armors:prismarine_boots"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/am_prismarine"
+					criterion: ""
+					id: "1FFEB160AF95B474"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["27A9A632D062727C"]
+			icon: {
+				id: "magistuarmory:gambeson_chestplate"
+			}
+			id: "51ADF598BC7BF7BB"
+			optional: true
+			rewards: [
+				{
+					id: "77803357CED7FD00"
+					type: "xp"
+					xp: 15
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "504C88884C793FB4"
+					item: {
+						count: 1
+						id: "magistuarmory:coif"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7E72E690BD88400D"
+					item: {
+						count: 1
+						id: "magistuarmory:gambeson_chestplate"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "44C863DE35C9F715"
+					item: {
+						count: 1
+						id: "magistuarmory:pantyhose"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5C17B19CFE34E303"
+					item: {
+						count: 1
+						id: "magistuarmory:gambeson_boots"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/am_gambeson"
+					criterion: ""
+					id: "6B26E8A92871BE96"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["51ADF598BC7BF7BB"]
+			icon: {
+				id: "magistuarmory:chainmail_chestplate"
+			}
+			id: "26870972FB8692A0"
+			optional: true
+			rewards: [
+				{
+					id: "054D976E75283D3C"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "4FC09F13BC579D2A"
+					item: {
+						count: 1
+						id: "magistuarmory:chainmail_helmet"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0B918E1EA2989B85"
+					item: {
+						count: 1
+						id: "magistuarmory:chainmail_chestplate"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0F9C22C5FCDCBF72"
+					item: {
+						count: 1
+						id: "magistuarmory:chainmail_leggings"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4F87633DB6023015"
+					item: {
+						count: 1
+						id: "magistuarmory:chainmail_boots"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/ar13_mail"
+					criterion: ""
+					id: "247BE6E5C2198E06"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["26870972FB8692A0"]
+			icon: {
+				id: "magistuarmory:platemail_chestplate"
+			}
+			id: "4E7D9ACBC56C484A"
+			optional: true
+			rewards: [
+				{
+					id: "2D0072D0B6AFB6DF"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "4F34590435AA7C4A"
+					item: {
+						count: 1
+						id: "magistuarmory:kettlehat"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "385DDDD8BD8F59F7"
+					item: {
+						count: 1
+						id: "magistuarmory:platemail_chestplate"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "48CC63CD9BF2D6A7"
+					item: {
+						count: 1
+						id: "magistuarmory:platemail_leggings"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "647A8D752435811A"
+					item: {
+						count: 1
+						id: "magistuarmory:platemail_boots"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/am_ekplate"
+					criterion: ""
+					id: "75282B03011074D5"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: -6.25d
+		}
+		{
+			dependencies: ["4E7D9ACBC56C484A"]
+			icon: {
+				id: "magistuarmory:crusader_chestplate"
+			}
+			id: "41EC71E2A20510B4"
+			optional: true
+			rewards: [
+				{
+					id: "371FA49B983F7902"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "10BF65ACC1BCA214"
+					item: {
+						count: 1
+						id: "magistuarmory:greathelm"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "79734373D675A54E"
+					item: {
+						count: 1
+						id: "magistuarmory:crusader_chestplate"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "47AA2B4D6C45B082"
+					item: {
+						count: 1
+						id: "magistuarmory:crusader_leggings"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7D3C594612F10B31"
+					item: {
+						count: 1
+						id: "magistuarmory:crusader_boots"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/am_ekcrusader"
+					criterion: ""
+					id: "1EDDD68493898FEA"
+					type: "advancement"
+				}
+			]
+			x: 8.0d
+			y: -6.25d
+		}
+		{
+			dependencies: ["26870972FB8692A0"]
+			icon: {
+				id: "magistuarmory:cuirassier_chestplate"
+			}
+			id: "50CA65F161269273"
+			optional: true
+			rewards: [
+				{
+					id: "6BD3D252ACCA8A83"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "0D493356F650D028"
+					item: {
+						count: 1
+						id: "magistuarmory:cuirassier_helmet"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6D354EC947055DBE"
+					item: {
+						count: 1
+						id: "magistuarmory:cuirassier_chestplate"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "581880D65C637D90"
+					item: {
+						count: 1
+						id: "magistuarmory:cuirassier_leggings"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "609B2BC9C20257F5"
+					item: {
+						count: 1
+						id: "magistuarmory:cuirassier_boots"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/am_ekcuir"
+					criterion: ""
+					id: "0BF0DF7116DA28C4"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["26870972FB8692A0"]
+			icon: {
+				id: "magistuarmory:lamellar_chestplate"
+			}
+			id: "0D77D52DE41CE293"
+			optional: true
+			rewards: [
+				{
+					id: "1FB0B14D9D1FA11E"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "433E31EE2B4E57B6"
+					item: {
+						count: 1
+						id: "magistuarmory:face_helmet"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3EABDAFE84B4E22A"
+					item: {
+						count: 1
+						id: "magistuarmory:lamellar_chestplate"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1E4CA7743A5CE433"
+					item: {
+						count: 1
+						id: "magistuarmory:lamellar_boots"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/am_eklamellar"
+					criterion: ""
+					id: "3F287CD139941517"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: -6.25d
+		}
+		{
+			dependencies: ["26870972FB8692A0", "2C8F1AF81F0DCA24"]
+			icon: {
+				id: "magistuarmory:xivcenturyknight_chestplate"
+			}
+			id: "60C2A51D9D5B3449"
+			optional: true
+			rewards: [
+				{
+					id: "566CB1D083DC0F78"
 					type: "xp"
 					xp: 40
 				}
@@ -298,19 +1852,484 @@
 			shape: "diamond"
 			tasks: [
 				{
-					id: "1F4CACA90D6A39F7"
+					id: "1EB27816DAD8B176"
 					item: {
 						count: 1
-						id: "cataclysm:bone_reptile_chestplate"
+						id: "magistuarmory:bascinet"
 					}
+					optional_task: true
 					type: "item"
 				}
+				{
+					id: "23434C68C0759C85"
+					item: {
+						count: 1
+						id: "magistuarmory:xivcenturyknight_chestplate"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3D8FF1FF9D635E5D"
+					item: {
+						count: 1
+						id: "magistuarmory:xivcenturyknight_leggings"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "30ABD53EACDCA3D1"
+					item: {
+						count: 1
+						id: "magistuarmory:xivcenturyknight_boots"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/ar13_xiv"
+					criterion: ""
+					id: "125A20E314088D6D"
+					type: "advancement"
+				}
 			]
-			x: 21.0d
-			y: 3.5d
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["26870972FB8692A0"]
+			icon: {
+				id: "magistuarmory:halfarmor_chestplate"
+			}
+			id: "31A17ED3B19C63AA"
+			optional: true
+			rewards: [
+				{
+					id: "1EEF067E45A9767D"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "2F51F98237E9102D"
+					item: {
+						count: 1
+						id: "magistuarmory:barbute"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5014C4E69C524670"
+					item: {
+						count: 1
+						id: "magistuarmory:halfarmor_chestplate"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "74A60D9946C2BDD3"
+					item: {
+						count: 1
+						id: "magistuarmory:wingedhussar_chestplate"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/am_ekhalf"
+					criterion: ""
+					id: "5070218A727656D2"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["31A17ED3B19C63AA", "5DAF564C963FD05E"]
+			hide_dependency_lines: true
+			icon: {
+				id: "magistuarmory:knight_chestplate"
+			}
+			id: "657ED9E1A9327981"
+			optional: true
+			rewards: [
+				{
+					id: "7678B965E08E2E93"
+					type: "xp"
+					xp: 80
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "6E93D833BDAE7922"
+					item: {
+						count: 1
+						id: "magistuarmory:armet"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6AB1EEBEDEC9A2AA"
+					item: {
+						count: 1
+						id: "magistuarmory:knight_chestplate"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "70D958471A5DED7D"
+					item: {
+						count: 1
+						id: "magistuarmory:knight_leggings"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "30CE156D2C31A077"
+					item: {
+						count: 1
+						id: "magistuarmory:knight_boots"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/ar12_knight"
+					criterion: ""
+					id: "364187F101631D7F"
+					type: "advancement"
+				}
+			]
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["657ED9E1A9327981"]
+			icon: {
+				id: "magistuarmory:jousting_chestplate"
+			}
+			id: "3438447756AD852E"
+			optional: true
+			rewards: [
+				{
+					id: "2DA3037FFF1CF74C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "7729ACF36691FD72"
+					item: {
+						count: 1
+						id: "magistuarmory:stechhelm"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7957C91150844999"
+					item: {
+						count: 1
+						id: "magistuarmory:jousting_chestplate"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "34C4FB0BD19324A4"
+					item: {
+						count: 1
+						id: "magistuarmory:jousting_leggings"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4BF840C29CD79327"
+					item: {
+						count: 1
+						id: "magistuarmory:jousting_boots"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/ar12_joust"
+					criterion: ""
+					id: "40A846C5E4A441E0"
+					type: "advancement"
+				}
+			]
+			x: 12.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["657ED9E1A9327981", "1DC70211B9AE8946"]
+			icon: {
+				id: "magistuarmory:maximilian_chestplate"
+			}
+			id: "625291F2050E0432"
+			optional: true
+			rewards: [
+				{
+					id: "4E500B89D76D4F35"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "1D3184A6503889C1"
+					item: {
+						count: 1
+						id: "magistuarmory:maximilian_helmet"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0D60C754F04676B7"
+					item: {
+						count: 1
+						id: "magistuarmory:maximilian_chestplate"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "055487463DCCDB20"
+					item: {
+						count: 1
+						id: "magistuarmory:maximilian_leggings"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "343F990D64EBCE7B"
+					item: {
+						count: 1
+						id: "magistuarmory:maximilian_boots"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/ar12_max"
+					criterion: ""
+					id: "38A138395836D47B"
+					type: "advancement"
+				}
+			]
+			x: 12.0d
+			y: -1.25d
+		}
+		{
+			dependencies: ["31A17ED3B19C63AA", "5DAF564C963FD05E"]
+			hide_dependency_lines: true
+			icon: {
+				id: "magistuarmory:gothic_chestplate"
+			}
+			id: "5B793200B6CCE2ED"
+			optional: true
+			rewards: [
+				{
+					id: "181AAA0EBF6F1C98"
+					type: "xp"
+					xp: 80
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "53F3DAF79068DB76"
+					item: {
+						count: 1
+						id: "magistuarmory:sallet"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "65B363A89834F379"
+					item: {
+						count: 1
+						id: "magistuarmory:gothic_chestplate"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7C8401A5E59CB3E2"
+					item: {
+						count: 1
+						id: "magistuarmory:gothic_leggings"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "436CDE84808B0688"
+					item: {
+						count: 1
+						id: "magistuarmory:gothic_boots"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/am_ekgothic"
+					criterion: ""
+					id: "25D69997310AFC35"
+					type: "advancement"
+				}
+			]
+			x: 10.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["31A17ED3B19C63AA", "5DAF564C963FD05E"]
+			hide_dependency_lines: true
+			icon: {
+				id: "magistuarmory:kastenbrust_chestplate"
+			}
+			id: "00F576F383A93517"
+			optional: true
+			rewards: [
+				{
+					id: "31079877B47A3F28"
+					type: "xp"
+					xp: 80
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "2856312BCF4FAE2D"
+					item: {
+						count: 1
+						id: "magistuarmory:grand_bascinet"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2D450FC939FD31D2"
+					item: {
+						count: 1
+						id: "magistuarmory:kastenbrust_chestplate"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1E22129268B6F14B"
+					item: {
+						count: 1
+						id: "magistuarmory:kastenbrust_leggings"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "34EA87E7628F0D29"
+					item: {
+						count: 1
+						id: "magistuarmory:kastenbrust_boots"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/am_ekkasten"
+					criterion: ""
+					id: "02B64E9B9E4E16EA"
+					type: "advancement"
+				}
+			]
+			x: 10.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["51ADF598BC7BF7BB"]
+			icon: {
+				id: "magistuarmory:rustedchainmail_chestplate"
+			}
+			id: "57207835097E4913"
+			optional: true
+			rewards: [
+				{
+					id: "06F8C8A8FABEEFAD"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "1464B1A51DB5754F"
+					item: {
+						count: 1
+						id: "magistuarmory:rustedchainmail_helmet"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7A1AB15617E82677"
+					item: {
+						count: 1
+						id: "magistuarmory:rustedchainmail_chestplate"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4EECC87826A968C9"
+					item: {
+						count: 1
+						id: "magistuarmory:rustedchainmail_leggings"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "37B46952C575FFFB"
+					item: {
+						count: 1
+						id: "magistuarmory:rustedchainmail_boots"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/am_ekrusted"
+					criterion: ""
+					id: "53CDAD1EAA433E71"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["27A9A632D062727C", "0EB4F8AFE6A5B3D1"]
+			icon: {
+				id: "aquamirae:salvager_suit"
+			}
 			id: "33DAE07EA6AF67A4"
 			optional: true
 			rewards: [
@@ -328,14 +2347,42 @@
 						count: 1
 						id: "aquamirae:salvager_suit"
 					}
+					optional_task: true
 					type: "item"
 				}
+				{
+					id: "43B6A1BF849DF38D"
+					item: {
+						count: 1
+						id: "aquamirae:salvager_waders"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2C697AD35CBC55B9"
+					item: {
+						count: 1
+						id: "aquamirae:salvager_boots"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/am_salvager"
+					criterion: ""
+					id: "5CFD3D6AA54DBA9A"
+					type: "advancement"
+				}
 			]
-			x: 23.75d
-			y: 3.5d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["33DAE07EA6AF67A4"]
+			icon: {
+				id: "aquamirae:terrible_chestplate"
+			}
 			id: "3BC4DBD7C46A9301"
 			optional: true
 			rewards: [
@@ -351,16 +2398,53 @@
 					id: "2BDDC89F0F1457E4"
 					item: {
 						count: 1
-						id: "aquamirae:terrible_chestplate"
+						id: "aquamirae:terrible_helmet"
 					}
+					optional_task: true
 					type: "item"
 				}
+				{
+					id: "78342AF192B20645"
+					item: {
+						count: 1
+						id: "aquamirae:terrible_chestplate"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0FBF8EB1303CADE2"
+					item: {
+						count: 1
+						id: "aquamirae:terrible_leggings"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "35AB3F91475E39D4"
+					item: {
+						count: 1
+						id: "aquamirae:terrible_boots"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/am_terrible"
+					criterion: ""
+					id: "238D19158E00A89B"
+					type: "advancement"
+				}
 			]
-			x: 23.75d
-			y: 5.5d
+			x: 6.0d
+			y: 2.5d
 		}
 		{
-			dependencies: ["3BC4DBD7C46A9301"]
+			dependencies: ["3BC4DBD7C46A9301", "22DEBD5AC32E1906"]
+			icon: {
+				id: "aquamirae:abyssal_brigandine"
+			}
 			id: "3839C02C25DF9125"
 			optional: true
 			rewards: [
@@ -376,66 +2460,175 @@
 					id: "0E19EFE27C936B30"
 					item: {
 						count: 1
+						id: "aquamirae:abyssal_heaume"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4E6BACCD3C3BCD3E"
+					item: {
+						count: 1
 						id: "aquamirae:abyssal_brigandine"
 					}
+					optional_task: true
 					type: "item"
 				}
+				{
+					id: "1561093EDE8EBFC7"
+					item: {
+						count: 1
+						id: "aquamirae:abyssal_leggings"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "717672508FAA8F48"
+					item: {
+						count: 1
+						id: "aquamirae:abyssal_boots"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/am_abyssal"
+					criterion: ""
+					id: "74F80249F6DD7D0C"
+					type: "advancement"
+				}
 			]
-			x: 23.75d
-			y: 7.5d
+			x: 8.0d
+			y: 2.5d
 		}
 		{
-			dependencies: ["27A9A632D062727C", "22DEBD5AC32E1906"]
-			id: "26F132859F0F0742"
+			dependencies: ["27A9A632D062727C"]
+			icon: {
+				id: "minecraft:skeleton_skull"
+			}
+			id: "6870F8D32D22A6B4"
 			optional: true
 			rewards: [
 				{
-					id: "508A588084AAF092"
+					id: "0C167BB5AC057F09"
 					type: "xp"
-					xp: 60
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "37DA1F5E76AC5B42"
+					type: "checkmark"
+				}
+			]
+			x: 4.0d
+			y: -1.25d
+		}
+		{
+			dependencies: ["6870F8D32D22A6B4"]
+			icon: {
+				id: "mutantmonsters:mutant_skeleton_chestplate"
+			}
+			id: "671570D4F48FA9CC"
+			optional: true
+			rewards: [
+				{
+					id: "578C7D4E38C762CB"
+					type: "xp"
+					xp: 40
 				}
 			]
 			shape: "diamond"
 			tasks: [
 				{
-					id: "606525DBE60CCDB2"
+					id: "1C5FF35420A35BF1"
 					item: {
 						count: 1
-						id: "aquaculture:neptunium_chestplate"
+						id: "mutantmonsters:mutant_skeleton_chestplate"
 					}
+					optional_task: true
 					type: "item"
 				}
+				{
+					id: "33F98B0B28C3EC26"
+					item: {
+						count: 1
+						id: "mutantmonsters:mutant_skeleton_leggings"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "20E56DE30BA00281"
+					item: {
+						count: 1
+						id: "mutantmonsters:mutant_skeleton_boots"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/am_mutant"
+					criterion: ""
+					id: "4603924CFE8432B0"
+					type: "advancement"
+				}
 			]
-			x: 26.25d
-			y: 3.5d
+			x: 6.0d
+			y: 1.25d
 		}
 		{
-			dependencies: ["27A9A632D062727C", "3D4A10682B7DC98E"]
-			id: "500EC8607B466E1D"
+			dependencies: ["6870F8D32D22A6B4", "2C8F1AF81F0DCA24"]
+			icon: {
+				id: "cataclysm:bone_reptile_chestplate"
+			}
+			id: "4DB0B29951E80979"
 			optional: true
 			rewards: [
 				{
-					id: "71CAF272574E6AC9"
+					id: "5B2F98A4438593A4"
 					type: "xp"
-					xp: 60
+					xp: 40
 				}
 			]
 			shape: "diamond"
 			tasks: [
 				{
-					id: "4E14FD1E3798ED06"
+					id: "1F4CACA90D6A39F7"
 					item: {
 						count: 1
-						id: "deeperdarker:resonarium_chestplate"
+						id: "cataclysm:bone_reptile_helmet"
 					}
+					optional_task: true
 					type: "item"
 				}
+				{
+					id: "68198EAAFE99E3A0"
+					item: {
+						count: 1
+						id: "cataclysm:bone_reptile_chestplate"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/am_reptile"
+					criterion: ""
+					id: "7967AD3521F044EB"
+					type: "advancement"
+				}
 			]
-			x: 29.0d
-			y: 3.5d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["27A9A632D062727C", "3EE25C32D1CB359C"]
+			dependencies: ["6870F8D32D22A6B4", "3EE25C32D1CB359C"]
+			hide_dependency_lines: true
+			icon: {
+				id: "legendary_monsters:mossy_chestplate"
+			}
 			id: "1158D7A0B717A7D0"
 			optional: true
 			rewards: [
@@ -456,11 +2649,15 @@
 					type: "item"
 				}
 			]
-			x: 31.5d
-			y: 3.5d
+			x: 8.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["27A9A632D062727C", "79AD95D4B5440CF7"]
+			dependencies: ["6870F8D32D22A6B4", "79AD95D4B5440CF7"]
+			hide_dependency_lines: true
+			icon: {
+				id: "block_factorys_bosses:dragon_bones_chestplate"
+			}
 			id: "39E14246D31E4509"
 			optional: true
 			rewards: [
@@ -478,14 +2675,43 @@
 						count: 1
 						id: "block_factorys_bosses:dragon_bones_chestplate"
 					}
+					optional_task: true
 					type: "item"
 				}
+				{
+					id: "24DE6FC1B8B66C0F"
+					item: {
+						count: 1
+						id: "block_factorys_bosses:dragon_bones_leggings"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1695F54930C3623E"
+					item: {
+						count: 1
+						id: "block_factorys_bosses:dragon_bones_boots"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/am_dragon"
+					criterion: ""
+					id: "2DD4B3C696E30741"
+					type: "advancement"
+				}
 			]
-			x: 34.25d
-			y: 3.5d
+			x: 8.0d
+			y: -3.75d
 		}
 		{
-			dependencies: ["27A9A632D062727C", "0198B30433C0AD4D"]
+			dependencies: ["6870F8D32D22A6B4", "0198B30433C0AD4D"]
+			hide_dependency_lines: true
+			icon: {
+				id: "unusualend:warped_chestplate"
+			}
 			id: "0AC4EE60A85F7F5F"
 			optional: true
 			rewards: [
@@ -503,36 +2729,239 @@
 						count: 1
 						id: "unusualend:warped_chestplate"
 					}
+					optional_task: true
 					type: "item"
 				}
+				{
+					id: "6E1BDC5A8E2B99DF"
+					item: {
+						count: 1
+						id: "unusualend:warped_boots"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/am_warped"
+					criterion: ""
+					id: "402BBDAC70E0E66A"
+					type: "advancement"
+				}
 			]
-			x: 36.75d
-			y: 3.5d
+			x: 10.0d
+			y: -1.25d
 		}
 		{
-			dependencies: ["27A9A632D062727C", "296028D6BC6BA78D"]
-			id: "76ABD4D0C9421375"
+			dependencies: ["6870F8D32D22A6B4"]
+			hide_dependency_lines: true
+			icon: {
+				id: "mowziesmobs:sol_visage"
+			}
+			id: "312598F9B29FBDA5"
 			optional: true
 			rewards: [
 				{
-					id: "0E15A38DC3D8E065"
+					id: "1F7EADD474288DC9"
 					type: "xp"
-					xp: 150
+					xp: 40
 				}
 			]
 			shape: "diamond"
 			tasks: [
 				{
-					id: "4D3DC9B3ED00490B"
+					id: "7AC52B04A9382596"
 					item: {
 						count: 1
-						id: "legendary_monsters:annihilator_chestplate"
+						id: "mowziesmobs:sol_visage"
 					}
 					type: "item"
 				}
 			]
-			x: 39.5d
-			y: 3.5d
+			x: 8.0d
+			y: 1.25d
+		}
+		{
+			dependencies: ["6870F8D32D22A6B4"]
+			hide_dependency_lines: true
+			icon: {
+				id: "mowziesmobs:geomancer_robe"
+			}
+			id: "7A05AF0987081E2B"
+			optional: true
+			rewards: [
+				{
+					id: "6859EDACC527D7EF"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "062DC2B048534146"
+					item: {
+						count: 1
+						id: "mowziesmobs:geomancer_beads"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4C85F8C0A68F64F2"
+					item: {
+						count: 1
+						id: "mowziesmobs:geomancer_robe"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "327A73328D161753"
+					item: {
+						count: 1
+						id: "mowziesmobs:geomancer_belt"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2ED1E1B474E58429"
+					item: {
+						count: 1
+						id: "mowziesmobs:geomancer_sandals"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/am_geomancer"
+					criterion: ""
+					id: "1B9669AC21E96607"
+					type: "advancement"
+				}
+			]
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6870F8D32D22A6B4"]
+			icon: {
+				id: "mowziesmobs:wrought_helmet"
+			}
+			id: "13663CEA9C4B4A51"
+			optional: true
+			rewards: [
+				{
+					id: "3DAC5D336822069F"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "6E47B4A599E0D71F"
+					item: {
+						count: 1
+						id: "mowziesmobs:wrought_helmet"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -1.25d
+		}
+		{
+			dependencies: ["6870F8D32D22A6B4"]
+			hide_dependency_lines: true
+			icon: {
+				id: "block_factorys_bosses:knight_chestplate"
+			}
+			id: "5C4E2E06B8F02EA7"
+			optional: true
+			rewards: [
+				{
+					id: "0C30C49A7D10A2F4"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "50228F7B5BC74D92"
+					item: {
+						count: 1
+						id: "block_factorys_bosses:knight_helmet"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "37AFE1CFA4BC98EF"
+					item: {
+						count: 1
+						id: "block_factorys_bosses:knight_chestplate"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0C26313D10109FB0"
+					item: {
+						count: 1
+						id: "block_factorys_bosses:knight_leggings"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "072F3BE6FEE1D675"
+					item: {
+						count: 1
+						id: "block_factorys_bosses:knight_boots"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/am_bfknight"
+					criterion: ""
+					id: "3F3ABABEF22A4330"
+					type: "advancement"
+				}
+			]
+			x: 8.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6870F8D32D22A6B4"]
+			icon: {
+				id: "livingthings:ancient_helmet"
+			}
+			id: "7C5BFE658385002B"
+			optional: true
+			rewards: [
+				{
+					id: "084600B3CB6E98D1"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "3342891E6E307BDF"
+					item: {
+						count: 1
+						id: "livingthings:ancient_helmet"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -2.5d
 		}
 	]
+	tags: ["grp_adv"]
 }

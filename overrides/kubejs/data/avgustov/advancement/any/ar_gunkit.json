@@ -1,0 +1,19 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "cgs:stock",
+       "cgs:scope",
+       "cgs:bayonet",
+       "cgs:big_bayonet"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

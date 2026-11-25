@@ -7,8 +7,54 @@
 		id: "cataclysm:the_incinerator"
 	}
 	id: "788AD6ADA5EE8939"
-	images: [ ]
-	order_index: 5
+	images: [
+		{
+			alpha: 255
+			color: 16777215
+			height: 0.75d
+			id: "14257608E6E536AF"
+			image: "avgustov:textures/questbook/decor/banner_plaque.png"
+			order: 0
+			rotation: 0.0d
+			text_inset: 14
+			text_on_image: true
+			text_shadow: true
+			width: 3.0d
+			x: -2.7d
+			y: 1.25d
+		}
+		{
+			alpha: 255
+			color: 16777215
+			height: 0.75d
+			id: "4A635952CE769FF5"
+			image: "avgustov:textures/questbook/decor/banner_plaque.png"
+			order: 0
+			rotation: 0.0d
+			text_inset: 14
+			text_on_image: true
+			text_shadow: true
+			width: 3.0d
+			x: -2.7d
+			y: 0.0d
+		}
+		{
+			alpha: 255
+			color: 16777215
+			height: 0.75d
+			id: "2FFD88A278348B9A"
+			image: "avgustov:textures/questbook/decor/banner_plaque.png"
+			order: 0
+			rotation: 0.0d
+			text_inset: 14
+			text_on_image: true
+			text_shadow: true
+			width: 3.0d
+			x: -2.7d
+			y: -1.25d
+		}
+	]
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -31,7 +77,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 13.5d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -47,14 +93,15 @@
 					xp: 25
 				}
 			]
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "1E15FA4F38BF6CE3"
 					type: "checkmark"
 				}
 			]
-			x: 2.75d
-			y: 3.5d
+			x: 2.0d
+			y: 1.25d
 		}
 		{
 			dependencies: ["2A6A00998296C0B8"]
@@ -78,6 +125,7 @@
 					type: "item"
 				}
 			]
+			shape: "octagon"
 			tasks: [
 				{
 					entity: "minecraft:elder_guardian"
@@ -86,11 +134,11 @@
 					value: 1L
 				}
 			]
-			x: 0.0d
-			y: 6.25d
+			x: 2.0d
+			y: 2.5d
 		}
 		{
-			dependencies: ["2A6A00998296C0B8", "0212EF427C731405"]
+			dependencies: ["189164932188DE72", "0212EF427C731405"]
 			icon: {
 				id: "minecraft:nether_star"
 			}
@@ -111,6 +159,7 @@
 					type: "item"
 				}
 			]
+			shape: "octagon"
 			tasks: [
 				{
 					entity: "minecraft:wither"
@@ -119,11 +168,11 @@
 					value: 1L
 				}
 			]
-			x: 1.75d
-			y: 6.25d
+			x: 6.0d
+			y: 3.75d
 		}
 		{
-			dependencies: ["2A6A00998296C0B8", "5DAF564C963FD05E"]
+			dependencies: ["326318105CFEBFA0", "5DAF564C963FD05E"]
 			icon: {
 				id: "minecraft:dragon_head"
 			}
@@ -140,7 +189,7 @@
 					type: "choice"
 				}
 			]
-			shape: "hexagon"
+			shape: "octagon"
 			size: 1.5d
 			tasks: [
 				{
@@ -150,11 +199,11 @@
 					value: 1L
 				}
 			]
-			x: 3.5d
-			y: 6.25d
+			x: 10.0d
+			y: 5.0d
 		}
 		{
-			dependencies: ["2A6A00998296C0B8", "5DAF564C963FD05E"]
+			dependencies: ["643E6D152A424A54", "5DAF564C963FD05E"]
 			icon: {
 				id: "minecraft:sculk_catalyst"
 			}
@@ -175,7 +224,7 @@
 					type: "item"
 				}
 			]
-			shape: "diamond"
+			shape: "octagon"
 			tasks: [
 				{
 					entity: "minecraft:warden"
@@ -184,7 +233,7 @@
 					value: 1L
 				}
 			]
-			x: 5.25d
+			x: 12.0d
 			y: 6.25d
 		}
 		{
@@ -214,6 +263,7 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "681B490C5689F4C5"
@@ -229,11 +279,11 @@
 					type: "checkmark"
 				}
 			]
-			x: 13.25d
-			y: 3.5d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["77BBF5FA460B1483", "5DAF564C963FD05E"]
+			dependencies: ["643E6D152A424A54", "5DAF564C963FD05E"]
 			icon: {
 				id: "cataclysm:void_core"
 			}
@@ -246,7 +296,7 @@
 					xp: 150
 				}
 			]
-			shape: "diamond"
+			shape: "octagon"
 			tasks: [
 				{
 					entity: "cataclysm:ender_golem"
@@ -255,11 +305,11 @@
 					value: 1L
 				}
 			]
-			x: 8.0d
-			y: 6.25d
+			x: 12.0d
+			y: 3.75d
 		}
 		{
-			dependencies: ["77BBF5FA460B1483", "5DAF564C963FD05E"]
+			dependencies: ["643E6D152A424A54", "5DAF564C963FD05E"]
 			icon: {
 				id: "cataclysm:music_disc_ender_guardian"
 			}
@@ -285,6 +335,7 @@
 					type: "item"
 				}
 			]
+			shape: "octagon"
 			tasks: [
 				{
 					entity: "cataclysm:ender_guardian"
@@ -293,11 +344,11 @@
 					value: 1L
 				}
 			]
-			x: 9.75d
-			y: 6.25d
+			x: 12.0d
+			y: 5.0d
 		}
 		{
-			dependencies: ["77BBF5FA460B1483", "5DAF564C963FD05E"]
+			dependencies: ["698F9A216828CADC", "5DAF564C963FD05E"]
 			icon: {
 				id: "cataclysm:music_disc_netherite_monstrosity"
 			}
@@ -332,6 +383,7 @@
 					type: "item"
 				}
 			]
+			shape: "octagon"
 			tasks: [
 				{
 					entity: "cataclysm:netherite_monstrosity"
@@ -340,8 +392,8 @@
 					value: 1L
 				}
 			]
-			x: 11.5d
-			y: 6.25d
+			x: 10.0d
+			y: 1.25d
 		}
 		{
 			dependencies: ["4E57459B78B47811", "5DAF564C963FD05E"]
@@ -361,7 +413,7 @@
 					type: "choice"
 				}
 			]
-			shape: "hexagon"
+			shape: "octagon"
 			size: 1.5d
 			tasks: [
 				{
@@ -371,11 +423,11 @@
 					value: 1L
 				}
 			]
-			x: 11.5d
-			y: 8.25d
+			x: 12.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["77BBF5FA460B1483", "5DAF564C963FD05E"]
+			dependencies: ["4E57459B78B47811", "5DAF564C963FD05E"]
 			icon: {
 				id: "cataclysm:music_disc_the_harbinger"
 			}
@@ -401,6 +453,7 @@
 					type: "item"
 				}
 			]
+			shape: "octagon"
 			tasks: [
 				{
 					entity: "cataclysm:the_harbinger"
@@ -409,8 +462,8 @@
 					value: 1L
 				}
 			]
-			x: 13.25d
-			y: 6.25d
+			x: 12.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["77BBF5FA460B1483", "5EB3BA9F3F56F287"]
@@ -444,7 +497,7 @@
 					type: "choice"
 				}
 			]
-			shape: "hexagon"
+			shape: "octagon"
 			size: 1.5d
 			tasks: [
 				{
@@ -454,8 +507,8 @@
 					value: 1L
 				}
 			]
-			x: 15.0d
-			y: 6.25d
+			x: 8.0d
+			y: -1.25d
 		}
 		{
 			dependencies: ["77BBF5FA460B1483", "5EB3BA9F3F56F287"]
@@ -479,6 +532,7 @@
 					type: "item"
 				}
 			]
+			shape: "octagon"
 			tasks: [
 				{
 					entity: "cataclysm:ancient_remnant"
@@ -487,11 +541,11 @@
 					value: 1L
 				}
 			]
-			x: 16.75d
-			y: 6.25d
+			x: 8.0d
+			y: 1.25d
 		}
 		{
-			dependencies: ["77BBF5FA460B1483", "5DAF564C963FD05E"]
+			dependencies: ["1E0164143136A3DB", "5DAF564C963FD05E"]
 			icon: {
 				id: "cataclysm:music_disc_maledictus"
 			}
@@ -511,6 +565,7 @@
 					type: "item"
 				}
 			]
+			shape: "octagon"
 			tasks: [
 				{
 					entity: "cataclysm:maledictus"
@@ -519,8 +574,8 @@
 					value: 1L
 				}
 			]
-			x: 18.5d
-			y: 6.25d
+			x: 12.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["0E8566C7CED0495F", "5EB3BA9F3F56F287"]
@@ -540,7 +595,7 @@
 					type: "choice"
 				}
 			]
-			shape: "hexagon"
+			shape: "octagon"
 			size: 1.5d
 			tasks: [
 				{
@@ -550,8 +605,8 @@
 					value: 1L
 				}
 			]
-			x: 15.0d
-			y: 8.25d
+			x: 10.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["038270643AC48CD2"]
@@ -580,6 +635,7 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "3862AF86E7B7861C"
@@ -595,11 +651,11 @@
 					type: "checkmark"
 				}
 			]
-			x: 24.5d
-			y: 3.5d
+			x: 2.0d
+			y: -1.25d
 		}
 		{
-			dependencies: ["5668AD0EA39A2CC0", "6ECC7C838BBEE14E"]
+			dependencies: ["5D39013E81828865", "6ECC7C838BBEE14E"]
 			icon: {
 				id: "block_factorys_bosses:yeti_spawn_egg"
 			}
@@ -620,6 +676,7 @@
 					type: "item"
 				}
 			]
+			shape: "octagon"
 			tasks: [
 				{
 					entity: "block_factorys_bosses:yeti"
@@ -628,11 +685,11 @@
 					value: 1L
 				}
 			]
-			x: 21.0d
-			y: 6.25d
+			x: 4.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["5668AD0EA39A2CC0", "6ECC7C838BBEE14E"]
+			dependencies: ["5D39013E81828865", "6ECC7C838BBEE14E"]
 			icon: {
 				id: "block_factorys_bosses:sandworm_spawn_egg"
 			}
@@ -657,6 +714,7 @@
 					type: "item"
 				}
 			]
+			shape: "octagon"
 			tasks: [
 				{
 					entity: "block_factorys_bosses:sandworm"
@@ -665,8 +723,8 @@
 					value: 1L
 				}
 			]
-			x: 22.75d
-			y: 6.25d
+			x: 4.0d
+			y: -3.75d
 		}
 		{
 			dependencies: ["5668AD0EA39A2CC0"]
@@ -695,6 +753,7 @@
 					type: "item"
 				}
 			]
+			shape: "octagon"
 			tasks: [
 				{
 					entity: "block_factorys_bosses:pirate_captain"
@@ -703,11 +762,12 @@
 					value: 1L
 				}
 			]
-			x: 24.5d
-			y: 6.25d
+			x: 2.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["5D39013E81828865", "5EB3BA9F3F56F287"]
+			dependencies: ["5D39013E81828865", "79AD95D4B5440CF7", "5EB3BA9F3F56F287"]
+			hide_dependency_lines: true
 			icon: {
 				id: "block_factorys_bosses:kraken_tooth"
 			}
@@ -724,6 +784,7 @@
 					type: "choice"
 				}
 			]
+			shape: "octagon"
 			tasks: [
 				{
 					entity: "block_factorys_bosses:kraken"
@@ -732,11 +793,11 @@
 					value: 1L
 				}
 			]
-			x: 24.5d
-			y: 8.25d
+			x: 8.0d
+			y: -6.25d
 		}
 		{
-			dependencies: ["5668AD0EA39A2CC0", "0212EF427C731405"]
+			dependencies: ["483EF1AFDC5F8771", "0212EF427C731405"]
 			icon: {
 				id: "block_factorys_bosses:underworld_arena_key"
 			}
@@ -756,6 +817,7 @@
 					type: "item"
 				}
 			]
+			shape: "octagon"
 			tasks: [
 				{
 					entity: "block_factorys_bosses:underworld_knight"
@@ -764,11 +826,11 @@
 					value: 1L
 				}
 			]
-			x: 26.25d
-			y: 6.25d
+			x: 6.0d
+			y: -3.75d
 		}
 		{
-			dependencies: ["5668AD0EA39A2CC0", "0212EF427C731405"]
+			dependencies: ["1BA7B7B5AC438D9C", "0212EF427C731405"]
 			icon: {
 				id: "block_factorys_bosses:dragon_skull"
 			}
@@ -785,7 +847,7 @@
 					type: "choice"
 				}
 			]
-			shape: "hexagon"
+			shape: "octagon"
 			size: 1.5d
 			tasks: [
 				{
@@ -795,8 +857,8 @@
 					value: 1L
 				}
 			]
-			x: 28.0d
-			y: 6.25d
+			x: 8.0d
+			y: -3.75d
 		}
 		{
 			dependencies: ["643E6D152A424A54", "326318105CFEBFA0", "208FFA609A30F062", "2CBA25BA0957B46C", "0E8566C7CED0495F"]
@@ -817,7 +879,7 @@
 					type: "choice"
 				}
 			]
-			shape: "hexagon"
+			shape: "cog"
 			size: 1.5d
 			tasks: [
 				{
@@ -834,8 +896,9 @@
 					type: "checkmark"
 				}
 			]
-			x: 18.75d
+			x: 14.0d
 			y: 0.0d
 		}
 	]
+	tags: ["grp_adv"]
 }

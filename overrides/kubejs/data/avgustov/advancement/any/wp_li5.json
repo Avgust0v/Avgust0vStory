@@ -1,0 +1,18 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "basicweapons:netherite_dagger",
+       "magistuarmory:netherite_stylet",
+       "magistuarmory:netherite_estoc"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

@@ -1,1 +1,13 @@
-{"texture":"avgustov:textures/map_icons/minecraft/polar_bear.png"}
+{
+  "texture": "avgustov:textures/face_src/bear/polarbear.png",
+  "slice": {
+    "x": 7,
+    "y": 7,
+    "width": 7,
+    "height": 7
+  },
+  "default_image_size": {
+    "width": 128,
+    "height": 64
+  }
+}

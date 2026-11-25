@@ -1,0 +1,23 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "minecraft:iron_sword",
+       "create_sa:zinc_sword",
+       "magistuarmory:iron_shortsword",
+       "magistuarmory:iron_katzbalger",
+       "magistuarmory:iron_bastardsword",
+       "magistuarmory:iron_claymore",
+       "magistuarmory:iron_zweihander",
+       "magistuarmory:messer_sword"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

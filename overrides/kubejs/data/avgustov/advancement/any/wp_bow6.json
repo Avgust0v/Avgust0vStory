@@ -1,0 +1,17 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "cataclysm:cursed_bow",
+       "cataclysm:wrath_of_the_desert"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "magistuarmory:stechhelm",
+       "magistuarmory:jousting_chestplate",
+       "magistuarmory:jousting_leggings",
+       "magistuarmory:jousting_boots"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "block_factorys_bosses:dragon_bones_chestplate",
+       "block_factorys_bosses:dragon_bones_leggings",
+       "block_factorys_bosses:dragon_bones_boots"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

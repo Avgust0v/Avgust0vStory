@@ -1,0 +1,19 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "minecraft:netherite_helmet",
+       "minecraft:netherite_chestplate",
+       "minecraft:netherite_leggings",
+       "minecraft:netherite_boots"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

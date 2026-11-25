@@ -1,0 +1,20 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "cgs:shotgun",
+       "cgs:shotgun_long_barrel",
+       "cgs:shotgun_spread_barrel",
+       "cgs:shotgun_drum",
+       "cgs:shotgun_pump"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,20 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "createbigcannons:ap_shot",
+       "createbigcannons:ap_shell",
+       "createbigcannons:smoke_shell",
+       "createbigcannons:fluid_shell",
+       "createbigcannons:drop_mortar_shell"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

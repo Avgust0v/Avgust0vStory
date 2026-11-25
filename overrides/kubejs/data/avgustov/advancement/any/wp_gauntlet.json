@@ -1,0 +1,18 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "cataclysm:gauntlet_of_guard",
+       "cataclysm:gauntlet_of_bulwark",
+       "cataclysm:gauntlet_of_maelstrom"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

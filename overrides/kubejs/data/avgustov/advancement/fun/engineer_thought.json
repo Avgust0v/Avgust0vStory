@@ -1,0 +1,23 @@
+{
+ "display": {
+  "icon": {
+   "id": "create:crushing_wheel"
+  },
+  "title": {
+   "text": "Инженерная мысль"
+  },
+  "description": {
+   "text": "Погибнуть в собственном механизме Create. Техника безопасности пишется кровью — теперь и твоей."
+  },
+  "frame": "task",
+  "show_toast": true,
+  "announce_to_chat": true,
+  "hidden": true
+ },
+ "criteria": {
+  "granted": {
+   "trigger": "minecraft:impossible"
+  }
+ },
+ "parent": "avgustov:fun/root"
+}

@@ -40,7 +40,7 @@
 				}
 			]
 			x: 0.0d
-			y: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["320B4FF55989C1C1", "7BE14415BC16599B", "066C0076956AAE88"]
@@ -55,6 +55,7 @@
 					xp: 50
 				}
 			]
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "3C053C063073DBE8"
@@ -70,8 +71,8 @@
 					type: "checkmark"
 				}
 			]
-			x: 2.5d
-			y: 2.0d
+			x: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["130148D3B8439F46", "5DAF564C963FD05E"]
@@ -91,6 +92,7 @@
 					type: "choice"
 				}
 			]
+			shape: "octagon"
 			tasks: [
 				{
 					entity: "cataclysm:ignis"
@@ -99,8 +101,8 @@
 					value: 1L
 				}
 			]
-			x: 4.5d
-			y: 0.75d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["09B61BBAF2CBA24F"]
@@ -123,8 +125,8 @@
 					type: "item"
 				}
 			]
-			x: 6.5d
-			y: 0.75d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["130148D3B8439F46", "5DAF564C963FD05E"]
@@ -139,6 +141,7 @@
 					xp: 300
 				}
 			]
+			shape: "octagon"
 			tasks: [
 				{
 					entity: "cataclysm:the_harbinger"
@@ -147,8 +150,8 @@
 					value: 1L
 				}
 			]
-			x: 4.5d
-			y: 3.0d
+			x: 4.0d
+			y: 1.25d
 		}
 		{
 			dependencies: ["1F31CC93666C13D9"]
@@ -171,8 +174,8 @@
 					type: "item"
 				}
 			]
-			x: 6.5d
-			y: 3.0d
+			x: 6.0d
+			y: 1.25d
 		}
 		{
 			dependencies: ["55CA5B20172A1007", "2716D5A640A1855F"]
@@ -196,7 +199,7 @@
 					type: "item"
 				}
 			]
-			x: 8.5d
+			x: 8.0d
 			y: 0.0d
 		}
 		{
@@ -219,92 +222,8 @@
 					type: "item"
 				}
 			]
-			x: 8.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["55CA5B20172A1007"]
-			icon: {
-				id: "cataclysm:ignitium_chestplate"
-			}
-			id: "55024B3BC4964CE7"
-			optional: true
-			rewards: [
-				{
-					id: "5AC56D2CCA3A275A"
-					type: "xp"
-					xp: 150
-				}
-			]
-			shape: "diamond"
-			tasks: [
-				{
-					id: "429C1C884DF57994"
-					item: {
-						count: 1
-						id: "cataclysm:ignitium_chestplate"
-					}
-					type: "item"
-				}
-			]
-			x: 8.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["068D465E27A99775"]
-			icon: {
-				id: "cataclysm:cursium_chestplate"
-			}
-			id: "08694E65871B3DFD"
-			optional: true
-			rewards: [
-				{
-					id: "7648566C59FEEF3D"
-					type: "xp"
-					xp: 150
-				}
-			]
-			shape: "diamond"
-			tasks: [
-				{
-					id: "67277D1523B30554"
-					item: {
-						count: 1
-						id: "cataclysm:cursium_chestplate"
-					}
-					type: "item"
-				}
-			]
-			x: 0.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["14E69E154C2CB3B6"]
-			icon: {
-				id: "deeperdarker:warden_chestplate"
-			}
-			id: "1EBD71F19CF7CA63"
-			optional: true
-			rewards: [
-				{
-					id: "7C409B698E9F3506"
-					type: "xp"
-					xp: 150
-				}
-			]
-			shape: "diamond"
-			tasks: [
-				{
-					id: "6DA39CCCBCEFA088"
-					item: {
-						count: 1
-						id: "deeperdarker:warden_chestplate"
-					}
-					type: "item"
-				}
-			]
-			x: 0.0d
-			y: 9.0d
+			x: 8.0d
+			y: 1.25d
 		}
 		{
 			dependencies: ["09B61BBAF2CBA24F", "1F31CC93666C13D9", "55D9A380247187A0"]
@@ -337,7 +256,7 @@
 					type: "command"
 				}
 			]
-			shape: "hexagon"
+			shape: "cog"
 			size: 1.5d
 			tasks: [
 				{
@@ -354,8 +273,9 @@
 					type: "checkmark"
 				}
 			]
-			x: 0.0d
-			y: -2.5d
+			x: 10.0d
+			y: 0.0d
 		}
 	]
+	tags: ["grp_eras"]
 }

@@ -1,0 +1,23 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "magistuarmory:iron_pike",
+       "magistuarmory:iron_ranseur",
+       "magistuarmory:iron_ahlspiess",
+       "magistuarmory:iron_guisarme",
+       "magistuarmory:iron_concavehalberd",
+       "magistuarmory:iron_lochaberaxe",
+       "magistuarmory:iron_lucernhammer",
+       "magistuarmory:iron_chivalrylance"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

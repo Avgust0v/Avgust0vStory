@@ -1,0 +1,25 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "minecraft:bow",
+       "more_bows_and_arrows:oak_bow",
+       "more_bows_and_arrows:spruce_bow",
+       "more_bows_and_arrows:birch_bow",
+       "more_bows_and_arrows:jungle_bow",
+       "more_bows_and_arrows:acacia_bow",
+       "more_bows_and_arrows:dark_oak_bow",
+       "more_bows_and_arrows:mangrove_bow",
+       "more_bows_and_arrows:cherry_bow",
+       "more_bows_and_arrows:bamboo_bow"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

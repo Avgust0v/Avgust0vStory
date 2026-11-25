@@ -1,0 +1,20 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "cataclysm:bulwark_of_the_flame",
+       "cataclysm:azure_sea_shield",
+       "block_factorys_bosses:enhanced_shield",
+       "block_factorys_bosses:dragon_guard_shield",
+       "endermanoverhaul:corrupted_shield"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "magistuarmory:sallet",
+       "magistuarmory:gothic_chestplate",
+       "magistuarmory:gothic_leggings",
+       "magistuarmory:gothic_boots"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

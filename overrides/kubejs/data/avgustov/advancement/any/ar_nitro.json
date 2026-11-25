@@ -1,0 +1,19 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "createbigcannons:big_cartridge",
+       "createbigcannons:congealed_nitro",
+       "createbigcannons:hardened_nitro",
+       "createbigcannons:nitropowder"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,23 @@
+{
+ "display": {
+  "icon": {
+   "id": "minecraft:lava_bucket"
+  },
+  "title": {
+   "text": "Сварился раньше супа"
+  },
+  "description": {
+   "text": "Погибнуть от жары, огня или лавы."
+  },
+  "frame": "task",
+  "show_toast": true,
+  "announce_to_chat": true,
+  "hidden": true
+ },
+ "criteria": {
+  "granted": {
+   "trigger": "minecraft:impossible"
+  }
+ },
+ "parent": "avgustov:fun/root"
+}

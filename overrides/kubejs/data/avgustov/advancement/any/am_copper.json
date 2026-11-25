@@ -1,0 +1,19 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "create_sa:copper_helmet",
+       "create_sa:copper_chestplate",
+       "create_sa:copper_leggings",
+       "create_sa:copper_boots"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

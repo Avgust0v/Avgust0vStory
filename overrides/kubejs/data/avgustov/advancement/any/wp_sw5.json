@@ -1,0 +1,22 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "minecraft:netherite_sword",
+       "magistuarmory:netherite_shortsword",
+       "magistuarmory:netherite_katzbalger",
+       "magistuarmory:netherite_bastardsword",
+       "magistuarmory:netherite_claymore",
+       "magistuarmory:netherite_zweihander",
+       "magistuarmory:netherite_flamebladedsword"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

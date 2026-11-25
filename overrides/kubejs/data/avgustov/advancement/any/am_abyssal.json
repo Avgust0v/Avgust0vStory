@@ -1,0 +1,19 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "aquamirae:abyssal_heaume",
+       "aquamirae:abyssal_brigandine",
+       "aquamirae:abyssal_leggings",
+       "aquamirae:abyssal_boots"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

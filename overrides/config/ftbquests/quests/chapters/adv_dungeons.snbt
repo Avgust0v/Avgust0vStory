@@ -8,7 +8,7 @@
 	}
 	id: "52004070A26F5A92"
 	images: [ ]
-	order_index: 4
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -28,11 +28,11 @@
 			tasks: [
 				{
 					id: "7C942631C8A2DAEF"
-					structure: "create_structures_arise:windmill"
+					structure: "#avgustov:first_outing"
 					type: "structure"
 				}
 			]
-			x: 20.25d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -49,7 +49,7 @@
 					xp: 40
 				}
 			]
-			shape: "diamond"
+			shape: "octagon"
 			tasks: [
 				{
 					entity: "creeperoverhaul:desert_creeper"
@@ -70,8 +70,8 @@
 					value: 1L
 				}
 			]
-			x: 9.0d
-			y: 3.5d
+			x: -2.0d
+			y: -1.25d
 		}
 		{
 			dependencies: ["73B70C9E08960368"]
@@ -87,7 +87,7 @@
 					xp: 50
 				}
 			]
-			shape: "diamond"
+			shape: "octagon"
 			tasks: [
 				{
 					entity: "artifacts:mimic"
@@ -96,8 +96,8 @@
 					value: 1L
 				}
 			]
-			x: 11.5d
-			y: 3.5d
+			x: -2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["73B70C9E08960368"]
@@ -112,15 +112,16 @@
 					xp: 50
 				}
 			]
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "4617DCA3CBDD714D"
-					structure: "dungeons_arise:illager_campsite"
+					structure: "#avgustov:illager_camps"
 					type: "structure"
 				}
 			]
-			x: 14.25d
-			y: 3.5d
+			x: 2.0d
+			y: 1.25d
 		}
 		{
 			dependencies: ["73B70C9E08960368"]
@@ -135,6 +136,7 @@
 					xp: 60
 				}
 			]
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "0E0D437CA8E60B3B"
@@ -142,11 +144,11 @@
 					type: "structure"
 				}
 			]
-			x: 16.75d
-			y: 3.5d
+			x: 0.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["3EB6DEE93DB0986D", "6ECC7C838BBEE14E"]
+			dependencies: ["48BCF78DE9988978", "6ECC7C838BBEE14E"]
 			icon: {
 				id: "mowziesmobs:wrought_axe"
 			}
@@ -167,6 +169,7 @@
 					type: "item"
 				}
 			]
+			shape: "octagon"
 			tasks: [
 				{
 					entity: "mowziesmobs:ferrous_wroughtnaut"
@@ -175,8 +178,8 @@
 					value: 1L
 				}
 			]
-			x: 7.5d
-			y: 6.5d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3EB6DEE93DB0986D"]
@@ -192,7 +195,7 @@
 					xp: 120
 				}
 			]
-			shape: "diamond"
+			shape: "octagon"
 			tasks: [
 				{
 					entity: "mowziesmobs:naga"
@@ -201,11 +204,11 @@
 					value: 1L
 				}
 			]
-			x: 9.25d
-			y: 6.5d
+			x: 4.0d
+			y: 2.5d
 		}
 		{
-			dependencies: ["19F7D886FBE8E1B8"]
+			dependencies: ["3EB6DEE93DB0986D"]
 			icon: {
 				id: "minecraft:white_banner"
 			}
@@ -217,18 +220,19 @@
 					xp: 80
 				}
 			]
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "01B3E061FB91E001"
-					structure: "dungeons_arise:illager_fort"
+					structure: "#avgustov:illager_forts"
 					type: "structure"
 				}
 			]
-			x: 4.5d
-			y: 8.5d
+			x: 4.0d
+			y: 3.75d
 		}
 		{
-			dependencies: ["4FBE4C40EDF3B9D7", "6ECC7C838BBEE14E"]
+			dependencies: ["4FBE4C40EDF3B9D7", "48BCF78DE9988978", "6ECC7C838BBEE14E"]
 			icon: {
 				id: "illagerinvasion:primal_essence"
 			}
@@ -240,6 +244,7 @@
 					xp: 150
 				}
 			]
+			shape: "octagon"
 			tasks: [
 				{
 					entity: "illagerinvasion:invoker"
@@ -248,8 +253,8 @@
 					value: 1L
 				}
 			]
-			x: 0.0d
-			y: 10.75d
+			x: 6.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7798BC3AAAB21479"]
@@ -273,11 +278,11 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 12.75d
+			x: 8.0d
+			y: 3.75d
 		}
 		{
-			dependencies: ["19F7D886FBE8E1B8", "6ECC7C838BBEE14E", "48BCF78DE9988978"]
+			dependencies: ["19F7D886FBE8E1B8", "6ECC7C838BBEE14E"]
 			icon: {
 				id: "mowziesmobs:ice_crystal"
 			}
@@ -289,6 +294,7 @@
 					xp: 200
 				}
 			]
+			shape: "octagon"
 			tasks: [
 				{
 					entity: "mowziesmobs:frostmaw"
@@ -297,8 +303,8 @@
 					value: 1L
 				}
 			]
-			x: 12.25d
-			y: 10.75d
+			x: 8.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4FBE4C40EDF3B9D7"]
@@ -306,15 +312,16 @@
 				id: "minecraft:blast_furnace"
 			}
 			id: "486992895F5AE103"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "10B3652C7F45EDFB"
-					structure: "dungeons_arise:foundry"
+					structure: "#avgustov:foundries"
 					type: "structure"
 				}
 			]
-			x: 3.5d
-			y: 10.75d
+			x: 6.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["486992895F5AE103"]
@@ -330,7 +337,7 @@
 					xp: 120
 				}
 			]
-			shape: "diamond"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "4C13F0D2C549725E"
@@ -338,8 +345,8 @@
 					type: "structure"
 				}
 			]
-			x: 1.75d
-			y: 12.75d
+			x: 8.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["3EB6DEE93DB0986D"]
@@ -354,6 +361,7 @@
 					xp: 250
 				}
 			]
+			shape: "octagon"
 			tasks: [
 				{
 					entity: "mowziesmobs:umvuthi"
@@ -362,8 +370,8 @@
 					value: 1L
 				}
 			]
-			x: 12.25d
-			y: 6.5d
+			x: 4.0d
+			y: 1.25d
 		}
 		{
 			dependencies: ["486992895F5AE103"]
@@ -379,7 +387,7 @@
 					xp: 200
 				}
 			]
-			shape: "diamond"
+			shape: "octagon"
 			tasks: [
 				{
 					entity: "mutantmonsters:mutant_zombie"
@@ -394,8 +402,8 @@
 					value: 1L
 				}
 			]
-			x: 3.5d
-			y: 12.75d
+			x: 4.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["486992895F5AE103"]
@@ -411,7 +419,7 @@
 					xp: 150
 				}
 			]
-			shape: "diamond"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "4C1223877032C633"
@@ -419,8 +427,8 @@
 					type: "structure"
 				}
 			]
-			x: 5.25d
-			y: 12.75d
+			x: 8.0d
+			y: 6.25d
 		}
 		{
 			dependencies: ["279A7D44272088E3"]
@@ -436,7 +444,7 @@
 					xp: 200
 				}
 			]
-			shape: "diamond"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "303C7558B9D3375F"
@@ -444,8 +452,8 @@
 					type: "structure"
 				}
 			]
-			x: 4.5d
-			y: 14.75d
+			x: 10.0d
+			y: 6.25d
 		}
 		{
 			dependencies: ["427CBF8A4DCC4604"]
@@ -460,6 +468,7 @@
 					xp: 300
 				}
 			]
+			shape: "octagon"
 			tasks: [
 				{
 					entity: "mowziesmobs:sculptor"
@@ -468,8 +477,8 @@
 					value: 1L
 				}
 			]
-			x: 12.25d
-			y: 8.5d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["279A7D44272088E3"]
@@ -485,7 +494,7 @@
 					xp: 300
 				}
 			]
-			shape: "diamond"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "05B699D6DE8614D4"
@@ -493,8 +502,8 @@
 					type: "structure"
 				}
 			]
-			x: 6.25d
-			y: 14.75d
+			x: 10.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["73B70C9E08960368"]
@@ -510,7 +519,7 @@
 					xp: 60
 				}
 			]
-			shape: "diamond"
+			shape: "octagon"
 			tasks: [
 				{
 					entity: "hunters_return:hunter"
@@ -519,8 +528,8 @@
 					value: 1L
 				}
 			]
-			x: 19.5d
-			y: 3.5d
+			x: 2.0d
+			y: -1.25d
 		}
 		{
 			dependencies: ["73B70C9E08960368"]
@@ -536,7 +545,7 @@
 					xp: 80
 				}
 			]
-			shape: "diamond"
+			shape: "octagon"
 			tasks: [
 				{
 					entity: "rottencreatures:mummy"
@@ -563,8 +572,8 @@
 					value: 1L
 				}
 			]
-			x: 23.75d
-			y: 3.5d
+			x: 2.0d
+			y: 3.75d
 		}
 		{
 			dependencies: ["7FB7F3F4AC6AB52C"]
@@ -580,7 +589,7 @@
 					xp: 150
 				}
 			]
-			shape: "diamond"
+			shape: "octagon"
 			tasks: [
 				{
 					entity: "rottencreatures:dead_beard"
@@ -589,8 +598,8 @@
 					value: 1L
 				}
 			]
-			x: 23.75d
-			y: 6.5d
+			x: 4.0d
+			y: 6.25d
 		}
 		{
 			dependencies: ["73B70C9E08960368"]
@@ -606,7 +615,7 @@
 					xp: 100
 				}
 			]
-			shape: "diamond"
+			shape: "octagon"
 			tasks: [
 				{
 					entity: "enderzoology:fallen_knight"
@@ -615,11 +624,11 @@
 					value: 1L
 				}
 			]
-			x: 26.25d
-			y: 3.5d
+			x: 0.0d
+			y: 2.5d
 		}
 		{
-			dependencies: ["3EB6DEE93DB0986D", "6ECC7C838BBEE14E"]
+			dependencies: ["48BCF78DE9988978", "6ECC7C838BBEE14E"]
 			icon: {
 				id: "minecraft:moss_block"
 			}
@@ -632,7 +641,7 @@
 					xp: 200
 				}
 			]
-			shape: "diamond"
+			shape: "octagon"
 			tasks: [
 				{
 					entity: "legendary_monsters:overgrown_colossus"
@@ -641,11 +650,11 @@
 					value: 1L
 				}
 			]
-			x: 14.0d
-			y: 6.5d
+			x: 6.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["3EB6DEE93DB0986D", "6ECC7C838BBEE14E"]
+			dependencies: ["48BCF78DE9988978", "6ECC7C838BBEE14E"]
 			icon: {
 				id: "minecraft:packed_ice"
 			}
@@ -658,7 +667,7 @@
 					xp: 200
 				}
 			]
-			shape: "diamond"
+			shape: "octagon"
 			tasks: [
 				{
 					entity: "legendary_monsters:frostbitten_golem"
@@ -667,11 +676,11 @@
 					value: 1L
 				}
 			]
-			x: 15.75d
-			y: 6.5d
+			x: 6.0d
+			y: 1.25d
 		}
 		{
-			dependencies: ["3EB6DEE93DB0986D", "6ECC7C838BBEE14E"]
+			dependencies: ["48BCF78DE9988978", "6ECC7C838BBEE14E"]
 			icon: {
 				id: "minecraft:chiseled_sandstone"
 			}
@@ -684,7 +693,7 @@
 					xp: 200
 				}
 			]
-			shape: "diamond"
+			shape: "octagon"
 			tasks: [
 				{
 					entity: "legendary_monsters:dune_sentinel"
@@ -693,11 +702,11 @@
 					value: 1L
 				}
 			]
-			x: 17.5d
-			y: 6.5d
+			x: 6.0d
+			y: -1.25d
 		}
 		{
-			dependencies: ["19F7D886FBE8E1B8", "0212EF427C731405"]
+			dependencies: ["3EE25C32D1CB359C", "0212EF427C731405"]
 			icon: {
 				id: "minecraft:spore_blossom"
 			}
@@ -710,7 +719,7 @@
 					xp: 250
 				}
 			]
-			shape: "diamond"
+			shape: "octagon"
 			tasks: [
 				{
 					entity: "bosses_of_mass_destruction:void_blossom"
@@ -719,11 +728,11 @@
 					value: 1L
 				}
 			]
-			x: 6.25d
-			y: 8.5d
+			x: 8.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["1CE654B0FE286ED8", "0212EF427C731405"]
+			dependencies: ["686148F36ABC3617", "0212EF427C731405"]
 			icon: {
 				id: "minecraft:soul_lantern"
 			}
@@ -745,7 +754,7 @@
 					type: "item"
 				}
 			]
-			shape: "diamond"
+			shape: "octagon"
 			tasks: [
 				{
 					entity: "bosses_of_mass_destruction:lich"
@@ -754,11 +763,11 @@
 					value: 1L
 				}
 			]
-			x: 11.5d
-			y: 12.75d
+			x: 8.0d
+			y: 1.25d
 		}
 		{
-			dependencies: ["19F7D886FBE8E1B8", "0212EF427C731405"]
+			dependencies: ["0AC2981AA27F29AA", "0212EF427C731405"]
 			icon: {
 				id: "minecraft:blackstone"
 			}
@@ -771,7 +780,7 @@
 					xp: 300
 				}
 			]
-			shape: "diamond"
+			shape: "octagon"
 			tasks: [
 				{
 					entity: "bosses_of_mass_destruction:gauntlet"
@@ -780,8 +789,8 @@
 					value: 1L
 				}
 			]
-			x: 10.5d
-			y: 8.5d
+			x: 10.0d
+			y: -1.25d
 		}
 		{
 			dependencies: ["04DC3BDA0C03A032", "5DAF564C963FD05E"]
@@ -807,7 +816,7 @@
 					type: "item"
 				}
 			]
-			shape: "diamond"
+			shape: "octagon"
 			tasks: [
 				{
 					entity: "bosses_of_mass_destruction:obsidilith"
@@ -816,8 +825,8 @@
 					value: 1L
 				}
 			]
-			x: 10.5d
-			y: 10.75d
+			x: 12.0d
+			y: -1.25d
 		}
 		{
 			dependencies: ["73B70C9E08960368", "3B17E29D075C8592"]
@@ -833,7 +842,7 @@
 					xp: 100
 				}
 			]
-			shape: "diamond"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "26AC340F43D11EBA"
@@ -841,11 +850,12 @@
 					type: "structure"
 				}
 			]
-			x: 29.0d
-			y: 3.5d
+			x: 2.0d
+			y: -3.75d
 		}
 		{
-			dependencies: ["0EB4F8AFE6A5B3D1", "6ECC7C838BBEE14E"]
+			dependencies: ["0EB4F8AFE6A5B3D1", "48BCF78DE9988978", "6ECC7C838BBEE14E"]
+			hide_dependency_lines: true
 			icon: {
 				id: "aquamirae:remnant_saber"
 			}
@@ -867,7 +877,7 @@
 					type: "item"
 				}
 			]
-			shape: "diamond"
+			shape: "octagon"
 			tasks: [
 				{
 					entity: "aquamirae:captain_cornelia"
@@ -876,11 +886,12 @@
 					value: 1L
 				}
 			]
-			x: 29.0d
-			y: 6.5d
+			x: 6.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["73B70C9E08960368", "5DAF564C963FD05E"]
+			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:echo_shard"
 			}
@@ -893,7 +904,7 @@
 					xp: 200
 				}
 			]
-			shape: "diamond"
+			shape: "pentagon"
 			tasks: [
 				{
 					dimension: "deeperdarker:otherside"
@@ -901,8 +912,8 @@
 					type: "dimension"
 				}
 			]
-			x: 31.5d
-			y: 3.5d
+			x: 12.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2E5781E0AB6080EC"]
@@ -918,7 +929,7 @@
 					xp: 150
 				}
 			]
-			shape: "diamond"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "6171652D56EE07E7"
@@ -926,8 +937,8 @@
 					type: "structure"
 				}
 			]
-			x: 35.0d
-			y: 0.0d
+			x: 10.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["65E465CE6ED0558B", "5DAF564C963FD05E"]
@@ -953,7 +964,7 @@
 					type: "item"
 				}
 			]
-			shape: "diamond"
+			shape: "octagon"
 			tasks: [
 				{
 					entity: "archaion:last_of_deepslate"
@@ -962,8 +973,8 @@
 					value: 1L
 				}
 			]
-			x: 35.0d
-			y: 3.5d
+			x: 12.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["3EB6DEE93DB0986D"]
@@ -979,7 +990,7 @@
 					xp: 120
 				}
 			]
-			shape: "diamond"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "706A7A85FAFEA240"
@@ -987,8 +998,8 @@
 					type: "structure"
 				}
 			]
-			x: 19.25d
-			y: 6.5d
+			x: 4.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["46682DFD209254EF"]
@@ -1004,7 +1015,7 @@
 					xp: 120
 				}
 			]
-			shape: "diamond"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "45358CF4FCE4A664"
@@ -1012,8 +1023,8 @@
 					type: "structure"
 				}
 			]
-			x: 19.25d
-			y: 8.5d
+			x: 6.0d
+			y: -3.75d
 		}
 		{
 			dependencies: ["4FBE4C40EDF3B9D7"]
@@ -1029,7 +1040,7 @@
 					xp: 120
 				}
 			]
-			shape: "diamond"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "36988A04874B7B3D"
@@ -1037,8 +1048,8 @@
 					type: "structure"
 				}
 			]
-			x: 5.25d
-			y: 10.75d
+			x: 6.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["7D9ACB82381CA35B"]
@@ -1054,7 +1065,7 @@
 					xp: 150
 				}
 			]
-			shape: "diamond"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "1794BC44C009AF92"
@@ -1062,8 +1073,8 @@
 					type: "structure"
 				}
 			]
-			x: 38.5d
-			y: 0.0d
+			x: 8.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["4FBE4C40EDF3B9D7"]
@@ -1079,7 +1090,7 @@
 					xp: 80
 				}
 			]
-			shape: "diamond"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "1B466235461AFD4B"
@@ -1087,11 +1098,11 @@
 					type: "structure"
 				}
 			]
-			x: 7.0d
-			y: 10.75d
+			x: 6.0d
+			y: 3.75d
 		}
 		{
-			dependencies: ["0212EF427C731405"]
+			dependencies: ["2C8FF03B385BDEF7", "0212EF427C731405"]
 			icon: {
 				id: "legendary_monsters:fiery_boots"
 			}
@@ -1104,7 +1115,7 @@
 					xp: 120
 				}
 			]
-			shape: "diamond"
+			shape: "octagon"
 			tasks: [
 				{
 					entity: "legendary_monsters:lava_eater"
@@ -1113,11 +1124,11 @@
 					value: 1L
 				}
 			]
-			x: 42.0d
-			y: 0.0d
+			x: 8.0d
+			y: -1.25d
 		}
 		{
-			dependencies: ["4FBE4C40EDF3B9D7", "5EB3BA9F3F56F287"]
+			dependencies: ["7798BC3AAAB21479", "5EB3BA9F3F56F287"]
 			icon: {
 				id: "minecraft:iron_sword"
 			}
@@ -1130,7 +1141,7 @@
 					xp: 200
 				}
 			]
-			shape: "diamond"
+			shape: "octagon"
 			tasks: [
 				{
 					entity: "legendary_monsters:posessed_paladin"
@@ -1139,8 +1150,8 @@
 					value: 1L
 				}
 			]
-			x: 8.75d
-			y: 10.75d
+			x: 10.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["0198B30433C0AD4D", "5DAF564C963FD05E"]
@@ -1156,7 +1167,7 @@
 					xp: 400
 				}
 			]
-			shape: "diamond"
+			shape: "octagon"
 			tasks: [
 				{
 					entity: "legendary_monsters:the_obliterator"
@@ -1165,11 +1176,12 @@
 					value: 1L
 				}
 			]
-			x: 45.5d
-			y: 0.0d
+			x: 14.0d
+			y: 2.5d
 		}
 		{
-			dependencies: ["3EB6DEE93DB0986D", "6ECC7C838BBEE14E"]
+			dependencies: ["48BCF78DE9988978", "6ECC7C838BBEE14E"]
+			hide_dependency_lines: true
 			icon: {
 				id: "cataclysm:kobolediator_skull"
 			}
@@ -1182,7 +1194,7 @@
 					xp: 150
 				}
 			]
-			shape: "diamond"
+			shape: "octagon"
 			tasks: [
 				{
 					entity: "cataclysm:kobolediator"
@@ -1203,8 +1215,8 @@
 					value: 1L
 				}
 			]
-			x: 21.0d
-			y: 6.5d
+			x: 6.0d
+			y: 8.75d
 		}
 		{
 			dependencies: ["19F7D886FBE8E1B8", "1CE654B0FE286ED8", "427CBF8A4DCC4604", "48BCF78DE9988978"]
@@ -1238,7 +1250,7 @@
 					type: "item"
 				}
 			]
-			shape: "hexagon"
+			shape: "cog"
 			size: 1.5d
 			tasks: [
 				{
@@ -1255,8 +1267,9 @@
 					type: "checkmark"
 				}
 			]
-			x: 25.5d
+			x: 16.0d
 			y: 0.0d
 		}
 	]
+	tags: ["grp_adv"]
 }

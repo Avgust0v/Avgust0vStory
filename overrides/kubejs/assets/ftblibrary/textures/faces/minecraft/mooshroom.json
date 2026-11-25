@@ -1,1 +1,13 @@
-{"texture":"avgustov:textures/map_icons/minecraft/mooshroom.png"}
+{
+  "texture": "avgustov:textures/face_src/cow/red_mooshroom.png",
+  "slice": {
+    "x": 6,
+    "y": 6,
+    "width": 8,
+    "height": 8
+  },
+  "default_image_size": {
+    "width": 64,
+    "height": 32
+  }
+}

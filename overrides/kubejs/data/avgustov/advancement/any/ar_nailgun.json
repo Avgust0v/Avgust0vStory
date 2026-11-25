@@ -1,0 +1,18 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "cgs:nailgun",
+       "cgs:nail",
+       "cgs:nailgun_splitter"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

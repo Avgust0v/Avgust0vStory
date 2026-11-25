@@ -1,0 +1,19 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "magistuarmory:bascinet",
+       "magistuarmory:xivcenturyknight_chestplate",
+       "magistuarmory:xivcenturyknight_leggings",
+       "magistuarmory:xivcenturyknight_boots"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

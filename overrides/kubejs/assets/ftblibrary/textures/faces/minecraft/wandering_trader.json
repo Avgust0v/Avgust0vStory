@@ -1,1 +1,13 @@
-{"texture":"avgustov:textures/map_icons/minecraft/wandering_trader.png"}
+{
+  "texture": "avgustov:textures/face_src/wandering_trader.png",
+  "slice": {
+    "x": 7,
+    "y": 8,
+    "width": 10,
+    "height": 10
+  },
+  "default_image_size": {
+    "width": 64,
+    "height": 64
+  }
+}

@@ -43,3 +43,11 @@ ServerEvents.recipes(event => {
 ServerEvents.tags('item', event => {
   event.remove('grapplemod:eligible_long_fall_boots_base', 'minecraft:netherite_boots')
 })
+
+// 25.11.2026 (night, quest chapter «Фермы и линии»): clean water could only be made by hand at a boiling cauldron
+// (avgustov_boiling.js), so a Create "water station" was impossible although LSO thirst is the daily chore. A heated
+// mixer boils water into bottles: glass bottle + 250 mB water over a lit blaze burner -> purified water bottle.
+ServerEvents.recipes(event => {
+  event.recipes.create.mixing('legendarysurvivaloverhaul:purified_water_bottle',
+    ['minecraft:glass_bottle', Fluid.of('minecraft:water', 250)]).heated().id('avgustov:purified_water_mixing')
+})

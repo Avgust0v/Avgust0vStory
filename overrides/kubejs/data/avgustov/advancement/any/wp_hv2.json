@@ -1,0 +1,18 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "garnished:brass_hatchet",
+       "garnished:rose_quartz_hatchet",
+       "garnished:blazing_hatchet"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

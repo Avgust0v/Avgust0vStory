@@ -1,0 +1,19 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "aquamirae:terrible_helmet",
+       "aquamirae:terrible_chestplate",
+       "aquamirae:terrible_leggings",
+       "aquamirae:terrible_boots"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

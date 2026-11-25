@@ -1,0 +1,19 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "cgs:launcher",
+       "cgs:rocket",
+       "cgs:rocket_small",
+       "cgs:launcher_auto"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

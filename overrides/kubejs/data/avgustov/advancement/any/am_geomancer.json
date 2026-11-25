@@ -1,0 +1,19 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "mowziesmobs:geomancer_beads",
+       "mowziesmobs:geomancer_robe",
+       "mowziesmobs:geomancer_belt",
+       "mowziesmobs:geomancer_sandals"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

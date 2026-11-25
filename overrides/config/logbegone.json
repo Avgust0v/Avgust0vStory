@@ -3,7 +3,11 @@
     "phrases": [
       "Disconnecting VANILLA connection attempt",
       "Channels ",
-      "CSA config read"
+      "CSA config read",
+      "Item must not be minecraft:air",
+      "Block-attached entity at invalid position",
+      "[Grapple <-> Sable] NEW sub-level tracked",
+      "[Grapple <-> Sable] Sub-level untracked"
     ],
     "regex": [
       "Disconnecting VANILLA connection attempt",

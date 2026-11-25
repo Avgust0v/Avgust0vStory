@@ -8,7 +8,7 @@
 	}
 	id: "3454B04FF0C25AD0"
 	images: [ ]
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -41,7 +41,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 18.5d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -75,7 +75,7 @@
 				}
 			]
 			x: 0.0d
-			y: 3.5d
+			y: -3.5d
 		}
 		{
 			can_repeat: true
@@ -106,8 +106,8 @@
 					type: "item"
 				}
 			]
-			x: 2.75d
-			y: 3.5d
+			x: 1.5d
+			y: -3.25d
 		}
 		{
 			can_repeat: true
@@ -138,8 +138,8 @@
 					type: "item"
 				}
 			]
-			x: 5.25d
-			y: 3.5d
+			x: 2.75d
+			y: -2.5d
 		}
 		{
 			can_repeat: true
@@ -170,8 +170,8 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: 3.5d
+			x: 3.5d
+			y: -1.0d
 		}
 		{
 			can_repeat: true
@@ -201,8 +201,8 @@
 					type: "item"
 				}
 			]
-			x: 10.5d
-			y: 3.5d
+			x: 3.5d
+			y: 0.25d
 		}
 		{
 			can_repeat: true
@@ -233,8 +233,8 @@
 					type: "item"
 				}
 			]
-			x: 13.25d
-			y: 3.5d
+			x: 3.0d
+			y: 1.75d
 		}
 		{
 			can_repeat: true
@@ -265,8 +265,8 @@
 					type: "item"
 				}
 			]
-			x: 15.75d
-			y: 3.5d
+			x: 2.0d
+			y: 3.0d
 		}
 		{
 			can_repeat: true
@@ -297,7 +297,7 @@
 					type: "item"
 				}
 			]
-			x: 18.5d
+			x: 0.75d
 			y: 3.5d
 		}
 		{
@@ -328,7 +328,7 @@
 					type: "item"
 				}
 			]
-			x: 21.0d
+			x: -0.75d
 			y: 3.5d
 		}
 		{
@@ -360,8 +360,8 @@
 					type: "item"
 				}
 			]
-			x: 23.75d
-			y: 3.5d
+			x: -2.0d
+			y: 3.0d
 		}
 		{
 			can_repeat: true
@@ -399,8 +399,8 @@
 					type: "item"
 				}
 			]
-			x: 26.25d
-			y: 3.5d
+			x: -3.0d
+			y: 1.75d
 		}
 		{
 			can_repeat: true
@@ -431,8 +431,8 @@
 					type: "item"
 				}
 			]
-			x: 29.0d
-			y: 3.5d
+			x: -3.5d
+			y: 0.25d
 		}
 		{
 			can_repeat: true
@@ -463,8 +463,8 @@
 					type: "item"
 				}
 			]
-			x: 31.5d
-			y: 3.5d
+			x: -3.5d
+			y: -1.0d
 		}
 		{
 			can_repeat: true
@@ -495,8 +495,8 @@
 					type: "item"
 				}
 			]
-			x: 34.25d
-			y: 3.5d
+			x: -2.75d
+			y: -2.5d
 		}
 		{
 			can_repeat: true
@@ -527,8 +527,9 @@
 					type: "item"
 				}
 			]
-			x: 36.75d
-			y: 3.5d
+			x: -1.5d
+			y: -3.25d
 		}
 	]
+	tags: ["grp_settle"]
 }

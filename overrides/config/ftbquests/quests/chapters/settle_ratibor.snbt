@@ -1,0 +1,1466 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "settle_ratibor"
+	group: "6F40D0E1399F3965"
+	icon: {
+		id: "minecraft:writable_book"
+	}
+	id: "6AC229FA60BF18CA"
+	images: [
+		{
+			alpha: 255
+			color: 16777215
+			height: 0.75d
+			id: "7A2AD6EE3ACC123C"
+			image: "avgustov:textures/questbook/decor/banner_plaque.png"
+			order: 0
+			rotation: 0.0d
+			text_inset: 14
+			text_on_image: true
+			text_shadow: true
+			width: 3.0d
+			x: -4.5d
+			y: -1.025d
+		}
+		{
+			alpha: 255
+			color: 16777215
+			height: 0.75d
+			id: "71E9CCF6916FF0D3"
+			image: "avgustov:textures/questbook/decor/banner_plaque.png"
+			order: 0
+			rotation: 0.0d
+			text_inset: 14
+			text_on_image: true
+			text_shadow: true
+			width: 3.0d
+			x: -1.5d
+			y: 1.025d
+		}
+		{
+			alpha: 255
+			color: 16777215
+			height: 0.75d
+			id: "3AFC0839FB33A857"
+			image: "avgustov:textures/questbook/decor/banner_plaque.png"
+			order: 0
+			rotation: 0.0d
+			text_inset: 14
+			text_on_image: true
+			text_shadow: true
+			width: 3.0d
+			x: 1.5d
+			y: -1.025d
+		}
+		{
+			alpha: 255
+			color: 16777215
+			height: 0.75d
+			id: "390B42136569120E"
+			image: "avgustov:textures/questbook/decor/banner_plaque.png"
+			order: 0
+			rotation: 0.0d
+			text_inset: 14
+			text_on_image: true
+			text_shadow: true
+			width: 3.0d
+			x: 4.5d
+			y: 1.025d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6ECC7C838BBEE14E"]
+			icon: {
+				id: "minecraft:writable_book"
+			}
+			id: "7FFD99F0CED01858"
+			rewards: [
+				{
+					id: "18A3B4899822BEF6"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "265570093DC85AF4"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			icon: {
+				id: "create:cogwheel"
+			}
+			id: "2CF091C57E980F0D"
+			invisible: true
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "11A366197B0E71B4"
+					item: {
+						count: 1
+						id: "create:cogwheel"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "62ADEFA24A719E52"
+					type: "checkmark"
+				}
+			]
+			x: -8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7FFD99F0CED01858", "2CF091C57E980F0D", "6ECC7C838BBEE14E"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "106EC15D4976C65D"
+			rewards: [
+				{
+					id: "1F46D9D414B8D0EC"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "207FA63B14DCB412"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "1996C9C7FFA177F4"
+					item: {
+						count: 1
+						id: "create:cogwheel"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 32L
+					id: "210E47BF549F51AC"
+					item: {
+						count: 1
+						id: "create:large_cogwheel"
+					}
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "create:shaft"
+			}
+			id: "3E46F342693390BA"
+			invisible: true
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "182B1C6DE2DE2A73"
+					item: {
+						count: 1
+						id: "create:shaft"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4C0EDF46C6CAFE96"
+					type: "checkmark"
+				}
+			]
+			x: -9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7FFD99F0CED01858", "3E46F342693390BA", "6ECC7C838BBEE14E"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "39F590193E88FBAC"
+			rewards: [
+				{
+					id: "2EBE26C5C9E56221"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "67BB63E41E3D247B"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 128L
+					id: "0F351D7A7AEE110C"
+					item: {
+						count: 1
+						id: "create:shaft"
+					}
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:glass"
+			}
+			id: "1305B323ECA7234E"
+			invisible: true
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "4A2102EAF895B570"
+					type: "checkmark"
+				}
+			]
+			x: -10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7FFD99F0CED01858", "1305B323ECA7234E", "6ECC7C838BBEE14E"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "2869ABB1CFEAD86D"
+			rewards: [
+				{
+					id: "4572A83408B4A905"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "71620990754272AC"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 192L
+					id: "15BE0D3F885D3CBD"
+					item: {
+						count: 1
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "create:andesite_casing"
+			}
+			id: "1D3C17FEFD03BBEF"
+			invisible: true
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "3219174D6D0FF1EE"
+					item: {
+						count: 1
+						id: "create:andesite_casing"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4087F3543F5F8F5F"
+					type: "checkmark"
+				}
+			]
+			x: -11.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7FFD99F0CED01858", "1D3C17FEFD03BBEF", "6ECC7C838BBEE14E"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "562049D856052268"
+			rewards: [
+				{
+					id: "069A527D76038F94"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0C5DDE6D3EF0609F"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 48L
+					id: "1387322B4BCC0161"
+					item: {
+						count: 1
+						id: "create:andesite_casing"
+					}
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:dried_kelp_block"
+			}
+			id: "55326995BCF86EFB"
+			invisible: true
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "2D9725A59A6C4D83"
+					type: "checkmark"
+				}
+			]
+			x: -12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7FFD99F0CED01858", "55326995BCF86EFB", "6ECC7C838BBEE14E"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "71A646CE102DB59B"
+			rewards: [
+				{
+					id: "6E70673AF21894B8"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "5CEECA089BDBAAF8"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "2864EF45730FD8C7"
+					item: {
+						count: 1
+						id: "minecraft:dried_kelp_block"
+					}
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:bread"
+			}
+			id: "716C9FDCECA3EECC"
+			invisible: true
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "50B658592C43FEEC"
+					type: "checkmark"
+				}
+			]
+			x: -13.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7FFD99F0CED01858", "716C9FDCECA3EECC", "6ECC7C838BBEE14E"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "5836EE4772AC8C94"
+			rewards: [
+				{
+					id: "1DC5AAC84E9BE2C4"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7F5784FA1645F59D"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 96L
+					id: "121BDB4896AF8F04"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "create:brass_casing"
+			}
+			id: "3C028E127F3709C1"
+			invisible: true
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "5957818880F842C2"
+					item: {
+						count: 1
+						id: "create:brass_casing"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3A482D04AFA48495"
+					type: "checkmark"
+				}
+			]
+			x: -8.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7FFD99F0CED01858", "3C028E127F3709C1", "0212EF427C731405"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "6FA5E4C97518B74F"
+			rewards: [
+				{
+					id: "1C01DB1928F313AC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "26F66E72D9F941A9"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 32L
+					id: "2C3261ACA61E6074"
+					item: {
+						count: 1
+						id: "create:brass_casing"
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "create:electron_tube"
+			}
+			id: "0B5C19793885B2A9"
+			invisible: true
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "6E8D3460AAB12456"
+					item: {
+						count: 1
+						id: "create:electron_tube"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "20621DB7B9DB051A"
+					type: "checkmark"
+				}
+			]
+			x: -9.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7FFD99F0CED01858", "0B5C19793885B2A9", "0212EF427C731405"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "42361E3C4B4FEAF3"
+			rewards: [
+				{
+					id: "1E6E505E512141F8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "280A2383A0A65A1F"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 48L
+					id: "69297FBE350FBE10"
+					item: {
+						count: 1
+						id: "create:electron_tube"
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "create:belt_connector"
+			}
+			id: "3D6D1BFB84387656"
+			invisible: true
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "3738E659AF068634"
+					item: {
+						count: 1
+						id: "create:belt_connector"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6467A7DBD6CC452C"
+					type: "checkmark"
+				}
+			]
+			x: -10.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7FFD99F0CED01858", "3D6D1BFB84387656", "0212EF427C731405"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "409442411C770D86"
+			rewards: [
+				{
+					id: "322C6FACFD5BF2F3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "29AECBFF90ADC3B3"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "6BEB0C4DA800E970"
+					item: {
+						count: 1
+						id: "create:belt_connector"
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "create:copper_sheet"
+			}
+			id: "27A3C7E1EEC890D2"
+			invisible: true
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "7EEC33DACCBE075C"
+					item: {
+						count: 1
+						id: "create:copper_sheet"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4768065E2FE75918"
+					type: "checkmark"
+				}
+			]
+			x: -11.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7FFD99F0CED01858", "27A3C7E1EEC890D2", "0212EF427C731405"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "4531FF093C10BD4B"
+			rewards: [
+				{
+					id: "133F430D171FD1DF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "686B69F656B4C084"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 96L
+					id: "2FB124BBDD13C490"
+					item: {
+						count: 1
+						id: "create:copper_sheet"
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "create_confectionery:bar_of_black_chocolate"
+			}
+			id: "64F5885A91175645"
+			invisible: true
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "10A6E6B616F18AAE"
+					item: {
+						count: 1
+						id: "create_confectionery:bar_of_black_chocolate"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "090D1B999AC43035"
+					type: "checkmark"
+				}
+			]
+			x: -12.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7FFD99F0CED01858", "64F5885A91175645", "462956A8435D5420"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "3FD0B204B8392FE6"
+			rewards: [
+				{
+					id: "4D28689A0627A5E2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "15B05D712198F071"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 48L
+					id: "16EECF0ED2646700"
+					item: {
+						count: 1
+						id: "create_confectionery:bar_of_black_chocolate"
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "brewinandchewin:beer"
+			}
+			id: "006877F235862994"
+			invisible: true
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "02BED62051B2C75E"
+					item: {
+						count: 1
+						id: "brewinandchewin:beer"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2A54E456EFB1EC37"
+					type: "checkmark"
+				}
+			]
+			x: -13.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7FFD99F0CED01858", "006877F235862994", "5CD5C6B32E16CEFE"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "1C2CB993D819274F"
+			rewards: [
+				{
+					id: "695AC9DCF94178E3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "12FD8EB343522795"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 24L
+					id: "21ABA5F6D5F386CB"
+					item: {
+						count: 1
+						id: "brewinandchewin:beer"
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "create:track"
+			}
+			id: "6DA5EC7CA6F1F8DC"
+			invisible: true
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "165C2EAA4FDFE52F"
+					item: {
+						count: 1
+						id: "create:track"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7239B1D73793A701"
+					type: "checkmark"
+				}
+			]
+			x: -8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7FFD99F0CED01858", "6DA5EC7CA6F1F8DC", "358D0659205DAC79"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "738DC37194AECFA6"
+			rewards: [
+				{
+					id: "68705A9F2C3A2F0D"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 4
+					id: "42DA567B96886D77"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 256L
+					id: "1D63680726522AD9"
+					item: {
+						count: 1
+						id: "create:track"
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "create:railway_casing"
+			}
+			id: "2A4DF7375737D5C9"
+			invisible: true
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "5CD2C437F15B88CA"
+					item: {
+						count: 1
+						id: "create:railway_casing"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3C301FADC4B41C2C"
+					type: "checkmark"
+				}
+			]
+			x: -9.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7FFD99F0CED01858", "2A4DF7375737D5C9", "49C8E1C2CB9DF78F"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "3926ADD8ECEADB40"
+			rewards: [
+				{
+					id: "05C90A938ED4C386"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 4
+					id: "64EDD799CB4CF502"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 48L
+					id: "7F82E6BA2E0F953A"
+					item: {
+						count: 1
+						id: "create:railway_casing"
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "create:precision_mechanism"
+			}
+			id: "00D2B8F6F088BE36"
+			invisible: true
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "00F6F09046A55EB2"
+					item: {
+						count: 1
+						id: "create:precision_mechanism"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "272E8D5FCEB11946"
+					type: "checkmark"
+				}
+			]
+			x: -10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7FFD99F0CED01858", "00D2B8F6F088BE36", "49C8E1C2CB9DF78F"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "00C2D4B7217D1E58"
+			rewards: [
+				{
+					id: "634EA3FF92318106"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 4
+					id: "4F061AC307F1AC64"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					id: "4E0DC2F265FA814F"
+					item: {
+						count: 1
+						id: "create:precision_mechanism"
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "tfmg:steel_ingot"
+			}
+			id: "213E019F1EFD575F"
+			invisible: true
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "2CADC57D0D4D6D24"
+					item: {
+						count: 1
+						id: "tfmg:steel_ingot"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6592EAFCC2B3691F"
+					type: "checkmark"
+				}
+			]
+			x: -11.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7FFD99F0CED01858", "213E019F1EFD575F", "5DAF564C963FD05E"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "552456BB6C4A265E"
+			rewards: [
+				{
+					id: "4AB8FCBC422F7F14"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 4
+					id: "45E1D5CD38B59F2D"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "6BBBEB21E94FE03C"
+					item: {
+						count: 1
+						id: "tfmg:steel_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "createbigcannons:he_shell"
+			}
+			id: "764F2646D06E5D21"
+			invisible: true
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "7076A8E56AA42DAB"
+					item: {
+						count: 1
+						id: "createbigcannons:he_shell"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "34617C56CAA1177E"
+					type: "checkmark"
+				}
+			]
+			x: -12.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7FFD99F0CED01858", "764F2646D06E5D21", "4DC5ECBC76FBF9CD"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "01EB45DDA56B7FB1"
+			rewards: [
+				{
+					id: "668B83B48FAB7739"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 4
+					id: "3789DD7354F4AE61"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					id: "3AD14A44265A29DC"
+					item: {
+						count: 1
+						id: "createbigcannons:he_shell"
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "create_winery:cabernet_sauvignon"
+			}
+			id: "4F12538AE9AA53A5"
+			invisible: true
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "530A300413D9FDB9"
+					item: {
+						count: 1
+						id: "create_winery:cabernet_sauvignon"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "20BB7E19F6A05C8C"
+					type: "checkmark"
+				}
+			]
+			x: -13.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7FFD99F0CED01858", "4F12538AE9AA53A5", "2C853FA06D9AD647"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "1E4B3D65D330D314"
+			rewards: [
+				{
+					id: "3F02016B97F3FD37"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 4
+					id: "5E1A9CE89D7C895C"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					id: "0A280F4801D04400"
+					item: {
+						count: 1
+						id: "create_winery:cabernet_sauvignon"
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "tfmg:plastic_sheet"
+			}
+			id: "521608C325D556EA"
+			invisible: true
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "1038B43F3E87C86A"
+					item: {
+						count: 1
+						id: "tfmg:plastic_sheet"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "59180F60F9CD9F94"
+					type: "checkmark"
+				}
+			]
+			x: -8.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7FFD99F0CED01858", "521608C325D556EA", "7D3924CA3CBB831F"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "07011C31D4297104"
+			rewards: [
+				{
+					id: "4FE00E224EC77BE6"
+					type: "xp"
+					xp: 400
+				}
+				{
+					id: "3B773957E44B92BC"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 96L
+					id: "1FE0458D318F1652"
+					item: {
+						count: 1
+						id: "tfmg:plastic_sheet"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "tfmg:circuit_board"
+			}
+			id: "6EDC875BF533F7E3"
+			invisible: true
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "628010506E70072D"
+					item: {
+						count: 1
+						id: "tfmg:circuit_board"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5163ED90780B3862"
+					type: "checkmark"
+				}
+			]
+			x: -9.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7FFD99F0CED01858", "6EDC875BF533F7E3", "4664BA7269053B79"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "49EB1B96A03D4497"
+			rewards: [
+				{
+					id: "14DD3899F810FD94"
+					type: "xp"
+					xp: 400
+				}
+				{
+					id: "78D4F59CF4FFD2CE"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 24L
+					id: "4FE42965376A93F7"
+					item: {
+						count: 1
+						id: "tfmg:circuit_board"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:netherite_ingot"
+			}
+			id: "0D8AE9498936170D"
+			invisible: true
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "27F83F2C8C3EFAEC"
+					type: "checkmark"
+				}
+			]
+			x: -10.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7FFD99F0CED01858", "0D8AE9498936170D", "6596D173AF641EF6"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "0CA1365B9E5A05C7"
+			rewards: [
+				{
+					id: "1AF2F488580C83B1"
+					type: "xp"
+					xp: 400
+				}
+				{
+					id: "46438D35E6EC5187"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "6C0FABD34B687E46"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "creatingspace:moon_stone"
+			}
+			id: "75DEFBA09E84CA73"
+			invisible: true
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "7D01BBBBAC6002AD"
+					item: {
+						count: 1
+						id: "creatingspace:moon_stone"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "16DF6257E1371655"
+					type: "checkmark"
+				}
+			]
+			x: -11.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7FFD99F0CED01858", "75DEFBA09E84CA73", "1C133A562A6AA6C2"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "1F968B8169E5D631"
+			rewards: [
+				{
+					id: "5575FDACD29C6819"
+					type: "xp"
+					xp: 400
+				}
+				{
+					id: "158C42F0C0876BDC"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 256L
+					id: "23608A266A7261C9"
+					item: {
+						count: 1
+						id: "creatingspace:moon_stone"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "creatingspace:rocket_engine"
+			}
+			id: "51A2C4F03EAFD787"
+			invisible: true
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "46BCBABE163F5B09"
+					item: {
+						count: 1
+						id: "creatingspace:rocket_engine"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "012D2DA8CCA8CE1C"
+					type: "checkmark"
+				}
+			]
+			x: -12.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7FFD99F0CED01858", "51A2C4F03EAFD787", "1C133A562A6AA6C2"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "58C10040443352A2"
+			rewards: [
+				{
+					id: "2452414496D4240E"
+					type: "xp"
+					xp: 400
+				}
+				{
+					id: "6895F9D880813CEB"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					id: "7A52C90FC4FFF9F3"
+					item: {
+						count: 1
+						id: "creatingspace:rocket_engine"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+	]
+	tags: ["grp_settle"]
+}

@@ -1,0 +1,19 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "magistuarmory:cuirassier_helmet",
+       "magistuarmory:cuirassier_chestplate",
+       "magistuarmory:cuirassier_leggings",
+       "magistuarmory:cuirassier_boots"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

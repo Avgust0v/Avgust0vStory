@@ -7,8 +7,99 @@
 		id: "minecraft:iron_sword"
 	}
 	id: "35A43AB9AA47B8F6"
-	images: [ ]
-	order_index: 3
+	images: [
+		{
+			alpha: 255
+			color: 16777215
+			height: 0.75d
+			id: "7E935AD28662F630"
+			image: "avgustov:textures/questbook/decor/banner_plaque.png"
+			order: 0
+			rotation: 0.0d
+			text_inset: 14
+			text_on_image: true
+			text_shadow: true
+			width: 3.0d
+			x: -2.7d
+			y: -1.25d
+		}
+		{
+			alpha: 255
+			color: 16777215
+			height: 0.75d
+			id: "454C0D79CA1A5D38"
+			image: "avgustov:textures/questbook/decor/banner_plaque.png"
+			order: 0
+			rotation: 0.0d
+			text_inset: 14
+			text_on_image: true
+			text_shadow: true
+			width: 3.0d
+			x: -2.7d
+			y: 1.25d
+		}
+		{
+			alpha: 255
+			color: 16777215
+			height: 0.75d
+			id: "59F5D45A453FB115"
+			image: "avgustov:textures/questbook/decor/banner_plaque.png"
+			order: 0
+			rotation: 0.0d
+			text_inset: 14
+			text_on_image: true
+			text_shadow: true
+			width: 3.0d
+			x: -0.2d
+			y: -3.75d
+		}
+		{
+			alpha: 255
+			color: 16777215
+			height: 0.75d
+			id: "35ECE778E9DDB852"
+			image: "avgustov:textures/questbook/decor/banner_plaque.png"
+			order: 0
+			rotation: 0.0d
+			text_inset: 14
+			text_on_image: true
+			text_shadow: true
+			width: 3.0d
+			x: -2.7d
+			y: 0.0d
+		}
+		{
+			alpha: 255
+			color: 16777215
+			height: 0.75d
+			id: "6E688016D3E0BDFB"
+			image: "avgustov:textures/questbook/decor/banner_plaque.png"
+			order: 0
+			rotation: 0.0d
+			text_inset: 14
+			text_on_image: true
+			text_shadow: true
+			width: 3.0d
+			x: -0.2d
+			y: 3.75d
+		}
+		{
+			alpha: 255
+			color: 16777215
+			height: 0.75d
+			id: "1A1ADEDFCBB65510"
+			image: "avgustov:textures/questbook/decor/banner_plaque.png"
+			order: 0
+			rotation: 0.0d
+			text_inset: 14
+			text_on_image: true
+			text_shadow: true
+			width: 3.0d
+			x: -5.9d
+			y: 0.0d
+		}
+	]
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -31,16 +122,19 @@
 					type: "checkmark"
 				}
 			]
-			x: 25.0d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["79A5EFDD69A29C72"]
-			id: "6E7F7AFB349B01D9"
+			icon: {
+				id: "create_sa:copper_sword"
+			}
+			id: "7D83B82221448BE7"
 			optional: true
 			rewards: [
 				{
-					id: "127F0B97B3380BD2"
+					id: "6B6478C85ACD305C"
 					type: "xp"
 					xp: 15
 				}
@@ -48,169 +142,154 @@
 			shape: "diamond"
 			tasks: [
 				{
-					id: "11E693EB1920B496"
+					id: "70E9150EE9AA7DE9"
 					item: {
 						count: 1
-						id: "basicweapons:iron_dagger"
+						id: "create_sa:copper_sword"
 					}
+					optional_task: true
 					type: "item"
 				}
+				{
+					id: "5DC3D89EF9CA5CDB"
+					item: {
+						count: 1
+						id: "magistuarmory:copper_shortsword"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "22E0F0A380E2E10B"
+					item: {
+						count: 1
+						id: "magistuarmory:copper_katzbalger"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5BD51FCC7A1F2065"
+					item: {
+						count: 1
+						id: "magistuarmory:copper_bastardsword"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/wp_sw0"
+					criterion: ""
+					id: "60FE4BDDA94FEBC4"
+					type: "advancement"
+				}
 			]
-			x: 0.0d
-			y: 3.5d
+			x: 2.0d
+			y: -1.25d
 		}
 		{
-			dependencies: ["79A5EFDD69A29C72"]
-			id: "1F26DCA3814FEE3A"
+			dependencies: ["7D83B82221448BE7"]
+			icon: {
+				id: "magistuarmory:iron_bastardsword"
+			}
+			id: "7258126D7955C827"
 			optional: true
 			rewards: [
 				{
-					id: "177BF5ADBCB5BC2C"
+					id: "066BFC9296C1CA86"
 					type: "xp"
-					xp: 15
+					xp: 30
 				}
 			]
 			shape: "diamond"
 			tasks: [
 				{
-					id: "70EF35BEC632AC6C"
+					id: "48FE9AD924C9086E"
 					item: {
 						count: 1
-						id: "basicweapons:iron_club"
+						id: "minecraft:iron_sword"
 					}
+					optional_task: true
 					type: "item"
 				}
-			]
-			x: 2.75d
-			y: 3.5d
-		}
-		{
-			dependencies: ["79A5EFDD69A29C72"]
-			id: "61C0C9AAA2E4FF1F"
-			optional: true
-			rewards: [
 				{
-					id: "337AB1890D2F2617"
-					type: "xp"
-					xp: 20
-				}
-			]
-			shape: "diamond"
-			tasks: [
-				{
-					id: "6ECE72FF952D971F"
+					id: "350C76A60EC5FBB2"
 					item: {
 						count: 1
-						id: "basicweapons:iron_hammer"
+						id: "create_sa:zinc_sword"
 					}
+					optional_task: true
 					type: "item"
 				}
-			]
-			x: 5.25d
-			y: 3.5d
-		}
-		{
-			dependencies: ["79A5EFDD69A29C72"]
-			id: "3935E99F9974F1EE"
-			optional: true
-			rewards: [
 				{
-					id: "75EEB07CCFDDAD5A"
-					type: "xp"
-					xp: 15
-				}
-			]
-			shape: "diamond"
-			tasks: [
-				{
-					id: "7C3838AF1C5AFD18"
+					id: "0B5E678246969916"
 					item: {
 						count: 1
-						id: "basicweapons:iron_quarterstaff"
+						id: "magistuarmory:iron_shortsword"
 					}
+					optional_task: true
 					type: "item"
 				}
-			]
-			x: 8.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["79A5EFDD69A29C72"]
-			id: "424149ED2563BBA7"
-			optional: true
-			rewards: [
 				{
-					id: "0165C646C5DA004F"
-					type: "xp"
-					xp: 20
-				}
-			]
-			shape: "diamond"
-			tasks: [
-				{
-					id: "607556F1114713C8"
+					id: "3B9AF78BF07BFCBE"
 					item: {
 						count: 1
-						id: "minecraft:iron_spear"
+						id: "magistuarmory:iron_katzbalger"
 					}
+					optional_task: true
 					type: "item"
 				}
-			]
-			x: 10.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["79A5EFDD69A29C72"]
-			id: "1F068CE1876D1439"
-			optional: true
-			rewards: [
 				{
-					id: "5A96C9AA4B4BA86E"
-					type: "xp"
-					xp: 15
-				}
-			]
-			shape: "diamond"
-			tasks: [
-				{
-					id: "3C810380336636F0"
+					id: "5894B815740997DE"
 					item: {
 						count: 1
-						id: "garnished:iron_hatchet"
+						id: "magistuarmory:iron_bastardsword"
 					}
+					optional_task: true
 					type: "item"
 				}
-			]
-			x: 13.25d
-			y: 3.5d
-		}
-		{
-			dependencies: ["79A5EFDD69A29C72", "7258126D7955C827"]
-			id: "442C055B325E7F80"
-			optional: true
-			rewards: [
 				{
-					id: "6F180C1D58B4A9DC"
-					type: "xp"
-					xp: 20
-				}
-			]
-			shape: "diamond"
-			tasks: [
-				{
-					id: "6E6869F0AB38380B"
+					id: "217968C9B1239A82"
 					item: {
 						count: 1
-						id: "magistuarmory:iron_pike"
+						id: "magistuarmory:iron_claymore"
 					}
+					optional_task: true
 					type: "item"
 				}
+				{
+					id: "5B0F07B594276F1E"
+					item: {
+						count: 1
+						id: "magistuarmory:iron_zweihander"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4704DC3957546E9D"
+					item: {
+						count: 1
+						id: "magistuarmory:messer_sword"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/ar12_armoury"
+					criterion: ""
+					id: "0CD7F6ED311B8302"
+					type: "advancement"
+				}
 			]
-			x: 15.75d
-			y: 3.5d
+			x: 4.0d
+			y: -1.25d
 		}
 		{
-			dependencies: ["79A5EFDD69A29C72", "2C8F1AF81F0DCA24"]
+			dependencies: ["7258126D7955C827", "2C8F1AF81F0DCA24"]
+			icon: {
+				id: "create_sa:brass_sword"
+			}
 			id: "0DA7C1628996CF9D"
 			optional: true
 			rewards: [
@@ -228,19 +307,47 @@
 						count: 1
 						id: "create_sa:brass_sword"
 					}
+					optional_task: true
 					type: "item"
 				}
+				{
+					id: "7834E5DCF75E57B6"
+					item: {
+						count: 1
+						id: "create_sa:rose_quartz_sword"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "478DDF854BC62ACF"
+					item: {
+						count: 1
+						id: "create_sa:blazing_cleaver"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/wp_create"
+					criterion: ""
+					id: "7EF1AAED4A7CEC7D"
+					type: "advancement"
+				}
 			]
-			x: 18.5d
-			y: 3.5d
+			x: 6.0d
+			y: -1.25d
 		}
 		{
-			dependencies: ["79A5EFDD69A29C72", "2C8F1AF81F0DCA24"]
-			id: "4306488DEE155889"
+			dependencies: ["0DA7C1628996CF9D"]
+			icon: {
+				id: "minecraft:diamond_sword"
+			}
+			id: "717E9AA13689F64E"
 			optional: true
 			rewards: [
 				{
-					id: "5D59F467DE7315C7"
+					id: "483B3B9C948BB3BA"
 					type: "xp"
 					xp: 40
 				}
@@ -248,101 +355,118 @@
 			shape: "diamond"
 			tasks: [
 				{
-					id: "5D43398B2047171C"
+					id: "4D92913D15A32D8C"
 					item: {
 						count: 1
-						id: "cataclysm:ancient_spear"
+						id: "minecraft:diamond_sword"
 					}
+					optional_task: true
 					type: "item"
 				}
+				{
+					id: "6EA908AFDAC1FD77"
+					item: {
+						count: 1
+						id: "magistuarmory:diamond_shortsword"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4EB03ED66F2C167F"
+					item: {
+						count: 1
+						id: "magistuarmory:diamond_katzbalger"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3A4FE66764BA160F"
+					item: {
+						count: 1
+						id: "magistuarmory:diamond_bastardsword"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0712D1B0E1968B44"
+					item: {
+						count: 1
+						id: "magistuarmory:diamond_claymore"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "54832DFE8F52E928"
+					item: {
+						count: 1
+						id: "magistuarmory:diamond_zweihander"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "40147FCFCD253D0D"
+					item: {
+						count: 1
+						id: "magistuarmory:diamond_flamebladedsword"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/wp_sw3"
+					criterion: ""
+					id: "6E47FD8D25832EA3"
+					type: "advancement"
+				}
 			]
-			x: 21.0d
-			y: 3.5d
+			x: 8.0d
+			y: -1.25d
 		}
 		{
-			dependencies: ["79A5EFDD69A29C72", "7EE2EA2995FDE8B4"]
-			id: "7C1295FD212D7992"
+			dependencies: ["717E9AA13689F64E", "3D4A10682B7DC98E"]
+			icon: {
+				id: "deeperdarker:resonarium_sword"
+			}
+			id: "6A5FE136D8C03DD2"
 			optional: true
 			rewards: [
 				{
-					id: "095BD052D3CF1EE4"
+					id: "5AA5392E605C187A"
 					type: "xp"
-					xp: 40
+					xp: 50
 				}
 			]
 			shape: "diamond"
 			tasks: [
 				{
-					id: "0A8ED4EBC507C1FE"
+					id: "510AC034E0CE2F58"
 					item: {
 						count: 1
-						id: "aquaculture:neptunium_sword"
+						id: "deeperdarker:resonarium_sword"
 					}
 					type: "item"
 				}
 			]
-			x: 23.75d
-			y: 3.5d
+			x: 10.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["79A5EFDD69A29C72", "0EB4F8AFE6A5B3D1"]
-			id: "17F4FCFA632CF04A"
-			optional: true
-			rewards: [
-				{
-					id: "16A5A7D665FEE059"
-					type: "xp"
-					xp: 40
-				}
-			]
-			shape: "diamond"
-			tasks: [
-				{
-					id: "11D010E176DD6B42"
-					item: {
-						count: 1
-						id: "aquamirae:terrible_fang"
-					}
-					type: "item"
-				}
-			]
-			x: 26.25d
-			y: 3.5d
-		}
-		{
-			dependencies: ["17F4FCFA632CF04A"]
-			id: "7AEE279B4EA43B3B"
-			optional: true
-			rewards: [
-				{
-					id: "63CE700731627A06"
-					type: "xp"
-					xp: 60
-				}
-			]
-			shape: "diamond"
-			tasks: [
-				{
-					id: "0EDB7874467D0805"
-					item: {
-						count: 1
-						id: "aquamirae:shatterblade"
-					}
-					type: "item"
-				}
-			]
-			x: 26.25d
-			y: 5.5d
-		}
-		{
-			dependencies: ["79A5EFDD69A29C72", "5DAF564C963FD05E"]
+			dependencies: ["717E9AA13689F64E", "5DAF564C963FD05E"]
+			icon: {
+				id: "tfmg:steel_sword"
+			}
 			id: "5801D4A152775691"
 			optional: true
 			rewards: [
 				{
 					id: "275ADF69CD660486"
 					type: "xp"
-					xp: 50
+					xp: 60
 				}
 			]
 			shape: "diamond"
@@ -353,14 +477,503 @@
 						count: 1
 						id: "tfmg:steel_sword"
 					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "79A33D600B5EAA9D"
+					item: {
+						count: 1
+						id: "tfmg:aluminum_sword"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "06C2A146A8F409ED"
+					item: {
+						count: 1
+						id: "tfmg:lithium_blade"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1BA5911C1BC7374B"
+					item: {
+						count: 1
+						id: "create_mf:refined_radiance_sword"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5BAB6C5EB9F39812"
+					item: {
+						count: 1
+						id: "magistuarmory:steel_shortsword"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "550FCE891EA803AE"
+					item: {
+						count: 1
+						id: "magistuarmory:steel_katzbalger"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1A0C648F79193219"
+					item: {
+						count: 1
+						id: "magistuarmory:steel_bastardsword"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3C9397ECD33110D4"
+					item: {
+						count: 1
+						id: "magistuarmory:steel_claymore"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "20008FDC17674720"
+					item: {
+						count: 1
+						id: "magistuarmory:steel_zweihander"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1A24EDF3F8F1C02F"
+					item: {
+						count: 1
+						id: "magistuarmory:steel_flamebladedsword"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/wp_steel"
+					criterion: ""
+					id: "2CDAE06A448ACBA5"
+					type: "advancement"
+				}
+			]
+			x: 10.0d
+			y: -1.25d
+		}
+		{
+			dependencies: ["5801D4A152775691", "1DC70211B9AE8946"]
+			icon: {
+				id: "minecraft:netherite_sword"
+			}
+			id: "51DA7801A67108D4"
+			optional: true
+			rewards: [
+				{
+					id: "2EEAC4A67EA6A8BF"
+					type: "xp"
+					xp: 80
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "0B7C64797219C702"
+					item: {
+						count: 1
+						id: "minecraft:netherite_sword"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "448409D10C0BAC2A"
+					item: {
+						count: 1
+						id: "magistuarmory:netherite_shortsword"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0D23E160218EB469"
+					item: {
+						count: 1
+						id: "magistuarmory:netherite_katzbalger"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "16E7E52BAF67A7FF"
+					item: {
+						count: 1
+						id: "magistuarmory:netherite_bastardsword"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1C4DB054B168F189"
+					item: {
+						count: 1
+						id: "magistuarmory:netherite_claymore"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4579D65D3DC0F2D1"
+					item: {
+						count: 1
+						id: "magistuarmory:netherite_zweihander"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1CA04399FE0A68F0"
+					item: {
+						count: 1
+						id: "magistuarmory:netherite_flamebladedsword"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/wp_sw5"
+					criterion: ""
+					id: "671AB88F8EDBC446"
+					type: "advancement"
+				}
+			]
+			x: 12.0d
+			y: -1.25d
+		}
+		{
+			dependencies: ["51DA7801A67108D4"]
+			id: "7250BC396A7E5C1A"
+			optional: true
+			rewards: [
+				{
+					id: "0ADE58BDF7F5A387"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "78162B3631E5A4F4"
+					item: {
+						count: 1
+						id: "fantasy_weapons:blazing_stone"
+					}
 					type: "item"
 				}
 			]
-			x: 29.0d
-			y: 3.5d
+			x: 12.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["79A5EFDD69A29C72", "3EE25C32D1CB359C"]
+			dependencies: ["7250BC396A7E5C1A"]
+			icon: {
+				id: "fantasy_weapons:weapon_hero_claymore"
+			}
+			id: "5D2B6635742EA1A0"
+			optional: true
+			rewards: [
+				{
+					id: "2C0843976D1EAA4A"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "4E2A40965C727BA6"
+					item: {
+						count: 1
+						id: "fantasy_weapons:weapon_hero_claymore"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:arsenal/fantasy_weapon"
+					criterion: ""
+					id: "0F3B061668362A00"
+					type: "advancement"
+				}
+			]
+			x: 12.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["51DA7801A67108D4", "49C8E1C2CB9DF78F"]
+			icon: {
+				id: "create_tools_n_weapons:gear_sword"
+			}
+			id: "40184F99961A1B00"
+			optional: true
+			rewards: [
+				{
+					id: "63729A5C59AE63A0"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "1B93B038A1910B39"
+					item: {
+						count: 1
+						id: "create_tools_n_weapons:gear_sword"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "284255C37530ACE8"
+					item: {
+						count: 1
+						id: "create_tools_n_weapons:gear_axe"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/ar11_gear"
+					criterion: ""
+					id: "33584954CDA1402B"
+					type: "advancement"
+				}
+			]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["51DA7801A67108D4", "14E69E154C2CB3B6"]
+			icon: {
+				id: "deeperdarker:warden_sword"
+			}
+			id: "40AEFB360E37CCDB"
+			optional: true
+			rewards: [
+				{
+					id: "1EB17A30FD56CAAC"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "0CCAA96DAF9CFACD"
+					item: {
+						count: 1
+						id: "deeperdarker:warden_sword"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "10F4383D4C4B3456"
+					item: {
+						count: 1
+						id: "garnished:warden_hatchet"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/wp_warden"
+					criterion: ""
+					id: "7C17047740CEDF82"
+					type: "advancement"
+				}
+			]
+			x: 14.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["51DA7801A67108D4", "208FFA609A30F062"]
+			icon: {
+				id: "cataclysm:the_incinerator"
+			}
+			id: "1D3A3C518F2002BA"
+			optional: true
+			rewards: [
+				{
+					id: "3FBE9CF610634C49"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "1803FB1A87FBB7ED"
+					item: {
+						count: 1
+						id: "cataclysm:the_incinerator"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: -1.25d
+		}
+		{
+			dependencies: ["79A5EFDD69A29C72"]
+			icon: {
+				id: "basicweapons:stone_club"
+			}
+			id: "5696EB92584A1EAF"
+			optional: true
+			rewards: [
+				{
+					id: "03E3214941709F71"
+					type: "xp"
+					xp: 15
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "26F269F705D7BAAC"
+					item: {
+						count: 1
+						id: "basicweapons:wooden_club"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "508862CE22B91F9C"
+					item: {
+						count: 1
+						id: "basicweapons:stone_club"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "011C26DF2CDC9F16"
+					item: {
+						count: 1
+						id: "basicweapons:stone_hammer"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "11677FAB8CCF4C46"
+					item: {
+						count: 1
+						id: "garnished:stone_hatchet"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7E8DD548219009B6"
+					item: {
+						count: 1
+						id: "garnished:copper_hatchet"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "10F6A2C20EDC07B2"
+					item: {
+						count: 1
+						id: "magistuarmory:copper_heavymace"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1004BBE4F75BD77D"
+					item: {
+						count: 1
+						id: "magistuarmory:copper_morgenstern"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/wp_hv0"
+					criterion: ""
+					id: "0D2AFC90364D47CB"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 1.25d
+		}
+		{
+			dependencies: ["5696EB92584A1EAF"]
+			icon: {
+				id: "basicweapons:iron_hammer"
+			}
+			id: "61C0C9AAA2E4FF1F"
+			optional: true
+			rewards: [
+				{
+					id: "337AB1890D2F2617"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "6ECE72FF952D971F"
+					item: {
+						count: 1
+						id: "basicweapons:iron_hammer"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "28877E81D307B2B1"
+					item: {
+						count: 1
+						id: "magistuarmory:iron_heavywarhammer"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/wp_hammer"
+					criterion: ""
+					id: "4F2C79816518EE6B"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["61C0C9AAA2E4FF1F", "3EE25C32D1CB359C"]
+			icon: {
+				id: "legendary_monsters:mossy_hammer"
+			}
 			id: "499A79BFFE0C453F"
 			optional: true
 			rewards: [
@@ -381,41 +994,347 @@
 					type: "item"
 				}
 			]
-			x: 31.5d
-			y: 3.5d
+			x: 6.0d
+			y: 3.75d
 		}
 		{
-			dependencies: ["79A5EFDD69A29C72", "14E69E154C2CB3B6"]
-			id: "40AEFB360E37CCDB"
+			dependencies: ["5696EB92584A1EAF"]
+			icon: {
+				id: "magistuarmory:iron_morgenstern"
+			}
+			id: "1F26DCA3814FEE3A"
 			optional: true
 			rewards: [
 				{
-					id: "1EB17A30FD56CAAC"
+					id: "177BF5ADBCB5BC2C"
 					type: "xp"
-					xp: 100
+					xp: 20
 				}
 			]
 			shape: "diamond"
 			tasks: [
 				{
-					id: "0CCAA96DAF9CFACD"
+					id: "70EF35BEC632AC6C"
 					item: {
 						count: 1
-						id: "deeperdarker:warden_sword"
+						id: "basicweapons:iron_club"
 					}
+					optional_task: true
 					type: "item"
 				}
+				{
+					id: "7E8386705081D343"
+					item: {
+						count: 1
+						id: "magistuarmory:iron_heavymace"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0A1EB5A79F0A6A4A"
+					item: {
+						count: 1
+						id: "magistuarmory:iron_morgenstern"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "028F74C8CB8CD4AC"
+					item: {
+						count: 1
+						id: "magistuarmory:iron_chainmorgenstern"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/wp_club"
+					criterion: ""
+					id: "6AFD4A9675A94A0F"
+					type: "advancement"
+				}
 			]
-			x: 34.25d
-			y: 3.5d
+			x: 4.0d
+			y: 2.5d
 		}
 		{
-			dependencies: ["79A5EFDD69A29C72", "5EA8C91B92D8229F"]
-			id: "6BEB77F8F97DA85E"
+			dependencies: ["5696EB92584A1EAF"]
+			icon: {
+				id: "garnished:iron_hatchet"
+			}
+			id: "1F068CE1876D1439"
 			optional: true
 			rewards: [
 				{
-					id: "5930FAE44D41B158"
+					id: "5A96C9AA4B4BA86E"
+					type: "xp"
+					xp: 15
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "3C810380336636F0"
+					item: {
+						count: 1
+						id: "garnished:iron_hatchet"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "24D81A8987BC187D"
+					item: {
+						count: 1
+						id: "garnished:zinc_hatchet"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/wp_hatchet"
+					criterion: ""
+					id: "1049EB5B536C39C7"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 1.25d
+		}
+		{
+			dependencies: ["1F068CE1876D1439", "2C8F1AF81F0DCA24"]
+			icon: {
+				id: "garnished:brass_hatchet"
+			}
+			id: "39E575E70A002F44"
+			optional: true
+			rewards: [
+				{
+					id: "697367BA7C922B3F"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "1D5D67C9EC68C9B2"
+					item: {
+						count: 1
+						id: "garnished:brass_hatchet"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6F9E37523B35D2A1"
+					item: {
+						count: 1
+						id: "garnished:rose_quartz_hatchet"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "17300F0CBFE9706F"
+					item: {
+						count: 1
+						id: "garnished:blazing_hatchet"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/wp_hv2"
+					criterion: ""
+					id: "4CE53108043DC0F2"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: 1.25d
+		}
+		{
+			dependencies: ["1F26DCA3814FEE3A"]
+			icon: {
+				id: "magistuarmory:diamond_heavymace"
+			}
+			id: "2EA0389E830F65D4"
+			optional: true
+			rewards: [
+				{
+					id: "70D5C57C6866C08E"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "51014F2AB9D37B75"
+					item: {
+						count: 1
+						id: "basicweapons:diamond_club"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "325966B6C25F0541"
+					item: {
+						count: 1
+						id: "basicweapons:diamond_hammer"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "27741D29A60CB2ED"
+					item: {
+						count: 1
+						id: "garnished:diamond_hatchet"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6E0205A455354227"
+					item: {
+						count: 1
+						id: "magistuarmory:diamond_heavymace"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "48A9E5F6504EB571"
+					item: {
+						count: 1
+						id: "magistuarmory:diamond_morgenstern"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "709C809F2A3316B6"
+					item: {
+						count: 1
+						id: "magistuarmory:diamond_chainmorgenstern"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7D0AA201FFE78DA5"
+					item: {
+						count: 1
+						id: "magistuarmory:diamond_heavywarhammer"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/wp_hv3"
+					criterion: ""
+					id: "15E46185F367D1C7"
+					type: "advancement"
+				}
+			]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2EA0389E830F65D4", "5DAF564C963FD05E"]
+			icon: {
+				id: "magistuarmory:steel_morgenstern"
+			}
+			id: "3036DC6F030ECF28"
+			optional: true
+			rewards: [
+				{
+					id: "4ADD44651BB33893"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "0CF0BB1AC6739BE3"
+					item: {
+						count: 1
+						id: "magistuarmory:steel_heavymace"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6C738EC5EC05CED9"
+					item: {
+						count: 1
+						id: "magistuarmory:steel_morgenstern"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "682573E2A8D405B9"
+					item: {
+						count: 1
+						id: "magistuarmory:steel_chainmorgenstern"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3AC33702FBD07D6F"
+					item: {
+						count: 1
+						id: "magistuarmory:steel_heavywarhammer"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7824C6544D63E95A"
+					item: {
+						count: 1
+						id: "magistuarmory:barbedclub"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6B15CE336C30A9D5"
+					item: {
+						count: 1
+						id: "magistuarmory:blacksmith_hammer"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/wp_hv4"
+					criterion: ""
+					id: "43D1CEAFD99590FF"
+					type: "advancement"
+				}
+			]
+			x: 10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3036DC6F030ECF28", "1DC70211B9AE8946"]
+			icon: {
+				id: "magistuarmory:netherite_heavymace"
+			}
+			id: "320D44AED8AAB828"
+			optional: true
+			rewards: [
+				{
+					id: "4AAF422CD4994B44"
 					type: "xp"
 					xp: 80
 				}
@@ -423,26 +1342,90 @@
 			shape: "diamond"
 			tasks: [
 				{
-					id: "1BCA49241F2CBCBE"
+					id: "479C07DC4FBD5E01"
 					item: {
 						count: 1
-						id: "cataclysm:gauntlet_of_guard"
+						id: "basicweapons:netherite_club"
 					}
+					optional_task: true
 					type: "item"
 				}
+				{
+					id: "0E1DD6F1CDCE9FE8"
+					item: {
+						count: 1
+						id: "basicweapons:netherite_hammer"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "324FEE960CA64F27"
+					item: {
+						count: 1
+						id: "garnished:netherite_hatchet"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0F2DB50E9BEC6E33"
+					item: {
+						count: 1
+						id: "magistuarmory:netherite_heavymace"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "077FFCB89219F0A9"
+					item: {
+						count: 1
+						id: "magistuarmory:netherite_morgenstern"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6A64FA11A83F9ED5"
+					item: {
+						count: 1
+						id: "magistuarmory:netherite_chainmorgenstern"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "71C36B0D64430F85"
+					item: {
+						count: 1
+						id: "magistuarmory:netherite_heavywarhammer"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/wp_hv5"
+					criterion: ""
+					id: "2ABCADD6A4B75327"
+					type: "advancement"
+				}
 			]
-			x: 36.75d
-			y: 3.5d
+			x: 12.0d
+			y: 2.5d
 		}
 		{
-			dependencies: ["79A5EFDD69A29C72", "4E57459B78B47811"]
+			dependencies: ["320D44AED8AAB828", "4E57459B78B47811"]
+			icon: {
+				id: "cataclysm:infernal_forge"
+			}
 			id: "64B09BC2DB7A3AC1"
 			optional: true
 			rewards: [
 				{
 					id: "5FEF4210D6B892F7"
 					type: "xp"
-					xp: 100
+					xp: 120
 				}
 			]
 			shape: "diamond"
@@ -453,46 +1436,735 @@
 						count: 1
 						id: "cataclysm:infernal_forge"
 					}
+					optional_task: true
 					type: "item"
 				}
+				{
+					id: "172912B282221EEE"
+					item: {
+						count: 1
+						id: "cataclysm:void_forge"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1BF6EA0F98C23070"
+					item: {
+						count: 1
+						id: "cataclysm:brontes"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/wp_forge"
+					criterion: ""
+					id: "31FECD95E0DCCEAC"
+					type: "advancement"
+				}
 			]
-			x: 39.5d
-			y: 3.5d
+			x: 14.0d
+			y: 3.75d
 		}
 		{
-			dependencies: ["79A5EFDD69A29C72", "1E0164143136A3DB"]
-			id: "75692FFCF4F6DD18"
+			dependencies: ["5696EB92584A1EAF"]
+			hide_dependency_lines: true
+			id: "1A154ACAF9B5E524"
 			optional: true
 			rewards: [
 				{
-					id: "75F6B482DE9CCC38"
+					id: "291B1776B2758C0F"
 					type: "xp"
-					xp: 100
+					xp: 30
 				}
 			]
 			shape: "diamond"
 			tasks: [
 				{
-					id: "500348F14E2D6CE8"
+					id: "26E8FFF1D6F9B5B8"
 					item: {
 						count: 1
-						id: "cataclysm:astrape"
+						id: "justhammers:iron_hammer"
 					}
 					type: "item"
 				}
 			]
-			x: 42.0d
-			y: 3.5d
+			x: 2.0d
+			y: 6.25d
 		}
 		{
-			dependencies: ["79A5EFDD69A29C72", "068D465E27A99775"]
+			dependencies: ["1A154ACAF9B5E524", "1DC70211B9AE8946"]
+			id: "3AEF941AF2BE4490"
+			optional: true
+			rewards: [
+				{
+					id: "78E802DDF048D3F3"
+					type: "xp"
+					xp: 80
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "04BD78CA0122C920"
+					item: {
+						count: 1
+						id: "justhammers:iron_impact_hammer"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 6.25d
+		}
+		{
+			dependencies: ["79A5EFDD69A29C72"]
+			icon: {
+				id: "basicweapons:stone_glaive"
+			}
+			id: "39BE750ACA6D65B7"
+			optional: true
+			rewards: [
+				{
+					id: "3250432279755B96"
+					type: "xp"
+					xp: 15
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "5B8D6B9F54BFE33A"
+					item: {
+						count: 1
+						id: "basicweapons:wooden_quarterstaff"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "13C1C7A886597FDF"
+					item: {
+						count: 1
+						id: "basicweapons:stone_quarterstaff"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "22B87C1835D09646"
+					item: {
+						count: 1
+						id: "basicweapons:wooden_glaive"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1446CAFE8F8D15E0"
+					item: {
+						count: 1
+						id: "basicweapons:stone_glaive"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "51CB83DD40DB3463"
+					item: {
+						count: 1
+						id: "minecraft:wooden_spear"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0BE7DCDAE559C622"
+					item: {
+						count: 1
+						id: "minecraft:stone_spear"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/wp_pl0"
+					criterion: ""
+					id: "73DBA6F59BA68F16"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["39BE750ACA6D65B7"]
+			icon: {
+				id: "minecraft:iron_spear"
+			}
+			id: "424149ED2563BBA7"
+			optional: true
+			rewards: [
+				{
+					id: "0165C646C5DA004F"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "607556F1114713C8"
+					item: {
+						count: 1
+						id: "minecraft:iron_spear"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["424149ED2563BBA7", "2C8F1AF81F0DCA24"]
+			icon: {
+				id: "cataclysm:ancient_spear"
+			}
+			id: "4306488DEE155889"
+			optional: true
+			rewards: [
+				{
+					id: "5D59F467DE7315C7"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "5D43398B2047171C"
+					item: {
+						count: 1
+						id: "cataclysm:ancient_spear"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["39BE750ACA6D65B7"]
+			icon: {
+				id: "magistuarmory:iron_pike"
+			}
+			id: "442C055B325E7F80"
+			optional: true
+			rewards: [
+				{
+					id: "6F180C1D58B4A9DC"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "6E6869F0AB38380B"
+					item: {
+						count: 1
+						id: "magistuarmory:iron_pike"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4B58594945473F1E"
+					item: {
+						count: 1
+						id: "magistuarmory:iron_ranseur"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "681513278E76CFD3"
+					item: {
+						count: 1
+						id: "magistuarmory:iron_ahlspiess"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "65B30E8F1CCEAA74"
+					item: {
+						count: 1
+						id: "magistuarmory:iron_guisarme"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "102A1245EA969D7A"
+					item: {
+						count: 1
+						id: "magistuarmory:iron_concavehalberd"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "279DF740A0B83578"
+					item: {
+						count: 1
+						id: "magistuarmory:iron_lochaberaxe"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "28B3A492893C022B"
+					item: {
+						count: 1
+						id: "magistuarmory:iron_lucernhammer"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "566B0E09C4EE194E"
+					item: {
+						count: 1
+						id: "magistuarmory:iron_chivalrylance"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/wp_pike"
+					criterion: ""
+					id: "44F8463DD5B9691B"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["39BE750ACA6D65B7"]
+			icon: {
+				id: "basicweapons:iron_glaive"
+			}
+			id: "3935E99F9974F1EE"
+			optional: true
+			rewards: [
+				{
+					id: "75EEB07CCFDDAD5A"
+					type: "xp"
+					xp: 15
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "7C3838AF1C5AFD18"
+					item: {
+						count: 1
+						id: "basicweapons:iron_quarterstaff"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "463B47FD44ADA3A0"
+					item: {
+						count: 1
+						id: "basicweapons:iron_glaive"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/wp_staff"
+					criterion: ""
+					id: "0A329B97A27A7599"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["442C055B325E7F80"]
+			icon: {
+				id: "magistuarmory:diamond_concavehalberd"
+			}
+			id: "7BA4D88BE8994CEA"
+			optional: true
+			rewards: [
+				{
+					id: "6E44A151628094F2"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "0BCB9B0F9F53F273"
+					item: {
+						count: 1
+						id: "minecraft:diamond_spear"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4E852A6C7FB00DB4"
+					item: {
+						count: 1
+						id: "basicweapons:diamond_quarterstaff"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5C6FF4100ACD445A"
+					item: {
+						count: 1
+						id: "basicweapons:diamond_glaive"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1FD9BD2E6D7663D7"
+					item: {
+						count: 1
+						id: "magistuarmory:diamond_pike"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0A80D43C62001D53"
+					item: {
+						count: 1
+						id: "magistuarmory:diamond_ranseur"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0CC0F8792940AE00"
+					item: {
+						count: 1
+						id: "magistuarmory:diamond_ahlspiess"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6036FC85D9EB63D2"
+					item: {
+						count: 1
+						id: "magistuarmory:diamond_guisarme"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4F9FE3DF753E4C3D"
+					item: {
+						count: 1
+						id: "magistuarmory:diamond_concavehalberd"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4020F017E5D30CD7"
+					item: {
+						count: 1
+						id: "magistuarmory:diamond_lochaberaxe"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0D573850DBD0D31E"
+					item: {
+						count: 1
+						id: "magistuarmory:diamond_lucernhammer"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "31244B5C3C240676"
+					item: {
+						count: 1
+						id: "magistuarmory:diamond_chivalrylance"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/wp_pl3"
+					criterion: ""
+					id: "47C0DF37061BD3CF"
+					type: "advancement"
+				}
+			]
+			x: 8.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["7BA4D88BE8994CEA", "5DAF564C963FD05E"]
+			icon: {
+				id: "magistuarmory:steel_pike"
+			}
+			id: "3E787A93CB370F86"
+			optional: true
+			rewards: [
+				{
+					id: "46808C758AC69E7C"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "4AB8D53B002CCC48"
+					item: {
+						count: 1
+						id: "magistuarmory:steel_pike"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1227942123BEB7E0"
+					item: {
+						count: 1
+						id: "magistuarmory:steel_ranseur"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "54097FB409404B9A"
+					item: {
+						count: 1
+						id: "magistuarmory:steel_ahlspiess"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "157A912EDD029EB4"
+					item: {
+						count: 1
+						id: "magistuarmory:steel_guisarme"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "48AD977D5ABA143A"
+					item: {
+						count: 1
+						id: "magistuarmory:steel_concavehalberd"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "779007CD750F47B3"
+					item: {
+						count: 1
+						id: "magistuarmory:steel_lochaberaxe"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "642CA78BC82C1CBC"
+					item: {
+						count: 1
+						id: "magistuarmory:steel_lucernhammer"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3FC8212AF363AE64"
+					item: {
+						count: 1
+						id: "magistuarmory:steel_chivalrylance"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4D363FF3673FDC1F"
+					item: {
+						count: 1
+						id: "magistuarmory:pitchfork"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/wp_pl4"
+					criterion: ""
+					id: "5A2BBE528703F3B8"
+					type: "advancement"
+				}
+			]
+			x: 10.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["3E787A93CB370F86", "1DC70211B9AE8946"]
+			icon: {
+				id: "magistuarmory:netherite_ranseur"
+			}
+			id: "1C1FD63726CFA75D"
+			optional: true
+			rewards: [
+				{
+					id: "38F54F0858D2C069"
+					type: "xp"
+					xp: 80
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "739A5D5C4C868774"
+					item: {
+						count: 1
+						id: "minecraft:netherite_spear"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5019EA20003B5D65"
+					item: {
+						count: 1
+						id: "basicweapons:netherite_quarterstaff"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "25A833977BC6911A"
+					item: {
+						count: 1
+						id: "basicweapons:netherite_glaive"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "716A34EA8EC87BF9"
+					item: {
+						count: 1
+						id: "magistuarmory:netherite_pike"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7835B51BB560632C"
+					item: {
+						count: 1
+						id: "magistuarmory:netherite_ranseur"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "241640F29C3C480E"
+					item: {
+						count: 1
+						id: "magistuarmory:netherite_ahlspiess"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1113A16F6530DEB7"
+					item: {
+						count: 1
+						id: "magistuarmory:netherite_guisarme"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "215CAF7FF65946C9"
+					item: {
+						count: 1
+						id: "magistuarmory:netherite_concavehalberd"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5A5310F71EF62065"
+					item: {
+						count: 1
+						id: "magistuarmory:netherite_lochaberaxe"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "28EBDF394D0E9F6A"
+					item: {
+						count: 1
+						id: "magistuarmory:netherite_lucernhammer"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0766F340DAA0E957"
+					item: {
+						count: 1
+						id: "magistuarmory:netherite_chivalrylance"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/wp_pl5"
+					criterion: ""
+					id: "78789AACE02379FA"
+					type: "advancement"
+				}
+			]
+			x: 12.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1C1FD63726CFA75D", "068D465E27A99775"]
+			icon: {
+				id: "cataclysm:soul_render"
+			}
 			id: "32881EA946AFEDC9"
 			optional: true
 			rewards: [
 				{
 					id: "25641EB738F4BE0D"
 					type: "xp"
-					xp: 100
+					xp: 150
 				}
 			]
 			shape: "diamond"
@@ -506,36 +2178,58 @@
 					type: "item"
 				}
 			]
-			x: 44.75d
-			y: 3.5d
+			x: 14.0d
+			y: -3.75d
 		}
 		{
-			dependencies: ["79A5EFDD69A29C72", "0E8566C7CED0495F"]
-			id: "31352F29D5CC7FD1"
+			dependencies: ["1C1FD63726CFA75D", "1E0164143136A3DB"]
+			icon: {
+				id: "cataclysm:astrape"
+			}
+			id: "75692FFCF4F6DD18"
 			optional: true
 			rewards: [
 				{
-					id: "7F66586D29A8C7A4"
+					id: "75F6B482DE9CCC38"
 					type: "xp"
-					xp: 100
+					xp: 150
 				}
 			]
 			shape: "diamond"
 			tasks: [
 				{
-					id: "0F8BD499F3773307"
+					id: "500348F14E2D6CE8"
 					item: {
 						count: 1
-						id: "cataclysm:tidal_claws"
+						id: "cataclysm:astrape"
 					}
+					optional_task: true
 					type: "item"
 				}
+				{
+					id: "06A22C6FF09A1200"
+					item: {
+						count: 1
+						id: "cataclysm:ceraunus"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/wp_storm"
+					criterion: ""
+					id: "373DCB6A1314ADE5"
+					type: "advancement"
+				}
 			]
-			x: 47.25d
-			y: 3.5d
+			x: 14.0d
+			y: -6.25d
 		}
 		{
-			dependencies: ["79A5EFDD69A29C72", "296028D6BC6BA78D"]
+			dependencies: ["1C1FD63726CFA75D", "296028D6BC6BA78D"]
+			icon: {
+				id: "legendary_monsters:the_tesseract"
+			}
 			id: "0E61C4D3F95C100D"
 			optional: true
 			rewards: [
@@ -556,8 +2250,891 @@
 					type: "item"
 				}
 			]
-			x: 50.0d
-			y: 3.5d
+			x: 14.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["79A5EFDD69A29C72"]
+			icon: {
+				id: "basicweapons:iron_dagger"
+			}
+			id: "6E7F7AFB349B01D9"
+			optional: true
+			rewards: [
+				{
+					id: "127F0B97B3380BD2"
+					type: "xp"
+					xp: 15
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "11E693EB1920B496"
+					item: {
+						count: 1
+						id: "basicweapons:stone_dagger"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5FB75F11CA1DE323"
+					item: {
+						count: 1
+						id: "basicweapons:iron_dagger"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "33E7736B7904FB3D"
+					item: {
+						count: 1
+						id: "magistuarmory:iron_stylet"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "71E8BB79F7F051A1"
+					item: {
+						count: 1
+						id: "magistuarmory:iron_estoc"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/wp_dagger"
+					criterion: ""
+					id: "49CDE8DEB11476B2"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E7F7AFB349B01D9"]
+			hide_dependency_lines: true
+			icon: {
+				id: "basicweapons:diamond_dagger"
+			}
+			id: "2EEF81AD8CE1DEEC"
+			optional: true
+			rewards: [
+				{
+					id: "09692AF60838BFA3"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "410C97C83FD618A3"
+					item: {
+						count: 1
+						id: "basicweapons:diamond_dagger"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7A44CAD29E1ACB5C"
+					item: {
+						count: 1
+						id: "magistuarmory:diamond_stylet"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2A0FB07B12C8DCCB"
+					item: {
+						count: 1
+						id: "magistuarmory:diamond_estoc"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/wp_li3"
+					criterion: ""
+					id: "02E3C86669CAEA41"
+					type: "advancement"
+				}
+			]
+			x: 8.0d
+			y: 1.25d
+		}
+		{
+			dependencies: ["2EEF81AD8CE1DEEC", "5DAF564C963FD05E"]
+			icon: {
+				id: "magistuarmory:steel_stylet"
+			}
+			id: "7CF20A8350EA86C5"
+			optional: true
+			rewards: [
+				{
+					id: "1A208893BA53CD5A"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "200A107C05C949CB"
+					item: {
+						count: 1
+						id: "magistuarmory:steel_stylet"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6BDFE5E3641F0823"
+					item: {
+						count: 1
+						id: "magistuarmory:steel_estoc"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/wp_li4"
+					criterion: ""
+					id: "6EA5B97A7C011E09"
+					type: "advancement"
+				}
+			]
+			x: 10.0d
+			y: 1.25d
+		}
+		{
+			dependencies: ["7CF20A8350EA86C5", "1DC70211B9AE8946"]
+			icon: {
+				id: "magistuarmory:netherite_stylet"
+			}
+			id: "5184725707E30D36"
+			optional: true
+			rewards: [
+				{
+					id: "50A760710B51E016"
+					type: "xp"
+					xp: 80
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "504BCF0639D49E90"
+					item: {
+						count: 1
+						id: "basicweapons:netherite_dagger"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "01D22FA4110108F6"
+					item: {
+						count: 1
+						id: "magistuarmory:netherite_stylet"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "01F97585FDAF05B9"
+					item: {
+						count: 1
+						id: "magistuarmory:netherite_estoc"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/wp_li5"
+					criterion: ""
+					id: "0980A8D4F77CB204"
+					type: "advancement"
+				}
+			]
+			x: 12.0d
+			y: 1.25d
+		}
+		{
+			dependencies: ["5184725707E30D36", "5EA8C91B92D8229F"]
+			icon: {
+				id: "cataclysm:gauntlet_of_guard"
+			}
+			id: "6BEB77F8F97DA85E"
+			optional: true
+			rewards: [
+				{
+					id: "5930FAE44D41B158"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "1BCA49241F2CBCBE"
+					item: {
+						count: 1
+						id: "cataclysm:gauntlet_of_guard"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "19AB53B5E1A7F9A9"
+					item: {
+						count: 1
+						id: "cataclysm:gauntlet_of_bulwark"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4A17E62721669C31"
+					item: {
+						count: 1
+						id: "cataclysm:gauntlet_of_maelstrom"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/wp_gauntlet"
+					criterion: ""
+					id: "73D11B28FDE8F316"
+					type: "advancement"
+				}
+			]
+			x: 14.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5184725707E30D36", "0E8566C7CED0495F"]
+			icon: {
+				id: "cataclysm:tidal_claws"
+			}
+			id: "31352F29D5CC7FD1"
+			optional: true
+			rewards: [
+				{
+					id: "7F66586D29A8C7A4"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "0F8BD499F3773307"
+					item: {
+						count: 1
+						id: "cataclysm:tidal_claws"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 1.25d
+		}
+		{
+			dependencies: ["79A5EFDD69A29C72"]
+			icon: {
+				id: "more_bows_and_arrows:oak_bow"
+			}
+			id: "17D92094E21B3E64"
+			optional: true
+			rewards: [
+				{
+					id: "6B003CDD650B1EFC"
+					type: "xp"
+					xp: 15
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "2447317B68B57DEF"
+					item: {
+						count: 1
+						id: "minecraft:bow"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3D2503D409CE19AA"
+					item: {
+						count: 1
+						id: "more_bows_and_arrows:oak_bow"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7C3AC9E216466271"
+					item: {
+						count: 1
+						id: "more_bows_and_arrows:spruce_bow"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "71D204E5CA21A6F2"
+					item: {
+						count: 1
+						id: "more_bows_and_arrows:birch_bow"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "01C0F9851462062C"
+					item: {
+						count: 1
+						id: "more_bows_and_arrows:jungle_bow"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "15C87EA22504743F"
+					item: {
+						count: 1
+						id: "more_bows_and_arrows:acacia_bow"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "21B4A5EC66D03B50"
+					item: {
+						count: 1
+						id: "more_bows_and_arrows:dark_oak_bow"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5CEDA6EEC80502B4"
+					item: {
+						count: 1
+						id: "more_bows_and_arrows:mangrove_bow"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "38DEC8626E828962"
+					item: {
+						count: 1
+						id: "more_bows_and_arrows:cherry_bow"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1C3EB22B5831648D"
+					item: {
+						count: 1
+						id: "more_bows_and_arrows:bamboo_bow"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/wp_bow0"
+					criterion: ""
+					id: "7B84C80AE893496A"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["17D92094E21B3E64"]
+			icon: {
+				id: "more_bows_and_arrows:iron_bow"
+			}
+			id: "23A813F10114D44E"
+			optional: true
+			rewards: [
+				{
+					id: "41A411B7BC9550D2"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "485B762F0FF9435D"
+					item: {
+						count: 1
+						id: "minecraft:crossbow"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "067EE5B8C5F5107E"
+					item: {
+						count: 1
+						id: "magistuarmory:longbow"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2B455B078DFE684A"
+					item: {
+						count: 1
+						id: "more_bows_and_arrows:iron_bow"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0B3AF95F8D5C9B25"
+					item: {
+						count: 1
+						id: "more_bows_and_arrows:copper_bow"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5758AA82294E7480"
+					item: {
+						count: 1
+						id: "more_bows_and_arrows:gold_bow"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0629954157104164"
+					item: {
+						count: 1
+						id: "more_bows_and_arrows:bone_bow"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4C58EB8143AC8549"
+					item: {
+						count: 1
+						id: "more_bows_and_arrows:coal_bow"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0E8484E33503FD04"
+					item: {
+						count: 1
+						id: "more_bows_and_arrows:lapis_bow"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7B245558C5ADB9FC"
+					item: {
+						count: 1
+						id: "more_bows_and_arrows:amethyst_bow"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/wp_bow1"
+					criterion: ""
+					id: "2CF9879823B03381"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["23A813F10114D44E", "0212EF427C731405"]
+			icon: {
+				id: "more_bows_and_arrows:blaze_bow"
+			}
+			id: "1251F92219FE7C10"
+			optional: true
+			rewards: [
+				{
+					id: "13CA09DE51AB0852"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "72D6571662018D39"
+					item: {
+						count: 1
+						id: "more_bows_and_arrows:blaze_bow"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "094ECF8BDA7612D0"
+					item: {
+						count: 1
+						id: "more_bows_and_arrows:emerald_bow"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/wp_bow2"
+					criterion: ""
+					id: "201EA41B671F5E70"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1251F92219FE7C10"]
+			icon: {
+				id: "more_bows_and_arrows:diamond_bow"
+			}
+			id: "7A93B012288663BC"
+			optional: true
+			rewards: [
+				{
+					id: "411F2BE2E654366C"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "1E67141DE81EA3F1"
+					item: {
+						count: 1
+						id: "more_bows_and_arrows:diamond_bow"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "59CE5171949E5480"
+					item: {
+						count: 1
+						id: "more_bows_and_arrows:obsidian_bow"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/wp_bow3"
+					criterion: ""
+					id: "0F38897136ED63F2"
+					type: "advancement"
+				}
+			]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7A93B012288663BC", "5DAF564C963FD05E"]
+			icon: {
+				id: "magistuarmory:heavy_crossbow"
+			}
+			id: "78FB0938EE581859"
+			optional: true
+			rewards: [
+				{
+					id: "4A027F4ABDF316AC"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "45F61B137B50AE2B"
+					item: {
+						count: 1
+						id: "magistuarmory:heavy_crossbow"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["78FB0938EE581859", "1DC70211B9AE8946"]
+			icon: {
+				id: "more_bows_and_arrows:netherite_bow"
+			}
+			id: "68FFE8E733634134"
+			optional: true
+			rewards: [
+				{
+					id: "35FE4A8B58FD6D9A"
+					type: "xp"
+					xp: 80
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "6D1DD8FCF6E08E6B"
+					item: {
+						count: 1
+						id: "more_bows_and_arrows:netherite_bow"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "55A1C0A2B0FC92C9"
+					item: {
+						count: 1
+						id: "more_bows_and_arrows:nocturnal_bow"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/wp_bow5"
+					criterion: ""
+					id: "2AB9D0172ECF3851"
+					type: "advancement"
+				}
+			]
+			x: 12.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["68FFE8E733634134", "068D465E27A99775"]
+			icon: {
+				id: "cataclysm:cursed_bow"
+			}
+			id: "271915FF5579D3BE"
+			optional: true
+			rewards: [
+				{
+					id: "06B28DFB06C032D1"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "415CD08CCFC55796"
+					item: {
+						count: 1
+						id: "cataclysm:cursed_bow"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "16C5F3A3784FF55F"
+					item: {
+						count: 1
+						id: "cataclysm:wrath_of_the_desert"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/wp_bow6"
+					criterion: ""
+					id: "5E77C8AAB8AA362E"
+					type: "advancement"
+				}
+			]
+			x: 14.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["79A5EFDD69A29C72", "0EB4F8AFE6A5B3D1"]
+			hide_dependency_lines: true
+			icon: {
+				id: "aquamirae:terrible_fang"
+			}
+			id: "17F4FCFA632CF04A"
+			optional: true
+			rewards: [
+				{
+					id: "16A5A7D665FEE059"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "11D010E176DD6B42"
+					item: {
+						count: 1
+						id: "aquamirae:remnant_saber"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5A3251F19B4C926D"
+					item: {
+						count: 1
+						id: "aquamirae:terrible_fang"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0430999151F87FAD"
+					item: {
+						count: 1
+						id: "aquamirae:terrible_blade"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "23AAC00576FF3A01"
+					item: {
+						count: 1
+						id: "aquamirae:terrible_cleaver"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7FB4075E62A7706C"
+					item: {
+						count: 1
+						id: "aquamirae:dagger_of_greed"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/wp_terrible"
+					criterion: ""
+					id: "1F3A4261FF32D837"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17F4FCFA632CF04A"]
+			icon: {
+				id: "aquamirae:shatterblade"
+			}
+			id: "7AEE279B4EA43B3B"
+			optional: true
+			rewards: [
+				{
+					id: "63CE700731627A06"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "0EDB7874467D0805"
+					item: {
+						count: 1
+						id: "aquamirae:shatterblade"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "672F6C42C28E0354"
+					item: {
+						count: 1
+						id: "aquamirae:shatterspike"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/wp_shatter"
+					criterion: ""
+					id: "1A3D36D968DB6644"
+					type: "advancement"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["79A5EFDD69A29C72", "7EE2EA2995FDE8B4"]
+			hide_dependency_lines: true
+			icon: {
+				id: "aquaculture:neptunium_sword"
+			}
+			id: "7C1295FD212D7992"
+			optional: true
+			rewards: [
+				{
+					id: "095BD052D3CF1EE4"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "0A8ED4EBC507C1FE"
+					item: {
+						count: 1
+						id: "aquaculture:neptunium_sword"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "74FF93A000EE8001"
+					item: {
+						count: 1
+						id: "aquaculture:neptunium_bow"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:any/wp_neptunium"
+					criterion: ""
+					id: "7E300E102FA1BB72"
+					type: "advancement"
+				}
+			]
+			x: 8.0d
+			y: -2.5d
 		}
 	]
+	tags: ["grp_adv"]
 }

@@ -1,0 +1,19 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "magistuarmory:rustedchainmail_helmet",
+       "magistuarmory:rustedchainmail_chestplate",
+       "magistuarmory:rustedchainmail_leggings",
+       "magistuarmory:rustedchainmail_boots"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

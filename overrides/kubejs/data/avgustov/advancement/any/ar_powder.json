@@ -1,0 +1,19 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "cgs:niter",
+       "cgs:sulfur",
+       "cgs:charcoal_dust",
+       "minecraft:gunpowder"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

@@ -35,7 +35,7 @@
 					type: "item"
 				}
 			]
-			x: 18.25d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -59,7 +59,7 @@
 				}
 			]
 			x: 0.0d
-			y: 3.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["738192A57BF3792F", "49C8E1C2CB9DF78F"]
@@ -84,7 +84,7 @@
 				}
 			]
 			x: 0.0d
-			y: 5.5d
+			y: 3.75d
 		}
 		{
 			dependencies: ["1D6532AEE86B0746"]
@@ -106,8 +106,8 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: 3.5d
+			x: 2.0d
+			y: -1.25d
 		}
 		{
 			dependencies: ["20D884662DD3CD9D"]
@@ -129,8 +129,8 @@
 					type: "item"
 				}
 			]
-			x: 2.75d
-			y: 5.5d
+			x: 4.0d
+			y: -3.75d
 		}
 		{
 			dependencies: ["42AC7B82D3FA8BD8"]
@@ -154,8 +154,8 @@
 					type: "item"
 				}
 			]
-			x: 1.75d
-			y: 7.5d
+			x: 6.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["42AC7B82D3FA8BD8"]
@@ -179,8 +179,8 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: 7.5d
+			x: 6.0d
+			y: -3.75d
 		}
 		{
 			dependencies: ["20D884662DD3CD9D"]
@@ -204,8 +204,8 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: 5.5d
+			x: 4.0d
+			y: -1.25d
 		}
 		{
 			dependencies: ["20D884662DD3CD9D"]
@@ -229,8 +229,8 @@
 					type: "item"
 				}
 			]
-			x: 6.25d
-			y: 5.5d
+			x: 4.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["1D6532AEE86B0746"]
@@ -252,8 +252,8 @@
 					type: "item"
 				}
 			]
-			x: 8.75d
-			y: 3.5d
+			x: 0.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["707A59E3AFA43B90"]
@@ -277,8 +277,8 @@
 					type: "item"
 				}
 			]
-			x: 8.75d
-			y: 5.5d
+			x: 0.0d
+			y: -3.75d
 		}
 		{
 			dependencies: ["1D6532AEE86B0746"]
@@ -301,8 +301,8 @@
 					type: "item"
 				}
 			]
-			x: 12.25d
-			y: 3.5d
+			x: 2.0d
+			y: 1.25d
 		}
 		{
 			dependencies: ["3823B45A254AEA58"]
@@ -332,8 +332,8 @@
 					type: "item"
 				}
 			]
-			x: 11.5d
-			y: 5.5d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5ACE0163F6203D78"]
@@ -365,8 +365,8 @@
 					type: "item"
 				}
 			]
-			x: 8.25d
-			y: 7.5d
+			x: 6.0d
+			y: -1.25d
 		}
 		{
 			dependencies: ["04CC9CD124C29EB8"]
@@ -390,8 +390,8 @@
 					type: "item"
 				}
 			]
-			x: 6.5d
-			y: 9.5d
+			x: 8.0d
+			y: -1.25d
 		}
 		{
 			dependencies: ["3823B45A254AEA58"]
@@ -425,8 +425,8 @@
 					type: "item"
 				}
 			]
-			x: 13.25d
-			y: 5.5d
+			x: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["5ACE0163F6203D78", "01265E4D3384E645"]
@@ -441,6 +441,7 @@
 					xp: 50
 				}
 			]
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "14EE2277964B85D1"
@@ -456,8 +457,8 @@
 					type: "checkmark"
 				}
 			]
-			x: 12.75d
-			y: 7.5d
+			x: 6.0d
+			y: 1.25d
 		}
 		{
 			dependencies: ["2743BFBEE92E78B2"]
@@ -481,8 +482,8 @@
 					type: "item"
 				}
 			]
-			x: 11.75d
-			y: 9.5d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1D6532AEE86B0746"]
@@ -513,8 +514,8 @@
 					type: "item"
 				}
 			]
-			x: 20.5d
-			y: 3.5d
+			x: 2.0d
+			y: 3.75d
 		}
 		{
 			dependencies: ["7B65D4E85B4213DC"]
@@ -537,8 +538,8 @@
 					type: "item"
 				}
 			]
-			x: 18.0d
-			y: 5.5d
+			x: 4.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["7B65D4E85B4213DC"]
@@ -563,8 +564,8 @@
 					type: "item"
 				}
 			]
-			x: 19.75d
-			y: 5.5d
+			x: 0.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["7B65D4E85B4213DC"]
@@ -598,8 +599,8 @@
 					type: "item"
 				}
 			]
-			x: 21.5d
-			y: 5.5d
+			x: 2.0d
+			y: 6.25d
 		}
 		{
 			dependencies: ["7B65D4E85B4213DC"]
@@ -621,8 +622,8 @@
 					type: "item"
 				}
 			]
-			x: 23.25d
-			y: 5.5d
+			x: 6.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["20EB8AD3B1B3707C", "04CC9CD124C29EB8"]
@@ -644,8 +645,8 @@
 					type: "item"
 				}
 			]
-			x: 8.25d
-			y: 9.5d
+			x: 8.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5CD5C6B32E16CEFE", "0212EF427C731405"]
@@ -669,8 +670,8 @@
 					type: "item"
 				}
 			]
-			x: 17.0d
-			y: 7.5d
+			x: 6.0d
+			y: 6.25d
 		}
 		{
 			dependencies: ["1D6532AEE86B0746"]
@@ -693,8 +694,8 @@
 					type: "item"
 				}
 			]
-			x: 25.75d
-			y: 3.5d
+			x: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0A5FF3EEE9393BB3", "12A6FC78202DB4C7"]
@@ -725,8 +726,8 @@
 					type: "item"
 				}
 			]
-			x: 25.75d
-			y: 5.5d
+			x: 4.0d
+			y: 1.25d
 		}
 		{
 			dependencies: ["3C91B79D602AEF36"]
@@ -758,8 +759,8 @@
 					type: "item"
 				}
 			]
-			x: 25.75d
-			y: 7.5d
+			x: 6.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["2C853FA06D9AD647"]
@@ -783,8 +784,8 @@
 					type: "item"
 				}
 			]
-			x: 25.75d
-			y: 9.5d
+			x: 8.0d
+			y: 3.75d
 		}
 		{
 			dependencies: ["1D6532AEE86B0746", "4384678F160BB3BD"]
@@ -833,11 +834,12 @@
 					type: "advancement"
 				}
 			]
-			x: 31.0d
-			y: 3.5d
+			x: 2.0d
+			y: -3.75d
 		}
 		{
 			dependencies: ["1D6532AEE86B0746", "15B86A6E44F88225"]
+			hide_dependency_lines: true
 			id: "25CB3685B95D775D"
 			optional: true
 			rewards: [
@@ -868,8 +870,8 @@
 					type: "item"
 				}
 			]
-			x: 36.25d
-			y: 3.5d
+			x: 0.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["25CB3685B95D775D", "22DEBD5AC32E1906"]
@@ -893,8 +895,8 @@
 					type: "item"
 				}
 			]
-			x: 36.25d
-			y: 5.5d
+			x: 2.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["2743BFBEE92E78B2", "6E0A417E075574BC"]
@@ -925,8 +927,8 @@
 					type: "item"
 				}
 			]
-			x: 13.5d
-			y: 9.5d
+			x: 8.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["6960F9B7D764872A"]
@@ -958,8 +960,8 @@
 					type: "item"
 				}
 			]
-			x: 13.5d
-			y: 11.5d
+			x: 10.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["63CE185815E31B92", "2C853FA06D9AD647", "2A794F41BE8008BD"]
@@ -984,7 +986,7 @@
 					type: "item"
 				}
 			]
-			shape: "hexagon"
+			shape: "cog"
 			size: 1.5d
 			tasks: [
 				{
@@ -1001,8 +1003,8 @@
 					type: "checkmark"
 				}
 			]
-			x: 19.75d
-			y: 13.5d
+			x: 10.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["5CD5C6B32E16CEFE", "2C853FA06D9AD647", "43D611D20E2A63F0", "2741FB41F86956F1"]
@@ -1038,7 +1040,7 @@
 					type: "item"
 				}
 			]
-			shape: "hexagon"
+			shape: "cog"
 			size: 1.5d
 			tasks: [
 				{
@@ -1050,7 +1052,7 @@
 					type: "item"
 				}
 			]
-			x: 23.5d
+			x: 12.0d
 			y: 0.0d
 		}
 		{
@@ -1084,8 +1086,8 @@
 					type: "item"
 				}
 			]
-			x: 14.5d
-			y: 7.5d
+			x: 6.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["16E35FB952F43AAC"]
@@ -1117,8 +1119,8 @@
 					type: "item"
 				}
 			]
-			x: 18.75d
-			y: 9.5d
+			x: 8.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["5CD5C6B32E16CEFE"]
@@ -1151,7 +1153,7 @@
 					type: "item"
 				}
 			]
-			x: 18.75d
+			x: 6.0d
 			y: 7.5d
 		}
 		{
@@ -1168,15 +1170,15 @@
 					xp: 30
 				}
 			]
-			shape: "diamond"
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "1BB75C988F9DCAEB"
 					type: "checkmark"
 				}
 			]
-			x: 18.75d
-			y: 11.5d
+			x: 10.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["462956A8435D5420", "6E0A417E075574BC"]
@@ -1210,8 +1212,8 @@
 					type: "item"
 				}
 			]
-			x: 28.5d
-			y: 5.5d
+			x: 4.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["462956A8435D5420", "6E0A417E075574BC"]
@@ -1244,8 +1246,8 @@
 					type: "item"
 				}
 			]
-			x: 30.25d
-			y: 5.5d
+			x: 2.0d
+			y: -6.25d
 		}
 		{
 			dependencies: ["462956A8435D5420"]
@@ -1288,8 +1290,8 @@
 					type: "item"
 				}
 			]
-			x: 32.0d
-			y: 5.5d
+			x: 4.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["462956A8435D5420", "3A38D7ABE34F76A9"]
@@ -1323,8 +1325,8 @@
 					type: "advancement"
 				}
 			]
-			x: 33.75d
-			y: 5.5d
+			x: 0.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["04CC9CD124C29EB8"]
@@ -1339,14 +1341,16 @@
 					xp: 30
 				}
 			]
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "265371CF69315AD2"
 					type: "checkmark"
 				}
 			]
-			x: 10.0d
-			y: 9.5d
+			x: 8.0d
+			y: -2.5d
 		}
 	]
+	tags: ["grp_life"]
 }

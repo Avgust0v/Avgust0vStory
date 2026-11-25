@@ -1,0 +1,20 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "create_radar:auto_yaw_controller",
+       "create_radar:auto_pitch_controller",
+       "create_radar:fire_controller",
+       "create_radar:monitor",
+       "create_radar:target_filter_item"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "create_sa:copper_sword",
+       "magistuarmory:copper_shortsword",
+       "magistuarmory:copper_katzbalger",
+       "magistuarmory:copper_bastardsword"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

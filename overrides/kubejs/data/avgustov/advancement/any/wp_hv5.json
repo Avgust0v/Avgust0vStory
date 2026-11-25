@@ -1,0 +1,22 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "basicweapons:netherite_club",
+       "basicweapons:netherite_hammer",
+       "garnished:netherite_hatchet",
+       "magistuarmory:netherite_heavymace",
+       "magistuarmory:netherite_morgenstern",
+       "magistuarmory:netherite_chainmorgenstern",
+       "magistuarmory:netherite_heavywarhammer"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "tfmg:steel_sword",
+       "tfmg:aluminum_sword",
+       "tfmg:lithium_blade",
+       "create_mf:refined_radiance_sword",
+       "magistuarmory:steel_shortsword",
+       "magistuarmory:steel_katzbalger",
+       "magistuarmory:steel_bastardsword",
+       "magistuarmory:steel_claymore",
+       "magistuarmory:steel_zweihander",
+       "magistuarmory:steel_flamebladedsword"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

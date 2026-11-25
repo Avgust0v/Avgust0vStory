@@ -1,0 +1,282 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "adv_lunar"
+	group: "0B22509E29683950"
+	icon: {
+		id: "minecraft:clock"
+	}
+	id: "4407398F80F7B747"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:clock"
+			}
+			id: "6A69EC405671CD11"
+			rewards: [
+				{
+					id: "5C7911F53C52AB00"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "3E6C3A9FAC902DBC"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A69EC405671CD11"]
+			icon: {
+				id: "minecraft:redstone"
+			}
+			id: "593D77D1B5095AFA"
+			rewards: [
+				{
+					id: "1F4BBE326D997E50"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 2
+					id: "6E0A2C1AF8CD0ED5"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "60154C3772AA223D"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:lunar/blood_hunt"
+					criterion: ""
+					id: "35ABC3AE762665D5"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A69EC405671CD11"]
+			icon: {
+				id: "minecraft:red_bed"
+			}
+			id: "75BBA6A9DDCC783F"
+			rewards: [
+				{
+					id: "098F2AD5DB2DB245"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 2
+					id: "6227160BC2EA62A0"
+					item: {
+						count: 1
+						id: "legendarysurvivaloverhaul:medkit"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7639DF48FDC28DF7"
+					item: {
+						count: 1
+						id: "minecraft:red_bed"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:lunar/blood_dawn"
+					criterion: ""
+					id: "35AB0478B061CD92"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 1.25d
+		}
+		{
+			dependencies: ["6A69EC405671CD11"]
+			icon: {
+				id: "minecraft:wheat"
+			}
+			id: "15E80221A0486886"
+			rewards: [
+				{
+					id: "7F257F916360305F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 64
+					id: "5EC7053D8407D874"
+					item: {
+						count: 1
+						id: "minecraft:bone_meal"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "323D34C84220203B"
+					item: {
+						count: 1
+						id: "minecraft:wheat"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:lunar/harvest"
+					criterion: ""
+					id: "39BCA676C3683CCC"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6A69EC405671CD11"]
+			icon: {
+				id: "minecraft:experience_bottle"
+			}
+			id: "248601BE4FF21097"
+			rewards: [
+				{
+					id: "338A54C6EACC3EB2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 16
+					id: "59E7D784F2744C5C"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1E2B3A426EF34D3E"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:lunar/blue_luck"
+					criterion: ""
+					id: "38183C2A1F82ECD5"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6A69EC405671CD11"]
+			icon: {
+				id: "minecraft:slime_ball"
+			}
+			id: "4F75796BE0847468"
+			rewards: [
+				{
+					id: "7F7C5FB390024CE0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "499E3332E5FD0FD6"
+					item: {
+						count: 1
+						id: "minecraft:slime_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "74BB07845BF51209"
+					item: {
+						count: 1
+						id: "minecraft:slime_ball"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "avgustov:lunar/slime_moon"
+					criterion: ""
+					id: "74B5E39B8D59FED0"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: -1.25d
+		}
+		{
+			dependencies: ["593D77D1B5095AFA", "75BBA6A9DDCC783F", "15E80221A0486886", "248601BE4FF21097", "4F75796BE0847468"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "41327865CBDB7989"
+			rewards: [
+				{
+					id: "572DED49EAAA646F"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "321A92A0A887142E"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+			]
+			shape: "cog"
+			size: 1.5d
+			tasks: [
+				{
+					id: "64503342FE14939C"
+					type: "checkmark"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+	]
+	tags: ["grp_adv"]
+}

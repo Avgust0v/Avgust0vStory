@@ -1,12 +1,11 @@
 AvgustovStory — моды, которые лежат прямо в сборке (overrides/mods), а не скачиваются по манифесту CurseForge.
 Сборка некоммерческая, для игры с друзьями. Все права на моды принадлежат их авторам.
 
-Just Hammers — ErrorMikey — GPL-3.0 — https://modrinth.com/mod/just-hammers (исходники: https://github.com/ErrorMikey/JustHammers)
 Create Collision Crashfix — Umpa — MIT — https://modrinth.com/mod/create-collision-crashfix (исходники: https://github.com/Tiruum/minecraft-mods/tree/main/1.21.1/create-collision-fix)
 Create: Trimmed — TorNato — MIT — https://modrinth.com/mod/create-trimmed
+Sable Explosion Fix — MIT — https://modrinth.com/mod/sable-explosions-fix
+Iris Veil Compat — LGPL-3.0 — https://modrinth.com/mod/iris-veil-compat (исходники на GitHub, мод не изменён)
   Все моды не изменены.
-Fresh Patch - Variants and Ventures (ресурспак) — FreshLX — CC0-1.0 — https://modrinth.com/resourcepack/fresh-variants-and-ventures
-  Пак не изменён.
 AvgustovStory CC RU (ресурспак, наш) — русские подписи для Colourful Containers из ванильного ru_ru Minecraft.
 AvgustovStory Hot Air (ресурспак, наш) — текстуры горячего воздуха Create Aeronautics (Create Aeronautics — MIT) в виде редких пиксельных клочьев и облачков с просветами, чтобы под шейдерами шар не закрывала сплошная пелена.
 
@@ -14,3 +13,6 @@ AvgustovStory Hot Air (ресурспак, наш) — текстуры горя
 Better Days, Explosive Enhancement, Euphoria Patches, Cut Through, Overflowing Bars, Jade Sable Compat, Create Optical, Basic Weapons,
 Backported Spears, Iron's Simple Blood, Charta, CorgiLib, Data Anchor, Just Enough Resources; ресурспаки Fast Better Grass, Cubic Leaves,
 Fresh Patch - Rotten Creatures, FA+Spawn, Fresh Waystones; шейдер Photon.
+С 25.11.2026 (1.3.0) тоже по манифесту: Just Hammers, Camera Overhaul, Charta: Casino, Mine Chess, Traveler's Titles, VeinMiner,
+YUNG's Better Desert Temples, YUNG's Bridges, YUNG's Extras; ресурспаки RTF+, Pool Table and Billiards Balls, Fresh Patch - Variants and Ventures;
+шейдеры MakeUp - Ultra Fast, Mellow.

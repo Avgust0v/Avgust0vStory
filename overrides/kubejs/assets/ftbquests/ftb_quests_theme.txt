@@ -1,56 +1,67 @@
+// AvgustovStory quest book theme "Leather" (v1.3.0). Textures: avgustov:textures/questbook/ (procedural, own work).
+// Built by staging/questbook-theme/tools/ship.js. Group accents: chapters carry tags grp_eras/grp_life/grp_settle/grp_adv;
+// quests inherit them through the parent walk (quest -> chapter). Variables resolve inside the section that defines a key,
+// so every accented key is written out in full in each [#grp_*] section.
 [*]
-background: ftb:textures/quests/create_blueprint_cyan.png; tile_size=256
-chapter_panel_background: ftb:textures/quests/create_panel_thin.png
-key_reference_background: ftb:textures/quests/create_blueprint_cyan.png; tile_size=256
-quest_view_background: ftb:textures/quests/create_quest_view.png
+qb_panel_texture: avgustov:textures/questbook/leather.png; tile_size=64
+background: avgustov:textures/questbook/leather.png; tile_size=64
+chapter_panel_background: hollow_rectangle:#8C6A3C; round_edges + {{qb_panel_texture}}; color=#A8A8A8; padding=1
+context_menu: hollow_rectangle:#8C6A3C; round_edges + {{qb_panel_texture}}; color=#B4B4B4; padding=1
+quest_view_background: hollow_rectangle:#C9974C; round_edges + {{qb_panel_texture}}; color=#9C9C9C; padding=1
+key_reference_background: hollow_rectangle:#C9974C; round_edges + {{qb_panel_texture}}; color=#9C9C9C; padding=1
 quest_view_border: #C9974C
-selected_chapter_highlight_1: #60EAA842
-selected_chapter_highlight_2: #28EAA842
+selected_chapter_highlight_1: #60C9974C
+selected_chapter_highlight_2: #28C9974C
+text_color: #F4E9D8
+hover_text_color: #FFE08A
+disabled_text_color: #9C8B78
+widget_border: #22160E
+widget_background: #50140C06
+quest_view_title: #D8C3A0
+tasks_text_color: #8EC5F2
+rewards_text_color: #FFB347
+quest_completed_color: #D26CD65A
+quest_started_color: #D24ED0D0
+quest_not_started_color: #A0F4E8D4
+quest_locked_color: #FF8E8278
+dependency_line_completed_color: #7CCB5A
+dependency_line_uncompleted_color: #B4E2CBA8
+dependency_line_unavailable_color: #5AA8927A
+dependency_line_requires_color: #4FD1C5
+dependency_line_required_for_color: #F2B84B
 
-// ==========================================
-// GROUP 1: CREATE: ENGINEERING (ORANGE #EAA842)
-// ==========================================
-[0601000000000001 | 0602000000000001 | 0603000000000001 | 0604000000000001 | 0605000000000001 | 0606000000000001 | 0501000000000001 | 0502000000000001 | 0503000000000001 | 0504000000000001 | 0505000000000001 | 5DCD8A027DDCC18B | 68332475542ACEA2 | 109548EFF2C9417E | 69CCE99A776B2D66 | 360DE41615A7530C]
-background: ftb:textures/quests/create_blueprint_orange.png; tile_size=256
-key_reference_background: ftb:textures/quests/create_blueprint_orange.png; tile_size=256
-quest_view_border: #EAA842
+// chapter group grp_eras: title colour #F4A261, accent = 80% group + 20% brass
+[#grp_eras]
+quest_view_background: hollow_rectangle:#EBA05D; round_edges + {{qb_panel_texture}}; color=#9C9C9C; padding=1
+key_reference_background: hollow_rectangle:#EBA05D; round_edges + {{qb_panel_texture}}; color=#9C9C9C; padding=1
+quest_view_border: #EBA05D
+chapter_panel_background: hollow_rectangle:#906139; round_edges + {{qb_panel_texture}}; color=#A8A8A8; padding=1
+selected_chapter_highlight_1: #60EBA05D
+selected_chapter_highlight_2: #28EBA05D
 
-// ==========================================
-// GROUP 2: FLYING HIGH (AZULZINHO / CIANO #2EC4B6)
-// ==========================================
-[048AB9655BAEC29A | 51D2631964351F3A | 2E4EDF68FD3370DA | 010F3251541FC7DC | 30BDC61EB4F7A7B1 | 79C23EB453C1751F | 1000000000000001 | 10A0000000000000]
-background: ftb:textures/quests/create_blueprint_cyan.png; tile_size=256
-key_reference_background: ftb:textures/quests/create_blueprint_cyan.png; tile_size=256
-quest_view_border: #2EC4B6
+// chapter group grp_life: title colour #90BE6D, accent = 80% group + 20% brass
+[#grp_life]
+quest_view_background: hollow_rectangle:#9BB666; round_edges + {{qb_panel_texture}}; color=#9C9C9C; padding=1
+key_reference_background: hollow_rectangle:#9BB666; round_edges + {{qb_panel_texture}}; color=#9C9C9C; padding=1
+quest_view_border: #9BB666
+chapter_panel_background: hollow_rectangle:#646E3E; round_edges + {{qb_panel_texture}}; color=#A8A8A8; padding=1
+selected_chapter_highlight_1: #609BB666
+selected_chapter_highlight_2: #289BB666
 
-// ==========================================
-// GROUP 3: CREATE UTILITIES (VERDE #52B788)
-// ==========================================
-[6A14EE63D7CE4888 | 1300000000000001 | 1100000000000000 | 1200000000000000 | 0B8148DAF5CC9DF1 | 4206A58542561BF0 | 1CFC7955957D28B7 | 1E0B14B8BEAE3175 | 09FBD576F87881B4 | 1300000000000000 | 66F98B6CCBBBF2A2]
-background: ftb:textures/quests/create_blueprint_green.png; tile_size=256
-key_reference_background: ftb:textures/quests/create_blueprint_green.png; tile_size=256
-quest_view_border: #52B788
+// chapter group grp_settle: title colour #2A9D8F, accent = 80% group + 20% brass
+[#grp_settle]
+quest_view_background: hollow_rectangle:#4A9C82; round_edges + {{qb_panel_texture}}; color=#9C9C9C; padding=1
+key_reference_background: hollow_rectangle:#4A9C82; round_edges + {{qb_panel_texture}}; color=#9C9C9C; padding=1
+quest_view_border: #4A9C82
+chapter_panel_background: hollow_rectangle:#375F4D; round_edges + {{qb_panel_texture}}; color=#A8A8A8; padding=1
+selected_chapter_highlight_1: #604A9C82
+selected_chapter_highlight_2: #284A9C82
 
-// ==========================================
-// GROUP 4: INDUSTRY AND TECH (CORAL / RED-ORANGE #E76F51)
-// ==========================================
-[49EA4A06D4508740 | 23983F4DC524B14B | 54D57FF8C31ABBAE | 7332B6BB3E51839A | 21FFEEC5D27A5737]
-background: ftb:textures/quests/create_blueprint_red.png; tile_size=256
-key_reference_background: ftb:textures/quests/create_blueprint_red.png; tile_size=256
-quest_view_border: #E76F51
-
-// ==========================================
-// GROUP 5: UTILITIES AND QUALITY OF LIFE (ROXO / PURPLE #A259FF)
-// ==========================================
-[0607000000000001]
-background: ftb:textures/quests/create_blueprint_purple.png; tile_size=256
-key_reference_background: ftb:textures/quests/create_blueprint_purple.png; tile_size=256
-quest_view_border: #A259FF
-
-// ==========================================
-// GROUP 6: LEGACY ARCHIVE (CINZA ARDÓSIA #8D99AE)
-// ==========================================
-[4E115E1260B9FA39 | 56096636DE3BAEC1 | 3617DE87C4E1BCB9 | 1576792D7606E2A6 | 43315856468793B5 | 3A71AA00EEB6E02D | 5C3FF9D1ECAC4860]
-background: ftb:textures/quests/create_blueprint_slate.png; tile_size=256
-key_reference_background: ftb:textures/quests/create_blueprint_slate.png; tile_size=256
-quest_view_border: #8D99AE
+// chapter group grp_adv: title colour #E63946, accent = 80% group + 20% brass
+[#grp_adv]
+quest_view_background: hollow_rectangle:#E04C47; round_edges + {{qb_panel_texture}}; color=#9C9C9C; padding=1
+key_reference_background: hollow_rectangle:#E04C47; round_edges + {{qb_panel_texture}}; color=#9C9C9C; padding=1
+quest_view_border: #E04C47
+chapter_panel_background: hollow_rectangle:#8A332D; round_edges + {{qb_panel_texture}}; color=#A8A8A8; padding=1
+selected_chapter_highlight_1: #60E04C47
+selected_chapter_highlight_2: #28E04C47

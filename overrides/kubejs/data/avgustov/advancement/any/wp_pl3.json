@@ -1,0 +1,26 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "minecraft:diamond_spear",
+       "basicweapons:diamond_quarterstaff",
+       "basicweapons:diamond_glaive",
+       "magistuarmory:diamond_pike",
+       "magistuarmory:diamond_ranseur",
+       "magistuarmory:diamond_ahlspiess",
+       "magistuarmory:diamond_guisarme",
+       "magistuarmory:diamond_concavehalberd",
+       "magistuarmory:diamond_lochaberaxe",
+       "magistuarmory:diamond_lucernhammer",
+       "magistuarmory:diamond_chivalrylance"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

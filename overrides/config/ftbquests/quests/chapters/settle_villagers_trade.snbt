@@ -25,7 +25,7 @@
 					type: "structure"
 				}
 			]
-			x: 13.5d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -49,8 +49,8 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: 3.5d
+			x: 2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["689955EBFEFBEE47"]
@@ -66,15 +66,15 @@
 					xp: 25
 				}
 			]
-			shape: "diamond"
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "4658BF789A6DFE22"
 					type: "checkmark"
 				}
 			]
-			x: 0.0d
-			y: 5.75d
+			x: 4.0d
+			y: -3.75d
 		}
 		{
 			dependencies: ["689955EBFEFBEE47"]
@@ -122,8 +122,8 @@
 					type: "checkmark"
 				}
 			]
-			x: 1.75d
-			y: 5.75d
+			x: 4.0d
+			y: -1.25d
 		}
 		{
 			dependencies: ["689955EBFEFBEE47"]
@@ -154,8 +154,8 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: 5.75d
+			x: 4.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["2658DC25D6B3DA7D"]
@@ -187,8 +187,8 @@
 					type: "item"
 				}
 			]
-			x: 17.0d
-			y: 3.5d
+			x: 0.0d
+			y: 3.75d
 		}
 		{
 			dependencies: ["3722F79F88DAAC1E"]
@@ -219,8 +219,8 @@
 					type: "item"
 				}
 			]
-			x: 14.0d
-			y: 5.75d
+			x: 2.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3722F79F88DAAC1E"]
@@ -242,8 +242,8 @@
 					type: "item"
 				}
 			]
-			x: 16.75d
-			y: 5.75d
+			x: 2.0d
+			y: 3.75d
 		}
 		{
 			dependencies: ["3722F79F88DAAC1E"]
@@ -267,8 +267,8 @@
 					type: "item"
 				}
 			]
-			x: 18.5d
-			y: 5.75d
+			x: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["3722F79F88DAAC1E"]
@@ -292,8 +292,8 @@
 					type: "item"
 				}
 			]
-			x: 20.25d
-			y: 5.75d
+			x: 0.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["212E828BE86D1EE0"]
@@ -326,8 +326,8 @@
 					type: "item"
 				}
 			]
-			x: 16.75d
-			y: 7.75d
+			x: 4.0d
+			y: 3.75d
 		}
 		{
 			dependencies: ["79555F0FF44A37BA"]
@@ -349,8 +349,8 @@
 					type: "item"
 				}
 			]
-			x: 13.25d
-			y: 7.75d
+			x: 4.0d
+			y: 6.25d
 		}
 		{
 			dependencies: ["79555F0FF44A37BA", "212E828BE86D1EE0", "2C8F1AF81F0DCA24"]
@@ -372,8 +372,8 @@
 					type: "item"
 				}
 			]
-			x: 15.25d
-			y: 8.75d
+			x: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["2658DC25D6B3DA7D"]
@@ -408,14 +408,15 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "09DBDF53E2E1896F"
 					type: "checkmark"
 				}
 			]
-			x: 22.75d
-			y: 3.5d
+			x: 2.0d
+			y: 1.25d
 		}
 		{
 			dependencies: ["2FB3669343F67A3E"]
@@ -432,7 +433,7 @@
 					type: "choice"
 				}
 			]
-			shape: "hexagon"
+			shape: "octagon"
 			size: 1.5d
 			tasks: [
 				{
@@ -450,8 +451,8 @@
 					type: "item"
 				}
 			]
-			x: 22.75d
-			y: 5.75d
+			x: 4.0d
+			y: 1.25d
 		}
 		{
 			dependencies: ["689955EBFEFBEE47"]
@@ -467,15 +468,15 @@
 					xp: 50
 				}
 			]
-			shape: "diamond"
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "1AB03102CB56D26E"
 					type: "checkmark"
 				}
 			]
-			x: 5.25d
-			y: 5.75d
+			x: 2.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["689955EBFEFBEE47"]
@@ -499,8 +500,8 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
-			y: 5.75d
+			x: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["689955EBFEFBEE47", "49C8E1C2CB9DF78F"]
@@ -515,8 +516,8 @@
 					type: "item"
 				}
 			]
-			x: 8.75d
-			y: 5.75d
+			x: 4.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["782F00D1CBFEEC77"]
@@ -531,8 +532,8 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
-			y: 7.75d
+			x: 6.0d
+			y: -6.25d
 		}
 		{
 			dependencies: ["782F00D1CBFEEC77"]
@@ -556,8 +557,8 @@
 					type: "item"
 				}
 			]
-			x: 8.75d
-			y: 7.75d
+			x: 6.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["782F00D1CBFEEC77"]
@@ -581,8 +582,8 @@
 					type: "item"
 				}
 			]
-			x: 10.5d
-			y: 7.75d
+			x: 6.0d
+			y: -3.75d
 		}
 		{
 			dependencies: ["19FF6DD1272E94B3"]
@@ -602,7 +603,7 @@
 					type: "item"
 				}
 			]
-			shape: "hexagon"
+			shape: "cog"
 			size: 1.5d
 			tasks: [
 				{
@@ -615,8 +616,8 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
-			y: 9.75d
+			x: 8.0d
+			y: -6.25d
 		}
 		{
 			dependencies: ["183F2694AA369842", "3D99FF00DB2F6952", "0191994FE0A2F870"]
@@ -635,7 +636,7 @@
 					type: "choice"
 				}
 			]
-			shape: "hexagon"
+			shape: "cog"
 			size: 1.5d
 			tasks: [
 				{
@@ -648,8 +649,9 @@
 					type: "item"
 				}
 			]
-			x: 18.75d
+			x: 10.0d
 			y: 0.0d
 		}
 	]
+	tags: ["grp_settle"]
 }

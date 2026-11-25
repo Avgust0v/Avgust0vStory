@@ -1,1 +1,13 @@
-{"texture":"avgustov:textures/map_icons/minecraft/allay.png"}
+{
+  "texture": "avgustov:textures/face_src/allay/allay.png",
+  "slice": {
+    "x": 5,
+    "y": 5,
+    "width": 5,
+    "height": 5
+  },
+  "default_image_size": {
+    "width": 32,
+    "height": 32
+  }
+}

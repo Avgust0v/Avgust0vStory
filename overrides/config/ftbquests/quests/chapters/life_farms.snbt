@@ -1,0 +1,569 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "life_farms"
+	group: "79CFB7D5EF5A4EA6"
+	icon: {
+		id: "create:mechanical_harvester"
+	}
+	id: "0FE0B49642FB6CD5"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "create:mechanical_harvester"
+			}
+			id: "57DC511E55D14451"
+			rewards: [
+				{
+					id: "6083620CB0A652ED"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "2EAA0340E0E0E07E"
+					item: {
+						count: 1
+						id: "create:mechanical_harvester"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "18F5FE370CD797D7"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["57DC511E55D14451", "6ECC7C838BBEE14E"]
+			icon: {
+				id: "legendarysurvivaloverhaul:purified_water_bottle"
+			}
+			id: "0C1AB0F17EF01CD9"
+			optional: true
+			rewards: [
+				{
+					id: "21BC43A19EC06330"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					count: 16L
+					id: "671A1CD0A9970089"
+					item: {
+						count: 1
+						id: "legendarysurvivaloverhaul:purified_water_bottle"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["57DC511E55D14451", "6ECC7C838BBEE14E"]
+			icon: {
+				id: "create:mechanical_saw"
+			}
+			id: "61DCBDD899D09163"
+			optional: true
+			rewards: [
+				{
+					id: "5E90342C60889040"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					count: 64L
+					id: "636C64E4858B92C7"
+					item: {
+						count: 1
+						id: "minecraft:charcoal"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["57DC511E55D14451", "6ECC7C838BBEE14E"]
+			icon: {
+				id: "create_mechanical_extruder:mechanical_extruder"
+			}
+			id: "18BB7FC4F9D7A905"
+			optional: true
+			rewards: [
+				{
+					id: "033D253AF607EE94"
+					type: "xp"
+					xp: 80
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "75F3F566AF1113CF"
+					item: {
+						count: 1
+						id: "create_mechanical_extruder:mechanical_extruder"
+					}
+					type: "item"
+				}
+				{
+					count: 256L
+					id: "19EAE8CF61EF13A9"
+					item: {
+						count: 1
+						id: "minecraft:andesite"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["18BB7FC4F9D7A905"]
+			icon: {
+				id: "create:crushing_wheel"
+			}
+			id: "4474FCA42743231A"
+			optional: true
+			rewards: [
+				{
+					id: "2B13AF8077E002FB"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					count: 128L
+					id: "74C506ADE7A6A8EF"
+					item: {
+						count: 1
+						id: "minecraft:sand"
+					}
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "10A9276ED42495D0"
+					item: {
+						count: 1
+						id: "minecraft:clay_ball"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["57DC511E55D14451", "6ECC7C838BBEE14E"]
+			icon: {
+				id: "create:mechanical_harvester"
+			}
+			id: "37C5F2BD8916DC49"
+			optional: true
+			rewards: [
+				{
+					id: "43C3E3B3B10B5E01"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "435B224C2C92A0D9"
+					item: {
+						count: 1
+						id: "create:mechanical_harvester"
+					}
+					type: "item"
+				}
+				{
+					count: 128L
+					id: "57A9CAFC9234F238"
+					item: {
+						count: 1
+						id: "minecraft:wheat"
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 1.25d
+		}
+		{
+			dependencies: ["57DC511E55D14451", "6ECC7C838BBEE14E"]
+			icon: {
+				id: "minecraft:dried_kelp_block"
+			}
+			id: "4DDFCA5EB06FDA77"
+			optional: true
+			rewards: [
+				{
+					id: "356AFD2058662E6E"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					count: 32L
+					id: "6DE3704E1A58B8AB"
+					item: {
+						count: 1
+						id: "minecraft:dried_kelp_block"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.25d
+		}
+		{
+			dependencies: ["57DC511E55D14451", "6ECC7C838BBEE14E"]
+			icon: {
+				id: "create_integrated_farming:chicken_roost"
+			}
+			id: "639523AD0B236BF2"
+			optional: true
+			rewards: [
+				{
+					id: "6A5753D75A8E0372"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "2B06AD75725C0B6D"
+					item: {
+						count: 1
+						id: "create_integrated_farming:chicken_roost"
+					}
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "30F990E5BC0853C9"
+					item: {
+						count: 1
+						id: "minecraft:egg"
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -1.25d
+		}
+		{
+			dependencies: ["18BB7FC4F9D7A905", "0212EF427C731405"]
+			icon: {
+				id: "create:crushed_raw_zinc"
+			}
+			id: "5681907E1EC1DAAA"
+			optional: true
+			rewards: [
+				{
+					id: "5BED181CE75ED050"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "5B695D1D65824AC4"
+					item: {
+						count: 1
+						id: "create_mechanical_extruder:mechanical_brass_extruder"
+					}
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "465C6410C24CC47A"
+					item: {
+						count: 1
+						id: "create:crushed_raw_zinc"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["57DC511E55D14451", "0212EF427C731405"]
+			icon: {
+				id: "create:experience_nugget"
+			}
+			id: "103BE13758B916A0"
+			optional: true
+			rewards: [
+				{
+					id: "57A1E9B3CB13DF4B"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					count: 64L
+					id: "704A93E29EAE6614"
+					item: {
+						count: 1
+						id: "create:experience_nugget"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["57DC511E55D14451", "0212EF427C731405"]
+			icon: {
+				id: "minecraft:blaze_rod"
+			}
+			id: "1CEB7ADE4A053DF7"
+			optional: true
+			rewards: [
+				{
+					id: "2C22BABFEA85F90E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					count: 16L
+					id: "13267E1B64D3A345"
+					item: {
+						count: 1
+						id: "minecraft:blaze_rod"
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["61DCBDD899D09163", "6596D173AF641EF6"]
+			icon: {
+				id: "tfmg:coal_coke"
+			}
+			id: "5539ED7AAC4C0048"
+			optional: true
+			rewards: [
+				{
+					id: "5F9D992064C0217D"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					count: 64L
+					id: "4E8D50D523DBF2C1"
+					item: {
+						count: 1
+						id: "tfmg:coal_coke"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["57DC511E55D14451", "6596D173AF641EF6"]
+			icon: {
+				id: "create:hose_pulley"
+			}
+			id: "584FC0929BD87BA9"
+			optional: true
+			rewards: [
+				{
+					id: "42B0B9641C55D8C0"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "0A15AD208794B550"
+					item: {
+						count: 1
+						id: "create:hose_pulley"
+					}
+					type: "item"
+				}
+				{
+					id: "57395DA49EAD3B64"
+					item: {
+						count: 1
+						id: "minecraft:lava_bucket"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["584FC0929BD87BA9"]
+			icon: {
+				id: "tfmg:diesel_bucket"
+			}
+			id: "7A379864171045A0"
+			optional: true
+			rewards: [
+				{
+					id: "63DCB45CBD378019"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "5B80118EBA62E574"
+					item: {
+						count: 1
+						id: "tfmg:diesel_bucket"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A379864171045A0", "1C133A562A6AA6C2"]
+			icon: {
+				id: "creatingspace:cryogenic_tank"
+			}
+			id: "29DEC34A72369A8E"
+			optional: true
+			rewards: [
+				{
+					id: "2E10CD745C244152"
+					type: "xp"
+					xp: 250
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "7875A69AE997810D"
+					item: {
+						count: 1
+						id: "creatingspace:mechanical_electrolyzer"
+					}
+					type: "item"
+				}
+				{
+					id: "6422881863478C76"
+					item: {
+						count: 1
+						id: "creatingspace:air_liquefier"
+					}
+					type: "item"
+				}
+				{
+					id: "13146B826134165D"
+					item: {
+						count: 1
+						id: "creatingspace:cryogenic_tank"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["29DEC34A72369A8E"]
+			icon: {
+				id: "creatingspace:moon_stone"
+			}
+			id: "037F7593A8C97FE0"
+			optional: true
+			rewards: [
+				{
+					id: "7CD49B184B616F82"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					count: 128L
+					id: "6D0822B42B3F1D4C"
+					item: {
+						count: 1
+						id: "creatingspace:moon_stone"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["57DC511E55D14451"]
+			icon: {
+				id: "minecraft:iron_golem_spawn_egg"
+			}
+			id: "23F84575BE33D32D"
+			optional: true
+			rewards: [
+				{
+					id: "68F72398E026DB5D"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "55E128C2B394CE61"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: -1.25d
+		}
+	]
+	tags: ["grp_life"]
+}

@@ -1,0 +1,26 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "minecraft:netherite_spear",
+       "basicweapons:netherite_quarterstaff",
+       "basicweapons:netherite_glaive",
+       "magistuarmory:netherite_pike",
+       "magistuarmory:netherite_ranseur",
+       "magistuarmory:netherite_ahlspiess",
+       "magistuarmory:netherite_guisarme",
+       "magistuarmory:netherite_concavehalberd",
+       "magistuarmory:netherite_lochaberaxe",
+       "magistuarmory:netherite_lucernhammer",
+       "magistuarmory:netherite_chivalrylance"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

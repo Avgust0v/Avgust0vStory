@@ -1,0 +1,17 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "cataclysm:bone_reptile_helmet",
+       "cataclysm:bone_reptile_chestplate"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

@@ -1,1 +1,13 @@
-{"texture":"avgustov:textures/map_icons/minecraft/vex.png"}
+{
+  "texture": "avgustov:textures/face_src/illager/vex.png",
+  "slice": {
+    "x": 4,
+    "y": 5,
+    "width": 7,
+    "height": 5
+  },
+  "default_image_size": {
+    "width": 32,
+    "height": 32
+  }
+}

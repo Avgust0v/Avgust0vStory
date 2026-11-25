@@ -5,10 +5,15 @@
 // block under it is rated 5+ degrees in LSO's own block temperature data: lit campfire, fire, magma, lava, lit
 // furnace or stove, kindled blaze burner, balloon burner, and the modded ones from tools/lso_heat_blocks.js.
 // On a boiling cauldron:
-//   - sneak + empty hand (LSO's way to drink from blocks): clean drink, no Thirst;
+//   - empty hand, plain click (LSO's way to drink from blocks) or sneaking: clean drink, no Thirst;
 //   - glass bottle: purified water bottle, the cauldron loses a level like with a normal bottle;
 //   - LSO canteen: filled the usual way, then marked purified (unless it already held dirty water).
 // The handler runs at HIGHEST priority and cancels the click, so LSO and vanilla do not act on it as well.
+// 25.11.2026 (user: «Так же косты под котлом с водой не работают, всё равно пьётся как грязная, хоть она в котле и кипит»):
+// LSO drinks from a block only on a plain click without sneaking (CommonNeoForgeEvents.onRightClickBlock skips the
+// block when isCrouching), within half the reach and when not at full hydration. 1.2.3 took only the sneak click, so
+// a plain click went on to LSO and gave dirty water. Now the plain click is taken on the same terms as LSO's; its
+// drink sound comes from LSO on the drinker's side, so the script plays it only for the sneak click.
 
 var AV_BOIL_MIN = 5;         // LSO degrees of the block under the cauldron
 var AV_BOIL_DRINK = [3, 1];  // hydration and saturation of one sip (LSO water_cauldron gives 3 hydration)
@@ -22,6 +27,7 @@ function avBoilApi() {
       BI: BI,
       data: Java.loadClass('sfiomn.legendarysurvivaloverhaul.api.data.manager.TemperatureDataManager'),
       thirst: Java.loadClass('sfiomn.legendarysurvivaloverhaul.api.thirst.ThirstUtil'),
+      attach: Java.loadClass('sfiomn.legendarysurvivaloverhaul.util.AttachmentUtil'),
       PURIFIED: Java.loadClass('sfiomn.legendarysurvivaloverhaul.api.thirst.HydrationEnum').PURIFIED,
       Canteen: Java.loadClass('sfiomn.legendarysurvivaloverhaul.common.items.drink.CanteenItem'),
       Cauldron: Java.loadClass('net.minecraft.world.level.block.LayeredCauldronBlock'),
@@ -71,9 +77,12 @@ function avBoilClick(api, e) {
   var p = e.getEntity(), hand = e.getHand(), stack = p.getItemInHand(hand);
   var done = '';
   if (stack.isEmpty()) {
-    if (String(hand) !== 'MAIN_HAND' || !p.isCrouching()) return '';
+    if (String(hand) !== 'MAIN_HAND' || api.attach.getThirstAttachment(p).isHydrationLevelAtMax()) return '';
+    var sneak = p.isCrouching();
+    // plain click: only where LSO itself would drink (the looked-at block within half the reach)
+    if (!sneak && !api.thirst.getBlockThirstLookedAt(p, p.blockInteractionRange() / 2)) return '';
     api.thirst.takeDrink(p, AV_BOIL_DRINK[0], AV_BOIL_DRINK[1]);
-    avBoilSound(level, pos, 'minecraft:entity.generic.drink');
+    if (sneak) avBoilSound(level, pos, 'minecraft:entity.generic.drink');
     done = 'drink';
   } else if (String(api.BI.ITEM.getKey(stack.getItem())) === 'minecraft:glass_bottle') {
     p.setItemInHand(hand, api.ItemUtils.createFilledResult(stack, p, new api.ItemStack(api.purified)));

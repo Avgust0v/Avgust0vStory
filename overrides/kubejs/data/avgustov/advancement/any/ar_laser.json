@@ -1,0 +1,18 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "cataclysm:laser_gatling",
+       "cataclysm:wither_assault_shoulder_weapon",
+       "cataclysm:void_assault_shoulder_weapon"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

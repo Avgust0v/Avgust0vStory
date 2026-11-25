@@ -1,0 +1,17 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "deeperdarker:warden_sword",
+       "garnished:warden_hatchet"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

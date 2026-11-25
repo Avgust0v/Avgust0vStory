@@ -1,0 +1,18 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "cgs:long_barrel",
+       "cgs:round_belt",
+       "cgs:auto_fire"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

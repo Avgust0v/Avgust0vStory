@@ -1,0 +1,20 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "aquamirae:remnant_saber",
+       "aquamirae:terrible_fang",
+       "aquamirae:terrible_blade",
+       "aquamirae:terrible_cleaver",
+       "aquamirae:dagger_of_greed"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

@@ -1,1 +1,13 @@
-{"texture":"avgustov:textures/map_icons/minecraft/vindicator.png"}
+{
+  "texture": "avgustov:textures/face_src/illager/vindicator.png",
+  "slice": {
+    "x": 8,
+    "y": 10,
+    "width": 8,
+    "height": 8
+  },
+  "default_image_size": {
+    "width": 64,
+    "height": 64
+  }
+}

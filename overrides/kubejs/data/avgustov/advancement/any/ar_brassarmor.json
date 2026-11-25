@@ -1,0 +1,19 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "create_sa:brass_helmet",
+       "create_sa:brass_chestplate",
+       "create_sa:brass_leggings",
+       "create_sa:brass_boots"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

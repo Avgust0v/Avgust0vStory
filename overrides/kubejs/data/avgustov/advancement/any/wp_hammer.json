@@ -1,0 +1,17 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "basicweapons:iron_hammer",
+       "magistuarmory:iron_heavywarhammer"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

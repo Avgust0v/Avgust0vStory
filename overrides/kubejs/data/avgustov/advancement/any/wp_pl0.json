@@ -1,0 +1,21 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "basicweapons:wooden_quarterstaff",
+       "basicweapons:stone_quarterstaff",
+       "basicweapons:wooden_glaive",
+       "basicweapons:stone_glaive",
+       "minecraft:wooden_spear",
+       "minecraft:stone_spear"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

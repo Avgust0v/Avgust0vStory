@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    {"id": "dungeons_arise:illager_fort", "required": false},
+    {"id": "illagerinvasion:illager_fort", "required": false},
+    {"id": "create_pillagers_arise:createpillagerfortgate", "required": false},
+    {"id": "create_pillagers_arise:createpillagervillage", "required": false},
+    {"id": "create_pillagers_arise:cathedral_create", "required": false},
+    {"id": "minecraft:mansion", "required": false}
+  ]
+}

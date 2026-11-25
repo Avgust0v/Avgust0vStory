@@ -1,0 +1,20 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "cgs:round_revolver",
+       "cgs:round_shotgun",
+       "cgs:round_gatling",
+       "cgs:round_shotgun_flechette",
+       "cgs:round_shotgun_incendiary"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

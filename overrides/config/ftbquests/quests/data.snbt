@@ -37,7 +37,7 @@
 		}
 	}
 	progression_mode: "linear"
-	show_lock_icons: false
+	show_lock_icons: true
 	verify_on_load: false
 	version: 13
 }

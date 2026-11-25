@@ -1,0 +1,18 @@
+{
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": [
+       "magistuarmory:face_helmet",
+       "magistuarmory:lamellar_chestplate",
+       "magistuarmory:lamellar_boots"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}
