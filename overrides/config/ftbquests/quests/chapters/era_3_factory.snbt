@@ -8,11 +8,11 @@
 	}
 	id: "7FC2CF8BF6F9688D"
 	images: [ ]
-	order_index: 8
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["2C45B3F8E422CA06"]
+			dependencies: ["2C8F1AF81F0DCA24"]
 			icon: {
 				id: "create:item_vault"
 			}
@@ -43,7 +43,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["2C45B3F8E422CA06", "37C7E988DD06B6B3"]
+			dependencies: ["2C8F1AF81F0DCA24", "37C7E988DD06B6B3"]
 			id: "5EB3BA9F3F56F287"
 			rewards: [
 				{

@@ -1,0 +1,18 @@
+{
+  "entity.fowlplay.goose": "Гусь",
+  "item.fowlplay.goose_spawn_egg": "Яйцо призыва гуся",
+  "entity.fowlplay.scarecrow": "Пугало",
+  "item.fowlplay.scarecrow": "Пугало",
+  "subtitles.entity.canada_goose.call": "Канадская казарка гогочет",
+  "subtitles.entity.canada_goose.hurt": "Канадской казарке больно",
+  "subtitles.entity.greylag_goose.call": "Серый гусь гогочет",
+  "subtitles.entity.greylag_goose.hurt": "Серому гусю больно",
+  "subtitles.entity.swan_goose.call": "Сухонос гогочет",
+  "subtitles.entity.swan_goose.hurt": "Сухоносу больно",
+  "tag.item.fowlplay.goose_food": "Корм для гусей",
+  "config.spawning.spawnCap": "Предел числа существ категории",
+  "config.spawning.spawnCap.desc": "Когда существ этой категории больше этого числа, новые не появляются.",
+  "text.betterf3.line.fowlplay_ambient_birds": "Фоновые птицы",
+  "text.betterf3.line.fowlplay_birds": "Птицы",
+  "soundCategory.fowlplay_birds": "Птицы"
+}

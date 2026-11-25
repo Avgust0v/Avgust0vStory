@@ -51,3 +51,12 @@ ServerEvents.recipes(event => {
   event.recipes.create.mixing('legendarysurvivaloverhaul:purified_water_bottle',
     ['minecraft:glass_bottle', Fluid.of('minecraft:water', 250)]).heated().id('avgustov:purified_water_mixing')
 })
+
+// 25.11.2026, progression review: Era 1 needs electron tubes -> rose quartz -> quartz, but Create only makes quartz by
+// crushing diorite on crushing wheels, which need mechanical crafters, which need electron tubes. Without the Nether
+// (the players' real path) that loop only breaks through chest loot. A millstone now grinds diorite into quartz with a
+// 10% chance (crushing wheels keep their 25%), so the first era is self-contained.
+ServerEvents.recipes(event => {
+  event.custom({ type: 'create:milling', ingredients: [{ item: 'minecraft:diorite' }], processing_time: 250,
+    results: [{ id: 'minecraft:quartz', chance: 0.1 }] }).id('avgustov:milling/diorite_quartz')
+})

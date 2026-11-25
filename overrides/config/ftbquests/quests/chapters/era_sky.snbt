@@ -2,17 +2,41 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "circle"
 	filename: "era_sky"
-	group: "0C5877243EA452C8"
+	group: "70141E1BEC7C71DE"
 	icon: {
 		id: "aeronautics:smart_propeller"
 	}
 	id: "68EF7D52A167703E"
 	images: [ ]
-	order_index: 7
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["0BCBB280684C68BA"]
+			id: "40503799A0A423E9"
+			rewards: [
+				{
+					id: "208C099ED65E2D64"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "5D5899DCF0D41FBD"
+					item: {
+						count: 1
+						id: "aeronautics:adjustable_burner"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["11BE6D3308CF9E83"]
 			icon: {
 				id: "minecraft:feather"
 			}
@@ -31,8 +55,7 @@
 					type: "command"
 				}
 			]
-			shape: "hexagon"
-			size: 2.0d
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "2E46A5910EBF487D"
@@ -40,10 +63,10 @@
 				}
 			]
 			x: 0.0d
-			y: 0.0d
+			y: 2.5d
 		}
 		{
-			dependencies: ["0BCBB280684C68BA", "465941E135A689AB"]
+			dependencies: ["40503799A0A423E9", "465941E135A689AB"]
 			icon: {
 				id: "aeronautics:white_envelope"
 			}
@@ -75,7 +98,7 @@
 				}
 			]
 			x: 2.0d
-			y: 0.0d
+			y: 1.25d
 		}
 		{
 			dependencies: ["12268CDCD669EB14"]
@@ -108,10 +131,38 @@
 				}
 			]
 			x: 4.0d
-			y: 0.0d
+			y: 1.25d
 		}
 		{
-			dependencies: ["0BCBB280684C68BA"]
+			dependencies: ["12268CDCD669EB14"]
+			icon: {
+				id: "aeronautics:aviators_goggles"
+			}
+			id: "5C0879E16AFDC9DC"
+			optional: true
+			rewards: [
+				{
+					id: "12C7E851AFDFB283"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "216E726B091F37F3"
+					item: {
+						count: 1
+						id: "aeronautics:aviators_goggles"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["12268CDCD669EB14"]
 			id: "37775BFF17F4282E"
 			rewards: [
 				{
@@ -127,6 +178,7 @@
 						count: 1
 						id: "aeronautics:propeller_bearing"
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -135,6 +187,7 @@
 						count: 1
 						id: "aeronautics:andesite_propeller"
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -144,8 +197,8 @@
 					type: "advancement"
 				}
 			]
-			x: 6.0d
-			y: 1.25d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["37775BFF17F4282E"]
@@ -183,13 +236,12 @@
 					type: "checkmark"
 				}
 			]
-			x: 8.0d
-			y: -1.25d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["37775BFF17F4282E"]
+			dependencies: ["6FD4BA8DC7693A80"]
 			id: "7AFB83E96F18CBFF"
-			optional: true
 			rewards: [
 				{
 					id: "0FB8645F3A496948"
@@ -197,7 +249,6 @@
 					xp: 50
 				}
 			]
-			shape: "diamond"
 			tasks: [
 				{
 					id: "5077710FD7F2664E"
@@ -218,10 +269,10 @@
 				}
 			]
 			x: 8.0d
-			y: 2.5d
+			y: -3.75d
 		}
 		{
-			dependencies: ["6FD4BA8DC7693A80"]
+			dependencies: ["7AFB83E96F18CBFF"]
 			id: "3EA463AB4D805A63"
 			optional: true
 			rewards: [
@@ -259,87 +310,10 @@
 				}
 			]
 			x: 10.0d
-			y: 0.0d
+			y: -3.75d
 		}
 		{
-			dependencies: ["6FD4BA8DC7693A80"]
-			id: "074BFA88F1A824A2"
-			rewards: [
-				{
-					id: "429127CF837D31E5"
-					type: "xp"
-					xp: 60
-				}
-			]
-			tasks: [
-				{
-					count: 2L
-					id: "48FC85240241B755"
-					item: {
-						count: 1
-						id: "simulated:gyroscopic_mechanism"
-					}
-					type: "item"
-				}
-				{
-					advancement: "simulated:convoluted_circumvolutions"
-					criterion: ""
-					id: "690199E478C0A74C"
-					type: "advancement"
-				}
-			]
-			x: 10.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["074BFA88F1A824A2", "49C8E1C2CB9DF78F"]
-			id: "18BA14FB6E0B6508"
-			rewards: [
-				{
-					id: "326E40FA01957B70"
-					type: "xp"
-					xp: 80
-				}
-			]
-			tasks: [
-				{
-					id: "5B5708E779627B0A"
-					item: {
-						count: 1
-						id: "aeronautics:gyroscopic_propeller_bearing"
-					}
-					type: "item"
-				}
-			]
-			x: 12.0d
-			y: -1.25d
-		}
-		{
-			dependencies: ["18BA14FB6E0B6508"]
-			id: "40890E25CD724252"
-			rewards: [
-				{
-					id: "4B7055237C50E223"
-					type: "xp"
-					xp: 60
-				}
-			]
-			tasks: [
-				{
-					count: 2L
-					id: "0F62AF839F222328"
-					item: {
-						count: 1
-						id: "aeronautics:smart_propeller"
-					}
-					type: "item"
-				}
-			]
-			x: 14.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["7AFB83E96F18CBFF", "49C8E1C2CB9DF78F"]
+			dependencies: ["7AFB83E96F18CBFF"]
 			id: "6DA4847976A3E673"
 			optional: true
 			rewards: [
@@ -368,11 +342,88 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
-			y: 2.5d
+			x: 10.0d
+			y: -5.0d
 		}
 		{
-			dependencies: ["074BFA88F1A824A2", "49C8E1C2CB9DF78F"]
+			dependencies: ["6FD4BA8DC7693A80"]
+			id: "074BFA88F1A824A2"
+			rewards: [
+				{
+					id: "429127CF837D31E5"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "48FC85240241B755"
+					item: {
+						count: 1
+						id: "simulated:gyroscopic_mechanism"
+					}
+					type: "item"
+				}
+				{
+					advancement: "simulated:convoluted_circumvolutions"
+					criterion: ""
+					id: "690199E478C0A74C"
+					type: "advancement"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["074BFA88F1A824A2"]
+			id: "18BA14FB6E0B6508"
+			rewards: [
+				{
+					id: "326E40FA01957B70"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					id: "5B5708E779627B0A"
+					item: {
+						count: 1
+						id: "aeronautics:gyroscopic_propeller_bearing"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18BA14FB6E0B6508"]
+			id: "40890E25CD724252"
+			rewards: [
+				{
+					id: "4B7055237C50E223"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "0F62AF839F222328"
+					item: {
+						count: 1
+						id: "aeronautics:smart_propeller"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["074BFA88F1A824A2"]
 			id: "7A094033F3F0C72C"
 			rewards: [
 				{
@@ -405,8 +456,8 @@
 					type: "advancement"
 				}
 			]
-			x: 14.0d
-			y: -2.5d
+			x: 10.0d
+			y: -1.25d
 		}
 		{
 			dependencies: ["7A094033F3F0C72C"]
@@ -440,8 +491,8 @@
 					type: "advancement"
 				}
 			]
-			x: 16.0d
-			y: -3.75d
+			x: 10.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["40890E25CD724252", "7A094033F3F0C72C"]
@@ -479,8 +530,8 @@
 					type: "checkmark"
 				}
 			]
-			x: 16.0d
-			y: 0.0d
+			x: 14.0d
+			y: -1.25d
 		}
 		{
 			dependencies: ["7ADE11575F89DF99"]
@@ -511,8 +562,8 @@
 					type: "item"
 				}
 			]
-			x: 18.0d
-			y: 1.25d
+			x: 16.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7ADE11575F89DF99"]
@@ -536,8 +587,8 @@
 					type: "item"
 				}
 			]
-			x: 18.0d
-			y: 0.0d
+			x: 16.0d
+			y: -1.25d
 		}
 		{
 			dependencies: ["7ADE11575F89DF99"]
@@ -561,8 +612,8 @@
 					type: "item"
 				}
 			]
-			x: 18.0d
-			y: -1.25d
+			x: 16.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["7ADE11575F89DF99"]
@@ -586,8 +637,8 @@
 					type: "structure"
 				}
 			]
-			x: 18.0d
-			y: -3.75d
+			x: 14.0d
+			y: 1.25d
 		}
 		{
 			dependencies: ["13C84087EA17B3D2"]
@@ -615,8 +666,8 @@
 					type: "checkmark"
 				}
 			]
-			x: 20.0d
-			y: -3.75d
+			x: 16.0d
+			y: 1.25d
 		}
 		{
 			dependencies: ["6FD4BA8DC7693A80"]
@@ -649,7 +700,7 @@
 				}
 			]
 			x: 8.0d
-			y: 1.25d
+			y: -1.25d
 		}
 		{
 			dependencies: ["6FD4BA8DC7693A80"]
@@ -673,11 +724,11 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
-			y: -1.25d
+			x: 8.0d
+			y: 1.25d
 		}
 		{
-			dependencies: ["7ADE11575F89DF99", "320B4FF55989C1C1"]
+			dependencies: ["6FD4BA8DC7693A80"]
 			icon: {
 				id: "minecraft:end_stone"
 			}
@@ -689,16 +740,25 @@
 					xp: 100
 				}
 			]
-			shape: "pentagon"
 			tasks: [
 				{
-					dimension: "minecraft:the_end"
+					id: "004565F116D090F9"
+					item: {
+						count: 1
+						id: "minecraft:end_stone"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "minecraft:story/enter_the_end"
+					criterion: ""
 					id: "5791866E596ADF08"
-					type: "dimension"
+					type: "advancement"
 				}
 			]
-			x: 18.0d
-			y: 3.75d
+			x: 8.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["1FA6327560BA8AB0"]
@@ -730,8 +790,8 @@
 					type: "advancement"
 				}
 			]
-			x: 20.0d
-			y: 2.5d
+			x: 10.0d
+			y: 3.75d
 		}
 		{
 			dependencies: ["1FA6327560BA8AB0"]
@@ -753,8 +813,8 @@
 					type: "item"
 				}
 			]
-			x: 20.0d
-			y: 5.0d
+			x: 10.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["513AF4CC98998836"]
@@ -778,11 +838,11 @@
 					type: "item"
 				}
 			]
-			x: 22.0d
-			y: 5.0d
+			x: 12.0d
+			y: 2.5d
 		}
 		{
-			dependencies: ["7ADE11575F89DF99", "320B4FF55989C1C1"]
+			dependencies: ["7ADE11575F89DF99"]
 			id: "1E75DB116875FB8F"
 			optional: true
 			rewards: [
@@ -803,8 +863,8 @@
 					type: "item"
 				}
 			]
-			x: 16.0d
-			y: 2.5d
+			x: 14.0d
+			y: -3.75d
 		}
 		{
 			dependencies: ["767D6B425028B816"]
@@ -838,36 +898,8 @@
 					type: "advancement"
 				}
 			]
-			x: 22.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["12268CDCD669EB14"]
-			icon: {
-				id: "aeronautics:aviators_goggles"
-			}
-			id: "5C0879E16AFDC9DC"
-			optional: true
-			rewards: [
-				{
-					id: "12C7E851AFDFB283"
-					type: "xp"
-					xp: 20
-				}
-			]
-			shape: "diamond"
-			tasks: [
-				{
-					id: "216E726B091F37F3"
-					item: {
-						count: 1
-						id: "aeronautics:aviators_goggles"
-					}
-					type: "item"
-				}
-			]
-			x: 4.0d
-			y: -1.25d
+			x: 12.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["6FD4BA8DC7693A80"]
@@ -901,8 +933,8 @@
 					type: "advancement"
 				}
 			]
-			x: 10.0d
-			y: 1.25d
+			x: 6.0d
+			y: 3.75d
 		}
 		{
 			dependencies: ["2AAC4A5B00DAC48F"]
@@ -936,8 +968,8 @@
 					type: "advancement"
 				}
 			]
-			x: 12.0d
-			y: 1.25d
+			x: 8.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["074BFA88F1A824A2"]
@@ -971,8 +1003,8 @@
 					type: "advancement"
 				}
 			]
-			x: 12.0d
-			y: -3.75d
+			x: 10.0d
+			y: 1.25d
 		}
 		{
 			dependencies: ["2AAC4A5B00DAC48F"]
@@ -1012,8 +1044,8 @@
 					type: "advancement"
 				}
 			]
-			x: 12.0d
-			y: 0.0d
+			x: 8.0d
+			y: 3.75d
 		}
 		{
 			dependencies: ["7A094033F3F0C72C"]
@@ -1047,7 +1079,7 @@
 					type: "advancement"
 				}
 			]
-			x: 16.0d
+			x: 12.0d
 			y: -2.5d
 		}
 		{
@@ -1082,8 +1114,8 @@
 					type: "advancement"
 				}
 			]
-			x: 8.0d
-			y: -3.75d
+			x: 6.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["2AF434B686B16FF1"]
@@ -1117,7 +1149,7 @@
 					type: "advancement"
 				}
 			]
-			x: 10.0d
+			x: 6.0d
 			y: -3.75d
 		}
 		{
@@ -1148,8 +1180,8 @@
 					type: "advancement"
 				}
 			]
-			x: 16.0d
-			y: 3.75d
+			x: 14.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["767D6B425028B816"]
@@ -1183,8 +1215,8 @@
 					type: "advancement"
 				}
 			]
-			x: 22.0d
-			y: 1.25d
+			x: 10.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["7ADE11575F89DF99", "2716D5A640A1855F", "6FD4BA8DC7693A80"]
@@ -1210,7 +1242,7 @@
 					type: "item"
 				}
 				{
-					command: "/give {p} minecraft:writable_book[minecraft:custom_name='{\"text\":\"Страница летописи — Небо: корабли и джетпаки\",\"color\":\"gold\",\"italic\":false}',minecraft:lore=['{\"text\":\"Запишите, что построила ваша гильдия в эту эпоху.\",\"color\":\"gray\",\"italic\":true}']] 1"
+					command: "/give {p} minecraft:writable_book[minecraft:custom_name='{\"text\":\"Страница летописи — Небо: от шара до джетпака\",\"color\":\"gold\",\"italic\":false}',minecraft:lore=['{\"text\":\"Запишите, что построила ваша гильдия в эту эпоху.\",\"color\":\"gray\",\"italic\":true}']] 1"
 					id: "41432B2A3BD473D2"
 					permission_level: 2
 					silent: true
@@ -1234,9 +1266,9 @@
 					type: "checkmark"
 				}
 			]
-			x: 24.0d
+			x: 18.0d
 			y: 0.0d
 		}
 	]
-	tags: ["grp_eras"]
+	tags: ["grp_transport"]
 }

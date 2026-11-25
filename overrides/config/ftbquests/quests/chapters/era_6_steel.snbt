@@ -8,11 +8,11 @@
 	}
 	id: "2D70F24899807E05"
 	images: [ ]
-	order_index: 10
+	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["27205B9F3903CFBA"]
+			dependencies: ["49C8E1C2CB9DF78F"]
 			icon: {
 				id: "tfmg:steel_ingot"
 			}
@@ -43,7 +43,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["27205B9F3903CFBA", "5927541A6852BA3D"]
+			dependencies: ["49C8E1C2CB9DF78F", "5927541A6852BA3D"]
 			id: "6596D173AF641EF6"
 			rewards: [
 				{

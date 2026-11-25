@@ -8,11 +8,11 @@
 	}
 	id: "5F6BD320417E29B3"
 	images: [ ]
-	order_index: 11
+	order_index: 9
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["320B4FF55989C1C1"]
+			dependencies: ["5DAF564C963FD05E"]
 			icon: {
 				id: "minecraft:skeleton_skull"
 			}
@@ -43,7 +43,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["320B4FF55989C1C1", "7BE14415BC16599B", "066C0076956AAE88"]
+			dependencies: ["5DAF564C963FD05E", "7BE14415BC16599B", "066C0076956AAE88"]
 			icon: {
 				id: "cataclysm:the_incinerator"
 			}

@@ -14,6 +14,7 @@
 	reward_table.37D5FFE4BE2B9876.title: "Gunner's Kit"
 	reward_table.01314A45F21BE799.title: "Base Defence"
 	chapter_group.0C5877243EA452C8.title: "&#F4A261&lThe Engineer's Path&r"
+	chapter_group.70141E1BEC7C71DE.title: "&#48CAE4&lTransport: Land, Sea, Sky&r"
 	chapter_group.79CFB7D5EF5A4EA6.title: "&#90BE6D&lCrafts and Life&r"
 	chapter_group.6F40D0E1399F3965.title: "&#2A9D8F&lSettlements and Villagers&r"
 	chapter_group.0B22509E29683950.title: "&#E63946&lAdventure and Bosses&r"
@@ -987,7 +988,7 @@
 	]
 	quest.3FFA51A73031CEC3.title: "Rose Quartz"
 	quest.3FFA51A73031CEC3.quest_desc: [
-		"Nether quartz plus redstone, then polished with sandpaper. Mason villagers and chests give quartz.",
+		"Quartz plus redstone in a mixer, then polished with sandpaper. Before the Nether quartz comes from diorite: a millstone grinds it into quartz (one block in ten), crushing wheels do better. Chests in structures also hold quartz. Redstone is washed out of gravel.",
 		" ",
 		"",
 		" ",
@@ -1033,7 +1034,9 @@
 	]
 	quest.3A8C625128897260.title: "Empty Blaze Burner"
 	quest.3A8C625128897260.quest_desc: [
-		"The burner heats a basin; without it there is no brass. It only burns with a blaze caught inside, so the road leads to the Nether. Get the netherrack for it from ruined portals, there are plenty around the world.",
+		"The burner heats a basin, and brass needs heat. It only burns with a blaze caught inside, which is why people go to the Nether. Get the netherrack for it from ruined portals, there are plenty around the world.",
+		" ",
+		"There is heat without the Nether too: the Predecessors' lit burners still stand in their ruins (a pickaxe takes the burner with its blaze), and a villager in work gloves heats the basin from a mixer seat. Era 2 opens as soon as your mixer runs.",
 		" ",
 		"",
 		" ",
@@ -1374,15 +1377,15 @@
 	quest.21255BCC44ED797D.title: "Chapter II. Fire from Below"
 	quest.21255BCC44ED797D.quest_subtitle: "A letter from Master August"
 	quest.21255BCC44ED797D.quest_desc: [
-		"Brass does not come from ore: copper and zinc need a heat no furnace gives. You need living fire, the blazes of the Nether.",
+		"Brass does not come from ore: copper and zinc need a heat no furnace gives. You need living fire.",
 		" ",
 		"",
 		" ",
-		"The chronicle says the Predecessors were the first to keep blazes in burners, and their greatness began there. So did their trouble: the strongest fire guardian, Ignis, they never tamed.",
+		"The chronicle says the Predecessors were the first to keep blazes in burners, and their greatness began there. Their burners still burn, in towers and abandoned bases. So did their trouble: the strongest fire guardian, Ignis, they never tamed.",
 		" ",
 		"",
 		" ",
-		"Go to the Nether with armour, fire resistance and a friend. Catch a blaze and the workshop becomes a factory.",
+		"There are three ways to fire. Take a lit burner from the Predecessors' ruins. Give a villager work gloves and seat them at a hot basin. Or go to the Nether with armour, fire resistance and a friend and catch a blaze yourselves. You will have to go anyway: only there is quartz for tubes plentiful. Get the fire and the workshop becomes a factory.",
 		" ",
 		"",
 		" ",
@@ -1391,6 +1394,8 @@
 	quest.0212EF427C731405.title: "Into the Nether"
 	quest.0212EF427C731405.quest_desc: [
 		"Bring fire resistance and put a waystone by the portal: you will come back often.",
+		" ",
+		"Why go: blazes for burners, quartz for electron tubes (the Overworld has almost none), glowstone, nether wart and fortresses. Brass can be made before the Nether, but without quartz there are no tubes, deployers or crafters.",
 	]
 	quest.38C48BE48BF9EED8.title: "Fortress and Blazes"
 	quest.38C48BE48BF9EED8.quest_desc: [
@@ -1398,7 +1403,7 @@
 	]
 	quest.6E0A417E075574BC.title: "Caught Blaze"
 	quest.6E0A417E075574BC.quest_desc: [
-		"Right-click a blaze with the empty burner. Feed it coal or logs, or better, let a mechanical arm do it.",
+		"Right-click a blaze with the empty burner. Blazes live in Nether fortresses, but the Predecessors' lit burners still stand in their ruins (the Ochrum and Crimsite towers, the Create dungeon base, the houses of illager mechanics): break one with a pickaxe and it drops with its blaze. Feed it coal or logs, or better, let a mechanical arm do it.",
 		" ",
 		"",
 		" ",
@@ -1409,7 +1414,7 @@
 	quest.09D2A077FB7FD8DA.title: "Quartz"
 	quest.2C8F1AF81F0DCA24.title: "Brass"
 	quest.2C8F1AF81F0DCA24.quest_desc: [
-		"Copper + zinc in a mixer over a basin with a lit burner. Brass opens the smart side of Create and the first ships.",
+		"Copper + zinc in a mixer over a heated basin. The heat comes from a lit burner (a blaze from the Nether or a burner from the Predecessors' ruins) or from a villager in work gloves on a mixer seat (Villagers and Trade). Brass found in ruins counts too. Brass opens the smart side of Create and physics vehicles (the Transport group).",
 		" ",
 		"",
 		" ",
@@ -1495,18 +1500,17 @@
 	quest.02B2AF48CD21AAC5.quest_desc: [
 		"A mechanical arm keeps the burner fed (the arm arrives with the precision mechanism).",
 	]
-	quest.0BCBB280684C68BA.title: "Physics Assembler"
+	quest.0BCBB280684C68BA.title: "Physics Vehicles"
 	quest.0BCBB280684C68BA.quest_desc: [
-		"Turns a build into a physics object: a car, a boat, a balloon or a ship. See the Sky chapter next.",
-	]
-	quest.3C50FBC27A835777.title: "Steering Wheel"
-	quest.40503799A0A423E9.title: "Hot-Air Balloon"
-	quest.40503799A0A423E9.quest_desc: [
-		"The burner heats air in an envelope: a simple aircraft without propellers.",
+		"Brass casing opens the physics assembler (brass casing, andesite alloy, a lever), which turns a build into a physics object: a car, a boat, a balloon or an airship. All transport is in the Transport group, which runs alongside the eras.",
 		" ",
 		"",
 		" ",
-		"The reward for the balloon is in The Sky: Ships and Jetpacks (the Hot-Air Balloon quest).",
+		"The reward for the physics assembler is in Physics of Machines (the Physics Assembler quest).",
+		" ",
+		"",
+		" ",
+		"§7The items are recipe hints (click to open JEI). The quest counts the action itself, so what you already built counts too.§r",
 	]
 	quest.76D4E2534E658833.title: "Hypertubes"
 	quest.76D4E2534E658833.quest_desc: [
@@ -1685,280 +1689,6 @@
 	quest.2C45B3F8E422CA06.title: "The Brass Age"
 	quest.2C45B3F8E422CA06.quest_desc: [
 		"Crafters, sequenced assembly and smart logistics: everything you need for a real factory.",
-	]
-	chapter.109EA7C80E9B6026.title: "&#8AB17DLand and Sea&r"
-	chapter.109EA7C80E9B6026.subtitle: "Cars, boats, submarines and rides on Create Aeronautics physics, from brass on."
-	quest.78B5B9A254BDDA39.title: "Chapter III. Beyond the Horizon"
-	quest.78B5B9A254BDDA39.quest_subtitle: "A letter from Master August"
-	quest.78B5B9A254BDDA39.quest_desc: [
-		"The physics assembler is a strange machine: what it builds comes alive. Wheels roll, sails catch the wind, a hull floats.",
-		" ",
-		"",
-		" ",
-		"To the guild's sailors: domes and gates have been seen underwater off the southern shores. The Predecessors seem to have had a port, and the sea took it. Build a submarine and go down. Carefully: the deep does not forgive.",
-		" ",
-		"",
-		" ",
-		"— Master August",
-	]
-	quest.11BE6D3308CF9E83.title: "Applied Kinematics"
-	quest.11BE6D3308CF9E83.quest_desc: [
-		"Glue a build, add a physics assembler and power it: the build becomes a physics body that falls, floats and rolls.",
-	]
-	quest.574AE09AC6303A92.title: "Wheels"
-	quest.574AE09AC6303A92.quest_desc: [
-		"Offroad: a tire goes on a wheel mount with suspension. Large and monstrous tires handle rough ground.",
-	]
-	quest.738D3A3801D55CBF.title: "Engine"
-	quest.738D3A3801D55CBF.quest_desc: [
-		"The portable engine burns fuel on board and spins the wheels.",
-	]
-	quest.49DC399AE57E1357.title: "First Car"
-	quest.49DC399AE57E1357.quest_desc: [
-		"Four wheels, an engine and a steering wheel. Team goal: drive to a neighbouring base.",
-	]
-	quest.659D384023611DEA.title: "Swivels and Winches"
-	quest.659D384023611DEA.quest_desc: [
-		"A swivel bearing hitches a trailer, a winch lifts loads and tows.",
-	]
-	quest.7B8F6AEC2CF0A28F.title: "Tunnel Borer"
-	quest.7B8F6AEC2CF0A28F.quest_desc: [
-		"A vehicle with a cutting head chews tunnels through rock as it drives.",
-	]
-	quest.5158C310BE2968DA.title: "Roller Coaster"
-	quest.5158C310BE2968DA.quest_desc: [
-		"Coaster tracks bend freely in space: loops, spirals, chain lifts. A fun park for your friends.",
-	]
-	quest.79891D13DD13ACE2.title: "Sailboat"
-	quest.79891D13DD13ACE2.quest_desc: [
-		"Floaters keep the hull afloat, sails catch the wind (a wind vane shows its direction), the rudder steers.",
-	]
-	quest.5DDA8FB499631B8A.title: "Motorboat"
-	quest.3F506BEC14B3ECCB.title: "Under Sail"
-	quest.3F506BEC14B3ECCB.quest_desc: [
-		"Team goal: cross an ocean on your own vessel.",
-	]
-	quest.73AB85589161C4AC.title: "Ballast"
-	quest.73AB85589161C4AC.quest_desc: [
-		"Create Submarine: the pump floods ballast tanks to dive and empties them to surface.",
-	]
-	quest.01576B7B752B1CBA.title: "Pressurised Glass"
-	quest.01576B7B752B1CBA.quest_desc: [
-		"Normal glass cracks in the deep. Iron pressurised glass holds the pressure.",
-	]
-	quest.62B8CBE037206B2F.title: "Air Supply"
-	quest.62B8CBE037206B2F.quest_desc: [
-		"The electrolyzer makes oxygen from water, the diffuser spreads it through the sub.",
-	]
-	quest.5BB391B6A0CC4458.title: "Submarine"
-	quest.5BB391B6A0CC4458.quest_desc: [
-		"The onboard computer controls the dive, the water thruster pushes. Team goal: dive below Y=0 and come back, then tick the checkmark.",
-		" ",
-		"",
-		" ",
-		"Chronicle: \"In a submarine like this we searched for the sunken port. The Leviathan let us no further than the gates.\"",
-	]
-	quest.608B7BF241B2C981.title: "Deep Water"
-	quest.608B7BF241B2C981.quest_desc: [
-		"The barometer shows your depth and the decompression chamber lets you come back from deep dives unharmed. With them a submarine reaches the ocean floor.",
-	]
-	quest.4F077325BF0A09F8.title: "Sonar"
-	quest.68B0159760A23598.title: "Mechanical Conduit"
-	quest.68B0159760A23598.quest_desc: [
-		"Create: Aquatic Ambitions: ocean processing and a mechanical conduit for an underwater base.",
-	]
-	quest.07CEDD7E5C651FCC.title: "Honey Glue"
-	quest.07CEDD7E5C651FCC.quest_desc: [
-		"Honey glue marks a group of blocks for a physics assembly more precisely than super glue.",
-	]
-	quest.3376DF953AFA7D17.title: "Ropes"
-	quest.3376DF953AFA7D17.quest_desc: [
-		"A rope ties two contraptions together: a tow, trailer, anchor or hanging cradle.",
-	]
-	quest.45ADC5C830926264.title: "Handle"
-	quest.45ADC5C830926264.quest_desc: [
-		"Hold on to a handle while moving so passengers do not fall off the deck.",
-	]
-	quest.75170D286D644F65.title: "Nameplate"
-	quest.75170D286D644F65.quest_desc: [
-		"Name your vehicle: the name shows in navigation and on radars.",
-	]
-	quest.4B3B6E6BF88B5C0D.title: "Contraption Diagram"
-	quest.4B3B6E6BF88B5C0D.quest_desc: [
-		"The diagram shows mass, centre of mass and thrust before launch.",
-	]
-	quest.3F3B7CD53FE312E4.title: "Redstone Magnet"
-	quest.3F3B7CD53FE312E4.quest_desc: [
-		"A magnet pulls contraptions together on a signal, for docking and coupling.",
-	]
-	quest.256ACAE55CD48615.title: "The Port Gates"
-	quest.256ACAE55CD48615.quest_desc: [
-		"Team goal: take your submarine down to the gates of the sunken port; the arches and domes of Underwater Village stand in every ocean. Tick the checkmark when the boat rests by the gates.",
-		" ",
-		"",
-		" ",
-		"Ratibor wrote that the Leviathan let their submarine no further than the gates. The gates are in front of you. Beyond them lies the port temple (page 4 of the Chronicle of the Predecessors), and deeper still, the Leviathan itself. Go further than they could.",
-		" ",
-		"",
-		" ",
-		"§6Explorer's Compass:§r Small Gate (underwater_village).",
-	]
-	quest.70FFFD81AE0CCB62.title: "Captain"
-	quest.70FFFD81AE0CCB62.quest_desc: [
-		"A car, a ship and a submarine: land and sea are yours.",
-	]
-	chapter.68EF7D52A167703E.title: "&#48CAE4The Sky: Ships and Jetpacks&r"
-	chapter.68EF7D52A167703E.subtitle: "Balloons and propellers from brass, gyroscopes alongside trains, levitite and jetpacks after the End."
-	quest.465941E135A689AB.title: "Chapter IV. The Guild's Sky"
-	quest.465941E135A689AB.quest_subtitle: "A letter from Master August"
-	quest.465941E135A689AB.quest_desc: [
-		"As a boy I thought clouds were for birds. I was wrong: they are for those not afraid of propellers.",
-		" ",
-		"",
-		" ",
-		"But we are not the first in the sky. A steam airship under a black flag was seen over the forests, with illagers shooting from it. It is a Predecessor ship; I knew it from a drawing in the chronicle. The raiders fly on stolen goods.",
-		" ",
-		"",
-		" ",
-		"Start with a balloon. Then a propeller, a rudder, a navigation table. And may our fleet one day pass over their airship.",
-		" ",
-		"",
-		" ",
-		"— Master August",
-	]
-	quest.12268CDCD669EB14.title: "Hot-Air Balloon"
-	quest.12268CDCD669EB14.quest_desc: [
-		"An envelope above a burner: hot air lifts the build. The simplest aircraft.",
-	]
-	quest.6176B327FB6967D1.title: "Head in the Clouds"
-	quest.37775BFF17F4282E.title: "Propeller Bearing"
-	quest.37775BFF17F4282E.quest_desc: [
-		"A propeller bearing with blades gives thrust. It goes on a ship with a physics assembler and a steering wheel.",
-	]
-	quest.6FD4BA8DC7693A80.title: "First Ship"
-	quest.6FD4BA8DC7693A80.quest_desc: [
-		"Team goal: fly a propeller ship to a neighbouring base. Without a gyroscope it sways, so keep it small.",
-		" ",
-		"",
-		" ",
-		"Chronicle: \"Our first ship rose over this very valley. Half a century later illager raiders flew ships like it.\"",
-	]
-	quest.7AFB83E96F18CBFF.title: "Solid Fuel Thruster"
-	quest.7AFB83E96F18CBFF.quest_desc: [
-		"Create Propulsion: the simplest jet thrust, plus wings (temper them in a furnace).",
-	]
-	quest.3EA463AB4D805A63.title: "Cockpit"
-	quest.3EA463AB4D805A63.quest_desc: [
-		"Aeroworks: a yoke, a throttle quadrant and pedals send signals to control surfaces and engines.",
-	]
-	quest.074BFA88F1A824A2.title: "Gyroscope"
-	quest.18BA14FB6E0B6508.title: "Gyroscopic Propeller"
-	quest.18BA14FB6E0B6508.quest_desc: [
-		"Keeps the ship level. Needs a precision mechanism, so it opens together with trains.",
-	]
-	quest.40890E25CD724252.title: "Smart Propellers"
-	quest.6DA4847976A3E673.title: "Fluid Thruster"
-	quest.6DA4847976A3E673.quest_desc: [
-		"Runs on turpentine: crushed spruce plus water in a mixer.",
-	]
-	quest.7A094033F3F0C72C.title: "Navigation Table"
-	quest.2746FB3D256D6FBA.title: "Docking"
-	quest.2746FB3D256D6FBA.quest_desc: [
-		"Docking connectors join two ships in flight: transfer people and cargo without landing.",
-	]
-	quest.7ADE11575F89DF99.title: "Air Fleet"
-	quest.7ADE11575F89DF99.quest_desc: [
-		"Team goal: a stabilised ship with a navigation table that holds course and altitude.",
-	]
-	quest.7C493CEC1B4BA1D0.title: "Cargo Route"
-	quest.7C493CEC1B4BA1D0.quest_desc: [
-		"The transponder records a route between airship stations, and the ship carries cargo on its own like a scheduled train.",
-	]
-	quest.2A5102659915C685.title: "Ship Claim"
-	quest.2A5102659915C685.quest_desc: [
-		"Protects the ship like an FTB Chunks claim, so nobody can take it apart mid-air.",
-	]
-	quest.4EF6A4D7C599283F.title: "Harpoon"
-	quest.13C84087EA17B3D2.title: "Floating Islands"
-	quest.13C84087EA17B3D2.quest_desc: [
-		"Islands hang above the clouds, with houses, towers, ponds and even a volcano. Ratibor's chronicle remembers the First Guild lifting whole streets into the sky on levitite. Find at least one island: a ship reaches what your feet cannot.",
-		" ",
-		"",
-		" ",
-		"§6Explorer's Compass (any of them):§r mss: Arena, Birch River, Calcite House, Castle Ruin, Castle Tower and 30 more.",
-	]
-	quest.0AF94DACD04C9CCB.title: "The Sky Arena"
-	quest.0AF94DACD04C9CCB.quest_desc: [
-		"The biggest island is an arena with trial spawners and a vault. Team goal: clear it with your whole guild and open the vault, then tick the checkmark.",
-		" ",
-		"",
-		" ",
-		"§6Explorer's Compass:§r Arena (mss).",
-	]
-	quest.5D5AA5F7B0B988AA.title: "Radar"
-	quest.5D5AA5F7B0B988AA.quest_desc: [
-		"Create Radars tracks ships, mobs and players. The monitor arrives with the precision mechanism.",
-	]
-	quest.24A454126BA127C2.title: "Steam Jetpack"
-	quest.24A454126BA127C2.quest_desc: [
-		"Create Stuff 'n Additions: personal flight on a steam engine, well before the End.",
-	]
-	quest.1FA6327560BA8AB0.title: "The End"
-	quest.1FA6327560BA8AB0.quest_desc: [
-		"Use Eyes of Ender to find the stronghold. YUNG's reworked both strongholds and the dragon island.",
-	]
-	quest.767D6B425028B816.title: "Levitite"
-	quest.767D6B425028B816.quest_desc: [
-		"End stone powder + zinc + water, then heat: crystals that float with no power. Floating islands and bases.",
-		" ",
-		"",
-		" ",
-		"Chronicle: \"Levitite held up our flying cities. The Ender Guardian watches over its veins.\"",
-	]
-	quest.513AF4CC98998836.title: "Elytra"
-	quest.2716D5A640A1855F.title: "Jetpack"
-	quest.2716D5A640A1855F.quest_desc: [
-		"Runs on backtank air. J toggles it, H toggles hover.",
-	]
-	quest.1E75DB116875FB8F.title: "Ion Thruster"
-	quest.1E75DB116875FB8F.quest_desc: [
-		"Electric thrust without fuel. Needs a TFMG steel mechanism.",
-	]
-	quest.3525A19D86C1269B.title: "Edge of the Sky"
-	quest.5C0879E16AFDC9DC.title: "Aviator Goggles"
-	quest.2AAC4A5B00DAC48F.title: "Altitude Sensor"
-	quest.2AAC4A5B00DAC48F.quest_desc: [
-		"Outputs a signal by altitude: an autopilot holds its level and ballast drops on its own.",
-	]
-	quest.34F6AE5BB042C238.title: "Velocity Sensor"
-	quest.1D820AD45C5AE9F4.title: "Gimbal Sensor"
-	quest.1D820AD45C5AE9F4.quest_desc: [
-		"A signal by roll and pitch — the core of a home-made autopilot that levels the ship.",
-	]
-	quest.03F033F779418501.title: "Laser"
-	quest.03F033F779418501.quest_desc: [
-		"A laser pointer and sensor: a rangefinder for landing and a tripwire for the hangar.",
-	]
-	quest.7AB8168AADB10F5D.title: "Far From Home"
-	quest.7AB8168AADB10F5D.quest_desc: [
-		"Set a navigation table target more than 5000 blocks away, your first long expedition.",
-	]
-	quest.2AF434B686B16FF1.title: "Mounted Cannon"
-	quest.2AF434B686B16FF1.quest_desc: [
-		"A potato cannon on deck, the first defence of your ship.",
-	]
-	quest.6D0D143877C63ECF.title: "Ghostbuster"
-	quest.6D0D143877C63ECF.quest_desc: [
-		"Shoot down a phantom with a mounted cannon.",
-	]
-	quest.7A59ABAE862C8C01.title: "Vector Thrust"
-	quest.7A59ABAE862C8C01.quest_desc: [
-		"An engine with a swivelling nozzle: the ship manoeuvres without rudders.",
-	]
-	quest.5E0BD74945082AA2.title: "Pearlescent Levitite"
-	quest.53E47ED6DA088D05.title: "Masters of the Sky"
-	quest.53E47ED6DA088D05.quest_desc: [
-		"A fleet, cargo routes and jetpacks. The best gear will need boss trophies.",
 	]
 	chapter.7FC2CF8BF6F9688D.title: "&#2A9D8FEra 3. Factory and Current&r"
 	chapter.7FC2CF8BF6F9688D.subtitle: "Create 6 storage, packages and the first electricity."
@@ -2203,7 +1933,7 @@
 	]
 	quest.64D1E811B244D8F0.title: "Steam Engine"
 	quest.64D1E811B244D8F0.quest_desc: [
-		"A water tank over blaze burners. A bigger tank with more burners raises the boiler level and power.",
+		"A water tank over a heat source. The steam engine is a golden sheet, andesite alloy and a copper block; it needs no brass. A campfire, magma or lava under the tank is enough to start: the boiler runs in a weak passive mode. Blaze burners raise the boiler level, and a bigger tank with more burners gives more power.",
 		" ",
 		"",
 		" ",
@@ -2799,6 +2529,397 @@
 		" ",
 		"Write the names of everyone in the guild into the empty book and put it by the station. This is your story: AvgustovStory. Mars and Venus await the next chapter.",
 	]
+	chapter.44995428A472D02D.title: "&#8AB17DPhysics of Machines&r"
+	chapter.44995428A472D02D.subtitle: "The physics assembler, glue, ropes, handles and linkage: the base of cars, ships and airships."
+	quest.11BE6D3308CF9E83.title: "Physics Assembler"
+	quest.11BE6D3308CF9E83.quest_desc: [
+		"The heart of every physics vehicle: a cart, a boat, a balloon, an airship. In this pack it is a brass casing, andesite alloy and a lever, so physics vehicles start with brass. Brass can be had without the Nether: burners from the Predecessors' ruins or a villager in work gloves (Era 2. Nether and Brass, the Brass quest).",
+		" ",
+		"How: build a frame, select it with super glue or honey glue, place the assembler, hold right-click and pull the lever: the build becomes a physics body that falls, floats and rolls. After assembly the assembler can be removed: the same one assembles and disassembles any vehicle.",
+		" ",
+		"The quest counts as soon as you have held an assembler, so vehicles you already built count too.",
+	]
+	quest.3C50FBC27A835777.title: "Steering Wheel"
+	quest.3C50FBC27A835777.quest_desc: [
+		"The steering wheel is a large cogwheel, andesite casing and a shaft; it needs no brass. It gives precise rotation: hold right-click and move the mouse, with Shift in 45° steps; set the maximum angle on its panel. Through a bearing or a swivel bearing it turns a car's axle or a ship's rudder; a comparator reads its angle, and a redstone signal from the side steers a wheel mount.",
+	]
+	quest.07CEDD7E5C651FCC.title: "Honey Glue"
+	quest.07CEDD7E5C651FCC.quest_desc: [
+		"Honey glue marks a group of blocks for a physics assembly more precisely than super glue.",
+	]
+	quest.3376DF953AFA7D17.title: "Ropes"
+	quest.3376DF953AFA7D17.quest_desc: [
+		"A rope ties two contraptions together: a tow, trailer, anchor or hanging cradle.",
+	]
+	quest.45ADC5C830926264.title: "Handle"
+	quest.45ADC5C830926264.quest_desc: [
+		"Hold on to a handle while moving so passengers do not fall off the deck.",
+	]
+	quest.4B3B6E6BF88B5C0D.title: "Contraption Diagram"
+	quest.4B3B6E6BF88B5C0D.quest_desc: [
+		"The diagram shows mass, centre of mass and thrust before launch.",
+	]
+	quest.3F3B7CD53FE312E4.title: "Redstone Magnet"
+	quest.3F3B7CD53FE312E4.quest_desc: [
+		"A magnet pulls contraptions together on a signal, for docking and coupling.",
+	]
+	quest.75170D286D644F65.title: "Nameplate"
+	quest.75170D286D644F65.quest_desc: [
+		"Name your vehicle: the name shows in navigation and on radars.",
+	]
+	quest.7990431676E0E05B.title: "Pneumatic Rod"
+	quest.7990431676E0E05B.quest_desc: [
+		"Transmission & Linkage: a pneumatic rod ties two physics bodies together (a body and its suspension, a hull and a gangway, landing gear) and holds the distance you set.",
+		" ",
+		"How: put a hinge head (brass casing, iron sheet, alloy, shaft) on each build, assemble both, and only then join the heads with a rod (brass sheets, pipe, shaft, tank). Right-click a head with an empty hand for the settings: length, return force and damping. Simulated springs do the same, only softer.",
+	]
+	chapter.109EA7C80E9B6026.title: "&#8AB17DLand: From Saddle to Tracks&r"
+	chapter.109EA7C80E9B6026.subtitle: "A horse, a minecart, a physics car, a tracked tractor and a tunnel borer. Open from day one."
+	quest.735E71ADC42B3774.title: "On Horseback"
+	quest.735E71ADC42B3774.quest_desc: [
+		"The guild's first transport is a horse. In this pack a saddle is crafted: five leather, a string and two iron ingots.",
+		" ",
+		"Tame a horse (keep mounting it until it stops throwing you off), saddle it and put on horse armour. A lead takes horses between bases. With Create Horse Power a horse also turns a crank, your first power without water or wind.",
+	]
+	quest.62B835803C5DFED9.title: "Rails and a Minecart"
+	quest.62B835803C5DFED9.quest_desc: [
+		"Lay rails from the mine to your base: a minecart carries ore and people while you work. Powered rails (gold and redstone) push it up the slopes.",
+		" ",
+		"This is only the start of the road: a cart assembler turns a minecart into a moving machine (Era 1. Machines in Motion), and real trains are in Era 4. Steam and Rails.",
+	]
+	quest.574AE09AC6303A92.title: "Wheels"
+	quest.574AE09AC6303A92.quest_desc: [
+		"Offroad: a tire goes on a wheel mount with suspension. Large and monstrous tires handle rough ground.",
+		" ",
+		"",
+		" ",
+		"A tire is dried kelp around a shaft, a mount is andesite casing, a spring and an iron sheet: all andesite. A redstone signal from the top brakes the wheel, from the side it steers it toward the signal.",
+	]
+	quest.738D3A3801D55CBF.title: "Engine"
+	quest.738D3A3801D55CBF.quest_desc: [
+		"The portable engine burns fuel on board and spins the wheels.",
+		" ",
+		"",
+		" ",
+		"The engine assembly is sequenced on a belt without brass: an iron sheet passes under a saw and a press 8 times. Assembly + iron sheet + blast furnace = the red portable engine. It burns ordinary fuel, its direction can be switched, and a blaze cake superheats it for more power.",
+	]
+	quest.49DC399AE57E1357.title: "First Car"
+	quest.49DC399AE57E1357.quest_desc: [
+		"Four wheels, an engine and a steering wheel. Team goal: drive to a neighbouring base.",
+	]
+	quest.659D384023611DEA.title: "Swivels and Winches"
+	quest.659D384023611DEA.quest_desc: [
+		"A swivel bearing hitches a trailer, a winch lifts loads and tows.",
+	]
+	quest.1BD56EAA43EB5EBD.title: "Tank Tracks"
+	quest.1BD56EAA43EB5EBD.quest_desc: [
+		"Create: Tracks. Tracks carry a heavy vehicle where tires slip: on slopes, in mud and snow.",
+		" ",
+		"How: track mounts (andesite casing, a belt, a spring) go along the side. Right-click a mount with a suspension track to hang the track, with a drive wheel (a cog on a shaft) for the drive. Drive wheels take rotation from the engine and pull the whole track; mounts pass it on. The suspension key (needs a precision mechanism) tunes stiffness and travel.",
+		" ",
+		"In this version of the mod only the small track and drive wheel are craftable, the large ones are not.",
+	]
+	quest.7B8F6AEC2CF0A28F.title: "Tunnel Borer"
+	quest.7B8F6AEC2CF0A28F.quest_desc: [
+		"A vehicle with a cutting head chews tunnels through rock as it drives.",
+	]
+	quest.5158C310BE2968DA.title: "Roller Coaster"
+	quest.5158C310BE2968DA.quest_desc: [
+		"Coaster tracks bend freely in space: loops, spirals, chain lifts. A fun park for your friends.",
+	]
+	quest.531D3ABE91DAFF2F.title: "Master of the Roads"
+	quest.531D3ABE91DAFF2F.quest_desc: [
+		"A wheeled car and a tracked tractor. Team goal: drive a convoy, the car and the tractor with a trailer on a swivel bearing, from one base to another and tick the checkmark.",
+		" ",
+		"Further on land are the trains of Era 4; on water and in the air, the Sea and Sky chapters.",
+	]
+	chapter.544754A593300153.title: "&#2A9DC8Sea: From Boat to Submarine&r"
+	chapter.544754A593300153.subtitle: "A boat, a rowing raft, a sailboat, a motorboat and a submarine down to the sea floor. Open from day one."
+	task.10B3DFF8D42297FB.title: "Any item from the list"
+	quest.4D50F0D41BCFBB81.title: "A Boat"
+	quest.4D50F0D41BCFBB81.quest_desc: [
+		"The guild's first vessel is a plain boat or a bamboo raft. Rivers are faster than walking, and almost nothing catches you on the water. Take a chest boat on long loot trips.",
+		" ",
+		"Once you have a physics assembler you can build your own vessel, with floaters, sails and an engine.",
+		" ",
+		"",
+		" ",
+		"§7Any one item from the list completes the quest, the rest are optional (click for the recipe).§r",
+	]
+	quest.102F2308D1D41CD9.title: "Seaglide"
+	quest.102F2308D1D41CD9.quest_desc: [
+		"A hand-held thruster from Create High Seas: copper, a propeller and a shaft. While you hold left-click, two counter-rotating fans pull you through the water. It runs on your hunger, not fuel, and you cannot attack while it spins.",
+		" ",
+		"With a copper diving suit (Era 1. Andesite) you reach the sea floor even without a submarine.",
+	]
+	quest.78B5B9A254BDDA39.title: "Chapter III. Beyond the Horizon"
+	quest.78B5B9A254BDDA39.quest_subtitle: "A letter from Master August"
+	quest.78B5B9A254BDDA39.quest_desc: [
+		"The physics assembler is a strange machine: what it builds comes alive. Wheels roll, sails catch the wind, a hull floats.",
+		" ",
+		"",
+		" ",
+		"To the guild's sailors: domes and gates have been seen underwater off the southern shores. The Predecessors seem to have had a port, and the sea took it. Build a submarine and go down. Carefully: the deep does not forgive.",
+		" ",
+		"",
+		" ",
+		"— Master August",
+	]
+	quest.57DC78063D1A1374.title: "A Rowing Raft"
+	quest.57DC78063D1A1374.quest_desc: [
+		"Your first own physics vessel. A floater is wool around a phycological membrane (press kelp with a mechanical press).",
+		" ",
+		"How: nail a deck of planks, put floaters under it, glue it and assemble it with a physics assembler: the raft floats. The oar: right-click near water for a stroke, hold it to row steadily. One floater carries about one block of mass, a heavy vessel needs more.",
+	]
+	quest.79891D13DD13ACE2.title: "Sailboat"
+	quest.79891D13DD13ACE2.quest_desc: [
+		"Floaters keep the hull afloat, sails catch the wind (a wind vane shows its direction), the rudder steers.",
+		" ",
+		"",
+		" ",
+		"A ship sail is two Create sails and a string; a rudder is a copycat panel (zinc on a stonecutter) and a sail. Put the rudder at the stern: the sails read the bow from it, and on a swivel bearing it steers the vessel.",
+	]
+	quest.3F506BEC14B3ECCB.title: "Under Sail"
+	quest.3F506BEC14B3ECCB.quest_desc: [
+		"Team goal: cross an ocean on your own vessel.",
+	]
+	quest.5DDA8FB499631B8A.title: "Motorboat"
+	quest.5DDA8FB499631B8A.quest_desc: [
+		"A boat engine is a blast furnace, a propeller and a lever. It goes at the stern with the propeller in the water and burns fuel (Shift + right-click for the fuel slot). Right-click to take the tiller, Shift to let go; at the helm, hold right-click and move the mouse to set the speed limit from 0 to 15. With an engine the vessel no longer depends on the wind.",
+	]
+	quest.72ECC9C0D7A46A36.title: "Anchor and Wind Vane"
+	quest.72ECC9C0D7A46A36.quest_desc: [
+		"A wind vane (copper and an arrow) shows the wind: steer the sailboat along its arrow and the sails pull hardest; Engineer's Goggles show the percentage.",
+		" ",
+		"An anchor weighs 20 kg, and a ton once it touches the bottom: the vessel stays put even in a storm. Right-click it with a steel cable to make it a separate body on a winch you can raise and lower.",
+	]
+	quest.68B0159760A23598.title: "Mechanical Conduit"
+	quest.68B0159760A23598.quest_desc: [
+		"Create: Aquatic Ambitions: ocean processing and a mechanical conduit for an underwater base.",
+	]
+	quest.73AB85589161C4AC.title: "Ballast"
+	quest.73AB85589161C4AC.quest_desc: [
+		"Create Submarine: the pump floods ballast tanks to dive and empties them to surface.",
+		" ",
+		"",
+		" ",
+		"All andesite: the tank is alloy, iron sheets and a fluid tank; the vent is copper; the pump controller is copper, a mechanical pump and a transmitter.",
+	]
+	quest.01576B7B752B1CBA.title: "Pressurised Glass"
+	quest.01576B7B752B1CBA.quest_desc: [
+		"Normal glass cracks in the deep. Iron pressurised glass holds the pressure.",
+	]
+	quest.62B8CBE037206B2F.title: "Air Supply"
+	quest.62B8CBE037206B2F.quest_desc: [
+		"The electrolyzer makes oxygen from water, the diffuser spreads it through the sub.",
+		" ",
+		"",
+		" ",
+		"The electrolyzer needs no power grid: put a shaft into its module slot and spin it, and it makes its own power. The electrolyzer and the diffuser need electron tubes, so quartz (the Nether or chests).",
+	]
+	quest.5BB391B6A0CC4458.title: "Submarine"
+	quest.5BB391B6A0CC4458.quest_desc: [
+		"The onboard computer controls the dive, the water thruster pushes. Team goal: dive below Y=0 and come back, then tick the checkmark.",
+		" ",
+		"",
+		" ",
+		"Chronicle: \"In a submarine like this we searched for the sunken port. The Leviathan let us no further than the gates.\"",
+		" ",
+		"",
+		" ",
+		"The onboard computer is brass slot covers (brass nuggets), planks and a transmitter; the water thruster is a pump, a propeller and copper. The thruster needs pressurised water and rotation: more pressure and speed, a faster sub.",
+	]
+	quest.608B7BF241B2C981.title: "Deep Water"
+	quest.608B7BF241B2C981.quest_desc: [
+		"The barometer shows your depth and the decompression chamber lets you come back from deep dives unharmed. With them a submarine reaches the ocean floor.",
+	]
+	quest.4F077325BF0A09F8.title: "Sonar"
+	quest.4F077325BF0A09F8.quest_desc: [
+		"The sonar needs a precision mechanism and brass sheets.",
+	]
+	quest.256ACAE55CD48615.title: "The Port Gates"
+	quest.256ACAE55CD48615.quest_desc: [
+		"Team goal: take your submarine down to the gates of the sunken port; the arches and domes of Underwater Village stand in every ocean. Tick the checkmark when the boat rests by the gates.",
+		" ",
+		"",
+		" ",
+		"Ratibor wrote that the Leviathan let their submarine no further than the gates. The gates are in front of you. Beyond them lies the port temple (page 4 of the Chronicle of the Predecessors), and deeper still, the Leviathan itself. Go further than they could.",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Small Gate (underwater_village).",
+	]
+	quest.70FFFD81AE0CCB62.title: "Captain"
+	quest.70FFFD81AE0CCB62.quest_desc: [
+		"A sailboat, a motorboat and a submarine: the sea is yours.",
+	]
+	chapter.68EF7D52A167703E.title: "&#48CAE4The Sky: From Balloon to Jetpack&r"
+	chapter.68EF7D52A167703E.subtitle: "A burner and a balloon, a propeller ship, wings and thrust, gyroscopes, and after the End levitite and the jetpack. Open from day one."
+	quest.40503799A0A423E9.title: "Balloon Burner"
+	quest.40503799A0A423E9.quest_desc: [
+		"The sky starts here. A hot air burner is iron sheets, andesite alloy, redstone and a block of coal, all from the andesite era.",
+		" ",
+		"An envelope goes above it (the Hot-Air Balloon quest), and to fly it needs a physics assembler (Physics of Machines). Until then, learn to fly a paraglider: it is in World Exploration.",
+	]
+	quest.465941E135A689AB.title: "Chapter IV. The Guild's Sky"
+	quest.465941E135A689AB.quest_subtitle: "A letter from Master August"
+	quest.465941E135A689AB.quest_desc: [
+		"As a boy I thought clouds were for birds. I was wrong: they are for those not afraid of propellers.",
+		" ",
+		"",
+		" ",
+		"But we are not the first in the sky. A steam airship under a black flag was seen over the forests, with illagers shooting from it. It is a Predecessor ship; I knew it from a drawing in the chronicle. The raiders fly on stolen goods.",
+		" ",
+		"",
+		" ",
+		"Start with a balloon. Then a propeller, a rudder, a navigation table. And may our fleet one day pass over their airship.",
+		" ",
+		"",
+		" ",
+		"— Master August",
+	]
+	quest.12268CDCD669EB14.title: "Hot-Air Balloon"
+	quest.12268CDCD669EB14.quest_desc: [
+		"An envelope above a burner: hot air lifts the build. The simplest aircraft.",
+		" ",
+		"",
+		" ",
+		"How: the envelope (wool and sticks) must be airtight: hot air fills it from the top down, and holes or blocks inside eat the volume. Lift weakens with altitude and the balloon settles where lift equals weight; change the burner's heat to change height.",
+	]
+	quest.6176B327FB6967D1.title: "Head in the Clouds"
+	quest.5C0879E16AFDC9DC.title: "Aviator Goggles"
+	quest.37775BFF17F4282E.title: "Propeller Bearing"
+	quest.37775BFF17F4282E.quest_desc: [
+		"A propeller bearing with blades gives thrust. It goes on a ship with a physics assembler and a steering wheel.",
+		" ",
+		"",
+		" ",
+		"§7The items are recipe hints (click to open JEI). The quest counts the action itself, so what you already built counts too.§r",
+	]
+	quest.6FD4BA8DC7693A80.title: "First Ship"
+	quest.6FD4BA8DC7693A80.quest_desc: [
+		"Team goal: fly a propeller ship to a neighbouring base. Without a gyroscope it sways, so keep it small.",
+		" ",
+		"",
+		" ",
+		"Chronicle: \"Our first ship rose over this very valley. Half a century later illager raiders flew ships like it.\"",
+	]
+	quest.7AFB83E96F18CBFF.title: "Wings and Jet Thrust"
+	quest.7AFB83E96F18CBFF.quest_desc: [
+		"Create Propulsion, the step from an airship to a plane. A solid fuel thruster (copper and iron sheets, andesite alloy, a chute, a pipe) burns fuel and pushes without a propeller; wings (iron sheets, alloy, nuggets; tempered ones from a furnace) give lift at speed. The faster a winged craft flies, the less it needs balloons and propellers.",
+	]
+	quest.3EA463AB4D805A63.title: "Cockpit"
+	quest.3EA463AB4D805A63.quest_desc: [
+		"Aeroworks: a yoke, a throttle quadrant and pedals send signals to control surfaces and engines.",
+	]
+	quest.6DA4847976A3E673.title: "Fluid Thruster"
+	quest.6DA4847976A3E673.quest_desc: [
+		"Runs on turpentine: crushed spruce plus water in a mixer.",
+	]
+	quest.074BFA88F1A824A2.title: "Gyroscope"
+	quest.18BA14FB6E0B6508.title: "Gyroscopic Propeller"
+	quest.18BA14FB6E0B6508.quest_desc: [
+		"Keeps the ship level. The bearing needs a precision mechanism (sequenced assembly): as soon as you have one, make the bearing; no era chapter to wait for.",
+	]
+	quest.40890E25CD724252.title: "Smart Propellers"
+	quest.7A094033F3F0C72C.title: "Navigation Table"
+	quest.2746FB3D256D6FBA.title: "Docking"
+	quest.2746FB3D256D6FBA.quest_desc: [
+		"Docking connectors join two ships in flight: transfer people and cargo without landing.",
+	]
+	quest.7ADE11575F89DF99.title: "Air Fleet"
+	quest.7ADE11575F89DF99.quest_desc: [
+		"Team goal: a stabilised ship with a navigation table that holds course and altitude.",
+	]
+	quest.7C493CEC1B4BA1D0.title: "Cargo Route"
+	quest.7C493CEC1B4BA1D0.quest_desc: [
+		"The transponder records a route between airship stations, and the ship carries cargo on its own like a scheduled train.",
+	]
+	quest.2A5102659915C685.title: "Ship Claim"
+	quest.2A5102659915C685.quest_desc: [
+		"Protects the ship like an FTB Chunks claim, so nobody can take it apart mid-air.",
+	]
+	quest.4EF6A4D7C599283F.title: "Harpoon"
+	quest.13C84087EA17B3D2.title: "Floating Islands"
+	quest.13C84087EA17B3D2.quest_desc: [
+		"Islands hang above the clouds, with houses, towers, ponds and even a volcano. Ratibor's chronicle remembers the First Guild lifting whole streets into the sky on levitite. Find at least one island: a ship reaches what your feet cannot.",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass (any of them):§r mss: Arena, Birch River, Calcite House, Castle Ruin, Castle Tower and 30 more.",
+	]
+	quest.0AF94DACD04C9CCB.title: "The Sky Arena"
+	quest.0AF94DACD04C9CCB.quest_desc: [
+		"The biggest island is an arena with trial spawners and a vault. Team goal: clear it with your whole guild and open the vault, then tick the checkmark.",
+		" ",
+		"",
+		" ",
+		"§6Explorer's Compass:§r Arena (mss).",
+	]
+	quest.5D5AA5F7B0B988AA.title: "Radar"
+	quest.5D5AA5F7B0B988AA.quest_desc: [
+		"Create Radars tracks ships, mobs and players. The monitor arrives with the precision mechanism.",
+	]
+	quest.24A454126BA127C2.title: "Steam Jetpack"
+	quest.24A454126BA127C2.quest_desc: [
+		"Create Stuff 'n Additions: personal flight on a steam engine, well before the End.",
+	]
+	quest.1FA6327560BA8AB0.title: "The End"
+	quest.1FA6327560BA8AB0.quest_desc: [
+		"Use Eyes of Ender to find the stronghold. YUNG's reworked both strongholds and the dragon island.",
+	]
+	quest.767D6B425028B816.title: "Levitite"
+	quest.767D6B425028B816.quest_desc: [
+		"End stone powder + zinc + water, then heat: crystals that float with no power. Floating islands and bases.",
+		" ",
+		"",
+		" ",
+		"Chronicle: \"Levitite held up our flying cities. The Ender Guardian watches over its veins.\"",
+	]
+	quest.513AF4CC98998836.title: "Elytra"
+	quest.2716D5A640A1855F.title: "Jetpack"
+	quest.2716D5A640A1855F.quest_desc: [
+		"Runs on backtank air. J toggles it, H toggles hover.",
+	]
+	quest.1E75DB116875FB8F.title: "Ion Thruster"
+	quest.1E75DB116875FB8F.quest_desc: [
+		"Electric thrust without fuel. Needs a TFMG steel mechanism.",
+	]
+	quest.3525A19D86C1269B.title: "Edge of the Sky"
+	quest.2AAC4A5B00DAC48F.title: "Altitude Sensor"
+	quest.2AAC4A5B00DAC48F.quest_desc: [
+		"Outputs a signal by altitude: an autopilot holds its level and ballast drops on its own.",
+	]
+	quest.34F6AE5BB042C238.title: "Velocity Sensor"
+	quest.1D820AD45C5AE9F4.title: "Gimbal Sensor"
+	quest.1D820AD45C5AE9F4.quest_desc: [
+		"A signal by roll and pitch — the core of a home-made autopilot that levels the ship.",
+	]
+	quest.03F033F779418501.title: "Laser"
+	quest.03F033F779418501.quest_desc: [
+		"A laser pointer and sensor: a rangefinder for landing and a tripwire for the hangar.",
+	]
+	quest.7AB8168AADB10F5D.title: "Far From Home"
+	quest.7AB8168AADB10F5D.quest_desc: [
+		"Set a navigation table target more than 5000 blocks away, your first long expedition.",
+	]
+	quest.2AF434B686B16FF1.title: "Mounted Cannon"
+	quest.2AF434B686B16FF1.quest_desc: [
+		"A potato cannon on deck, the first defence of your ship.",
+	]
+	quest.6D0D143877C63ECF.title: "Ghostbuster"
+	quest.6D0D143877C63ECF.quest_desc: [
+		"Shoot down a phantom with a mounted cannon.",
+	]
+	quest.7A59ABAE862C8C01.title: "Vector Thrust"
+	quest.7A59ABAE862C8C01.quest_desc: [
+		"An engine with a swivelling nozzle: the ship manoeuvres without rudders.",
+	]
+	quest.5E0BD74945082AA2.title: "Pearlescent Levitite"
+	quest.53E47ED6DA088D05.title: "Masters of the Sky"
+	quest.53E47ED6DA088D05.quest_desc: [
+		"A fleet, cargo routes and jetpacks. The best gear will need boss trophies.",
+	]
 	chapter.151B1C8AD1616459.title: "&#E76F51Kitchen, Water and Climate&r"
 	chapter.151B1C8AD1616459.subtitle: "Clean water, hearty food, clothes for the weather, your own beer and wine, all run by Create machines."
 	quest.1D6532AEE86B0746.title: "Clean Water"
@@ -3251,7 +3372,7 @@
 	]
 	quest.53E5411E4A9D48F0.title: "Work Gloves"
 	quest.53E5411E4A9D48F0.quest_desc: [
-		"A mixer seat upgrade: the villager can process heated recipes.",
+		"A mixer seat upgrade: the villager can process heated recipes, brass from copper and zinc included, with no blaze burner and no Nether trip. Gloves are leather and andesite alloy.",
 	]
 	quest.0BD872A6E132BA98.title: "Permanent Worker"
 	quest.0BD872A6E132BA98.quest_desc: [

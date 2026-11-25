@@ -541,7 +541,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["6D0EBADDF753515D", "5EB3BA9F3F56F287"]
+			dependencies: ["6D0EBADDF753515D", "49C8E1C2CB9DF78F"]
 			icon: {
 				id: "minecraft:heart_of_the_sea"
 			}
@@ -576,7 +576,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["337D7CB8797BD211", "5EB3BA9F3F56F287"]
+			dependencies: ["337D7CB8797BD211", "49C8E1C2CB9DF78F"]
 			icon: {
 				id: "minecraft:trident"
 			}
@@ -672,7 +672,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["07049344D99E519F", "5EB3BA9F3F56F287"]
+			dependencies: ["07049344D99E519F", "49C8E1C2CB9DF78F"]
 			icon: {
 				id: "minecraft:spyglass"
 			}

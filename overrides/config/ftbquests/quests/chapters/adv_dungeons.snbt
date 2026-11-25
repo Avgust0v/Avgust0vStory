@@ -1128,7 +1128,7 @@
 			y: -1.25d
 		}
 		{
-			dependencies: ["7798BC3AAAB21479", "5EB3BA9F3F56F287"]
+			dependencies: ["7798BC3AAAB21479", "49C8E1C2CB9DF78F"]
 			icon: {
 				id: "minecraft:iron_sword"
 			}
